@@ -1,0 +1,58 @@
+
+/*----------------------------------------------
+  21.0 Pagination Style
+-----------------------------------------------*/
+
+.pagination-list .pagination {
+  &.navigation {
+    margin-top: 60px;
+  }
+  margin: 0;
+  display: block;
+  font-size: 0;
+  .nav-links .page-numbers {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-weight: 700;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+    &:hover {
+      color: $primaryColor;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 1px solid rgba($black, 0.08);
+      border-right: 0;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease;
+    }
+    &:last-child:before {
+      border-right: 1px solid rgba($black, 0.08);
+    }
+    &.current {
+      color: $primaryColor;
+      &:before {
+        border: 1px solid $primaryColor;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .pagination-list .pagination .nav-links .page-numbers {
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    margin: 0 0 5px;
+  }
+}

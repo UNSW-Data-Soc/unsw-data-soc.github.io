@@ -1,0 +1,94 @@
+
+/*----------------------------------------------
+  16.0 Testimonial Style
+-----------------------------------------------*/
+
+.testimonial-block h3 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  font-family: $headerFont;
+  color: $darkBlue;
+  margin-bottom: 30px;
+  span {
+    display: block;
+  }
+}
+
+.testimonial-item {
+  .quote {
+    margin-bottom: 30px;
+    height: 35px;
+    width: 50px;
+  }
+  p {
+    font-weight: 600;
+    font-family: $bodyFont;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #212529;
+  }
+  .commenter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    .commenter-thumb {
+      width: 70px;
+      border-radius: 50%;
+      border: 1px solid rgba($black, 0.08);
+      + .commenter-body {
+        padding-left: 20px;
+        padding-top: 10px;
+      }
+    }
+    .commenter-body {
+      h5 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: $headerFont;
+        color: $darkBlue;
+      }
+      p {
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+.testimonial .owl-nav button {
+  &.owl-next {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    font-size: 1.8rem;
+    outline: none;
+    color: #212529;
+  }
+  &.owl-prev {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    font-size: 1.8rem;
+    outline: none;
+    color: #212529;
+    right: 30px;
+  }
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+}
+
+@media all and (max-width: 991px) {
+  .order-lg-2 .testimonial-thumb.text-right {
+    text-align: left !important;
+  }
+}
+
+@media all and (max-width: 439px) {
+  .testimonial-block h3 span {
+    display: inline-block;
+  }
+}

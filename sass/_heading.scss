@@ -1,0 +1,88 @@
+
+/*----------------------------------------------
+	02.0 Heading Style
+-----------------------------------------------*/
+
+.page-header-bg {
+	background: url(../images/bg/page-header-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.page-header-padding {
+	padding: 310px 0 170px;
+}
+
+.page-subtitle {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: $white;
+	text-transform: uppercase;
+}
+
+.page-title {
+	font-size: 4.8rem;
+	font-weight: 700;
+	color: $white;
+}
+
+
+.section-header {
+	max-width: 600px;
+	margin: 0 auto 60px;
+	.section-subtitle {
+		font-size: 1.8rem;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-family: $headerFont;
+		color: $grey;
+		margin-bottom: 10px;
+	}
+	.section-title {
+		font-size: 4.0rem;
+		font-weight: 800;
+		font-family: $headerFont;
+		line-height: 1;
+		margin-bottom: 35px;
+	}
+	.section-subtext {
+		color: $fontColor;
+		font-size: 1.5rem;
+		font-family: $bodyFont;
+		font-weight: 400;
+	}
+	&.white-text {
+		.section-subtitle,
+		.section-title,
+		.section-subtext {
+			color: $white;
+		}
+	}
+}
+
+@media all and (max-width: 991px) {
+	.page-header-padding {
+		padding: 210px 0 120px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.section-header {
+		margin-bottom: 30px;
+		.section-title {
+			margin-bottom: 15px;
+			font-size: 3.6rem;
+		}
+	}
+	.page-subtitle {
+		font-size: 1.6rem;
+	}
+	.page-title {
+		font-size: 3.6rem;
+	}
+}
+
+@media all and (max-width: 575px) {
+	.page-header-padding {
+		padding: 150px 0 100px;
+	}
+}

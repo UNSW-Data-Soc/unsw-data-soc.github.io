@@ -1,0 +1,155 @@
+
+/*----------------------------------------------
+  13.0 Team Style
+-----------------------------------------------*/
+
+.member {
+  border: 1px solid rgba($black, 0.078);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background: $white;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  .member-mock {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 22px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .member-title {
+    font-size: 2.0rem;
+    font-family: $headerFont;
+    font-weight: 700;
+    color: $darkBlue;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .member-rule {
+    font-size: 1.5rem;
+    color: $fontColor;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .member-about {
+    padding-top: 75px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0;
+    color: $white;
+    max-width: 213px;
+    margin: 0 auto;
+  }
+  .member-social {
+    padding: 0;
+    margin: 50px 0 0;
+    list-style: none;
+    font-size: 0;
+    li {
+      display: inline-block;
+      margin: 0 5px;
+      a {
+        font-size: 1.4rem;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        border: 1px solid rgba($black, 0.1);
+        text-align: center;
+        line-height: 36px;
+      }
+    }
+  }
+  &:hover {
+    background: $primaryColor;
+    .member-mock {
+      top: -161px;
+      opacity: 0;
+    }
+    .member-title {
+      top: 20px;
+      a {
+        color: $white;
+      }
+    }
+    .member-rule {
+      top: 45px;
+      color: $white;
+    }
+    .member-about {
+      opacity: 1;
+    }
+    .member-social li a {
+      color: $white;
+      border: 1px solid rgba($white, 0.1);
+    }
+  }
+}
+
+.card {
+  border: 0;
+  border-bottom: 1px solid #eee !important;
+  padding-bottom: 20px;
+  .card-header {
+    padding: 0;
+    background: transparent;
+    border-bottom: 0;
+    button {
+      font-size: 1.8rem;
+      font-weight: 700;
+      font-family: $headerFont;
+      padding: 0 15px 0 25px;
+      border: 0;
+      display: block;
+      width: 100%;
+      text-align: left;
+      white-space: normal;
+      color: $primaryColor;
+      position: relative;
+      &:before {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        content: '\f059';
+        font-family: Font Awesome\ 5 Free;
+        font-weight: 900;
+      }
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+      &.collapsed {
+        color: $fontColor;
+      }
+    }
+  }
+  .card-body {
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+  + .card {
+    margin-top: 20px;
+  }
+}

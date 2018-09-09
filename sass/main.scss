@@ -1,0 +1,67 @@
+/*=======================================================================
+* Template Name: Markesia
+* Template URI: http://codepassenger.com/html/Markesia
+* Author: CodePassenger
+* Author URI: http://codepassenger.com/
+* Description: Listing and Directory Template
+* Version: 1.0
+* License: GPL v2 or later
+* License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+* Tags: html, template, seo, marketing Markesia, bootstrap, codepassenger
+======================================================================= */
+/* Table of content
+--------------------------------------------
+
+	01.0 General Style
+	02.0 Heading Style
+	03.0 Nav Style
+	04.0 Contact Style
+	05.0 Service Style
+	06.0 Feature Style
+	07.0 Case Style
+	08.0 Form Style
+	09.0 Portfolio Style
+	10.0 How it work Style
+	11.0 Counter Style
+	12.0 Pricing Style
+	13.0 Team Style
+	14.0 Faq Style
+	15.0 Slider Style
+	16.0 Testimonial Style
+	17.0 Client Style
+	18.0 Call to action Style
+	19.0 Blog Style
+	20.0 Widget Style
+	21.0 Pagination Style
+	22.0 Footer Style
+	
+-------------------------------------------*/
+
+@import 'partial/_variables.scss';
+@import 'partial/_mixin.scss';
+@import '_general.scss';
+@import '_heading.scss';
+@import '_nav.scss';
+@import '_contact.scss';
+@import '_service.scss';
+@import '_feature.scss';
+@import '_case.scss';
+@import '_form.scss';
+@import '_portfolio.scss';
+@import '_how-it-work.scss';
+@import '_counter.scss';
+@import '_pricing.scss';
+@import '_team.scss';
+@import '_faq.scss';
+@import '_slider.scss';
+@import '_testimonial.scss';
+@import '_client.scss';
+@import '_call-to-action.scss';
+@import '_blog.scss';
+@import '_widget.scss';
+@import '_pagination.scss';
+@import '_footer.scss';
+
+
+
+

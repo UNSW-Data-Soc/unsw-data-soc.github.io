@@ -1,0 +1,146 @@
+
+/*----------------------------------------------
+  08.0 Form Style
+-----------------------------------------------*/
+
+form .form-group {
+  margin-bottom: 30px;
+}
+form .form-group .form-control {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid rgba($black, 0.08);
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  background: transparent;
+}
+form .form-group .form-control:focus {
+  border-color: $primaryColor;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba($primaryColor, 0.15);
+          box-shadow: 0px 5px 10px 0px rgba($primaryColor, 0.15);
+}
+form .form-group textarea.form-control {
+  padding: 10px 20px;
+}
+
+.ask-question h6 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $grey;
+  font-family: $headerFont;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.ask-question h2 {
+  font-size: 4.0rem;
+  font-weight: 800;
+  font-family: $headerFont;
+  color: $darkBlue;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.ask-question form .form-group .form-control {
+  height: 55px;
+}
+.ask-question form .form-group textarea.form-control {
+  height: 130px;
+}
+.ask-question form .button {
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+}
+
+.contact-form-wrapper h3 {
+  font-size: 3.0rem;
+  font-weight: 800;
+  font-family: $headerFont;
+  color: $darkBlue;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.contact-form-wrapper h2 {
+  margin-bottom: 25px;
+}
+.contact-form .form-group .form-control {
+  height: 50px;
+}
+.contact-form .form-group textarea.form-control {
+  height: 150px;
+}
+.contact-form .button {
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.newsletter-error {
+  background: #e74c3c;
+  margin-top: 10px;
+  display: none;
+  text-align: left;
+  padding: 0 5px;
+}
+
+.newsletter-success {
+  background: #16a085;
+  display: none;
+  margin-top: 10px;
+  padding: 0 5px;
+  text-align: left;
+}
+
+
+.contact-form {
+  position: relative;
+  .input-success, .input-error {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
+.input-success, .input-error {
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 5px 15px !important;
+  margin-bottom: 0;
+  margin-top: 10px;
+  display: none;
+}
+
+.input-success {
+  background-color: #27ae60;
+}
+
+.input-error {
+  background-color: #e74c3c;
+}
+
+.subscribtion-form {
+  position: relative;
+  .newsletter-error,
+  .newsletter-success {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .contact-form-wrapper h3 {
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .ask-question h2 {
+    font-size: 3.6rem;
+  }
+
+  .contact-form .col {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}

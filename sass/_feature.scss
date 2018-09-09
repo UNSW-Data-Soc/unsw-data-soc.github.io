@@ -1,0 +1,74 @@
+
+/*----------------------------------------------
+  06.0 Feature Style
+-----------------------------------------------*/
+
+.featured-content {
+  h6 {
+    color: $grey;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    font-family: $headerFont;
+    color: $darkBlue;
+    margin-bottom: 40px;
+    span {
+      display: block;
+    }
+  }
+  .subtext {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: $bodyFont;
+  }
+  ul {
+    padding: 0;
+    margin: 25px 0 0 40px;
+    list-style: none;
+    li {
+      position: relative;
+      font-size: 1.5rem;
+      &:before {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 3px;
+        left: -40px;
+        content: url(../images/feature/check.png);
+      }
+      + li {
+        margin-top: 20px;
+      }
+    }
+  }
+  .button {
+    margin-top: 35px;
+  }
+  .link {
+    margin-top: 35px;
+    color: $primaryColor;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .featured-content-thumb.text-right {
+    text-align: left !important;
+  }
+  .featured-content {
+    h3 {
+      font-size: 3.2rem;
+      margin-bottom: 15px;
+    }
+    .button {
+      margin-top: 15px;
+    }
+  }
+}

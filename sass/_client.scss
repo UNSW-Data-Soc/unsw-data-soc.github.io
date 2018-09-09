@@ -1,0 +1,43 @@
+
+/*----------------------------------------------
+  17.0 Client Style
+-----------------------------------------------*/
+
+.client-logos .client-logo {
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 991px) {
+  .client-logos {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    .client-logo {
+      -ms-flex-preferred-size: 180px;
+      flex-basis: 180px;
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .client-logos .client-logo {
+    -ms-flex-preferred-size: 170px;
+    flex-basis: 170px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .client-logos .client-logo {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .control-direction .thumb img {
+    width: 90px;
+  }
+  .page-title {
+    max-width: 750px;
+  }
+}

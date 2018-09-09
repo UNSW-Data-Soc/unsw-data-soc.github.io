@@ -1,0 +1,39 @@
+
+/*----------------------------------------------
+  11.0 Counter Style
+-----------------------------------------------*/
+
+.fact-items {
+  padding: 50px 0;
+  .col-sm-4 {
+    border-right: 1px solid rgba($black, 0.08);
+    &:last-child {
+      border-right: 0;
+    }
+  }
+}
+
+.fact {
+  text-align: center;
+  .fact-number {
+    font-size: 4.5rem;
+    color: $primaryColor;
+    font-weight: 800;
+    font-family: $headerFont;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    line-height: 1;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .fact-items .col-sm-4 {
+    border-right: 0;
+    + .col-sm-4 {
+      margin-top: 30px;
+    }
+  }
+  .fact .fact-number {
+    margin-top: 10px;
+  }
+}

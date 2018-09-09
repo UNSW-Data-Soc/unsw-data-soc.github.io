@@ -1,0 +1,161 @@
+
+/*----------------------------------------------
+  09.0 Portfolio Style
+-----------------------------------------------*/
+
+.portfolio {
+  margin-bottom: 30px;
+  .body .goto-single-page {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba($black, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    span {
+      line-height: 40px;
+    }
+    &:hover {
+      border-color: $primaryColor;
+      color: $primaryColor;
+    }
+  }
+}
+
+.iso-nav {
+  margin-bottom: 30px;
+  text-align: center;
+  button {
+    font-size: 1.5rem;
+    font-family: $headerFont;
+    background: $white;
+    border: 1px solid rgba($black, 0.05);
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 5px 20px;
+    outline: none;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    color: $fontColor;
+    &:hover, &:focus:hover, &:active:focus:hover {
+      border-color: $primaryColor;
+      color: $primaryColor;
+    }
+    &.active, &:focus.active, &:active:focus.active {
+      outline: none;
+      border-color: $primaryColor;
+      color: $primaryColor;
+      -webkit-box-shadow: 0px 5px 10px 0px rgba($primaryColor, 0.15);
+      box-shadow: 0px 5px 10px 0px rgba($primaryColor, 0.15);
+    }
+  }
+}
+
+.portfolio-details {
+  h3 {
+    font-size: 3.0rem;
+    font-family: $headerFont;
+    color: $darkBlue;
+  }
+  h6 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .nav-tabs {
+    border-bottom: 0;
+    .nav-item .nav-link {
+      border: 1px solid rgba($black, 0.08);
+      border-radius: 5px;
+      padding: 5px 20px;
+      margin-right: 10px;
+      line-height: 1.5;
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-family: $headerFont;
+      &.active {
+        color: $primaryColor;
+        border-color: $primaryColor;
+        -webkit-box-shadow: 0px 5px 10px 0px rgba($primaryColor, 0.15);
+        box-shadow: 0px 5px 10px 0px rgba($primaryColor, 0.15);
+      }
+    }
+  }
+  .tab-content .tab-pane {
+    padding-top: 20px;
+  }
+  .date {
+    label {
+      display: block;
+      text-transform: uppercase;
+      color: $darkBlue;
+      font-weight: 700;
+      font-family: $headerFont;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  .social-links {
+    border-top: 1px solid rgba($black, 0.08);
+    padding-top: 15px;
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    .social-share {
+      label {
+        font-size: 1.5rem;
+        font-family: $headerFont;
+        font-weight: 700;
+        color: $darkBlue;
+        margin-right: 15px;
+      }
+      a {
+        margin-right: 10px;
+        font-size: 1.4rem;
+        color: $fontColor;
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+    }
+    .visit-website a {
+      color: $primaryColor;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  }
+}
+
+@media all and (max-width: 991px) {
+  .portfolio-details {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .iso-nav button {
+    width: 100%;
+    + button {
+      margin-top: 15px;
+    }
+  }
+}
+
+@media all and (max-width: 439px) {
+  .portfolio-details .nav-tabs .nav-item .nav-link {
+    padding: 5px 10px;
+  }
+}

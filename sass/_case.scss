@@ -1,0 +1,185 @@
+
+/*----------------------------------------------
+  07.0 Case Style
+-----------------------------------------------*/
+
+.case-study-bg {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 115px;
+    background: $primaryColor;
+  }
+}
+
+.case-study, .portfolio {
+  margin-bottom: 10px;
+}
+
+.case-study:hover .thumb img, .portfolio:hover .thumb img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.case-study:hover .body h5, .portfolio:hover .body h5 {
+  color: $primaryColor;
+}
+
+.case-study .thumb, .portfolio .thumb {
+  overflow: hidden;
+  display: block;
+}
+
+.case-study .thumb img, .portfolio .thumb img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 100% !important;
+}
+
+.case-study .body, .portfolio .body {
+  background: $white;
+  padding: 15px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba($black, 0.08);
+  box-shadow: 0px 3px 5px 0px rgba($black, 0.08);
+  position: relative;
+}
+
+.case-study .body h5, .portfolio .body h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: $headerFont;
+  color: $darkBlue;
+}
+
+.case-study .body p, .portfolio .body p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.case-study .body .favourite, .portfolio .body .favourite {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  font-size: 1.8rem;
+}
+
+.case-study .body .favourite:hover i, .portfolio .body .favourite:hover i {
+  color: $primaryColor;
+}
+
+.case-study .body .favourite i, .portfolio .body .favourite i {
+  color: rgba($black, 0.5);
+}
+
+.case-study-slider {
+  .owl-nav button {
+    &.owl-next, &.owl-prev {
+      position: absolute;
+      bottom: 55px;
+      font-size: 2.2rem;
+      outline: none;
+    }
+    &.owl-next {
+      right: -55px;
+    }
+    &.owl-prev {
+      left: -55px;
+    }
+  }
+  .owl-dots {
+    text-align: center;
+    button.owl-dot {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background: $grey;
+      outline: none;
+      display: inline-block;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease;
+      margin: 0 3px;
+      &.active {
+        background: $primaryColor;
+      }
+    }
+  }
+}
+
+.case-study-info {
+  max-width: 320px;
+  width: 100%;
+  border-radius: 60px;
+  border: 1px solid rgba($black, 0.08);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin: 30px auto 0;
+  .increase, .total {
+    padding: 20px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  .increase h4, .total h4 {
+    font-size: 3.6rem;
+    line-height: 1;
+  }
+  .increase span, .total span {
+    font-size: 1.5rem;
+  }
+  .increase {
+    background: $primaryColor;
+    color: $white;
+  }
+  .total {
+    color: $darkBlue;
+    background: $aliceBlue;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .case-study-slider .owl-nav button {
+    &.owl-next {
+      right: -30px;
+    }
+    &.owl-prev {
+      left: -30px;
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .case-study-info {
+    .increase h4, .total h4 {
+      font-size: 2.4rem;
+      line-height: 1;
+    }
+  }
+}
+
+@media all and (max-width: 599px) {
+  .case-study-slider {
+    padding-bottom: 40px;
+    .owl-nav button {
+      &.owl-next, &.owl-prev {
+        bottom: 0;
+        left: 50%;
+      }
+      &.owl-next {
+        margin-left: 8px;
+      }
+      &.owl-prev {
+        margin-left: -30px;
+      }
+    }
+  }
+  .case-study-bg:before {
+    bottom: 155px;
+  }
+}
