@@ -1,2 +1,2 @@
-# unswdata
+# Mainpage
 Website for Datasoc UNSW
