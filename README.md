@@ -1,2 +1,2 @@
 # Mainpage
-Website for Datasoc UNSW
+Website for DataSoc UNSW. Updated for O-Week 2019.
