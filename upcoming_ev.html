@@ -23,25 +23,25 @@
     <table class="table is-fullwidth myTable">
         <tbody>
         <tr>
-          <td><a href="events/event1">Event Name 1</a></td>
-          <td>info inf khgytsxyjffytf f ttyytf tfytf info short descr<td>
+          <td><a href="events/STEM_Alternate_Pathways_Evening.html">STEM Alternate Pathways Evening</a></td>
+          <td>6:00pm-8:30pm, Wednesday 26th June 2019</td>
           <td><figure class="image is-128x128">
-            <img src="assets/images/illustrations/drawings/city_right.png">
+            <img src="assets/images/events/alternate_pathways.png">
+          </figure></td>
+        </tr>
+        <tr>
+          <td><a href="events/Games_and_Chill.html">DataSoc's Games and Chill</a></td>
+          <td>6:00pm-9:00pm, Thursday 27th June 2019</td>
+          <td><figure class="image is-128x128">
+            <img src="assets/images/events/games_and_chill.jpg">
           </figure><td>
         </tr>
         <tr>
-          <td><a href="events/event1">Event Name 1</a></td>
-          <td>info info info short descr<td>
+          <td><a href="events/DataSoc_Hackathon.html">DataSoc Hackathon</a></td>
+          <td>20th-21st June 2019</td>
           <td><figure class="image is-128x128">
-            <img src="assets/images/illustrations/drawings/city_right.png">
-          </figure><td>
-        </tr>
-        <tr>
-          <td><a href="events/event1">Event Name 1</a></td>
-          <td>info info info short descr<td>
-          <td><figure class="image is-128x128">
-            <img src="assets/images/illustrations/drawings/city_right.png">
-          </figure><td>
+            <img src="assets/images/events/hackathon.png">
+          </figure></td>
         </tr>
         </tbody>
     </table>
@@ -49,13 +49,13 @@
 <script>
 
     let options = {
-        numberPerPage:1,
+        numberPerPage:5,
         goBar:true, 
         pageCounter:true, 
     };
 
     let filterOptions = {
-        el:'#searchBox' //Caja de texto para filtrar, puede ser una clase o un ID
+        el:'#searchBox' 
     };
 
     paginate.init('.myTable',options,filterOptions);
