@@ -13,4 +13,4 @@ Website for DataSoc UNSW.
 * Change events page layout to allow for an insane list of events
 * Create a blogs/pubs section?
 * Sign up for our mailing list?
-* Dynamic mailing list?
+* Parse events from facebook - either jquery (query fb every time) or we update the page regularly
