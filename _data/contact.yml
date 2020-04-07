@@ -1,0 +1,15 @@
+- name: Facebook
+  link: https://www.facebook.com/DataSoc/
+  img_class: fa fa-facebook
+- name: Instagram
+  link: https://www.instagram.com/unswdatasoc/
+  img_class: fa fa-instagram
+- name: LinkedIn
+  link: https://au.linkedin.com/company/datasoc
+  img_class: fa fa-linkedin
+- name: Github
+  link: https://github.com/unswdata/
+  img_class: fa fa-github
+- name: Youtube
+  link: https://www.youtube.com/channel/UC5xEG38_Jr0251sMBoj8xwQ
+  img_class: fa fa-youtube
