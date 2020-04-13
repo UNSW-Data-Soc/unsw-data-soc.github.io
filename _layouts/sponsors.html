@@ -16,18 +16,6 @@
         <link rel="stylesheet" href="assets/css/core_blue.css">
         <link rel="stylesheet" href="assets/css/icons.min.css">
 
-        <!-- jQuery script for common menubar and footer -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!--
-        <script>
-        $(document).ready(function(){
-           
-           $('#menubar').load("menubar.html");
-           $('#footer').load("footer.html");
-
-        });
-        </script>
--->
         <style>
             .sponsor_info {
                 max-height: 0;
@@ -51,34 +39,24 @@
         <!-- Hero and Navbar -->
         <div class="hero is-default pt-20">
             {% include menubar.html %}
-
-            <!-- city3_left and intro-->
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns is-vcentered">
-                        <div class="column is-6">
-                            <h1 class="title is-1 is-bigger">Our Sponsors</h1>
-                            <img src="assets/images/illustrations/drawings/city3_left.png">
-                        </div>
-
-                        <div class="column is-5 is-offset-1">
-                            DataSoc wouldn't be DataSoc without the amazing companies we've worked with throughout our journey as a society.
-                            <br><br>
-
-                            We really appreciate the support in helping our members develop skills and knowledge across a variety of disciplines, so that they are industry-ready come graduation.
-                            <br><br>
-
-                            With more and more data-oriented decisions and predictions made everyday, the demand for talented Data Science graduates is growing.
-                            <br><br>
-
-                            It's our long term goal to help our members become as capable they can be, and it wouldn't be possible without the continued support from industry.
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         
+		<!-- city3_left and intro-->
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered">
+					<div class="column is-6">
+						<h1 class="title is-1 is-bigger">{{ page.title }}</h1>
+						<img src="assets/images/illustrations/drawings/city3_left.png">
+					</div>
 
+					<div class="column is-5 is-offset-1">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+		</div>
+		
         <!--Sponsors -->
         <div class="section">
             <div class="section-title-wrapper">

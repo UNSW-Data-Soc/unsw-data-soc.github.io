@@ -7,6 +7,10 @@ majors:
     icon: assets/images/logos/custom/accenture.png
     link: https://www.accenture.com/au-en/services/applied-intelligence-index
     description: "Accenture Applied Intelligence is Accenture’s way of combining artificial intelligence technologies with data analytics, automation and human ingenuity and applying them to solve their clients’ most complex business problems. They deliver intelligent insights at speed and scale that drive innovation and new outcomes for enterprises worldwide."
+  - name: Bernie's Cool Data Science
+    icon: assets/images/logos/custom/bcg.png
+    link: /
+    description: "Bernie's Cool Data Science provides the coolest of data sciences to all sciences."
 minors:
   - name: 
     icon:

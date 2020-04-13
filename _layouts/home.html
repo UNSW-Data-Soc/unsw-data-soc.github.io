@@ -16,19 +16,6 @@
         <link rel="stylesheet" href="assets/css/core_blue.css">
         <link rel="stylesheet" href="assets/css/icons.min.css">
 
-        <!-- jQuery script for common menubar and footer -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!--
-        <script>
-        $(document).ready(function(){
-           
-//           $('#menubar').load("menubar.html");
-//           $('#footer').load("footer.html");
-
-        });
-        </script>
--->
-
     </head>
     
     <body>
@@ -62,15 +49,9 @@
                                 </a>
                             </p>
                             <div class="social-links pt-5">
-                                    <a href="https://www.facebook.com/DataSoc">
-                                        <span class="icon has-text-dark"><i class="fa fa-facebook"></i></span>
-                                    </a>
-                                    <a href="https://www.instagram.com/unswdatasoc/">
-                                        <span class="icon has-text-dark"><i class="fa fa-instagram"></i></span>
-                                    </a>
-                                    <a href="https://au.linkedin.com/company/datasoc">
-                                        <span class="icon has-text-dark"><i class="fa fa-linkedin"></i></span>
-                                    </a>
+                                {% for item in site.data.contact %}
+                                <a href="{{ item.link }}"><span class="icon has-text-dark"><i class="{{ item.img_class }}"></i></span></a>
+                                {% endfor %}
                             </div>
                         </div>
                     </div>
@@ -126,11 +107,12 @@
         {% include footer.html %}
        
         <!-- Back To Top Button -->
-        <div id="backtotop"><a href="#"></a></div>        <!-- Concatenated jQuery and plugins -->
+        <div id="backtotop"><a href="#"></a></div>
         <script src="assets/js/app.js"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <!-- Bulkit js -->
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/landingv4.js"></script>    </body>  
+        <script src="assets/js/landingv4.js"></script>
+	</body>  
 </html>
