@@ -1,337 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Required Meta Tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="google-site-verification" content="PD4l6ZslM6VzlVC1X-gy65xXe_OOBq2qVzqFbE9hsqo" />
+    <head>
+		{% include metatags.html %}
+    </head>
 
-    <title>{{ site.title }}</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+	<body>
+		<!-- Hero and Navbar -->
+		<div class="hero is-default pt-20">
+			{% include menubar.html %}
 
-    <!--Core CSS -->
-    <link rel="stylesheet" href="assets/css/bulma.css">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="assets/css/core_blue.css">
-    <link rel="stylesheet" href="assets/css/icons.min.css">
+			<!-- city2_left and intro -->
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns is-vcentered">
+						<div class="column is-6">
+							<h1 class="title is-1 is-bigger"> {{ page.title }}</h1>
+							<img src="assets/images/illustrations/drawings/city2_left.png">
 
-</head>
+						</div>
+						<div class="column is-5 is-offset-1">
+							{{ content }}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<body>
-    <!-- Hero and Navbar -->
-    <div class="hero is-default pt-20">
-		{% include menubar.html %}
+		<!-- Executive -->
+		<div class="hero-body">
+			<div class="container">
+				<div class="section-title-wrapper">
+					<h2 class="title is-2">Executive</h2>
+					<br>
+				</div>
+				<!-- Profiles -->
+				<div class="content-wrapper">
+					<!-- Row 1 -->
+					<div class="columns">
+						<!-- President -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Ellen Wang</div>
+								<div class="position">President</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- VPE -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Kevin Lou</div>
+								<div class="position">Vice President (External)</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- VPI -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Nigel Lin</div>
+								<div class="position">Vice President (Internal)</div>
+								<div class="degree">Bachelor of Actuarial Studies (Co-op)</div>
+							</div>
+						</div>
+						<!-- VPP -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Jason Hu</div>
+								<div class="position">Vice President (Postgrad)</div>
+								<div class="degree">Diploma of Information Technology</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row 2 -->
+					<div class="columns">
+						<!-- <div class="column is-3"></div> -->
+						<!-- Treasurer -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Chen Yu Wang</div>
+								<div class="position">Treasurer</div>
+								<div class="degree">Bachelor of Actuarial Studies/Commerce</div>
+							</div>
+						</div>
+						<!-- Secretary -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Laurel Lu</div>
+								<div class="position">Secretary</div>
+								<div class="degree">Bachelor of Data Science and Decisions (Co-op)</div>
+							</div>
+						</div>
+						<!-- Arc Delegate -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Shirley Xu</div>
+								<div class="position">Arc Delegate</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- Communications Officer -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Kelly Tao</div>
+								<div class="position">Communications Officer</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row 3 -->
+					<div class="columns">
+						<!-- <div class="column is-3"></div> -->
+						<!-- Diversity Ambassador -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Abhijot Singh</div>
+								<div class="position">Diversity Ambassador</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <!-- city2_left and intro -->
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns is-vcentered">
-                    <div class="column is-6">
-                        <h1 class="title is-1 is-bigger"> {{ page.title }}</h1>
-                        <img src="assets/images/illustrations/drawings/city2_left.png">
+		<!-- External -->
+		<div class="hero-body">
+			<div class="container">
+				<div class="section-title-wrapper">
+					<h2 class="title is-2">External</h2>
+					<br>
+				</div>
+				<!-- Profiles -->
+				<div class="content-wrapper">
+					<!-- Row 1 -->
+					<div class="columns">
+						<!-- Careers Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Roshan Abraham</div>
+								<div class="position">Careers Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- Careers Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Tony Lu</div>
+								<div class="position">Careers Director</div>
+								<div class="degree">Bachelor of Computer Science/Science (Statistics)</div>
+							</div>
+						</div>
+						<!-- Sponsorships Officer -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Vincent Chen</div>
+								<div class="position">Sponsorships Officer</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- Sponsorships Officer -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Winston Sun</div>
+								<div class="position">Sponsorships Officer</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row 2 -->
+					<div class="columns">
+						<div class="column is-3"></div>
+						<!-- Social Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">James Lu</div>
+								<div class="position">Social Director</div>
+								<div class="degree">Bachelor of Commerce/ Science (Advanced Mathematics)</div>
+							</div>
+						</div>
+						<!-- Social Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Kelvin Mo</div>
+								<div class="position">Social Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                    </div>
-                    <div class="column is-5 is-offset-1">
-						{{ content }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Internal -->
+		<div class="hero-body">
+			<div class="container">
+				<div class="section-title-wrapper">
+					<h2 class="title is-2">Internal</h2>
+					<br>
+				</div>
+				<!-- Profiles -->
+				<div class="content-wrapper">
+					<!-- Row 1 -->
+					<div class="columns">
+						<!-- Education Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Harry Partridge</div>
+								<div class="position">Education Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- Education Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Ivan Hou</div>
+								<div class="position">Education Director</div>
+								<div class="degree">Bachelor of Actuarial Studies (Co-op)</div>
+							</div>
+						</div>
+						<!-- Marketing Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Sarah Gush</div>
+								<div class="position">Marketing Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- Marketing Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-3.svg" alt="">
+								<div class="name">Stanley Chen</div>
+								<div class="position">Marketing Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions (Co-op)</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row 2 -->
+					<div class="columns">
+						<div class="column is-3"></div>
+						<!-- IT and Publications Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-2.svg" alt="">
+								<div class="name">Bernardo Croll</div>
+								<div class="position">IT and Publications Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions</div>
+							</div>
+						</div>
+						<!-- IT and Publications Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Victor Tsang</div>
+								<div class="position">IT and Publications Director</div>
+								<div class="degree">Bachelor of Data Science and Decisions (Co-op)</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Executive -->
-    <div class="hero-body">
-        <div class="container">
-            <div class="section-title-wrapper">
-                <h2 class="title is-2">Executive</h2>
-                <br>
-            </div>
-            <!-- Profiles -->
-            <div class="content-wrapper">
-                <!-- Row 1 -->
-                <div class="columns">
-                    <!-- President -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Ellen Wang</div>
-                            <div class="position">President</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- VPE -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Kevin Lou</div>
-                            <div class="position">Vice President (External)</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- VPI -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Nigel Lin</div>
-                            <div class="position">Vice President (Internal)</div>
-                            <div class="degree">Bachelor of Actuarial Studies (Co-op)</div>
-                        </div>
-                    </div>
-                    <!-- VPP -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Jason Hu</div>
-                            <div class="position">Vice President (Postgrad)</div>
-                            <div class="degree">Diploma of Information Technology</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row 2 -->
-                <div class="columns">
-                    <!-- <div class="column is-3"></div> -->
-                    <!-- Treasurer -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Chen Yu Wang</div>
-                            <div class="position">Treasurer</div>
-                            <div class="degree">Bachelor of Actuarial Studies/Commerce</div>
-                        </div>
-                    </div>
-                    <!-- Secretary -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Laurel Lu</div>
-                            <div class="position">Secretary</div>
-                            <div class="degree">Bachelor of Data Science and Decisions (Co-op)</div>
-                        </div>
-                    </div>
-                    <!-- Arc Delegate -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Shirley Xu</div>
-                            <div class="position">Arc Delegate</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- Communications Officer -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Kelly Tao</div>
-                            <div class="position">Communications Officer</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row 3 -->
-                <div class="columns">
-                    <!-- <div class="column is-3"></div> -->
-                    <!-- Diversity Ambassador -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Abhijot Singh</div>
-                            <div class="position">Diversity Ambassador</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Postgraduate -->
+		<div class="hero-body">
+			<div class="container">
+				<div class="section-title-wrapper">
+					<h2 class="title is-2">Postgraduate</h2>
+					<br>
+				</div>
+				<!-- Profiles -->
+				<div class="content-wrapper">
+					<!-- Row 1 -->
+					<div class="columns">
+						<!-- Events Director -->
+						<div class="column is-3">
+							<div class="hero-box has-text-centered">
+								<img src="assets/images/illustrations/faces/face-1.svg" alt="">
+								<div class="name">Al Gu</div>
+								<div class="position">Events Director</div>
+								<div class="degree">Master of Electrical Commerce</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- External -->
-    <div class="hero-body">
-        <div class="container">
-            <div class="section-title-wrapper">
-                <h2 class="title is-2">External</h2>
-                <br>
-            </div>
-            <!-- Profiles -->
-            <div class="content-wrapper">
-                <!-- Row 1 -->
-                <div class="columns">
-                    <!-- Careers Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Roshan Abraham</div>
-                            <div class="position">Careers Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- Careers Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Tony Lu</div>
-                            <div class="position">Careers Director</div>
-                            <div class="degree">Bachelor of Computer Science/Science (Statistics)</div>
-                        </div>
-                    </div>
-                    <!-- Sponsorships Officer -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Vincent Chen</div>
-                            <div class="position">Sponsorships Officer</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- Sponsorships Officer -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Winston Sun</div>
-                            <div class="position">Sponsorships Officer</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row 2 -->
-                <div class="columns">
-                    <div class="column is-3"></div>
-                    <!-- Social Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">James Lu</div>
-                            <div class="position">Social Director</div>
-                            <div class="degree">Bachelor of Commerce/ Science (Advanced Mathematics)</div>
-                        </div>
-                    </div>
-                    <!-- Social Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Kelvin Mo</div>
-                            <div class="position">Social Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		{% include footer.html %}
 
-    <!-- Internal -->
-    <div class="hero-body">
-        <div class="container">
-            <div class="section-title-wrapper">
-                <h2 class="title is-2">Internal</h2>
-                <br>
-            </div>
-            <!-- Profiles -->
-            <div class="content-wrapper">
-                <!-- Row 1 -->
-                <div class="columns">
-                    <!-- Education Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Harry Partridge</div>
-                            <div class="position">Education Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- Education Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Ivan Hou</div>
-                            <div class="position">Education Director</div>
-                            <div class="degree">Bachelor of Actuarial Studies (Co-op)</div>
-                        </div>
-                    </div>
-                    <!-- Marketing Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Sarah Gush</div>
-                            <div class="position">Marketing Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- Marketing Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-3.svg" alt="">
-                            <div class="name">Stanley Chen</div>
-                            <div class="position">Marketing Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions (Co-op)</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row 2 -->
-                <div class="columns">
-                    <div class="column is-3"></div>
-                    <!-- IT and Publications Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-2.svg" alt="">
-                            <div class="name">Bernardo Croll</div>
-                            <div class="position">IT and Publications Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions</div>
-                        </div>
-                    </div>
-                    <!-- IT and Publications Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Victor Tsang</div>
-                            <div class="position">IT and Publications Director</div>
-                            <div class="degree">Bachelor of Data Science and Decisions (Co-op)</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Back To Top Button -->
+		<div id="backtotop">
+			<a href="#"></a>
+		</div>
+		<!-- Concatenated jQuery and plugins -->
+		<script src="assets/js/app.js"></script>
 
-    <!-- Postgraduate -->
-    <div class="hero-body">
-        <div class="container">
-            <div class="section-title-wrapper">
-                <h2 class="title is-2">Postgraduate</h2>
-                <br>
-            </div>
-            <!-- Profiles -->
-            <div class="content-wrapper">
-                <!-- Row 1 -->
-                <div class="columns">
-                    <!-- Events Director -->
-                    <div class="column is-3">
-                        <div class="hero-box has-text-centered">
-                            <img src="assets/images/illustrations/faces/face-1.svg" alt="">
-                            <div class="name">Al Gu</div>
-                            <div class="position">Events Director</div>
-                            <div class="degree">Master of Electrical Commerce</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-	{% include footer.html %}
-
-    <!-- Back To Top Button -->
-    <div id="backtotop">
-        <a href="#"></a>
-    </div>
-    <!-- Concatenated jQuery and plugins -->
-    <script src="assets/js/app.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <!-- Bulkit js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/landingv4.js"></script>
-</body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<!-- Bulkit js -->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/landingv4.js"></script>
+	</body>
 
 </html>
