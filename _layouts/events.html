@@ -7,29 +7,27 @@
     <body>     
         <!-- Hero and Navbar -->
         <div class="hero is-default pt-20">
-            <!-- imported menubar.html -->
-            <div id="menubar"></div>
+            {% include menubar.html }
                                        
             <!-- title and description -->
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-vcentered">
                         <div class="column is-6">
-                            <h1 class="title is-1 is-bigger">Events</h1>
+                            <h1 class="title is-1 is-bigger">{{ page.title }}</h1>
                             <br> <br> <br>
                         </div>
                     </div>
                 </div>
                 <h3>Upcoming Events</h3>
-                <div id="events"></div>
+                {% include upcoming_ev.html %}
                 <br>
                 <h3>Previous Events</h3>
-                <div id="prev"></div>
+                {% include prev_ev.html %}
             </div>
         </div>
        
-        <!-- imported footer.html -->
-        <div id="footer"></div>
+        {% include footer.html %}
         
         <!-- Back To Top Button -->
         <div id="backtotop"><a href="#"></a></div>        <!-- Concatenated jQuery and plugins -->
