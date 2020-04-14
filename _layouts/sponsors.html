@@ -34,7 +34,7 @@
 				<div class="columns is-vcentered">
 					<div class="column is-6">
 						<h1 class="title is-1 is-bigger">{{ page.title }}</h1>
-						<img src="assets/images/illustrations/drawings/city3_left.png">
+						<img src="/assets/images/illustrations/drawings/city3_left.png">
 					</div>
 
 					<div class="column is-5 is-offset-1">
@@ -43,6 +43,8 @@
 				</div>
 			</div>
 		</div>
+		
+		<div class="hero-body">
 		
         <!--Sponsors -->
         <div class="section">
@@ -72,45 +74,18 @@
                 <div class="container is-fluid">
                     <h2 class="title is-1 centered">Minor Sponsors</h2>
                     <div class="columns is-vcentered">
+					  {% for sponsor in site.data.sponsors.minors %}
                         <div class="column">
                             <div class="sponsor_icon">
-                                <a href="https://www.alphabeta.com/">
-                                    <img class="client" src="assets/images/logos/custom/alphabeta.png">
+                                <a href="{{ sponsor.link }}">
+                                    <img src="{{ sponsor.icon }}">
                                 </a>
                             </div>
                             <div class="sponsor_info">
-                                <br>
-                                <p>AlphaBeta was founded in 2015 by economists with considerable experience in both academia and private sector consulting. They saw a need for a new breed of consultants who could marry academic rigour with commercial relevance to help solve the world's most pressing issues.</p>
-                                <br>
-                                <p> Focusing greatly on data management and econometrics, AlphaBeta provides innovative and efficient solutions for Australia's most pressing problems.</p>
+                                {{ sponsor.description | newline_to_br}}
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="sponsor_icon">
-                                <a href="https://akunacapital.com/">
-                                    <img class="client" src="assets/images/logos/custom/akuna.png">
-                                </a>
-                            </div>
-                            <div class="sponsor_info">
-                                <br>
-                                <p>Akuna Capital was first conceptualised in Sydney, and its first office was opened in 2011, in Chicago. They now operate from additional offices in Sydney, Shanghai, and Boston.</p>
-                                <br>
-                                <p>With a commitment to cutting-edge technology, Akuna Capital is a proprietary trading firm specialising in derivatives market-making and sophisticated modelling.</p>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="sponsor_icon">
-                            <a href="https://www.atlassian.com/">
-                                <img src="assets/images/logos/custom/atlassian.png">
-                            </a>
-                            </div>
-                            <div class="sponsor_info">
-                                <br>
-                                <p>Starting out as a young company founded by two UNSW alumni. Atlassian has grown to have over 2.6M community members and global offices in 7 different countries.</p>
-                                <br>
-                                <p>Atlassian develops world class products for software developers, project managers, and content management.</p>
-                            </div>
-                        </div>
+                      {% endfor %}
                     </div>
                 </div>
             </div>
@@ -121,47 +96,33 @@
                 <div class="container is-fluid">
                     <h2 class="title is-1 centered">Partners</h2>
                     <div class="columns is-vcentered">
+					  {% for sponsor in site.data.sponsors.partners %}
                         <div class="column">
                             <div class="sponsor_icon">
-                                <a href="https://www.finity.com.au/">
-                                    <img class="client" src="assets/images/logos/custom/finity.png">
+                                <a href="{{ sponsor.link }}">
+                                    <img src="{{ sponsor.icon }}">
                                 </a>
                             </div>
                             <div class="sponsor_info">
-                                <br>
-                                <p>Finity is Australia and New Zealand’s largest independent actuarial and analytics consulting firm. Powered by smart, results-oriented people with an unrivalled depth of industry experience, they can provide a unique perspective across a wide range of business challenges.</p>
-                                <br> 
-                                <p>As one of the biggest employers of actuaries, their consultants are true ‘data experts’.</p>
-                                <br>
-                                <p>Market-leading technical analysis is a core part of everything we do. But that’s only part of the picture, ultimately our reputation rests on our delivery of high quality advice with a focus on practical, commercially-aware solutions that add value.</p>
+                                {{ sponsor.description | newline_to_br}}
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="sponsor_icon">
-                                <a href="https://www.optiver.com/ap/en/">
-                                    <img class="client" src="assets/images/logos/custom/optiver.png">
-                                </a>
-                            </div>
-                            <div class="sponsor_info">
-                                <br>
-                                <p>Over thirty years ago, Optiver started business as a single trader on the floor of Amsterdam’s European Options Exchange. Today, they are a leading global electronic market maker, focused on pricing, execution and risk management.</p>
-                                <br>
-                                <p>Thriving in a high performance environment, Optiver pioneers their own trading strategies and systems using clean code and sophisticated technology.</p>
-                            </div>
-                        </div>
+                      {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
+		</div>
 
-        { include footer.html }
-       \
+        {% include footer.html %}
+       
         <!-- Back To Top Button -->
         <div id="backtotop"><a href="#"></a></div>        <!-- Concatenated jQuery and plugins -->
-        <script src="assets/js/app.js"></script>
+        <script src="/assets/js/app.js"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <!-- Bulkit js -->
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/landingv4.js"></script>    </body>  
+        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/landingv4.js"></script>
+  </body>  
 </html>
