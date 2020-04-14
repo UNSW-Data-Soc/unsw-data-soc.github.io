@@ -44,60 +44,60 @@ external_directors:
     name: Tony Lu
     degree: Bachelor of Computer Science/Science (Statistics)
     image: /assets/images/illustrations/faces/face-2.svg
-    description:
+    description: ~
   - position: Sponsorships Officer
     name: Vincent Chen
     degree: Bachelor of Data Science and Decisions (Co-op)
     image: /assets/images/illustrations/faces/face-3.svg
-    description:
+    description: ~
   - position: Sponsorships Officer
     name: Winston Sun
     degree: Bachelor of Data Science and Decisions 
     image: /assets/images/illustrations/faces/face-1.svg
-    description:
+    description: ~
   - position: Social Director
     name: James Lu
     degree: Bachelor of Commerce/Science (Advanced Mathematics)
     image: /assets/images/illustrations/faces/face-1.svg
-    description:
+    description: ~
   - position: Social Director
     name: Kelvin Mo
     degree: Bachelor of Data Science and Decisions 
     image: /assets/images/illustrations/faces/face-2.svg
-    description:
+    description: ~
 internal_directors:
   - position: Education Director
     name: Harry Partridge
     degree: Bachelor of Data Science and Decisions
     image: /assets/images/illustrations/faces/face-1.svg
-    description:
+    description: ~
   - position: Education Director
     name: Ivan Hou
     degree: Bachelor of Actuarial Studies (Co-op)
     image: /assets/images/illustrations/faces/face-2.svg
-    description:
+    description: ~
   - position: Marketing Director
     name: Sarah Gush
     degree: Bachelor of Data Science and Decisions
     image: /assets/images/illustrations/faces/face-3.svg
-    description:
+    description: ~
   - position: Stanley Chen
     name: Marketing Director
     degree: Bachelor of Data Science and Decisions (Co-op)
     image: /assets/images/illustrations/faces/face-1.svg
-    description:
+    description: ~
   - position: IT/Publications Director
     name: Bernardo Croll
     degree: Bachelor of Data Science and Decisions
     image: /assets/images/illustrations/faces/face-2.svg
-    description:
+    description: ~
   - position: IT/Publications Director
     name: Victor Tsang
     degree: Bachelor of Data Science and Decisions (Co-op)
     image: /assets/images/illustrations/faces/face-3.svg
-    description:
+    description: ~
 postgraduate_directors:
   - position: Events Director
     name: Al Gu
     Degree: Master of E-Commerce
-    description: 
+    description: ~

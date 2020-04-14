@@ -89,6 +89,37 @@
 			</div>
 		</div>
 
+		<!-- Internal -->
+		<div class="hero-body">
+			<div class="container">
+				<div class="section-title-wrapper">
+					<h2 class="title is-2">Internal</h2>
+					<br>
+				</div>
+				<!-- Profiles -->
+                <div class="content-wrapper">
+                  {% for director in site.data.team.internal_directors %}
+                    {% if forloop.first %}
+                      <div class="columns">
+                    {% endif %}
+                    {% if forloop.index == 5 %}
+                      </div>
+                      <div class="columns">
+                    {% endif %}
+                        <div class="column is-3">
+                          <div class="hero-box has-text-centered">
+                            <img src="{{ director.image }}" alt="">
+                            <div class="name">{{ director.name }}</div>
+                            <div class="position">{{ director.position }}</div>
+                            <div class="degree">{{ director.degree }}</div>
+                          </div>
+                        </div>
+                  {% endfor %}
+                      </div>
+				</div>
+			</div>
+		</div>
+
 		{% include footer.html %}
         {% include plugins.html %}
 	</body>
