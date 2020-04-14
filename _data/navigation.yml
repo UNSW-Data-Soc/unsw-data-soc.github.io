@@ -1,7 +1,7 @@
 - name: Our Team
-  link: /team.html
+  link: /team
 - name: Our Sponsors
-  link: /sponsors.html
+  link: /sponsors
 - name: Opportunities
   link: https://trello.com/b/iy42OQH1
 #- name: Events
@@ -11,4 +11,4 @@
 - name: SpArc
   link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
 - name: Contact Us
-  link: /contact.html
+  link: /contact
