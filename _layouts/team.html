@@ -17,7 +17,6 @@
 						<div class="column is-6">
 							<h1 class="title is-1 is-bigger"> {{ page.title }}</h1>
 							<img src="/assets/images/illustrations/drawings/city2_left.png">
-
 						</div>
 						<div class="column is-5 is-offset-1">
 							{{ content }}
@@ -27,99 +26,41 @@
 			</div>
 		</div>
 
-		<!-- Executive -->
-		<div class="hero-body">
-			<div class="container">
-				<div class="section-title-wrapper">
-					<h2 class="title is-2">Executive</h2>
-					<br>
-				</div>
-				<!-- Profiles -->
-				<div class="content-wrapper">
-                  {% for exec in site.data.team.executive %}
-                    {% if forloop.first %}
-                      <div class="columns">
-                    {% endif %}
-                    {% if forloop.index == 5 %}
-                      </div>
-                      <div class="columns">
-                    {% endif %}
-                        <div class="column is-3">
-                          <div class="hero-box has-text-centered">
-                            <img src="{{ exec.image }}" alt="">
-                            <div class="name">{{ exec.name }}</div>
-                            <div class="position">{{ exec.position }}</div>
-                            <div class="degree">{{ exec.degree }}</div>
-                          </div>
-                        </div>
-                  {% endfor %}
-                      </div>
-				</div>
+		  {% for level in site.data.team %}
+          <div class="hero-body">
+            <div class="container">
+              <div class="section-title-wrapper">
+                <h2 class="title is-2">{{ level[0] }}</h2>
+                <br>
+              </div>
+			<div class="content-wrapper">
+			  {% for person in level[1] %}
+				{% if forloop.first %}
+				  <div class="columns">
+				{% endif %}
+				{% comment %}
+                  {% if forloop.index == 3 or forloop.index == 5 or forloop.index == 7 %}
+                  {% endif %} delete this
+                {% endcomment %}
+                {% if forloop.index == 5 %}
+				  </div>
+				  <div class="columns">
+				{% endif %}
+<!--					<div class="column is-6">-->
+					<div class="column is-3">
+					  <div class="hero-box has-text-centered">
+						<img src="{{ person.image }}" alt="">
+						<div class="name">{{ person.name }}</div>
+						<div class="position">{{ person.position }}</div>
+						<div class="degree">{{ person.degree }}</div>
+					  </div>
+					</div>
+			  {% endfor %}
+				  </div>
+              </div>
 			</div>
-		</div>
-
-		<!-- External -->
-		<div class="hero-body">
-			<div class="container">
-				<div class="section-title-wrapper">
-					<h2 class="title is-2">External</h2>
-					<br>
-				</div>
-				<!-- Profiles -->
-                <div class="content-wrapper">
-                  {% for director in site.data.team.external_directors %}
-                    {% if forloop.first %}
-                      <div class="columns">
-                    {% endif %}
-                    {% if forloop.index == 5 %}
-                      </div>
-                      <div class="columns">
-                    {% endif %}
-                        <div class="column is-3">
-                          <div class="hero-box has-text-centered">
-                            <img src="{{ director.image }}" alt="">
-                            <div class="name">{{ director.name }}</div>
-                            <div class="position">{{ director.position }}</div>
-                            <div class="degree">{{ director.degree }}</div>
-                          </div>
-                        </div>
-                  {% endfor %}
-                      </div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Internal -->
-		<div class="hero-body">
-			<div class="container">
-				<div class="section-title-wrapper">
-					<h2 class="title is-2">Internal</h2>
-					<br>
-				</div>
-				<!-- Profiles -->
-                <div class="content-wrapper">
-                  {% for director in site.data.team.internal_directors %}
-                    {% if forloop.first %}
-                      <div class="columns">
-                    {% endif %}
-                    {% if forloop.index == 5 %}
-                      </div>
-                      <div class="columns">
-                    {% endif %}
-                        <div class="column is-3">
-                          <div class="hero-box has-text-centered">
-                            <img src="{{ director.image }}" alt="">
-                            <div class="name">{{ director.name }}</div>
-                            <div class="position">{{ director.position }}</div>
-                            <div class="degree">{{ director.degree }}</div>
-                          </div>
-                        </div>
-                  {% endfor %}
-                      </div>
-				</div>
-			</div>
-		</div>
-
+          </div>
+		  {% endfor %}
 		{% include footer.html %}
         {% include plugins.html %}
 	</body>

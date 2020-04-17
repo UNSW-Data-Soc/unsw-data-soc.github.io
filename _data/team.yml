@@ -1,4 +1,4 @@
-executive:
+Execs:
   - position: President
     name: Ellen Wang
     degree: Bachelor of Data Science and Decisions
@@ -39,7 +39,12 @@ executive:
     degree: Bachelor of Data Science and Decisions
     image: /assets/images/illustrations/faces/face-2.svg
     description: ~
-external_directors:
+External:
+  - position: Careers Director
+    name: Roshan Abraham
+    degree: Bachelor of Data Science and Decisions
+    image: /assets/images/illustrations/faces/face-1.svg
+    description: ~
   - position: Careers Director
     name: Tony Lu
     degree: Bachelor of Computer Science/Science (Statistics)
@@ -65,7 +70,7 @@ external_directors:
     degree: Bachelor of Data Science and Decisions 
     image: /assets/images/illustrations/faces/face-2.svg
     description: ~
-internal_directors:
+Internal:
   - position: Education Director
     name: Harry Partridge
     degree: Bachelor of Data Science and Decisions
@@ -81,8 +86,8 @@ internal_directors:
     degree: Bachelor of Data Science and Decisions
     image: /assets/images/illustrations/faces/face-3.svg
     description: ~
-  - position: Stanley Chen
-    name: Marketing Director
+  - position: Marketing Director
+    name: Stanley Chen
     degree: Bachelor of Data Science and Decisions (Co-op)
     image: /assets/images/illustrations/faces/face-1.svg
     description: ~
@@ -96,8 +101,9 @@ internal_directors:
     degree: Bachelor of Data Science and Decisions (Co-op)
     image: /assets/images/illustrations/faces/face-3.svg
     description: ~
-postgraduate_directors:
+Postgraduate:
   - position: Events Director
     name: Al Gu
-    Degree: Master of E-Commerce
+    degree: Master of E-Commerce
+    image: /assets/images/illustrations/faces/face-3.svg
     description: ~
