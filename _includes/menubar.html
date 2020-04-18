@@ -12,9 +12,25 @@
         <div id="is-cloned" class="navbar-menu">
             <div class="navbar-end">
                 {% for item in site.data.navigation %}
-                <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
-                    {{ item.name }}
-                </a>
+                  {% if item.size == 3 %}
+                    <div class="navbar-item is-slide is-centered-tablet has-dropdown is-hoverable">
+                      <a href="{{ item.link }}" class="navbar-link">
+                        {{ item.name }}
+                      </a>
+
+                      <div class="navbar-dropdown">
+                        {% for page in item.dropdown %}
+                        <a href="{{ item.link }}{{ page.link }}" class="navbar-item">
+                          {{ page.name }}
+                        </a>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  {% else %}
+                    <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
+                        {{ item.name }}
+                    </a>
+                  {% endif %}
                 {% endfor %}
             </div>
         </div>

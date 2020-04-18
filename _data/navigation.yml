@@ -6,8 +6,13 @@
   link: https://trello.com/b/iy42OQH1
 #- name: Events
 # link: events.html
-- name: First Year Guide
-  link: /assets/docs/first-year-guide/datasoc-fyg-2020.pdf
+- name: Publications
+  link: /publications
+  dropdown:
+    - name: First Year Guide
+      link: /first-year-guide
+    - name: Careers Guide
+      link: /careers-guide
 - name: SpArc
   link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
 - name: Contact Us
