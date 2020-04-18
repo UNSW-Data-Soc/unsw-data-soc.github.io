@@ -1,4 +1,4 @@
-majors:
+Major Sponsors:
   - name: Quantium
     icon: /assets/images/logos/custom/quantium.png
     link: https://www.quantium.com/
@@ -11,7 +11,7 @@ majors:
     link: https://www.accenture.com/au-en/services/applied-intelligence-index
     description: |-
       Accenture Applied Intelligence is Accenture’s way of combining artificial intelligence technologies with data analytics, automation and human ingenuity and applying them to solve their clients’ most complex business problems. They deliver intelligent insights at speed and scale that drive innovation and new outcomes for enterprises worldwide.
-minors:
+Minor Sponsors:
   - name: Alphabeta Advisors
     icon: /assets/images/logos/custom/alphabeta.png
     link: https://www.alphabeta.com/
@@ -33,7 +33,7 @@ minors:
       Starting out as a young company founded by two UNSW alumni, Atlassian has grown to have over 2.6M community members and global offices in 7 different countries.
       
       Atlassian develops world class products for software developers, project managers, and content management.
-partners:
+Partners:
   - name: Finity 
     icon: /assets/images/logos/custom/finity.png
     link: https://www.finity.com.au/
