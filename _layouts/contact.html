@@ -9,10 +9,46 @@
         <div class="hero is-default pt-20">
             <!-- imported menubar.html -->
             {% include menubar.html %}
-                                       
-            {{ content }}
+            <!-- Title and intro -->
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <h1 class="title is-1 is-bigger">{{ page.title }}</h1>
+                        </div>
+                        <div class="column is-5 is-offset-1">
+                          {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- details -->
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <p>
+                              <b>Email:</b> <a href="mailto:{{ site.data.contact.Email }}">{{ site.data.contact.Email }}</a>
+                              <br><br>
+                              <b>Deliveries:</b><br>
+                                {% assign address = site.data.contact.Deliveries | split: ", " %}
+                                {% for field in address %}
+                                  {{ field }}
+                                  <br>
+                                {% endfor %}
+                              <br>
+                              <b>Constitution: </b><a href="{{ site.data.contact.Constitution }}"> Link </a>
+                            </p>
+                        </div>
+                        <div class="column is-5 is-offset-1">
+                          {% include subscription-form.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>  
         </div>
-       
+
         <!-- imported footer.html -->
         {% include footer.html %}
         {% include plugins.html %}

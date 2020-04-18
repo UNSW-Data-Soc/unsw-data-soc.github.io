@@ -33,14 +33,14 @@
                 <h2 class="title is-2">{{ level[0] }}</h2>
                 <br>
               </div>
-			<div class="content-wrapper">
+			 <div class="content-wrapper">
 			  {% for person in level[1] %}
 				{% if forloop.first %}
 				  <div class="columns">
 				{% endif %}
 				{% comment %}
                   {% if forloop.index == 3 or forloop.index == 5 or forloop.index == 7 %}
-                  {% endif %} delete this
+                  {% endif %} ##### delete this ######
                 {% endcomment %}
                 {% if forloop.index == 5 %}
 				  </div>
