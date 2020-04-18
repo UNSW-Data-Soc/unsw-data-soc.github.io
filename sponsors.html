@@ -15,14 +15,14 @@ introduction: |-
   It's our long term goal to help our members become as capable they can be, and it wouldn't be possible without the continued support from industry.
 ---
 		<div class="hero-body">
-
           <!--Sponsors -->
+          {% for tier in site.data.sponsors %}
           <div class="section">
               <div class="section-title-wrapper">
-                  <div class="container is-fluid">
-                      <h2 class="title is-1 centered">Major Sponsors</h2>
+                  <div class="container">
+                      <h2 class="title is-1 centered">{{ tier[0] }}</h2>
                       <div class="columns is-vcentered">
-                        {% for sponsor in site.data.sponsors.majors %}
+                        {% for sponsor in tier[1] %}
                           <div class="column">
                               <div class="sponsor_icon">
                                   <a href="{{ sponsor.link }}">
@@ -38,48 +38,5 @@ introduction: |-
                   </div>
               </div>
           </div>
-
-          <div class="section">
-              <div class="section-title-wrapper">
-                  <div class="container is-fluid">
-                      <h2 class="title is-1 centered">Minor Sponsors</h2>
-                      <div class="columns is-vcentered">
-                        {% for sponsor in site.data.sponsors.minors %}
-                          <div class="column">
-                              <div class="sponsor_icon">
-                                  <a href="{{ sponsor.link }}">
-                                      <img src="{{ sponsor.icon }}">
-                                  </a>
-                              </div>
-                              <div class="sponsor_info">
-                                  {{ sponsor.description | newline_to_br}}
-                              </div>
-                          </div>
-                        {% endfor %}
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="section">
-              <div class="section-title-wrapper">
-                  <div class="container is-fluid">
-                      <h2 class="title is-1 centered">Partners</h2>
-                      <div class="columns is-vcentered">
-                        {% for sponsor in site.data.sponsors.partners %}
-                          <div class="column">
-                              <div class="sponsor_icon">
-                                  <a href="{{ sponsor.link }}">
-                                      <img src="{{ sponsor.icon }}">
-                                  </a>
-                              </div>
-                              <div class="sponsor_info">
-                                  {{ sponsor.description | newline_to_br}}
-                              </div>
-                          </div>
-                        {% endfor %}
-                      </div>
-                  </div>
-              </div>
-          </div>
-		</div>
+          
+          {% endfor%}
