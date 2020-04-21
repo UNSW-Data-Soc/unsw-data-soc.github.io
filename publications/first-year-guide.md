@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publication
 title: First Year Guide
 title-image: city2_left.png
 introduction: |-
@@ -9,9 +9,5 @@ introduction: |-
   <br><br>
   Look inside for our top tips for wandering the campus, maximising your freebies, raising your WAM and padding your resum&eacute;!
   <br><br>
+document: https://drive.google.com/file/d/1NgbUxAXhRbhQeMJE4GDxs1AC45TbtUS3/preview
 ---
-        <div class="hero-body">
-          <div class="container">
-            <iframe src="https://drive.google.com/file/d/1NgbUxAXhRbhQeMJE4GDxs1AC45TbtUS3/preview" width="100%" height="1000"></iframe> 
-          </div>
-        </div>

@@ -1,10 +1,14 @@
 - name: About Us
-  link: /about/
+  link: /about
   dropdown:
     - name: What We Do
       link: /what-we-do
     - name: Our Team
       link: /team
+    - name: Constitution
+      link: /constitution
+    - name: Contact Us
+      link: /contact
 - name: Our Sponsors
   link: /sponsors
   dropdown:
