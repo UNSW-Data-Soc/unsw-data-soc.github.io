@@ -33,7 +33,6 @@ Minor Sponsors:
       Starting out as a young company founded by two UNSW alumni, Atlassian has grown to have over 2.6M community members and global offices in 7 different countries.
       
       Atlassian develops world class products for software developers, project managers, and content management.
-Partners:
   - name: Finity 
     icon: /assets/images/logos/custom/finity.png
     link: https://www.finity.com.au/
@@ -43,10 +42,11 @@ Partners:
       As one of the biggest employers of actuaries, their consultants are true ‘data experts’.
       
       Market-leading technical analysis is a core part of everything we do. But that’s only part of the picture, ultimately our reputation rests on our delivery of high quality advice with a focus on practical, commercially-aware solutions that add value.
-  - name: Optiver
-    icon: /assets/images/logos/custom/optiver.png
-    link: https://www.optiver.com/ap/en/
-    description: |-
-      Over thirty years ago, Optiver started business as a single trader on the floor of Amsterdam’s European Options Exchange. Today, they are a leading global electronic market maker, focused on pricing, execution and risk management.
-      
-      Thriving in a high performance environment, Optiver pioneers their own trading strategies and systems using clean code and sophisticated technology.
+#Partners:
+#  - name: Optiver
+#    icon: /assets/images/logos/custom/optiver.png
+#    link: https://www.optiver.com/ap/en/
+#    description: |-
+#      Over thirty years ago, Optiver started business as a single trader on the floor of Amsterdam’s European Options Exchange. Today, they are a leading global electronic market maker, focused on pricing, execution and risk management.
+#      
+#      Thriving in a high performance environment, Optiver pioneers their own trading strategies and systems using clean code and sophisticated technology.

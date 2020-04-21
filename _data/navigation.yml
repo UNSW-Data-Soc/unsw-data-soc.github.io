@@ -1,8 +1,18 @@
-- name: Our Team
-  link: /team
+- name: About Us
+  link: /about/what-we-do
+  dropdown:
+    - name: What We Do
+      link: /what-we-do
+    - name: Our Team
+      link: /team
 - name: Our Sponsors
   link: /sponsors
-- name: Opportunities
+  dropdown:
+    - name: Our Sponsors
+      link: /
+    - name: Become a Sponsor
+      link: /become-a-sponsor
+- name: Jobs Board
   link: https://trello.com/b/iy42OQH1
 #- name: Events
 # link: events.html
@@ -11,9 +21,7 @@
   dropdown:
     - name: First Year Guide
       link: /first-year-guide
-    - name: Careers Guide
-      link: /careers-guide
+    - name: Newsletter
+      link: /newsletter
 - name: SpArc
   link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
-- name: Contact Us
-  link: /contact
