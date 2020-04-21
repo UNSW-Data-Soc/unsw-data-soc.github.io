@@ -1,5 +1,5 @@
 - name: About Us
-  link: /about/what-we-do
+  link: /about/
   dropdown:
     - name: What We Do
       link: /what-we-do
