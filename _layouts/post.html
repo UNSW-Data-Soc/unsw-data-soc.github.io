@@ -1,16 +1,12 @@
 ---
 layout: default
 ---
-
-<h1>{{ page.title }}</h1>
-{% if page.date %}<p> <i>Published {{ page.date | date_to_string }}</i></p>{% endif %}
-{% if page.title != 404 %}
-<br>
-{% for tag in page.tags %}
-	<ul class="actions small">
-	<li><a class="button special small">{{ tag }}</a></li>
-	</ul>
-{% endfor %}
-{% endif %}
-{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-{{ content }}
+<div class="hero-body">
+	<div class="container">
+		<h1 class="title is-1">{{ page.title }}</h1>
+		{% if page.date %}<p> <i>Published {{ page.date | date_to_string }}</i></p>{% endif %}
+		<br>
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		{{ content }}
+	</div>
+</div>
