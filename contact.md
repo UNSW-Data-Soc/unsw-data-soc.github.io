@@ -1,6 +1,7 @@
 ---
 title: Contact Us
 title-image: city3_left.png
+layout: contact
 ---
 
 Hi!
