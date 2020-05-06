@@ -1,32 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    
-	{% include head.html %}
+---
+layout: default
+---
 
-    <body>     
-        <!-- Hero and Navbar -->
-        <div class="hero is-default pt-20">
-            {% include menubar.html %}
-                                       
-            <!-- title and description -->
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns is-vcentered">
-                        <div class="column is-6">
-                            <h1 class="title is-1 is-bigger">{{ page.title }}</h1>
-                            <br> <br> <br>
-                        </div>
-                    </div>
-                </div>
-                <h3>Upcoming Events</h3>
-				{% include upcoming_ev.html %}
-                <br>
-                <h3>Previous Events</h3>
-                {% include prev_ev.html %}
-            </div>
-        </div>
-       
-        {% include footer.html %}
-        {% include plugins.html %}
-    </body>  
-</html>
+{% include introduction.html title=page.title image=page.title-image intro=content %}
+
+<div class="hero-body">
+    <div class="container">
+        <h2 class="title is-1 centered">Upcoming Events</h2>
+        {% include upcoming_ev.html %}
+        <br>
+        <h2 class="title is-1 centered">Previous Events</h2>
+        {% include prev_ev.html %}    
+    </div>
+</div>
+
+z

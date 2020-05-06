@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include introduction.html title=page.title image=page.title-image intro=content %}
+
+<div class="hero-body">
+  <div class="container">
+    {% for post in site.posts %}
+      {% if post.title != 404 %}
+          <h2 class="title is-1 centered"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
+          <br>
+        {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+        <p>{{ post.excerpt }}</p>
+        <br>
+        <p><a href="{{ post.url }}"> ... Read more</a></p>
+        <br>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

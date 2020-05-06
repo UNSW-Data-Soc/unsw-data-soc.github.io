@@ -1,3 +1,4 @@
+<div class="hero is-default">
 <!-- Menubar -->
 <nav class="navbar navbar-wrapper is-transparent is-static">
     <div class="container">
@@ -14,7 +15,7 @@
                 {% for item in site.data.navigation %}
                   {% if item.size == 3 %}
                     <div class="navbar-item is-slide is-centered-tablet has-dropdown is-hoverable">
-                      <a class="navbar-link">
+                      <a href="{{ item.link }}" class="navbar-link">
                         {{ item.name }}
                       </a>
 
@@ -36,3 +37,4 @@
         </div>
     </div>
 </nav>
+</div>
