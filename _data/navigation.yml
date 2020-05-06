@@ -20,7 +20,7 @@
     - name: Past Events
       link: #
 - name: Resources
-  link: /
+  link: /resources
   dropdown:
     - name: Courses
       link: /
