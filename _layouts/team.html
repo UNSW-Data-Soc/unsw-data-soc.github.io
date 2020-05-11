@@ -1,10 +1,7 @@
 ---
-layout: default
+layout: page
 ---
-
-		{% include introduction.html title=page.title image=page.title-image intro=content %}
-
-		  {% for level in site.data.team %}
+		{% for level in site.data.team %}
         <div class="hero-body">
           <div class="container">
             <div class="section-title-wrapper">
@@ -24,7 +21,6 @@ layout: default
 				  </div>
 				  <div class="columns">
 				{% endif %}
-<!--					<div class="column is-6">-->
 					<div class="column is-3">
 					  <div class="hero-box has-text-centered">
 						<img src="{{ person.image }}" alt="">

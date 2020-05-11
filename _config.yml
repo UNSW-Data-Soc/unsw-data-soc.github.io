@@ -6,3 +6,5 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
+  posts:
+    permalink: /blog/:year/:month/:day/:title/

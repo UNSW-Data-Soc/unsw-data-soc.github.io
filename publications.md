@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: allposts 
 title: Publications
 title-image: city3_left.png
 ---

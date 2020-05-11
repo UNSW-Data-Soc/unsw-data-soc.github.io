@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include head.html %}
+
+	<body>
+      <!-- Hero and Navbar -->
+      {% include menubar.html %}
+      {% include introduction.html title=page.title image=page.title-image intro=page.content %}
+
+      {{ content }}
+      
+      {% include footer.html %}
+      {% include plugins.html %}
+	</body>
+</html>

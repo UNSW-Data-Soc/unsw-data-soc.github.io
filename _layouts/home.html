@@ -5,7 +5,7 @@ layout: default
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
 <div class="hero is-default is-bold">
-  <!-- City_left and Welcome to DataSoc -->
+    <!-- City_left and Welcome to DataSoc -->
     <div class="hero-body">
         <div class="container">
             <div class="columns is-vcentered">
@@ -34,6 +34,44 @@ layout: default
                         <a href="{{ item.link }}"><span class="icon has-text-dark"><i class="{{ item.img_class }}"></i></span></a>
                         {% endfor %}
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns box">
+            <div class="column is-8">
+                <figure class="image">
+                    <img src="/assets/images/events/datathon_final.jpg">
+                </figure>
+            </div>
+            <div class="column is-4">
+                <h4 class="title is-2"><i>Our Next Event</i></h4>
+                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                <p><a href="#">Learn more</a></p>
+            </div>
+        </div>
+        <div class="tile is-ancestor is-shadowless">
+            <div class="tile is-parent is-shady">
+                <article class="tile is-child notification is-white box">
+                    <div class="content">
+                        <h1 class="title is-2">DataBlog</h1>
+                        {% for post in site.posts limit:1 %}
+                        <p class="title is-4">{{ post.title }}</p>
+                        <p class="subtitle"><i>{{ post.date | date_to_string }}</i></p>
+                        <div class="content">
+                            {{ post.excerpt }}
+                            <a class="has-text-link" href="{{ post.url }}">Read more...</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-vertical is-8">
+                <div class="tile is-parent is-shady">
+                    <figure>
+                        <img src="/assets/images/events/datathon-2019.jpg">
+                    </figure>
                 </div>
             </div>
         </div>
