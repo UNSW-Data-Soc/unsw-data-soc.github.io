@@ -2,7 +2,7 @@ Execs:
   - position: President
     name: Ellen Wang
     degree: Bachelor of Data Science and Decisions
-    image: /assets/images/illustrations/faces/face-1.svg
+    image: https://www.maths.unsw.edu.au/sites/default/files/Ellen_Wang_profile_pic.jpg
     description: ~
   - position: Vice President (External)
     name: Laurel Lu
