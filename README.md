@@ -45,6 +45,7 @@ What things you need to install the software and how to install them
 * [Jekyll Style Guide - Ben Balter](https://ben.balter.com/jekyll-style-guide/)
 * [Jekyll Tips and Best Practices - JReel](https://jreel.github.io/jekyll-tips-tricks-and-best-practices/)
 * [Jekyll Collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
+* [Prose - Web editor for static sites on Github Pages](https://prose.io)
 
 ## Deployment
 
