@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-    {% include head.html %}
+{% include introduction.html title=page.title image=page.title-image intro=page.introduction %}
 
-	<body>
-      <!-- Hero and Navbar -->
-      {% include menubar.html %}
-      {% include introduction.html title=page.title image=page.title-image intro=page.content %}
-
-      {{ content }}
-      
-      {% include footer.html %}
-      {% include plugins.html %}
-	</body>
-</html>
+{{ content }}
