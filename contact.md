@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Contact Us
 title-image: city3_left.png
 introduction: |

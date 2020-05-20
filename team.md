@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Our Team
 title-image: city2_left.png
 permalink: /about/team/

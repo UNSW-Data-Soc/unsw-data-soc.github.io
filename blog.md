@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: DataSoc Blog
 title-image: city3_left.png
 introduction: THIS IS OUR FRESH NEW BLOG

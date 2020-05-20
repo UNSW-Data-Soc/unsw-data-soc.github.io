@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: About Us
 subtitle: What we really do.
 title-image: city3_left.png

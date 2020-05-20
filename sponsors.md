@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Our Sponsors
 title-image: city3_left.png
 introduction: |

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Events
 title-image: city3_left.png
 ---
