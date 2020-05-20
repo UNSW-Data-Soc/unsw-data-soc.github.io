@@ -1,17 +1,17 @@
 - name: About Us
-  link: /about/
+  link: /about
   dropdown:
     - name: Our Team
-      link: /team/
+      link: /team
     - name: Constitution
-      link: /constitution/
+      link: /constitution
 - name: Our Sponsors
-  link: /sponsors/
+  link: /sponsors
   dropdown:
     - name: Become a Sponsor
       link: /become-a-sponsor
 - name: Blog
-  link: /blog/
+  link: /blog
 - name: Our Events
   link: /events
   dropdown:
@@ -23,9 +23,9 @@
   link: /resources
   dropdown:
     - name: Courses
-      link: /
+      link: #
     - name: Workshops
-      link: /
+      link: #
     - name: Jobs Board
       link: https://trello.com/b/iy42OQH1 
 - name: Publications
