@@ -1,0 +1,27 @@
+Upcoming_events:
+ - name: Event1
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
+   date: 05/sept/2020
+   description: hello
+   location:
+   link: https://jekyllrb.com/docs/step-by-step/02-liquid/
+ - name: Event1
+   img:
+   date: 02/aug/2020
+   description: hi
+   location:
+   link:
+ - name: Event3
+   img:
+   date: 02/aug/2020
+   description: hi
+   location: Campus
+   link:
+ - name: Event4 
+   img:
+   date: 02/aug/2020
+   description: hi
+   location: Campus
+   link:
+Previous_events:
+
