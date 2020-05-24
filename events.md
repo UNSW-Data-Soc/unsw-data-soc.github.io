@@ -6,7 +6,7 @@ introduction: This is the events page
 ---
 <div class="hero-body">
     <div class='columns'>
-        <div class="container">
+        <div class="column is-two-thirds is-offset-0">
             <h2 class="title is-1 centered">Upcoming Events</h2>
             {% if site.data.events.Upcoming_events == None %}
                 <h2> We will have more events coming soon </h2>
@@ -16,19 +16,17 @@ introduction: This is the events page
                     {% break %}
                 {% endif %}
                 <ol>
-                    <div class="column is-four-fifths">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="{{event.img}}" width='800' height='251'>
-                            </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{{event.img}}" width='820' height='251'>
+                        </div>
+                        <br>
+                        <br>
+                        <div class='media-content'>
+                            <p class='subtitle is-5 has-text-centered'>{{event.description}}</p>
                             <br>
+                            <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Sign up here!"> Sign up here! </a></p>
                             <br>
-                            <div class='media-content'>
-                                <p class='subtitle is-5 has-text-centered'>{{event.description}}</p>
-                                <br>
-                                <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Sign up here!"> Sign up here! </a></p>
-                                <br>
-                            </div>
                         </div>
                     </div>
                     <br>
@@ -39,18 +37,35 @@ introduction: This is the events page
             {% if site.data.events.Previous_events == None %}
                 <h2> We will have more events coming soon </h2>
             {% endif %}
-                <ol> 
-                    {% for event in site.data.events.Previous_events %}
-                        {% if forloop.index > 2 %}
-                        {% break %}
-                    {% endif %}
-                        <h2>{{event.name}} | {{event.date}}</h2>
-                        <h4>{{event.description}}</h4>
+            {% for event in site.data.events.Previous_events %}
+                {% if forloop.index > 2 %}
+                    {% break %}
+                {% endif %}
+                <ol>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{{event.img}}" width='820' height='251'>
+                        </div>
                         <br>
-                    {% endfor %}
+                        <br>
+                        <div class='media-content'>
+                            <p class='subtitle is-5 has-text-centered'>{{event.description}}</p>
+                            <br>
+                            <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Sign up here!"> Sign up here! </a></p>
+                            <br>
+                        </div>
+                    </div>
+                    <br>
                 </ol>
+            {% endfor %}
+            <br>
         </div>
-        <div class='column'>
+        <div class='column is-1'>
+        </div>
+        <div class='column is-3'>
+            <br>
+            <br>
+            <br>
             <div class='box'>
                 <h3 class='title is-4 has-text-centered'> Dates to note down </h3>
                 <p>______________________________________</p>
