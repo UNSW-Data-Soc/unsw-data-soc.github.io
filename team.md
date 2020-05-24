@@ -31,39 +31,48 @@ introduction: |
 		</ul>
 	</div>
 	<div class="tab-content">
-		<div class="tab-pane is-active" id="pane-1">
+	{% for portfolio in site.data.team %}
+		{% if forloop.first == true %}
+			{% assign active_status = "is-active" %}
+		{% else %}
+			{% assign active_status = "" %}
+		{% endif %}
+		{% if portfolio[0] == "Execs" %}
+			{% assign row_size = 4 %}
+		{% else %}
+			{% assign row_size = 2 %}
+		{% endif %}
+		<div class="tab-pane {{ active_status }}" id="pane-{{ forloop.index }}">
 			<div class="content">
 				<div class="content-wrapper">
-					{% for person in site.data.team.Execs %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-3"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:2 %}
-						{% if value == 0 %}
-						<div class="column is-3"></div>
+					{% for person in portfolio[1] %}
+					{% assign value = forloop.index0 | modulo: row_size %}
+					{% if value == 0 %}
+						{% if forloop.index0 != 0 %}
 					</div>
+						{% endif %}
 					<div class="columns">
-						<div class="column is-3"></div>
+						{% if row_size == 2 %}
+					<div class="column is-3">
+					</div>
 						{% endif %}
 					{% endif %}
 						<div class="column is-3">
 							<div class="card">
-								<div class="card-image">
+								<div class="card-image is-square">
 								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
+									<img src="{{ person.image | prepend: '/assets/images/team/' }}" alt="Placeholder image">
 								  </figure>
 								</div>
 								<div class="card-content">
 								  <div class="media">
 									<div class="media-content">
 									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
+									  <p class="subtitle is-6">{{ person.position }}</p>
 									</div>
 								  </div>
-							  
 								  <div class="content">
-									{{ person.description }}
+									{{ person.degree }}
 								  </div>
 								</div>
 							  </div>
@@ -73,131 +82,5 @@ introduction: |
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane" id="pane-2">
-			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.External %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-3"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:2 %}
-						{% if value == 0 %}
-						<div class="column is-3"></div>
-					</div>
-					<div class="columns">
-						<div class="column is-3"></div>
-						{% endif %}
-					{% endif %}
-						<div class="column is-3">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="tab-pane" id="pane-3">
-			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.Internal %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-3"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:2 %}
-						{% if value == 0 %}
-						<div class="column is-3"></div>
-					</div>
-					<div class="columns">
-						<div class="column is-3"></div>
-						{% endif %}
-					{% endif %}
-						<div class="column is-3">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="tab-pane" id="pane-4">
-			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.Postgraduate %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-4"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:3 %}
-						{% if value == 0 %}
-						<div class="column is-4"></div>
-					</div>
-					<div class="columns">
-						<div class="column is-4"></div>
-						{% endif %}
-					{% endif %}
-						<div class="column is-4">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	{% endfor %}
 </div>
