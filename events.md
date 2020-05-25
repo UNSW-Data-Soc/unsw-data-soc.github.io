@@ -70,7 +70,7 @@ introduction: This is the events page
                 <h3 class='title is-4 has-text-centered'> Dates to note down </h3>
                 <p>______________________________________</p>
                 <br>
-                {% if site.data.events.Upcoming_events == 2 %}
+                {% if site.data.events.Upcoming_events.size == 2 %}
                     <p> Come back later for more events! </p>
                 {% endif %}
                 {% for event in site.data.events.Upcoming_events %}
@@ -81,7 +81,7 @@ introduction: This is the events page
                         <ol>
                             <div class='box'>
                                 <h4 class='title is-6 has-text-centered'> {{event.name}} </h4>
-                                <h4> {{event.date}} | {{event.location}} </h4>
+                                <h4 class='has-text-centered'> {{event.date}} | {{event.location}} </h4>
                             </div>
                             <br>
                         </ol>
