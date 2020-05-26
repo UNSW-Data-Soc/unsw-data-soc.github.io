@@ -72,7 +72,8 @@ introduction: |
 									</div>
 								  </div>
 								  <div class="content">
-									{{ person.degree }}
+									<p><i>{{ person.degree }}</i></p>
+									<p>{{ person.description }}</p>
 								  </div>
 								</div>
 							  </div>
