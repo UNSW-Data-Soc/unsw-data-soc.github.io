@@ -21,7 +21,13 @@
 
                       <div class="navbar-dropdown">
                         {% for page in item.dropdown %}
-                        <a href="{{ item.link }}{{ page.link }}" class="navbar-item">
+                          {% if page.name == "Jobs Board"%}
+                            {% capture url %} {{ page.link }} {% endcapture %}
+                          {% else %}
+                            {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
+                          {% endif %}
+                          
+                        <a href="{{ url }}" class="navbar-item">
                           {{ page.name }}
                         </a>
                         {% endfor %}
