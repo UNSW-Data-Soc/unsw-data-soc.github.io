@@ -8,5 +8,12 @@ layout: default
 		<br>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
+		<br> 
+		<div class = "tags"></div>
+		Tags: 
+		{% for tag in page.tags %}
+			<span class = "tag"><a href = "{{site.baseurl}}/blog/tag-index#{{tag}}"> {{tag}}</a></span>
+		{% endfor %}
+		</div>
 	</div>
 </div>

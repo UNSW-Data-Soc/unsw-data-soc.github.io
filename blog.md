@@ -1,8 +1,10 @@
 ---
 layout: landing
 title: DataSoc Blog
+subtitle: Stay up to date!
 title-image: city3_left.png
-introduction: THIS IS OUR FRESH NEW BLOG
+introduction: 
+ We cover everything from society events to community spotlights, and even Interviews with the President!
 ---
 
 <div class="hero-body">
