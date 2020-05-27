@@ -1,6 +1,7 @@
 ---
 layout: landing
 title: Tag Index
+title-image: city3_left.png
 permalink: blog/tag-index
 ---
 <div class="hero-body">
