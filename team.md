@@ -8,9 +8,9 @@ introduction: |
   <br><br>
   We are, however, all extremely proud to be a part of this amazing society to help other students develop skills and knowledge in data science and artificial intelligence.
   <br><br>
-  And while our icons below might looks like a bunch of Batmans and Deadpools, we are actually real people and we're always up for a chat!
-  <br><br>
-  (Batman and Deadpool not permanent. Real pictures and descriptions coming!)
+  <b><i>TODO:</i></b>
+  <br>
+  <ul><li>Get nice photos of everyone</li><li>Get a quote/q&a from everyone</li></ul>
 ---
 
 <div class="hero-body">
@@ -44,7 +44,7 @@ introduction: |
 		{% endif %}
 		<div class="tab-pane {{ active_status }}" id="pane-{{ forloop.index }}">
 			<div class="content">
-				<div class="content-wrapper">
+				<div class="container">
 					{% for person in portfolio[1] %}
 					{% assign value = forloop.index0 | modulo: row_size %}
 					{% if value == 0 %}
@@ -60,7 +60,7 @@ introduction: |
 						<div class="column is-3">
 							<div class="card">
 								<div class="card-image is-square">
-								  <figure>
+								  <figure class="image is-256x256">
 									<img src="{{ person.image | prepend: '/assets/images/team/' }}" alt="Placeholder image">
 								  </figure>
 								</div>
