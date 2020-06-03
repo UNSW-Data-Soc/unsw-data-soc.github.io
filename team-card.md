@@ -2,7 +2,7 @@
 layout: landing
 title: Our Team
 title-image: city2_left.png
-permalink: /about/team/
+permalink: /about/team-card/
 introduction: |
   Surprisingly, even in this era of automation, UNSW DataSoc is still managed by a team of longwithstanding, soon-to-be-obsolete humans.
   <br><br>
@@ -37,22 +37,18 @@ introduction: |
 		{% else %}
 			{% assign active_status = "" %}
 		{% endif %}
-		{% if portfolio[0] == "Execs" %}
-			{% assign row_size = 4 %}
-		{% else %}
-			{% assign row_size = 2 %}
-		{% endif %}
 		<div class="tab-pane {{ active_status }}" id="pane-{{ forloop.index }}">
 			<div class="content">
 				<div class="container">
+					{% assign remaining_people = portfolio[1].size %}
 					{% for person in portfolio[1] %}
-					{% assign value = forloop.index0 | modulo: row_size %}
+					{% assign value = forloop.index0 | modulo: 4 %}
 					{% if value == 0 %}
 						{% if forloop.index0 != 0 %}
 					</div>
 						{% endif %}
 					<div class="columns">
-						{% if row_size == 2 %}
+						{% if remaining_people == 2 %}
 					<div class="column is-3">
 					</div>
 						{% endif %}
@@ -78,6 +74,7 @@ introduction: |
 								</div>
 							  </div>
 						</div>
+					{% assign remaining_people = remaining_people | minus: 1 %}
 					{% endfor %}
 					</div>
 				</div>

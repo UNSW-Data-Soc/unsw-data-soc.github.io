@@ -1,10 +1,12 @@
 - name: About Us
   link: /about
   dropdown:
-    - name: Our Team
-      link: /team
-    - name: Constitution
-      link: /constitution
+    - name: Our Team (card)
+      link: /team-card
+    - name: Our Team (modal card)
+      link: /team-modal
+    - name: Out Team (dropdown)
+      link: /team-dropdown
 - name: Our Sponsors
   link: /sponsors
   dropdown:

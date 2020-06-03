@@ -100,15 +100,8 @@ External:
       A god among men, a legend among gods. Some say that I am the background of DataSoc and the global society as a whole -- i tend to agree.
 Internal:
   - position: Education Director
-    name: <s>Harry Partridge</s>
-    degree: Bachelor of <s>Data Science and Decisions</s> Computer Science
-    image: harry-partridge.jfif
-    description: |
-      <b>Who am I?</b><br>
-      A god among men, a legend among gods. Some say that I am the background of DataSoc and the global society as a whole -- i tend to agree.
-  - position: Education Director
     name: Ivan Hou
-    degree: Bachelor of Actuarial Studies (Co&#8209;op)<br><br>
+    degree: Bachelor of Actuarial Studies (Co&#8209;op)
     image: ivan-hou.jpg
     description: |
       <b>Who am I?</b><br>
@@ -117,13 +110,6 @@ Internal:
     name: Sarah Gush
     degree: Bachelor of Data Science and Decisions
     image: sarah-gush.jfif
-    description: |
-      <b>Who am I?</b><br>
-      A god among men, a legend among gods. Some say that I am the background of DataSoc and the global society as a whole -- i tend to agree.
-  - position: Marketing Director
-    name: <s>Stanley Chen</s>
-    degree: Bachelor of Data Science and Decisions (Co&#8209;op)
-    image: ../illustrations/faces/face-1.svg
     description: |
       <b>Who am I?</b><br>
       A god among men, a legend among gods. Some say that I am the background of DataSoc and the global society as a whole -- i tend to agree.
