@@ -5,18 +5,16 @@ title-image: city3_left.png
 introduction: |
     Hi! Do you have a question? Want to stay updated? <i>Homework help?</i>
     <br><br>
-    Homework help isn't really our thing, but if you've got something to ask or you're looking for more information about us, keep reading!
+    Homework help isn't really our thing, but if you've got something to ask or you want to check out our social media links, keep reading!
     <br><br>
-    Join our mailing list <a href = "https://www.google.com.au"> here!</a>
-    <br><br>
-    Be sure to check out our social media links below too!
+    Be sure to join our mailing list down below to subscribe to our fortnightly newspaper!
 ---
 
 <!-- details -->
 <div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
-            <div class="column is-6">
+            <div class="column is-6.5">
                 <b>Email:</b> <a href="mailto:{{ site.data.contact.Email }}">{{ site.data.contact.Email }}</a>
                 <br><br>
                 <b>Address:</b><br>
@@ -37,9 +35,58 @@ introduction: |
                     <img src="/assets/images/social_media/github.png" style="width:50px; margin-right:5px"> </a>
                 <a href="https://www.youtube.com/channel/UC5xEG38_Jr0251sMBoj8xwQ">
                     <img src="/assets/images/social_media/youtube.png" style="width:50px"> </a>
+                <br>
             </div>
-            <div class="column is-5 is-offset-0.5">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.9917985536565!2d151.23080794983784!3d-33.91658157788042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b18c619e5679%3A0x70e6b528f4a64879!2sArc%20%40%20UNSW!5e0!3m2!1sen!2sau!4v1590563340784!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="column is-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.9917985536565!2d151.23080794983784!3d-33.91658157788042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b18c619e5679%3A0x70e6b528f4a64879!2sArc%20%40%20UNSW!5e0!3m2!1sen!2sau!4v1590563340784!5m2!1sen!2sau" width="520" height="390" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <div class="columns is-vcentered">
+            <div class="column is-5">
+            <!-- Begin Mailchimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <h2>Subscribe to our mailing list!</h2>
+                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                <div class="mc-field-group size1of2">
+                    <label for="mce-MMERGE3">zID  <span class="asterisk">*</span></label>
+                    <input type="number" name="MMERGE3" class="required" value="" id="mce-MMERGE3">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
+                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
+                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8dc568d0db37b26ed75ba4d94_01f8128da2" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </div>
+            <div class="column is-5 is-offset-2">
+                <!-- picture of other side of city-->
+                <figure class="">
+                    <img src="/assets/images/illustrations/drawings/city_right.png">
+                </figure>
             </div>
         </div>
     </div>
