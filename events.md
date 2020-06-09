@@ -11,10 +11,7 @@ introduction: This is the events page
             {% if site.data.events.Upcoming_events == None %}
                 <h2> We will have more events coming soon </h2>
             {% endif %}
-            {% for event in site.data.events.Upcoming_events %}
-                {% if forloop.index > 2 %}
-                    {% break %}
-                {% endif %}
+            {% for event in site.data.events.Upcoming_events limit:2 %}
                 <ol>
                     <div class="card">
                         <div class="card-image">
@@ -37,10 +34,7 @@ introduction: This is the events page
             {% if site.data.events.Previous_events == None %}
                 <h2> We will have more events coming soon </h2>
             {% endif %}
-            {% for event in site.data.events.Previous_events %}
-                {% if forloop.index > 2 %}
-                    {% break %}
-                {% endif %}
+            {% for event in site.data.events.Previous_events limit:2 %}
                 <ol>
                     <div class="card">
                         <div class="card-image">
@@ -70,7 +64,7 @@ introduction: This is the events page
                 <h3 class='title is-4 has-text-centered'> Dates to note down </h3>
                 <p>______________________________________</p>
                 <br>
-                {% if site.data.events.Upcoming_events.size == 2 %}
+                {% if site.data.events.Upcoming_events.size <= 2 %}
                     <p> Come back later for more events! </p>
                 {% endif %}
                 {% for event in site.data.events.Upcoming_events %}
@@ -81,7 +75,7 @@ introduction: This is the events page
                         <ol>
                             <div class='box'>
                                 <h4 class='title is-6 has-text-centered'> {{event.name}} </h4>
-                                <h4 class='has-text-centered'> {{event.date}} | {{event.location}} </h4>
+                                <h4 class='has-text-centered'> {{event.date | date: "%b %d %Y"}} | {{event.location}}</h4>
                             </div>
                             <br>
                         </ol>
@@ -91,3 +85,37 @@ introduction: This is the events page
         </div>
     </div>
 </div>
+<script>
+    const fs = require('fs');
+    const yaml = require('js-yaml');
+    try {
+        var curr_date = new Date().getTime();
+        //console.log(curr_date);
+        let fileContents = fs.readFileSync('_data/events.yml', 'utf8');
+        var data = yaml.safeLoad(fileContents);
+        // sorts the data (most earliest date to latest)
+        if (data.Upcoming_events != null) {
+            data.Upcoming_events.sort(function(a,b){return a.date.getTime() - b.date.getTime()});
+            var x = 0;
+            while (data.Upcoming_events[x].date.getTime() <= curr_date) {
+                if (data.Previous_events == null) {
+                    data.Previous_events = [data.Upcoming_events[x]];
+                    data.Upcoming_events.shift();
+                }
+                else {
+                    data.Previous_events.push(data.Upcoming_events[x]);
+                    data.Upcoming_events.shift();
+                }       
+            } 
+        }
+        if (data.Previous_events != null) {
+            // sort previous events such that the most recent one is first
+            data.Previous_events.sort(function(a,b){return b.date.getTime() - a.date.getTime()});
+        }
+        // writing data into file        
+        let yamlStr = yaml.safeDump(data);
+        fs.writeFileSync('_data/events.yml', yamlStr, 'utf8');
+    } catch (e) {
+        console.log(e);
+    }
+</script>

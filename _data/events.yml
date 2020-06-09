@@ -13,13 +13,13 @@ Upcoming_events:
    link:
  - name: Event3
    img:
-   date: 02/aug/2020
+   date: 2019-09-12
    description: hi
    location: Campus
    link:
  - name: Event4 
    img:
-   date: 02/aug/2020
+   date: 2019-11-14
    description: hi
    location: Campus
    link:
