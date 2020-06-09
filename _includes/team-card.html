@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-image is-square">
+      <figure class="image is-256x256">
+        <img src="{{ include.image | prepend: '/assets/images/team/' }}" alt="{{ include.name }}">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content">
+          <p class="title is-4">{{ include.name }}</p>
+          <p class="subtitle is-5">{{ include.position }}</p>
+          <p class="subtitle is-6">{{ include.degree }}</p>
+        </div>
+      </div>
+      <div class="content">
+          <p><i>Insert Quote Here</i></p>
+        <span class="button modal-button is-info is-outlined" data-target="modal-{{ include.name | replace: ' ', '-' | downcase }}">Who am I?</span> 
+      </div>
+    </div>
+</div>

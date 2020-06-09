@@ -15,34 +15,34 @@ introduction: |
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">
+	{% assign portfolios = "Execs, External, Internal, Postgraduate" | split: ", " %}
 	<div class="tabs is-boxed is-centered main-menu is-large" id="nav">
 		<ul>
-			<li data-target="pane-1" id="1" class="is-active">
-				<a><h2 class="title is-3">Execs</h2></a>
+			{% for i in (0..3) %}
+			{% if forloop.first == true %}
+				{% assign active_status = "is-active" %}
+			{% else %}
+				{% assign active_status = "" %}
+			{% endif %}
+			<li data-target="pane-{{ i | plus: 1 }}" id="{{ i | plus: 1 }}" class="{{ active_status }}">
+				<a><h2 class="title is-3">{{ portfolios[i] }}</h2></a>
 			</li>
-			<li data-target="pane-2" id="2">
-				<a><h2 class="title is-3">External</h2></a>
-			</li>
-			<li data-target="pane-3" id="3">
-				<a><h2 class="title is-3">Internal</h2></a>
-			</li>
-			<li data-target="pane-4" id="4">
-				<a><h2 class="title is-3">Postgrad</h2></a>
-			</li>
+			{% endfor %}
 		</ul>
 	</div>
 	<div class="tab-content">
-	{% for portfolio in site.data.team %}
+	{% for i in (0..3) %}
+		{% assign portfolio = site.team | where:"portfolio",portfolios[i] %}
 		{% if forloop.first == true %}
 			{% assign active_status = "is-active" %}
 		{% else %}
 			{% assign active_status = "" %}
 		{% endif %}
-		<div class="tab-pane {{ active_status }}" id="pane-{{ forloop.index }}">
+		<div class="tab-pane {{ active_status }}" id="pane-{{ i | plus: 1}}">
 			<div class="content">
 				<div class="container">
-					{% assign remaining_people = portfolio[1].size %}
-					{% for person in portfolio[1] %}
+					{% assign remaining_people = portfolio.size %}
+					{% for person in portfolio %}
 					{% assign value = forloop.index0 | modulo: 4 %}
 					{% if value == 0 %}
 						{% if forloop.index0 != 0 %}
@@ -55,64 +55,9 @@ introduction: |
 						{% endif %}
 					{% endif %}
 						<div class="column is-3">
-							<div class="card">
-								<div class="card-image is-square">
-								  <figure class="image is-256x256">
-									<img src="{{ person.image | prepend: '/assets/images/team/' }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-5">{{ person.position }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-								  <div class="content">
-								  	<p><i>Insert Quote Here</i></p>
-									<span class="button modal-button is-info is-outlined" data-target="modal-{{ person.name | replace: ' ', '-' | downcase }}">Who am I?</span> 
-								  </div>
-								</div>
-							  </div>
+							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree %}
 						</div>
-						<div id="modal-{{ person.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">  
-							<div class="modal-background"></div>  
-							<div class="modal-content">  
-								<header class="modal-card-head">
-									<div class="modal-card-title">
-										<p class="title">{{ person.name }}</p>
-										<p class="subtitle">{{ person.position }}</p>
-										<p class="subtitle"><i>{{ person.degree }}</i></p>
-									</div>
-									<div class="media-right">
-										<figure class="image is-128x128">
-											<img src="{{ person.image | prepend: '/assets/images/team/' }}" alt="Placeholder image" title="" style="">
-										</figure>
-									</div>
-									<button class="modal-close is-large" aria-label="close"></button> 
-								</header>
-								<section class="modal-card-body">
-									<div class="content">
-										<h1>Hello World</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
-										<h2>Second level</h2>
-										<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
-										<ul>
-										<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-										<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-										<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-										<li>Ut non enim metus.</li>
-										</ul>
-										<h3>Third level</h3>
-										<p>Quisque ante lacus, malesuada ac auctor vitae, congue <a href="#">non ante</a>. Phasellus lacus ex, semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus.</p>
-									</div>
-								</section>
-								<footer class="modal-card-foot">
-									<button class="button modal-button-close" aria-label="close">Close</button> 
-								</footer>
-							</div>
-						</div>
+						{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content %}
 					{% assign remaining_people = remaining_people | minus: 1 %}
 					{% endfor %}
 					</div>

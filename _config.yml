@@ -8,3 +8,5 @@ collections:
     permalink: /publications/:path/
   posts:
     permalink: /blog/:year/:month/:day/:title/
+  team:
+    sort_by: order
