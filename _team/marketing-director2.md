@@ -1,10 +1,10 @@
 ---
-position: Careers Director
-portfolio: External
-order: 8
-name: Roshan Abraham
+position: Marketing Director
+portfolio: Internal
+order: 15
+name: Sarah Gush
 degree: Bachelor of Data Science and Decisions
-image: roshan-abraham.jfif
+image: sarah-gush.jfif
 one_line: Insert Quote/One-Liner
 ---
                     

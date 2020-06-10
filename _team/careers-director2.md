@@ -5,6 +5,7 @@ order: 9
 name: Tony Lu
 degree: Bachelor of Computer Science/Science (Statistics)
 image: tony-lu.jfif
+one_line: Insert Quote/One-Liner
 ---
                     
 # Who am I?

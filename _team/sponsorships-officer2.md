@@ -2,9 +2,10 @@
 position: Sponsorships Officer
 portfolio: External
 order: 11
-name: Vincent Chen
+name: Winston Sun
 degree: Bachelor of Data Science and Decisions
-image: vincent-chen.jfif
+image: winston-sun.jfif
+one_line: Insert Quote/One-Liner
 ---
                     
 # Who am I?

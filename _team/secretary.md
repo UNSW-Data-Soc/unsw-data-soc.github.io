@@ -5,6 +5,7 @@ order: 5
 name: Kelly Tao
 degree: Bachelor of Data Science and Decisions (Co&#8209;op)
 image: kelly-tao.jfif
+one_line: Insert Quote/One-Liner
 ---
                     
 # Who am I?

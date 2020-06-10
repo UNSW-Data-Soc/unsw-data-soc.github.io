@@ -5,6 +5,7 @@ order: 16
 name: Bernardo Croll
 degree: Bachelor of Data Science and Decisions
 image: bernardo-croll.jfif
+one_line: Insert Quote/One-Liner
 ---
                     
 # Who am I?
