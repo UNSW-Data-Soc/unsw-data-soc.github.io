@@ -1,0 +1,23 @@
+- title: Event 1
+  description: These are our slides from event 1
+  resources: #
+- title: Event 1
+  description: These are our slides from event 1
+  resources: #
+- title: Event 1
+  description: These are our slides from event 1
+  resources:
+    - path: /resources/event_1/cute_red_dog.jpeg
+      name: cute red
+- title: Event 1
+  description: These are our slides from event 1
+  resources:
+    - path: /resources/event_1/big_fluff.jpeg
+      name: fat dog
+    - path: /resources/event_1/cute puppy.jpeg
+      name: cute puppy
+- title: Machine Learning
+  description: How to be coolHow to be coolHow to be coolHow to be cool
+  resources:
+    - path: /resources/event_1/big_fluff.jpeg
+      name: fat dog
