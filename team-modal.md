@@ -52,6 +52,9 @@ introduction: |
 						{% if remaining_people == 2 %}
 					<div class="column is-3">
 					</div>
+						{% elsif remaining_people == 1 %}
+					<div class="column is-4">
+					</div>
 						{% endif %}
 					{% endif %}
 						<div class="column is-3">
