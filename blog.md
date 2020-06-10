@@ -6,6 +6,7 @@ title-image: city3_left.png
 introduction: 
  We cover everything from society events to community spotlights, and even Interviews with the President!
 ---
+<link rel="stylesheet" href="/assets/css/paginate.css">
 
 <script type='text/javascript' src='../assets/js/paginate.js'>
 </script>
@@ -44,10 +45,11 @@ introduction:
   </div>
 </div>
 
+
 <script>
 
   let options = {
-    numberPerPage: 5,
+    numberPerPage: 2,
     goBar:true, 
     pageCounter:true, 
   };
