@@ -85,14 +85,19 @@ introduction: This is the events page
         </div>
     </div>
 </div>
+<script src="/assets/js/require.js">
+</script>
 <script>
     const fs = require('fs');
     const yaml = require('js-yaml');
+    window.alert(99);
     try {
         var curr_date = new Date().getTime();
         //console.log(curr_date);
         let fileContents = fs.readFileSync('_data/events.yml', 'utf8');
         var data = yaml.safeLoad(fileContents);
+        document.write(data);
+        window.alert(99);
         // sorts the data (most earliest date to latest)
         if (data.Upcoming_events != null) {
             data.Upcoming_events.sort(function(a,b){return a.date.getTime() - b.date.getTime()});
