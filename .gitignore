@@ -29,3 +29,8 @@ tmp/*
 
 # VS Code
 .vscode/*
+.vs/*
+
+# Python
+__pycache__/
+*.py
