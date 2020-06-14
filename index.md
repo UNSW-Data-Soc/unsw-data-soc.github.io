@@ -6,10 +6,10 @@ title: Welcome to DataSoc
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
 <div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/cover.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
-    <div class="hero-body">
+    <div class="hero-body" style=" background:rgba(0,0,0,0.4);">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-offset-8 is-hero-title">
+                <div class="column is-offset-8 is-hero-title ">
                     <h2 class="subtitle is-4 has-text-light">Welcome to</h2>
                     <h1 class="title is-1 is-bigger has-text-light">DataSoc</h1> 
                     <h2 class="subtitle is-4 has-text-light">University of New South Wales</h2>
@@ -56,14 +56,14 @@ title: Welcome to DataSoc
     </div>
 </div>
 <div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/ibm.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
-    <div class="hero-body">
+    <div class="hero-body" style="background:rgba(0,0,0,0.5);">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-4 is-hero-title has-background-light" style="opacity: 0.8;">
-                    <h2 class="subtitle is-4 has-text-black">Curated content, straight to your mailbox.</h2>
-                    <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align is-info" target="blank">Subscribe here!</a>
+                <div class="column is-6 is-hero-title">
+                    <h2 class="subtitle is-4 has-text-white">Curated content, straight to your mailbox.</h2>
+                    <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Subscribe to our newsletter!</a>
                     <br><br>
-                    <h2 class="subtitle is-4 has-text-black">Or get in touch with us <a href="/contact/">here</a>.</h2>
+                    <h2 class="subtitle is-4 has-text-white">Or get in touch with us <a href="/contact/">here</a>.</h2>
                 </div>
             </div>
         </div>
