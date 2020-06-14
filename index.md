@@ -56,14 +56,28 @@ title: Welcome to DataSoc
     </div>
 </div>
 <div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/ibm.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
-    <div class="hero-body" style="background:rgba(0,0,0,0.5);">
+    <div class="hero-body" style="background:rgba(0,0,0,0.6);">
         <div class="container">
-            <div class="columns is-vcentered">
+            <div class="level">
                 <div class="column is-6 is-hero-title">
                     <h2 class="subtitle is-4 has-text-white">Curated content, straight to your mailbox.</h2>
                     <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Subscribe to our newsletter!</a>
                     <br><br>
                     <h2 class="subtitle is-4 has-text-white">Or get in touch with us <a href="/contact/">here</a>.</h2>
+                </div>
+                <div class="column is-4">
+                    <h2 class="subtitle is-4 has-text-white">Proudly sponsored by:</h2>
+                    {% for tier in site.data.sponsors %}
+                    <div class="columns is-gapless">
+                        {% for sponsor in tier[1] %}
+                        <div class="column">
+                            <figure class="image is-256x256">
+                                <img src="{{ sponsor.icon }}">
+                            </figure>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endfor%}
                 </div>
             </div>
         </div>
