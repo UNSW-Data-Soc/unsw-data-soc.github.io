@@ -5,7 +5,7 @@ order: 7
 name: Abhijot Singh
 degree: Bachelor of Data Science and Decisions
 image: abhijot-singh.jfif
-one_line: Insert Quote/One-Liner
+one_line: Dude, I win ONE startup competition and you think I'm Elon Musk! Get off my back!
 ---
                     
 # Who am I?

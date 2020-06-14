@@ -5,7 +5,7 @@ order: 3
 name: Jason Hu
 degree: Master of Information Technology
 image: jason-hu.jpg
-one_line: Insert Quote/One-Liner
+one_line: The rest of these guys don't know what they're doing lol
 ---
                     
 # Who am I?

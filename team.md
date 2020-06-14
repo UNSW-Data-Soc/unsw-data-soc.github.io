@@ -1,16 +1,9 @@
 ---
-layout: landing
+layout: landing-banner
 title: Our Team
+subtitle: Meet the team behind the magic.
 title-image: city2_left.png
 permalink: /about/team/
-introduction: |
-  Surprisingly, even in this era of automation, UNSW DataSoc is still managed by a team of longwithstanding, soon-to-be-obsolete humans.
-  <br><br>
-  We are, however, all extremely proud to be a part of this amazing society to help other students develop skills and knowledge in data science and artificial intelligence.
-  <br><br>
-  <b><i>TODO:</i></b>
-  <br>
-  <ul><li>Get nice photos of everyone</li><li>Get a quote/q&a from everyone</li></ul>
 ---
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />

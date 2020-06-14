@@ -3,9 +3,9 @@ position: Secretary
 portfolio: Execs
 order: 5
 name: Kelly Tao
-degree: Bachelor of Data Science and Decisions (Co&#8209;op)
+degree: Bachelor of Data Science and Decisions
 image: kelly-tao.jfif
-one_line: Insert Quote/One-Liner
+one_line: Me? No, I 'm pretty impartial to older men, why do you ask?
 ---
                     
 # Who am I?

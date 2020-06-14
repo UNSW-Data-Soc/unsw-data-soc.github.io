@@ -5,7 +5,7 @@ order: 2
 name: Nigel Lin
 degree: Bachelor of Actuarial Studies (Co&#8209;op)
 image: nigel-lin.jfif
-one_line: Insert Quote/One-Liner
+one_line: H<b>EY</b>, can you hear what th<b>EY</b>'re saying about the k<b>EY</b> to success??
 ---
                     
 # Who am I?

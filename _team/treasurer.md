@@ -5,7 +5,7 @@ order: 4
 name: Chen Yu Wang
 degree: Bachelor of Actuarial Studies/Commerce
 image: chen-yu-wang.jpg
-one_line: Insert Quote/One-Liner
+one_line: Cradlesnatcher? W-what does that mean???
 ---
                     
 # Who am I?
