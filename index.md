@@ -5,7 +5,7 @@ title: Welcome to DataSoc
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/ibm.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
+<div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/cover.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
     <div class="hero-body">
         <div class="container">
             <div class="columns is-vcentered">
@@ -59,7 +59,7 @@ title: Welcome to DataSoc
     <div class="hero-body">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-4 is-hero-title has-background-light" style="opacity: 0.9;">
+                <div class="column is-4 is-hero-title has-background-light" style="opacity: 0.8;">
                     <h2 class="subtitle is-4 has-text-black">Curated content, straight to your mailbox.</h2>
                     <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align is-info" target="blank">Subscribe here!</a>
                     <br><br>
