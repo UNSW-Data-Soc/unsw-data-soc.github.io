@@ -1,27 +1,57 @@
-Upcoming_events:
+Events:
  - name: Event1
    img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
-   date: 05/sept/2020
-   description: hello
+   date: 2020-09-05
+   time:
+   description: Event 1
    location:
    link: https://jekyllrb.com/docs/step-by-step/02-liquid/
- - name: Event1
-   img:
-   date: 02/aug/2020
-   description: hi
+ - name: Event2
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
+   date: 2020-08-02
+   time:
+   description: Event 2
    location:
    link:
  - name: Event3
-   img:
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
    date: 2019-09-12
-   description: hi
+   time:
+   description: Event 3
    location: Campus
    link:
  - name: Event4 
-   img:
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
    date: 2019-11-14
-   description: hi
+   time:
+   description: Event 4
    location: Campus
    link:
-Previous_events:
-
+ - name: Event 5
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
+   date: 2019-11-14
+   time: 12pm 
+   description: Event 5
+   location: Campus
+   link:
+ - name: Event 6
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
+   date: 2019-11-14
+   time:
+   description: Event 6
+   location: Campus
+   link:
+ - name: Event 7
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
+   date: 2019-11-14
+   time:
+   description: Event 7
+   location: Campus
+   link:
+ - name: Event8
+   img: https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.0-9/95773604_2405798996389679_450723755056955392_n.jpg?_nc_cat=103&_nc_sid=340051&_nc_ohc=2k_kM3it0eQAX_TBahe&_nc_ht=scontent.fsyd7-1.fna&oh=a3a39181c00aa7dd1eb2a86c86554ca9&oe=5EF16E94
+   date: 2020-09-04 12:00
+   time:
+   description: Event 8
+   location:
+   link: https://jekyllrb.com/docs/step-by-step/02-liquid/
