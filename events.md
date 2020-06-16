@@ -73,7 +73,7 @@ introduction: This is the events page
                                 <h4 class='title is-6 has-text-centered is-uppercase'> {{event.name}} </h4>
                                 <br>
                                 <p class='subtitle is-6 has-text-centered'>
-                                    {{event.date | date:"%B %d, %Y" }}
+                                    {{event.date | date:"%B %d, %Y" }} | {{event.time}} | {{event.location}}
                                 </p>
                             </div>
                             <br>
@@ -93,48 +93,33 @@ introduction: This is the events page
         {% assign first_element = e.first.date | date: "%s" %}
         {% if e == None or first_element > curr_time %}
             <h2> We will have more events coming soon </h2>
+        {% else %}
+            <div class='columns'>
         {% endif %}
         {% for event in e %}
             {% capture event_date %}{{event.date | date: '%s'}}{% endcapture %}
             {% if curr_time > event_date %}
-                {% assign index = forloop.index | modulo: 4 %}
-                {% if forloop.index == 1 %}
+                {% assign index = forloop.index | modulo: 3 %}
+                {% if index == 1 and forloop.index != 1 %}
                     <div class='columns'>
                 {% endif %}
-                {% if index != 0 %}
-                    <div class='column is-4'>
-                        <div class="card">
+                <div class='column is-4'>
+                    <div class="card">
                         <div class="card-image">
                             <figure class="image is-3by3">
                             <img src="{{event.img}}" alt="Placeholder image">
                             </figure>
                         </div>
                         <br>
-                            <div class='media-content'>
-                                <p class='title is-5 has-text-centered is-uppercase'> {{event.name}}</p>
-                                <p class='subtitle is-6 has-text-centered'>{{event.date | date:"%B %d, %Y" }} | {{event.time}}</p>
-                                <br>
-                            </div>
+                        <div class='media-content'>
+                            <p class='title is-5 has-text-centered is-uppercase'> {{event.name}}</p>
+                            <p class='subtitle is-6 has-text-centered'>{{event.date | date:"%B %d, %Y" }} | {{event.time}}</p>
+                            <br>
                         </div>
                     </div>
-                {% else %}
+                </div>
+                {% if index == 0 %}
                     </div>
-                    <div class='columns'>
-                        <div class='column is-4'>
-                            <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-3by3">
-                                <img src="{{event.img}}" alt="Placeholder image">
-                                </figure>
-                            </div>
-                                <br>
-                                <div class='media-content'>
-                                    <p class='title is-5 has-text-centered is-uppercase'> {{event.name}}</p>
-                                    <p class='subtitle is-6 has-text-centered'>{{event.date | date:"%B %d, %Y" }} | {{event.time}}</p>
-                                    <br>
-                                </div>
-                            </div>
-                        </div>
                 {% endif %}
             {% endif %}
         {% endfor %}
