@@ -1,28 +1,44 @@
 ---
-layout: landing
-title: DataSoc Blog
-subtitle: Stay up to date
-title-image: city3_left.png
-introduction: 
- We cover everything from society events to community spotlights, and even Interviews with the President!
+layout: default
 ---
 <link rel="stylesheet" href="/assets/css/paginate.css">
 
-<script type='text/javascript' src='../assets/js/paginate.js'>
+<script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
+
+<section class = "hero is-info is-bold">
+  <div class = "hero-body">
+    <div class = "container">
+      <h1 class = "title">
+      Blog
+      </h1>
+      <h2 class = "subtitle">
+      Stay up to date
+      </h2>
+    </div>
+  </div>
+</section>
 
 <div class="hero-body">
   <div class="container">
   <div class = "panel">
       <div class = "body">
-        <div class="input-group">
-              <label for="searchBox">Search</label>
-              <input type="search" id="searchBox" placeholder="Enter your search terms here...">
+        <div class="field is-horizontal is-left">
+              <div class = "field-label is-normal is-left">
+              <label class = "label" for="searchBox">Search</label>
+              </div>
+              <div class = "field-body">
+                <div class = "field">
+                  <p class = "control is-pulled-left">
+                    <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
+                  </p>
+                </div>
+              </div>
         </div>
       </div>
     </div>
     <br>
-    <table class="table is-fullwidth myTable">
+    <table class="table-borderless is-fullwidth  myTable">
         <tbody>
         {% for post in site.posts %}
         <tr>
@@ -49,7 +65,7 @@ introduction:
 <script>
 
   let options = {
-    numberPerPage: 2,
+    numberPerPage: 5,
     goBar:true, 
     pageCounter:true, 
   };
