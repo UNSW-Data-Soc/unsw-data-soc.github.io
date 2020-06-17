@@ -24,16 +24,16 @@ layout: default
   <div class = "panel">
       <div class = "body">
         <div class="field is-horizontal is-left">
-              <div class = "field-label is-normal is-left">
-              <label class = "label" for="searchBox">Search</label>
+            <div class = "field-label is-normal is-left">
+            <label class = "label" for="searchBox">Search</label>
+            </div>
+            <div class = "field-body">
+              <div class = "field">
+                <p class = "control is-pulled-left">
+                  <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
+                </p>
               </div>
-              <div class = "field-body">
-                <div class = "field">
-                  <p class = "control is-pulled-left">
-                    <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
-                  </p>
-                </div>
-              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -47,13 +47,17 @@ layout: default
             <h2 class="title is-1 centered"><a href="{{ post.url }}">{{ post.title }}</a></h2>
             {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
             <br>
-            {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
             <p>{{ post.excerpt }}</p>
             <br>
             <p><a href="{{ post.url }}"> ... Read more</a></p>
             <br>
             {% endif %}
           </td>
+          {% if post.image %}
+          <td>
+          <span class="image main"><img src="{{ post.image }}" alt="" /></span>
+          </td>
+          {% endif %}
         </tr>
         {% endfor %}
         </tbody>
