@@ -1,7 +1,8 @@
 Events:
  - name: Accent your Career with Accenture
    img: /assets/images/events/Accent_your_career.jpg 
-   date: 2020-06-18
+   start-date: 2020-06-18
+   end-date: 2020-06-18
    time: 4pm - 5pm
    description: |
     Hosted by the amazing people at Accenture plc, our event will give you the opportunity to experience a day in the life working at Accenture Applied Intelligence. Discover your capabilities and find your future area of interest in the corporate world.
@@ -9,7 +10,8 @@ Events:
    link: https://www.facebook.com/events/281089026272024/
  - name: Intro to Data Science Techniques
    img: /assets/images/events/intro-to-datasci.jpg 
-   date: 2020-06-29
+   start-date: 2020-06-15
+   end-date: 2020-06-29
    time: 5pm - 6pm
    description: |
     So you want to be a data scientist because it’s the sexiest job of the 21st century 💪🏽💪🏽 but do you actually know any data science? If not, DataSoc is here for you 💜💜 (If you do, then you can turn up just to feel superior 🙈🙈). We’re holding a 3 part Introduction to Data Science Workshop this month! The workshop series is about basic models in data science.
@@ -17,77 +19,94 @@ Events:
    link: https://www.facebook.com/events/363426787966184
  - name: Inaugural Hoodie Release!
    img: /assets/images/events/hoodie.jpg 
-   date: 2020-06-10
+   start-date: 2020-06-10
+   end-date: 2020-06-21
    time:
-   description: Event 3
+   description: |
+    Feeling cold this winter? ❄️
+    With your very own DataSoc hoodie, there’s NA-SAch thing!!!
+    Our quality hoodies are made of 80% cotton / 20% polyester and are guaranteed to keep you warm even on the coldest days.
+    Currently available in two stylish colours:
+    - Black
+    - Navy -
    location:
    link: https://www.facebook.com/events/4127681983938788
  - name: Arcade Night
    img: /assets/images/events/arcade-night.jpg 
-   date: 2020-06-08
+   start-date: 2020-06-08
+   end-date: 2020-06-08
    time: 7pm - 9pm
    description: Event 4
    location: Discord
    link: https://www.facebook.com/events/2979754915584906
  - name: Peer Mentoring Closing Event
    img: /assets/images/events/peer-closing.jpg 
-   date: 2020-05-17
+   start-date: 2020-05-17
+   end-date: 2020-05-17
    time: 3pm - 5pm
    description: Event 4
    location: Zoom
    link: https://www.facebook.com/events/164014545041673
  - name: Intro to Python
    img: /assets/images/events/intro-python.jpg 
-   date: 2020-04-16
+   start-date: 2020-04-15
+   end-date: 2020-04-16
    time: 5pm - 6pm
    description: Event 4
    location: Zoom
    link: https://www.facebook.com/events/920499925070875/
  - name: Intro to R
    img: /assets/images/events/intro-r.jpg 
-   date: 2020-04-09
+   start-date: 2020-04-08
+   end-date: 2020-04-09
    time: 5pm - 6pm
    description: Event 4
    location: Zoom
    link: https://www.facebook.com/events/810134286176041/
  - name: Meet the Managers
    img: /assets/images/events/meet-managers.jpg 
-   date: 2020-03-12
+   start-date: 2020-03-12
+   end-date: 2020-03-12
    time: 6pm - 8:30pm
    description: Event 4
    location: Roundhouse Function Room 7/8
    link: https://forms.gle/LbXKf98xxhHqDdSj7
  - name: Data Science Information Night
    img: /assets/images/events/data-info-night.jpg 
-   date: 2020-03-04
+   start-date: 2020-03-04
+   end-date: 2020-03-04
    time: 5pm - 7pm
    description: Event 4
    location: Mathews Theatre C, UNSW
    link: https://www.facebook.com/events/192084338867497/
  - name: Applied Intelligence with Accenture
    img: /assets/images/events/applied-intelligence.jpg 
-   date: 2020-02-28
+   start-date: 2020-02-28
+   end-date: 2020-02-28
    time: 5pm - 7pm
    description: Event 4
    location: Sussex St, Barangaroo NSW 2000, Australia
    link: https://www.facebook.com/events/233529207664627/
  - name: Subcommittee Applications 2020
    img: /assets/images/events/subcom.jpg 
-   date: 2020-03-06
+   start-date: 2020-02-23
+   end-date: 2020-03-06
    time:
    description: Event 4
    location: 
    link: https://www.facebook.com/events/589112671671247/
  - name: Meet the Directors 2020 BBQ
    img: /assets/images/events/directors.jpg 
-   date: 2020-02-24
+   start-date: 2020-02-24
+   end-date: 2020-02-24
    time: 12pm - 3pm
    description: Event 4
    location: Physics Lawn
    link: https://www.facebook.com/events/127181535291612/
  - name: Free Pizza Party!
    img: /assets/images/events/pizza-party.jpg 
-   date: 2020-02-18
+   start-date: 2020-02-18
+   end-date: 2020-02-18
    time: 12pm - 2pm
    description: Event 4
    location: Science Theatre Lawn, UNSW
