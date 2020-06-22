@@ -3,18 +3,36 @@ layout: default
 ---
 <div class="hero-body">
 	<div class="container">
-		<h1 class="title is-1">{{ page.title }}</h1>
-		{% if page.date %}<p> <i>Published {{ page.date | date_to_string }}</i></p>{% endif %}
-		{% if page.author %}<p> <i>By <b>{{ page.author}}</b></i></p>{% endif %}
-		<br>
-		{% if page.image %}<span class="image main"><img src="{{ page.image }}" alt="" /></span>{% endif %}
-		{{ content }}
-		<br> 
-		<div class = "tags"></div>
-		Tags: 
-		{% for tag in page.tags %}
-			<span class = "tag"><a href = "{{site.baseurl}}/blog/tag-index#{{tag}}"> {{tag}}</a></span>
-		{% endfor %}
+		<div class = "column is-three-quarters">
+			<div class = "content-header-block">
+				<h1 class="title is-1">{{ page.title }}</h1>
+			</div>
+			{% if page.date %}<p> <i>Published {{ page.date | date_to_string }}</i></p>{% endif %}
+			{% if page.author %}<p> <i>By <b>{{ page.author}}</b></i></p>{% endif %}
+			<br>
+			{% if page.image %}
+				<figure>
+					<span>
+						<img class = "maxed responsive-img" src="{{ page.image }}" alt="" >
+					</span>
+					{% if page.caption %}
+						<figcaption>
+							<p class = "has-text-grey is-size-7">
+								{{ page.caption }}
+							</p>
+						</figcaption>
+					{% endif %}
+				</figure>				
+			{% endif %}
+			<br>
+			{{ content }}
+			<br> 
+			<div class = "tags"></div>
+			Tags: 
+			{% for tag in page.tags %}
+				<span class = "tag"><a href = "{{site.baseurl}}/blog/tag-index#{{tag}}"> {{tag}}</a></span>
+			{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>
