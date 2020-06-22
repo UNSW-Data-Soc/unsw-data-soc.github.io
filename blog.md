@@ -23,18 +23,24 @@ layout: default
   <div class="container">
   <div class = "panel">
       <div class = "body">
-        <div class="field is-horizontal is-left">
-            <div class = "field-label is-normal is-left">
-            <label class = "label" for="searchBox">Search</label>
-            </div>
-            <div class = "field-body">
-              <div class = "field">
-                <p class = "control is-pulled-left">
-                  <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
-                </p>
+        <nav class = "level">
+          <div class = "level-left">
+            <div class = "level-item">
+              <div class="field is-horizontal is-left">
+                  <div class = "field-label is-normal is-pulled-left">
+                  <label class = "label" for="searchBox">Search</label>
+                  </div>
+                  <div class = "field-body">
+                    <div class = "field">
+                      <p class = "control is-pulled-left">
+                        <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
+                      </p>
+                    </div>
+                  </div>
               </div>
             </div>
-        </div>
+          </div>
+        </nav>
       </div>
     </div>
     <br>
@@ -44,7 +50,7 @@ layout: default
         <tr>
           <td>
             {% if post.title != 404 %}
-            <h2 class="title is-1 centered"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2 class="title is-1 centered"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
             {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
             <br>
             <p>{{ post.excerpt }}</p>
@@ -69,7 +75,7 @@ layout: default
 <script>
 
   let options = {
-    numberPerPage: 5,
+    numberPerPage: 4,
     goBar:true, 
     pageCounter:true, 
   };
