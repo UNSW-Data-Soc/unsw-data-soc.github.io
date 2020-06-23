@@ -26,38 +26,38 @@ title: Welcome to DataSoc
         </div>
     </div>
 </div>
-<div class="hero is-medium">
+<div class="hero is-medium is-dark" style="background: rgb(54,54,54); background: linear-gradient(288deg, rgba(54,54,54,0.468207351299895) 6%, rgba(23,23,23,1) 62%)">
     <div class="hero-body">
         <div class="columns is-vcentered">
             <div class="column is-4">
-                <div class='box has-text-centered'>
-                    <h3 class='title is-2'>Recent Blog Posts</h3>
+                <div class='box has-text-centered has-background-white-ter'>
+                    <h3 class='title is-2 has-text-black'>Recent Blog Posts</h3>
                     <hr>
                     {% for post in site.posts limit:3%}
                     {% if post.title != 404 %}
-                        {% if post.date %}<ol><h4 class='has-text-black'><b> <i>{{ post.date | date_to_string }}</i></b></h4></ol>{% endif %}
-                        <ol><h4 class='subtitle is-4 has-text-black'><a href="{{ post.url }}">{{ post.title }}</a></h4></ol>
+                        {% if post.date %}<ol><h4 class='subtitle is-5 has-text-black'><b>{{ post.date | date_to_string }}</b></h4></ol>{% endif %}
+                        <ol><a href="{{ post.url }}"><h4 class='subtitle is-4 has-text-link'>{{ post.title }}</h4></a></ol>
                         <br>
                     {% endif %}
                     {% endfor %}
-                    <a href="blog/" class="button button-cta is-bold btn-align secondary-btn raised">All our posts!</a>
+                    <a href="/blog/" class="button button-cta is-bold btn-align secondary-btn raised">All our posts!</a>
                 </div>
             </div>
             <div class="column is-4 has-text-centered">
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
-                        <h4 class="subtitle is-3 has-text-black"><i>Uniting mathematicians, econometricians and computer scientists, UNSW DataSoc empowers our members with knowledge and skills of data science, machine learning and artificial intelligence.</i></h4>
+                        <h4 class="subtitle is-3"><i>Uniting mathematicians, econometricians and computer scientists, UNSW DataSoc empowers our members with knowledge and skills of data science, machine learning and artificial intelligence.</i></h4>
                     </div>
                 </div>
             </div>
             <div class="column is-4">
                 <div class='box  has-text-centered'>
-                    <h3 class='title is-2'>Dates to note down </h3>
+                    <h3 class='title is-2 has-text-black'>Dates to note down </h3>
                     <hr style="border-radius: 5px;">
-                    <ol><h4 class='has-text-black'><b>July 15 2020 | Google Meet</b></h4></ol>
+                    <ol><h4 class='subtitle is-5 has-text-black'><b>July 15 2020 | Google Meet</b></h4></ol>
                     <ol><h4 class='subtitle is-4 has-text-black'>Intro to Data Science - Linear Regression</h4></ol>
                     <br>
-                    <ol><h4 class='has-text-black'><b>July 18 2020 | MS Teams</b></h4></ol>
+                    <ol><h4 class='subtitle is-5 has-text-black'><b>July 18 2020 | MS Teams</b></h4></ol>
                     <ol><h4 class='subtitle is-4 has-text-black'>Accent your Career with Accenture</h4></ol>
                     <br>
                     <a href="blog/" class="button button-cta is-bold btn-align secondary-btn raised">All our events!</a>
