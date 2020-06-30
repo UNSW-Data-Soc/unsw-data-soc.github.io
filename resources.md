@@ -19,7 +19,14 @@ layout: default
 <div class="container is-fluid">
     <div class='columns'>
         <div class='column is-2'>
-        <p>Tags</p>
+            <p>Tags</p>
+            {% for tag in site.data.resource_tags %}
+            <div class='column is-full'>
+                <label class="checkbox">
+                    <input type="checkbox" class="resource-tag">{{ tag }}
+                </label>
+            </div>
+            {% endfor %}
         </div>
         <div class='column is-10'>
             <div class="field is-horizontal is-left">
@@ -46,7 +53,7 @@ layout: default
                             <!--resources button-->
                             {% if resource.resources %}
                             <div class="dropdown is-hoverable">
-                            <div class="dropdown-trigger" >
+                                <div class="dropdown-trigger" >
                                     <button class="button is-info">
                                         <span>View Resources</span>
                                     </button>
@@ -67,6 +74,9 @@ layout: default
                             </button>
                             {% endif %}
                             <!--end button-->
+                            <br>
+                            <br>
+                            <p class='card-footer'>{{ resource.tags }}</p>
                         </div>
                     </div>
                 </div>
@@ -131,15 +141,34 @@ function filter_search(word) {
             let str = resource.getElementsByClassName('title')[0].innerText;
             str = str.toLowerCase();
             let pos = str.search(word);
-            console.log(pos)
             if (pos == -1) {
                 resource.style.display = "none";
             }
         }
-
-    }
-    
+    } 
 }
 
+let tags = document.getElementsByClassName('resource-tag');
+for (let tag of tags) {
+    tag.onclick = function() {
+        checkbox_text = this.parentElement.innerText;
+        if (this.checked) {
+            for (let resource of resources) {
+                let str = resource.getElementsByClassName('card-footer')[0].innerText;
+                if (str != checkbox_text) {
+                    resource.style.display = "none";
+                }
+            }
+            
+        } else {
+            for (let resource of resources) {
+                let str = resource.getElementsByClassName('card-footer')[0].innerText;
+                if (str != checkbox_text) {
+                    resource.style.display = "";
+                }
+            }
+        }
+    }
+}
 </script>
 
