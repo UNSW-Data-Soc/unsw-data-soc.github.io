@@ -61,7 +61,7 @@ layout: default
           </td>
           {% if post.image %}
           <td>
-          <span class="image main"><img src="{{ post.image }}" alt="" /></span>
+          <figure class="image"><img src="{{ post.image }}" alt="" /></figure>
           </td>
           {% endif %}
         </tr>

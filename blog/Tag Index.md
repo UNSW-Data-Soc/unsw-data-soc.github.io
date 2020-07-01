@@ -1,30 +1,36 @@
 ---
-layout: landing
-title: Tag Index
-title-image: city3_left.png
+layout: default
 permalink: blog/tag-index
 ---
 <link rel="stylesheet" href="/assets/css/tags.css">
-
-<div class="hero-body">
+<section class = "hero is-info is-bold">
+  <div class = "hero-body">
     <div class = "container">
-                    <h2 class = "subtitle">Tags</h2>
-                    {% for tag in site.tags %}               
-                    <details>
-                    <summary>
-                    {{ tag[0] }}<span> ({{ tag[1].size }})</span>
-                    </summary>                
-                        <p>
-                        {% for post in tag[1] %}
-                        <ul>
-                        <li><a href="{{ post.url }}"> {{post.title }}</a> — {{ post.date | date_to_string }}
-                        </li>
-                        </ul>
-                        {% endfor %}
-                        </p>
+      <h1 class = "title">
+      Tag Index
+      </h1>
+    </div>
+  </div>
+</section>
+<div class="hero-body">
+    <div class = "container"> 
+      <h1 class = "title">Tags</h1>
+      {% for tag in site.tags %}               
+      <details>
+      <summary>
+      {{ tag[0] }}<span> ({{ tag[1].size }})</span>
+      </summary>                
+          <p>
+          {% for post in tag[1] %}
+          <ul>
+          <li><a href="{{ post.url }}"> {{post.title }}</a> — {{ post.date | date_to_string }}
+          </li>
+          </ul>
+          {% endfor %}
+          </p>
 
-                    </details>
-                {% endfor %}
+      </details>
+  {% endfor %}
     </div>
 </div>
 
