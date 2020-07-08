@@ -259,10 +259,18 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
         <div class="row example-centered">
             <div class="column is-7 is-offset-3">
                 <ul class="no_bullet">
-                    <li class="lightbulb">DataSoc aims to become Australia’s leading student run society platform in assisting students on achieving their data science career goals.</li>
-                    <li class="jobboard">We want to be those that create the data science related opportunities for students for their studies and careers alike. With information sessions that help them grow and career-focused events to open new pathways as they build their future.</li>
-                    <li class="mice">We aim to enriching the students' lives with a sense of community and diversity among UNSW data science students. We host a list of various social activities such as BBQs, competitions, etc. that welcome everyone to attend and meet new friends!</li>
-                    <li class="zoom">We want to support data science students in their studies in data science with DataSoc’s help sessions, workshops and peer supporters. </li>
+                    <li class="lightbulb">
+                        DataSoc aims to become Australia’s leading student run society platform in assisting students on achieving their data science career goals.
+                    </li>
+                    <li class="jobboard">
+                        We strive to create the data science related opportunities for students in their studies and careers alike. We host information sessions, networking evenings, and many more career-focused events that could help open new pathways for students.
+                    </li>
+                    <li class="mice">
+                        We aim to enrich students' lives with a sense of community and diversity among UNSW data science students. We host a list of various social activities such as BBQs, competitions, etc. that welcome everyone to attend and meet like minded people.
+                    </li>
+                    <li class="zoom">
+                        We want to support data science students in their studies with DataSoc’s help sessions, workshops and peer supporters. 
+                    </li>
                 </ul>
             </div>
             <div class="column is-three-fifths is-offset-3">
@@ -335,7 +343,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="title is-4">March, 2018</h3>
-                        <p>DataSoc celebrates 1000 likes and 1000+ follows on Facebook! Also marking the beginning of DataSoc's Weekly Data Discoveries tradition that continues this day in our newsletters!</p>
+                        <p>DataSoc celebrates 1000 likes and 1000+ follows on Facebook! This month also marks the beginning of DataSoc's Weekly Data Discoveries tradition that continues to this day in our newsletters!</p>
                     </div>
                 </li>
                 <li class="timeline-item">
