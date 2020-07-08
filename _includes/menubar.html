@@ -22,20 +22,19 @@
                         <a href="{{ item.link }}" class="navbar-link">
                           {{ item.name }}
                         </a>
-
-                        <div class="navbar-dropdown">
-                          {% for page in item.dropdown %}
-                          <a href="{{ item.link }}{{ page.link }}" class="navbar-item">
-                            {{ page.name }}
-                          </a>
-                          {% endfor %}
-                        </div>
-                      </div>
-                    {% else %}
-                      <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
-                          {{ item.name }}
+                      <div class="navbar-dropdown">
+                        {% for page in item.dropdown %}
+                          {% if page.name == "Jobs Board"%}
+                            {% capture url %} {{ page.link }} {% endcapture %}
+                          {% else %}
+                            {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
+                          {% endif %}
+                          
+                        <a href="{{ url }}" class="navbar-item">
+                          {{ page.name }}
                       </a>
                     {% endif %}
+                
                   {% endfor %}
               </div>
           </div>
