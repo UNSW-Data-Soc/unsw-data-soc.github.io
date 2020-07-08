@@ -1,5 +1,6 @@
 ---
 title: Publications
+subtitle: Keep up with Datasoc in the wider community!
 title-image: city3_left.png
 introduction: You can find all of our publications here!
 ---
@@ -105,4 +106,3 @@ introduction: You can find all of our publications here!
   {% include footer.html %}
   {% include plugins.html %}
 </body>
-
