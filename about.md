@@ -11,7 +11,221 @@ introduction: |
   We aspire to connect, educate and support our members by running social and career events alongside industry partnered educational workshops.
 ---
 
-<!-- Maths School Logo and mission statement-->
+<style>
+.timeline {
+  line-height: 1.4em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+  padding-left: 40px;
+  position: relative;
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 .5em 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+}
+.timeline-marker:before {
+  background: #4bb8eb;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #CCD5DB;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+  content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+  background: transparent;
+  border: 3px solid #4bb8eb;
+}
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+  padding-bottom: 40px;
+}
+.timeline-content p:last-child {
+  margin-bottom: 0;
+}
+
+/*----- TIMELINE PERIOD -----*/
+.period {
+  padding: 0;
+}
+.period .timeline-info {
+  display: none;
+}
+.period .timeline-marker:before {
+  background: transparent;
+  content: "";
+  width: 15px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  top: 0;
+  bottom: 30px;
+  position: absolute;
+  border-top: 3px solid #94158b;
+  border-bottom: 3px solid #94158b;
+}
+.period .timeline-marker:after {
+  content: "";
+  height: 32px;
+  top: auto;
+}
+.period .timeline-content {
+  padding: 40px 0 70px;
+}
+.period .timeline-title {
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .timeline-centered,
+  .timeline-centered .timeline-item,
+  .timeline-centered .timeline-info,
+  .timeline-centered .timeline-marker,
+  .timeline-centered .timeline-content {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .timeline-centered .timeline-item {
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+  .timeline-centered .timeline-marker {
+    position: absolute;
+    left: 50%;
+    margin-left: -7.5px;
+  }
+  .timeline-centered .timeline-info,
+  .timeline-centered .timeline-content {
+    width: 50%;
+  }
+  .timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+  }
+  .timeline-centered > .timeline-item:nth-child(odd) .timeline-content {
+    float: right;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .timeline-centered > .timeline-item:nth-child(even) .timeline-info {
+    float: right;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .timeline-centered > .timeline-item:nth-child(even) .timeline-content {
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+  }
+  .timeline-centered > .timeline-item.period .timeline-content {
+    float: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .timeline-centered .timeline-item.period {
+    padding: 50px 0 90px;
+  }
+  .timeline-centered .period .timeline-marker:after {
+    height: 30px;
+    bottom: 0;
+    top: auto;
+  }
+  .timeline-centered .period .timeline-title {
+    left: auto;
+  }
+
+    ul.no_bullet {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li.lightbulb {
+        background: url('/assets/images/icons/coloured/lightbulb_idea.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+
+    li.mice {
+        background: url('/assets/images/icons/coloured/graphic_design.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+    
+    li.jobboard {
+        background: url('/assets/images/icons/coloured/bulletin_board.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+
+    li.zoom {
+        background: url('/assets/images/icons/coloured/zoom.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+
+    li.palette {
+        background: url('/assets/images/icons/coloured/art_palette.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+}
+
+</style>
+
+
+
 <div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
@@ -25,130 +239,130 @@ introduction: |
     </div>
 </div>
 
-<div class="hero-body">
+<section class="hero is-primary">
+  <div class="hero-body" style=" background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     <div class="container">
-        <h1 class="title is-1 centered">
-            Learn more about us...
-        </h1>
-        <!-- sounds too cheecky?
-        <h5 class="title is-5 centrered">
-            You might discover something new...
-        </h5>
-        -->
+        <div class="level-item">
+            <h1 class="title">
+                Our Goals
+            </h1>
+        </div>
     </div>
-</div>
+  </div>
+</section>
 
-<!-- Events-->
+
+
 <div class="hero-body">
     <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column is-6">
-                <h2 class="subtitle is-3">
-                    Events
-                </h2>
-                <p>
-                At DataSoc, we offer many different types of events, ranging from fun scavenger hunts, to educational
-                programming tutorials, to career fairs.
-                <br><br> 
-                We welcome everyone to join us, whether you are a new
-                or a familiar face! If you are interested in keeping
-                up with our events, or just want to learn more about
-                them, follow the link below to head to our events page!
-                <br><br>
-                <a href="">
-                    See Our Events!
-                </a>
-                </p>
+        <div class="row example-centered">
+            <div class="column is-7 is-offset-3">
+                <ul class="no_bullet">
+                    <li class="lightbulb">DataSoc aims to become Australia’s leading student run society platform in assisting students on achieving their data science career goals.</li>
+                    <li class="jobboard">We want to be those that create the data science related opportunities for students for their studies and careers alike. With information sessions that help them grow and career-focused events to open new pathways as they build their future.</li>
+                    <li class="mice">We aim to enriching the students' lives with a sense of community and diversity among UNSW data science students. We host a list of various social activities such as BBQs, competitions, etc. that welcome everyone to attend and meet new friends!</li>
+                    <li class="zoom">We want to support data science students in their studies in data science with DataSoc’s help sessions, workshops and peer supporters. </li>
+                </ul>
             </div>
-            <div class="column is-5 is-offset-1">
-                <figure class="">
-                    <img src="/assets/images/illustrations/drawings/city_right.png">
-                </figure>
+            <div class="column is-three-fifths is-offset-3">
+                <p>
+                With this, DataSoc aims to make your university experience even more fun and fulfilling, whilst maximizing your employment opportunity and career progression in data science.
+                </p>               
             </div>
         </div>
     </div>
 </div>
 
-<!-- Resources-->
-<div class="hero-body">
+
+<div class="card column is-7 is-offset-3">
+  <div class="card-content">
+    <p class="title">
+      "Opportunities don't happen. You create them."
+    </p>
+  </div>
+</div>
+
+<p><br><br><br></p>
+
+<section class="hero is-primary">
+  <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
     <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column is-6">
-                <h2 class="subtitle is-3">
-                    Resources
-                </h2>
-                <p>
-                Maybe you're currently in the market for a job as a
-                fresh graduate. Or maybe you are just looking to gain more practical knowledge to give you an edge in your field. Either way, DataSoc's resource base surely has something for you. 
-                <br><br> 
-                DataSoc is constantly offering courses and workshops on a range of topics such as **FIND OUT WHAT TOPICS!!!!**.
-                <br><br> 
-                For your job needs, our job board is always open! Keep an eye out there to ensure you don't miss out on that opening!
-                <br><br>
-                <a href="">
-                    See Our Resources!
-                </a>
-                </p>
-            </div>
-            <div class="column is-5 is-offset-1">
-                <figure class="">
-                    <img src="/assets/images/illustrations/drawings/city_right.png">
-                </figure>
-            </div>
+        <div class="level-item">
+            <h1 class="title">
+                Our History
+            </h1>
+        </div>
+    </div>
+  </div>
+</section>
+<div class="hero-body">
+<div class="container-fluid">
+    <div class="column is-8 is-offset-2">
+        <div class="row example-centered">
+            <ul class="timeline timeline-centered">
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">April, 2017</h3>
+                        <p>DataSoc was founded along side its very first iteration of the official website!</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">May, 2017</h3>
+                        <p>DataSoc announces and hosts its first ever event: 
+                        <br>
+                        Meet the representatives of Tableau Software, and get to know the power of Tableau in AI and modern data science. </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">June, 2017</h3>
+                        <p>DataSoc hosts its first ever hackathon, and its first ever networking night with Alibaba, Suncorp, Bupa, and many more. </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">August, 2017</h3>
+                        <p>Official DataSoc youtube announced. Since then, many videos covering the topics of AI and machine learning has been uploaded!</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">March, 2018</h3>
+                        <p>DataSoc celebrates 1000 likes and 1000+ follows on Facebook! Also marking the beginning of DataSoc's Weekly Data Discoveries tradition that continues this day in our newsletters!</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">September, 2018</h3>
+                        <p> Welcomed SKYnet, DataSoc's friendly chatbot helper, ready to answer questions on DataSoc's behalf.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">March, 2019</h3>
+                        <p>DataSoc's website undergoes a modern transformation as we welcome new members and a doubled subcommitee team alike.
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="title is-4">September, 2019</h3>
+                        <p>In this month, as DataSoc celebrated its 2000 likes on Facebook, DataSoc hosted its first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
-
-<!-- Publications and Blog-->
-<div class="hero-body">
-    <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column is-6">
-                <h2 class="subtitle is-3">
-                    Publications and Blog
-                </h2>
-                <p>
-                Interested in keeping up with some of the latest data science news?
-                <br><br>
-                Maybe you're a first year, and you're feeling a little lost. You can always consult DataSoc's First Year Guide - its little gems of wisdom on how to approach your life at university can be appreciated by everyone.
-                <br><br> 
-                <a href="">
-                    See Our Resources!
-                </a>
-                </p>
-            </div>
-            <div class="column is-5 is-offset-1">
-                <figure class="">
-                    <img src="/assets/images/illustrations/drawings/city_right.png">
-                </figure>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Sponsors-->
-<div class="hero-body">
-    <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column is-6">
-                <h2 class="subtitle is-3">
-                    Our Sponsors
-                </h2>
-                <p>
-                At DataSoc, we are thankful for all of our incredible sponsors. It is with their support that we have been able to grow to what we are today.
-                <br><br> 
-                Follow our link if you would like to learn more about our sponsors, or learn more about becoming a sponsor!
-                <br><br>
-                <a href="">
-                    See Our Sponsors!
-                </a>
-                </p>
-            </div>
-            <div class="column is-5 is-offset-1">
-                <figure class="">
-                    <img src="/assets/images/illustrations/drawings/city_right.png">
-                </figure>
-            </div>
-        </div>
-    </div>
 </div>
