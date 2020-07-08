@@ -1,45 +1,44 @@
 <div class="hero is-default">
-<!-- Menubar -->
-<nav class="navbar navbar-wrapper is-transparent is-static">
-    <div class="container">
-        <!-- Left logo-->
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-                <img src="/assets/images/logos/logo.png">
-            </a>
-        </div>
-
-        <!-- Right elements -->
-        <div id="is-cloned" class="navbar-menu">
-            <div class="navbar-end">
-                {% for item in site.data.navigation %}
-                  {% if item.size == 3 %}
-                    <div class="navbar-item is-slide is-centered-tablet has-dropdown is-hoverable">
-                      <a href="{{ item.link }}" class="navbar-link">
-                        {{ item.name }}
-                      </a>
-
-                      <div class="navbar-dropdown">
-                        {% for page in item.dropdown %}
-                        <a href="{{ item.link }}{{ page.link }}" class="navbar-item">
-                          {{ page.name }}
+  <div class="box">
+    <p class="has-text-centered">
+        <span class="tag is-info">New</span> Peep our new website design - have a loooooook around!
+    </p>
+  </div>
+  <!-- Menubar -->
+  <nav class="navbar navbar-wrapper is-transparent is-static">
+      <div class="container">
+          <!-- Left logo-->
+          <div class="navbar-brand">
+              <a class="navbar-item" href="/">
+                  <img src="/assets/images/logos/logo.png">
+              </a>
+          </div>
+          <!-- Right elements -->
+          <div id="is-cloned" class="navbar-menu">
+              <div class="navbar-end">
+                  {% for item in site.data.navigation %}
+                    {% if item.size == 3 %}
+                      <div class="navbar-item is-slide is-centered-tablet has-dropdown is-hoverable">
+                        <a href="{{ item.link }}" class="navbar-link">
+                          {{ item.name }}
                         </a>
-                        {% endfor %}
+
+                        <div class="navbar-dropdown">
+                          {% for page in item.dropdown %}
+                          <a href="{{ item.link }}{{ page.link }}" class="navbar-item">
+                            {{ page.name }}
+                          </a>
+                          {% endfor %}
+                        </div>
                       </div>
-                    </div>
-                  {% else %}
-                    <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
-                        {{ item.name }}
-                    </a>
-                  {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</nav>
-<div class="box">
-  <p class="has-text-centered">
-      <span class="tag is-info">New</span> Peep our new website design - have a loooooook around!
-  </p>
-</div>
+                    {% else %}
+                      <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
+                          {{ item.name }}
+                      </a>
+                    {% endif %}
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+  </nav>
 </div>

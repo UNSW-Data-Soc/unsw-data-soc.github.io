@@ -3,8 +3,6 @@
   dropdown:
     - name: Our Team
       link: /team
-    - name: Constitution
-      link: /constitution
 - name: Our Sponsors
   link: /sponsors
   dropdown:
