@@ -10,6 +10,9 @@
       link: /become-a-sponsor
 - name: Blog
   link: /blog
+  dropdown:
+    - name: Tag Index
+      link: /tag-index
 - name: Our Events
   link: /events
   dropdown:
