@@ -1,4 +1,22 @@
 Events:
+ - name: Trivia and Memes for Self-Quaranteens
+   img: /assets/images/events/trivia.jpg 
+   start-date: 2020-07-09
+   end-date: 2020-07-09
+   time: 8pm - 10pm
+   description: |
+    Come join our epic 💥TRIVIA NIGHT💥 to test your knowledge on recent UNSW events and world POP culture. More importantly, find out which team has the greatest meme fiend - doN’T leT yOuR mEMEs bE dREaMs 👀.
+   location: Discord
+   link: https://www.facebook.com/events/2616083408606843/
+- name: Meet The Team x Quantium
+   img: /assets/images/events/meet-quantium.jpg 
+   start-date: 2020-07-07
+   end-date: 2020-07-07
+   time: 4pm - 5:30pm
+   description: |
+    Come meet our panel of speakers at Datasoc x Quantium: Meet the Team! Find out about work life at Quantium and what they really do, firsthand from our graduate and analyst speakers. Make sure you don’t miss out on this valuable opportunity to get a glimpse into the corporate world. With Quantium’s upcoming internship, you may soon find yourself there!
+   location: Microsoft Teams
+   link: https://www.facebook.com/events/295616628156471/
  - name: Accent your Career with Accenture
    img: /assets/images/events/Accent_your_career.jpg 
    start-date: 2020-06-18
