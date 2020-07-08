@@ -1,0 +1,26 @@
+<div id="modal-{{ person.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">  
+    <div class="modal-background"></div>  
+    <div class="modal-content">  
+        <header class="modal-card-head">
+            <div class="modal-card-title">
+                <p class="title">{{ include.name }}</p>
+                <p class="subtitle">{{ include.position }}</p>
+                <p class="subtitle"><i>{{ include.degree }}</i></p>
+            </div>
+            <div class="media-right">
+                <figure class="image is-128x128">
+                    <img src="{{ include.image | prepend: '/assets/images/team/' }}" alt="{{ include.name }}" title="" style="">
+                </figure>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button> 
+        </header>
+        <section class="modal-card-body">
+            <div class="content">
+                <p>{{ include.content | markdownify }}</p>
+            </div>
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button modal-button-close" aria-label="close">Close</button> 
+        </footer>
+    </div>
+</div>
