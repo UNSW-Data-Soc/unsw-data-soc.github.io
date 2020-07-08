@@ -28,11 +28,6 @@
       link: https://trello.com/b/iy42OQH1 
 - name: Publications
   link: /publications
-  dropdown:
-    - name: First Year Guide
-      link: /first-year-guide
-    - name: Newsletter
-      link: /newsletter
 - name: Contact Us
   link: /contact
 - name: SpArc
