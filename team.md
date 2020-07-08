@@ -61,7 +61,6 @@ introduction: |
 									  <p class="subtitle is-6">{{ person.degree }}</p>
 									</div>
 								  </div>
-							  
 								  <div class="content">
 									{{ person.description }}
 								  </div>
@@ -103,7 +102,6 @@ introduction: |
 									  <p class="subtitle is-6">{{ person.degree }}</p>
 									</div>
 								  </div>
-							  
 								  <div class="content">
 									{{ person.description }}
 								  </div>
@@ -145,7 +143,6 @@ introduction: |
 									  <p class="subtitle is-6">{{ person.degree }}</p>
 									</div>
 								  </div>
-							  
 								  <div class="content">
 									{{ person.description }}
 								  </div>
@@ -187,7 +184,6 @@ introduction: |
 									  <p class="subtitle is-6">{{ person.degree }}</p>
 									</div>
 								  </div>
-							  
 								  <div class="content">
 									{{ person.description }}
 								  </div>
