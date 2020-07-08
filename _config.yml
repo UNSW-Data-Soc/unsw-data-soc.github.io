@@ -1,0 +1,12 @@
+title: UNSW DataSoc
+description: UNSW Data Science Society
+logo: /assets/images/favicon.png
+permalink: pretty
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+  team:
+    sort_by: order

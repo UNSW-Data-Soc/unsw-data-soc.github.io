@@ -1,0 +1,39 @@
+- name: About Us
+  link: /about
+  dropdown:
+    - name: Our Team
+      link: /team
+- name: Our Sponsors
+  link: /sponsors
+  dropdown:
+    - name: Become a Sponsor
+      link: /become-a-sponsor
+- name: Blog
+  link: /blog
+- name: Our Events
+  link: /events
+  dropdown:
+    - name: Current Events
+      link: #
+    - name: Past Events
+      link: #
+- name: Resources
+  link: /resources
+  dropdown:
+    - name: Courses
+      link: #
+    - name: Workshops
+      link: #
+    - name: Jobs Board
+      link: https://trello.com/b/iy42OQH1 
+- name: Publications
+  link: /publications
+  dropdown:
+    - name: First Year Guide
+      link: /first-year-guide
+    - name: Newsletter
+      link: /newsletter
+- name: Contact Us
+  link: /contact
+- name: SpArc
+  link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
