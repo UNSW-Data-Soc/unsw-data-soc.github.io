@@ -46,21 +46,32 @@ title: Welcome to DataSoc
             <div class="column is-4 has-text-centered">
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
-                        <h4 class="subtitle is-3 has-text-black"><i>Uniting mathematicians, econometricians and computer scientists, UNSW DataSoc empowers our members with knowledge and skills of data science, machine learning and artificial intelligence.</i></h4>
+                        <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>unites students with their passion for data science, machine learning and artificial intelligence.</i></h4>
                     </div>
                 </div>
             </div>
             <div class="column is-4">
                 <div class='box  has-text-centered'>
-                    <h3 class='title is-2'>Dates to note down </h3>
                     <hr style="border-radius: 5px;">
-                    <ol><h4 class='has-text-black'><b>July 15 2020 | Google Meet</b></h4></ol>
-                    <ol><h4 class='subtitle is-4 has-text-black'>Intro to Data Science - Linear Regression</h4></ol>
-                    <br>
-                    <ol><h4 class='has-text-black'><b>July 18 2020 | MS Teams</b></h4></ol>
-                    <ol><h4 class='subtitle is-4 has-text-black'>Accent your Career with Accenture</h4></ol>
-                    <br>
-                    <a href="blog/" class="button button-cta is-bold btn-align secondary-btn raised">All our events!</a>
+                        {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
+                        {% assign e = site.data.events.Events | sort_natural: "end-date" %}
+                        {% assign last_element = e.last.end-date | date: "%s" %}
+                        {% if e == None or last_element < curr_time %}
+                            <h3 class="title is-1 centered"> We will have more events coming soon! </h3>
+                        {% else %}
+                            <h3 class='title is-2'>Dates to note down </h3>
+                        {% endif %}
+                        {% assign index = 0 %}
+                        {% assign e = site.data.events.Events | sort_natural: "start-date" %}
+                        {% for event in e limit: 2%}
+                            {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
+                            {% if curr_time < event_date %}
+                                <ol><h4 class='subtitle is-4 has-text-black'>{{event.name}}</h4></ol>
+                                <ol><p class='subtitle is-6 has-text-centered'><a href="{{event.link}}" title="Sign up here!"> More Information Here!</a></p></ol>
+                                <br>
+                            {% endif %}
+                        {% endfor %}
+                    <a href="events/" class="button button-cta is-bold btn-align secondary-btn raised">All our events!</a>
                 </div>
             </div>
         </div>
