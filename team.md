@@ -8,7 +8,7 @@ permalink: /about/team/
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">
-	{% assign portfolios = "Execs, External, Internal, Postgraduate" | split: ", " %}
+	{% assign portfolios = "Execs, External, Internal" | split: ", " %}
 	<div class="tabs is-boxed is-centered main-menu is-large" id="nav">
 		<ul>
 			{% for i in (0..3) %}
@@ -24,7 +24,7 @@ permalink: /about/team/
 		</ul>
 	</div>
 	<div class="tab-content">
-	{% for i in (0..3) %}
+	{% for i in (0..2) %}
 		{% assign portfolio = site.team | where:"portfolio",portfolios[i] %}
 		{% if forloop.first == true %}
 			{% assign active_status = "is-active" %}
@@ -48,6 +48,9 @@ permalink: /about/team/
 						{% elsif remaining_people == 1 %}
 					<div class="column is-4">
 					</div>
+						{% elsif remaining_people == 3 %}
+						<div class="column is-2">
+						</div>
 						{% endif %}
 					{% endif %}
 						<div class="column is-3">
