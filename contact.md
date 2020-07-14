@@ -26,7 +26,7 @@ layout: landing
                 Be sure to check out our social media links!
                 <br><br><br>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSffSdDlZLRMnWokOwlpKEVaaklL39nkgkjnZ0iaqdoL134nVA/viewform?usp=sf_link" target="_blank">
-                    <button class="button is-info is-bold">JOIN DATASOC!</button></a>
+                    <button class="button is-info is-bold">Join Us!</button></a>
                 <br><br><br>
             </p>
             <div>
@@ -58,7 +58,7 @@ layout: landing
         <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup">
-            <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" style="border:1px solid #ccc; border-radius:5px; padding:25px; background: #F5F5DC" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" style="border:1px solid #ccc; border-radius:5px; padding:25px;" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
                 <h1 class="is-size-4"><b>Subscribe to our mailing list!</b></h1>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -83,7 +83,7 @@ layout: landing
                     <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8dc568d0db37b26ed75ba4d94_01f8128da2" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button  is-info is-bold"></div>
                 </div>
             </form>
             </div>
