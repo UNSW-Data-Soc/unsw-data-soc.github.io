@@ -282,10 +282,9 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     </div>
 </div>
 
-
 <div class="card column is-7 is-offset-3">
   <div class="card-content">
-    <p class="title">
+    <p class="title has-text-centered">
       "Opportunities don't happen. You create them."
     </p>
   </div>
