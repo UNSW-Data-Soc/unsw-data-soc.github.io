@@ -21,26 +21,27 @@ layout: default
 
 <div class="hero-body">
   <div class="container">
+    <nav class = "level">
+      <div class = "level-left">
+        <div class = "level-item">
+          <div class="field is-horizontal">
+              <div class = "field-label is-normal">
+              <label class = "label" for="searchBox">Search</label>
+              </div>
+              <div class = "field-body">
+                <div class = "field">
+                  <p class = "control is-pulled-left">
+                    <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </nav>
   <div class = "panel">
       <div class = "body">
-        <nav class = "level">
-          <div class = "level-left">
-            <div class = "level-item">
-              <div class="field is-horizontal is-left">
-                  <div class = "field-label is-normal is-pulled-left">
-                  <label class = "label" for="searchBox">Search</label>
-                  </div>
-                  <div class = "field-body">
-                    <div class = "field">
-                      <p class = "control is-pulled-left">
-                        <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
-                      </p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </nav>
+        
       </div>
     </div>
     <br>
