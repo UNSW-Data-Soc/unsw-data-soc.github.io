@@ -1,0 +1,19 @@
+Media: 
+  - name: Facebook
+    link: https://www.facebook.com/DataSoc/
+    img_class: fa fa-facebook
+  - name: Instagram
+    link: https://www.instagram.com/unswdatasoc/
+    img_class: fa fa-instagram
+  - name: LinkedIn
+    link: https://au.linkedin.com/company/datasoc
+    img_class: fa fa-linkedin
+  - name: Github
+    link: https://github.com/unswdata/
+    img_class: fa fa-github
+  - name: Youtube
+    link: https://www.youtube.com/channel/UC5xEG38_Jr0251sMBoj8xwQ
+    img_class: fa fa-youtube
+Email: hello@unswdata.com
+Deliveries: Level 2 Basser College (Entrance through Gate 5 on High St), Kensington, NSW 2033
+Constitution: https://drive.google.com/file/d/0B_AG9dFeOVmoX3NFLVc0SmZNOGc1ZUVxNDV3VXdXZDdVWjdv/view

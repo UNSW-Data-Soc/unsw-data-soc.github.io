@@ -1,0 +1,26 @@
+
+<div class="hero is-default pt-20">
+<!-- city2_left and intro -->
+<div class="hero-body">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column is-6">
+                {% if include.title %}
+                <h1 class="title is-1 is-bigger"> {{ page.title }}</h1>
+                {% endif %}
+                {% if include.image %}
+                <img src="/assets/images/illustrations/drawings/{{ include.image }}">
+                {% endif %}
+            </div>
+            <div class="column is-5 is-offset-1">
+                {% if page.subtitle %}
+                <h3 class="title is-3 centered">{{ page.subtitle }}</h2>
+                {% endif %}
+                {% if include.intro %}
+                {{ include.intro | markdownify }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,37 @@
+- name: About Us
+  link: /about
+  dropdown:
+    - name: Our Team
+      link: /team
+- name: Our Sponsors
+  link: /sponsors
+  dropdown:
+    - name: Become a Sponsor
+      link: /become-a-sponsor
+- name: Blog
+  link: /blog
+  dropdown:
+    - name: Tag Index
+      link: /tag-index
+- name: Our Events
+  link: /events
+  dropdown:
+    - name: Current Events
+      link: #
+    - name: Past Events
+      link: #
+- name: Resources
+  link: /resources
+  dropdown:
+    - name: Courses
+      link: #
+    - name: Workshops
+      link: #
+    - name: Jobs Board
+      link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
+- name: Publications
+  link: /publications
+- name: Contact Us
+  link: /contact
+- name: SpArc
+  link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
