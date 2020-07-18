@@ -16,9 +16,11 @@ layout: default
 </section>
 
 <br><br>
+<div class="content">
 <div class="container is-fluid">
     <div class='columns'>
         <div class='column is-2'>
+        {% comment %}
             <p>Tags</p>
             {% for tag in site.data.resource_tags %}
             <div class='column is-full'>
@@ -27,8 +29,11 @@ layout: default
                 </label>
             </div>
             {% endfor %}
+        {% endcomment %}
         </div>
         <div class='column is-10'>
+            <h1><br>Coming soon! Watch this space 😇</h1>
+            {% comment %}
             <div class="field is-horizontal is-left">
                 <div class = "field-label is-normal is-left">
                     <label class = "label" for="searchBox">Search</label>
@@ -83,9 +88,10 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+    {% endcomment %}
     </div>
 </div>
-
+</div>
 <link rel="stylesheet" href="/assets/css/paginate.css">
 
 <script type='text/javascript' src='/assets/js/paginate.js'>
