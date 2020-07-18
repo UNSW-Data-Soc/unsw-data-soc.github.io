@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Science and Data Analytics: What’s the Difference?"
-date:   2019-08-27
+date:   2020-07-18
 tags: 
     - data science
     - data analytics
