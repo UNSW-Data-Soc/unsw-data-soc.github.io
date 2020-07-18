@@ -1,14 +1,10 @@
 ---
+layout: default
 title: Publications
 subtitle: Keep up with Datasoc in the wider community!
 title-image: city3_left.png
 introduction: You can find all of our publications here!
 ---
-<html lang="en">
-  {% include head.html %}
-<body>
-  <!-- Hero and Navbar -->
-  {% include menubar.html %}
   <!-- Introduction -->
   <section class="hero is-light is-bold">
     <div class="hero-body">
@@ -103,6 +99,3 @@ introduction: You can find all of our publications here!
         </div>
     </div>
   </div>
-  {% include footer.html %}
-  {% include plugins.html %}
-</body>
