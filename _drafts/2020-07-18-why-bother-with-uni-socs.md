@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why bother with uni societies?"
+title: "Why bother with Uni Societies?"
 date: 2020-07-18
 tags: 
     - university
