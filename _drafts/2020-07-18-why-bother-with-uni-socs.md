@@ -10,7 +10,7 @@ image: /assets/images/blog/DataSoc%20at%20Atlassian.jpg
 excerpt_separator: <!--more-->
 ---
 
-Societies are a polarising subject among students - depending on who you ask, you may hear that "You have to participate in a uni society for your career!" or "Societies are toxic and cult-like". So what's the big deal? What are societies, why should you get involved, and why shouldn't you get involved?
+Societies are a polarising subject among students - depending on who you ask, you may hear that *"You have to participate in a uni society for your career!"* or "*Societies are toxic and cult-like"*. So what's the big deal? What are societies, why should you get involved, and why shouldn't you get involved?
 
 In other words, **Why bother?"**
 
