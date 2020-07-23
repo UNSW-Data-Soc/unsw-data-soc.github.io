@@ -1,203 +1,65 @@
 ---
-layout: landing
+layout: landing-banner
 title: Our Team
+subtitle: Meet the team behind the magic.
 title-image: city2_left.png
 permalink: /about/team/
-introduction: |
-  Surprisingly, even in this era of automation, UNSW DataSoc is still managed by a team of longwithstanding, soon-to-be-obsolete humans.
-  <br><br>
-  We are, however, all extremely proud to be a part of this amazing society to help other students develop skills and knowledge in data science and artificial intelligence.
-  <br><br>
-  And while our icons below might looks like a bunch of Batmans and Deadpools, we are actually real people and we're always up for a chat!
-  <br><br>
-  (Batman and Deadpool not permanent. Real pictures and descriptions coming!)
 ---
 
+<link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">
+	{% assign portfolios = "Execs, External, Internal, Postgraduate" | split: ", " %}
 	<div class="tabs is-boxed is-centered main-menu is-large" id="nav">
 		<ul>
-			<li data-target="pane-1" id="1" class="is-active">
-				<a><h2 class="title is-3">Execs</h2></a>
+			{% for i in (0..3) %}
+			{% if forloop.first == true %}
+				{% assign active_status = "is-active" %}
+			{% else %}
+				{% assign active_status = "" %}
+			{% endif %}
+			<li data-target="pane-{{ i | plus: 1 }}" id="{{ i | plus: 1 }}" class="{{ active_status }}">
+				<a><h2 class="title is-3">{{ portfolios[i] }}</h2></a>
 			</li>
-			<li data-target="pane-2" id="2">
-				<a><h2 class="title is-3">External</h2></a>
-			</li>
-			<li data-target="pane-3" id="3">
-				<a><h2 class="title is-3">Internal</h2></a>
-			</li>
-			<li data-target="pane-4" id="4">
-				<a><h2 class="title is-3">Postgrad</h2></a>
-			</li>
+			{% endfor %}
 		</ul>
 	</div>
 	<div class="tab-content">
-		<div class="tab-pane is-active" id="pane-1">
+	{% for i in (0..3) %}
+		{% assign portfolio = site.team | where:"portfolio",portfolios[i] %}
+		{% if forloop.first == true %}
+			{% assign active_status = "is-active" %}
+		{% else %}
+			{% assign active_status = "" %}
+		{% endif %}
+		<div class="tab-pane {{ active_status }}" id="pane-{{ i | plus: 1}}">
 			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.Execs %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-3"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:2 %}
-						{% if value == 0 %}
-						<div class="column is-3"></div>
+				<div class="container">
+					{% assign remaining_people = portfolio.size %}
+					{% for person in portfolio %}
+					{% assign value = forloop.index0 | modulo: 4 %}
+					{% if value == 0 %}
+						{% if forloop.index0 != 0 %}
 					</div>
+						{% endif %}
 					<div class="columns">
-						<div class="column is-3"></div>
+						{% if remaining_people == 2 %}
+					<div class="column is-3">
+					</div>
+						{% elsif remaining_people == 1 %}
+					<div class="column is-4">
+					</div>
 						{% endif %}
 					{% endif %}
 						<div class="column is-3">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
+							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line %}
 						</div>
+						{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content %}
+					{% assign remaining_people = remaining_people | minus: 1 %}
 					{% endfor %}
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane" id="pane-2">
-			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.External %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-3"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:2 %}
-						{% if value == 0 %}
-						<div class="column is-3"></div>
-					</div>
-					<div class="columns">
-						<div class="column is-3"></div>
-						{% endif %}
-					{% endif %}
-						<div class="column is-3">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="tab-pane" id="pane-3">
-			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.Internal %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-3"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:2 %}
-						{% if value == 0 %}
-						<div class="column is-3"></div>
-					</div>
-					<div class="columns">
-						<div class="column is-3"></div>
-						{% endif %}
-					{% endif %}
-						<div class="column is-3">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="tab-pane" id="pane-4">
-			<div class="content">
-				<div class="content-wrapper">
-					{% for person in site.data.team.Postgraduate %}
-					{% if forloop.first %}
-					<div class="columns">
-						<div class="column is-4"></div>
-					{% else %}
-						{% assign value = forloop.index0 | modulo:3 %}
-						{% if value == 0 %}
-						<div class="column is-4"></div>
-					</div>
-					<div class="columns">
-						<div class="column is-4"></div>
-						{% endif %}
-					{% endif %}
-						<div class="column is-4">
-							<div class="card">
-								<div class="card-image">
-								  <figure>
-									<img src="{{ person.image }}" alt="Placeholder image">
-								  </figure>
-								</div>
-								<div class="card-content">
-								  <div class="media">
-									<div class="media-content">
-									  <p class="title is-4">{{ person.name }}</p>
-									  <p class="subtitle is-6">{{ person.degree }}</p>
-									</div>
-								  </div>
-							  
-								  <div class="content">
-									{{ person.description }}
-								  </div>
-								</div>
-							  </div>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	{% endfor %}
 </div>
+<script src="/assets/js/modals.js"></script>

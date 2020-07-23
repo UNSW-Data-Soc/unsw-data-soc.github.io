@@ -3,8 +3,6 @@
   dropdown:
     - name: Our Team
       link: /team
-    - name: Constitution
-      link: /constitution
 - name: Our Sponsors
   link: /sponsors
   dropdown:
@@ -28,11 +26,6 @@
       link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
   link: /publications
-  dropdown:
-    - name: First Year Guide
-      link: /first-year-guide
-    - name: Newsletter
-      link: /newsletter
 - name: Contact Us
   link: /contact
 - name: SpArc

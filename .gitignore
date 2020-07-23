@@ -26,3 +26,11 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+
+# VS Code
+.vscode/*
+.vs/*
+
+# Python
+__pycache__/
+*.py
