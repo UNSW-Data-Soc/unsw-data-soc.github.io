@@ -22,10 +22,8 @@
 - name: Resources
   link: /resources
   dropdown:
-    - name: Courses
-      link: #
-    - name: Workshops
-      link: #
+    - name: Resources
+      link: 
     - name: Jobs Board
       link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
