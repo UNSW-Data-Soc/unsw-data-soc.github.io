@@ -19,7 +19,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
 <br><br>
 <div class="container is-fluid">
     <div class='columns'>
-        <div class='column is-2'>
+        <div class='column is-3'>
             <div class="field is-horizontal is-left">
                 <div class = "field-label is-normal is-left">
                     <label class = "label" for="searchBox">Search</label>
@@ -39,13 +39,13 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
             </label>
             {% endfor %}
         </div>
-        <div class='column is-10'>
+        <div class='column is-9'>
             <div class='columns is-multiline is-centered'>
                 {% for resource in site.data.resources %}
                 <div class='column is-4 search'>
                     <div class='card'>
                         <div class='card-content'>
-                            <p class='title is-4'>{{ resource.title }}</p>
+                            <p class='title is-5'>{{ resource.title }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
                             </div>
@@ -63,7 +63,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
                             <!--end button-->
                             <br>
                             <br>
-                            <p class='has-background-primary-light'>Tags:</p>
+                            <p>Tags:</p>
                             <div class='c-footer'>
                                 {% for r in resource.tags %}
                                     <button class='button is-small' style='margin: 1%;'>{{ r }}</button>
@@ -80,38 +80,6 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
 </div>
 
 <link rel="stylesheet" href="/assets/css/paginate.css">
-
-<script type='text/javascript' src='/assets/js/paginate.js'>
-</script>
-
-
-
-
-
-<!--<table class="table-borderless is-fullwidth  myTable">
-    <tbody>
-    {% for post in site.posts %}
-    <tr>
-        <td>
-        {% if post.title != 404 %}
-        <h2 class="title is-1 centered"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
-        <br>
-        <p>{{ post.excerpt }}</p>
-        <br>
-        <p><a href="{{ post.url }}"> ... Read more</a></p>
-        <br>
-        {% endif %}
-        </td>
-        {% if post.image %}
-        <td>
-        <span class="image main"><img src="{{ post.image }}" alt="" /></span>
-        </td>
-        {% endif %}
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>-->
 
 <script>
 
@@ -186,25 +154,6 @@ for (let checkbox of checkboxes) {
                     }
             }
         }
-
-        /*checkbox_text = this.parentElement.innerText;
-        checkbox_text = checkbox_text.substring(1,);
-        if (this.checked) {
-            for (let resource of resources) {
-                let str = resource.getElementsByClassName('card-footer')[0].innerText;
-                if (str != checkbox_text) {
-                    resource.style.display = "none";
-                }
-            }
-            
-        } else {
-            for (let resource of resources) {
-                let str = resource.getElementsByClassName('card-footer')[0].innerText;
-                if (str != checkbox_text) {
-                    resource.style.display = "";
-                }
-            }
-        }*/
     }
 }
 </script>
