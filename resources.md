@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <section class="hero is-primary" style='background-color: #21D4FD;
 background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
   <div class="hero-body">
@@ -17,6 +16,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
 </section>
 
 <br><br>
+<div class="content">
 <div class="container is-fluid">
     <div class='columns'>
         <div class='column is-3'>
@@ -76,9 +76,10 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
                 {% endfor %}
             </div>
         </div>
+    {% endcomment %}
     </div>
 </div>
-
+</div>
 <link rel="stylesheet" href="/assets/css/paginate.css">
 
 <script>

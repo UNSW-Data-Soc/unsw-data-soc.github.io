@@ -51,26 +51,27 @@ title: Welcome to DataSoc
                 </div>
             </div>
             <div class="column is-4">
-                <div class='box  has-text-centered'>
+                <div class='box has-text-centered'>
                     <hr style="border-radius: 5px;">
                         {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
                         {% assign e = site.data.events.Events | sort_natural: "end-date" %}
                         {% assign last_element = e.last.end-date | date: "%s" %}
                         {% if e == None or last_element < curr_time %}
-                            <h3 class="title is-1 centered"> We will have more events coming soon! </h3>
+                            <h3 class="title is-1 "> We will have more events coming soon! </h3>
                         {% else %}
-                            <h3 class='title is-2'>Dates to note down </h3>
+                            <h3 class='title is-2'>Events you're invited to!</h3>
                         {% endif %}
                         {% assign index = 0 %}
                         {% assign e = site.data.events.Events | sort_natural: "start-date" %}
-                        {% for event in e limit: 2%}
+                        {% for event in e %}
                             {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
                             {% if curr_time < event_date %}
-                                <ol><h4 class='subtitle is-4 has-text-black'>{{event.name}}</h4></ol>
-                                <ol><p class='subtitle is-6 has-text-centered'><a href="{{event.link}}" title="Sign up here!"> More Information Here!</a></p></ol>
-                                <br>
+                            <ol><h4 class='has-text-black'><b><i>{{event_date | date:"%B %d, %Y"}}</i></b></h4></ol>
+                            <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" tit0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001le="Sign up here!">{{event.name}}</a></h4></ol>
+                            <br>
                             {% endif %}
                         {% endfor %}
+                        <br>
                     <a href="events/" class="button button-cta is-bold btn-align secondary-btn raised">All our events!</a>
                 </div>
             </div>
