@@ -76,7 +76,6 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
                 {% endfor %}
             </div>
         </div>
-    {% endcomment %}
     </div>
 </div>
 </div>
