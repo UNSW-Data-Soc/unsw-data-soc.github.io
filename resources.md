@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-<section class="hero is-primary is-bold">
+<section class="hero is-primary" style='background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -19,21 +19,7 @@ layout: default
 <div class="content">
 <div class="container is-fluid">
     <div class='columns'>
-        <div class='column is-2'>
-        {% comment %}
-            <p>Tags</p>
-            {% for tag in site.data.resource_tags %}
-            <div class='column is-full'>
-                <label class="checkbox">
-                    <input type="checkbox" class="resource-tag">{{ tag }}
-                </label>
-            </div>
-            {% endfor %}
-        {% endcomment %}
-        </div>
-        <div class='column is-10'>
-            <h1><br>Coming soon! Watch this space 😇</h1>
-            {% comment %}
+        <div class='column is-3'>
             <div class="field is-horizontal is-left">
                 <div class = "field-label is-normal is-left">
                     <label class = "label" for="searchBox">Search</label>
@@ -46,33 +32,29 @@ layout: default
                     </div>
                 </div>
             </div>
+            <p>Tags</p>
+            {% for tag in site.data.resource_tags %}
+            <label class="checkbox">
+                <input type="checkbox" class="resource-tag"> {{ tag }}
+            </label>
+            {% endfor %}
+        </div>
+        <div class='column is-9'>
             <div class='columns is-multiline is-centered'>
                 {% for resource in site.data.resources %}
                 <div class='column is-4 search'>
                     <div class='card'>
                         <div class='card-content'>
-                            <p class='title is-4'>{{ resource.title }}</p>
+                            <p class='title is-5'>{{ resource.title }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
                             </div>
                             <!--resources button-->
                             {% if resource.resources %}
-                            <div class="dropdown is-hoverable">
-                                <div class="dropdown-trigger" >
-                                    <button class="button is-info">
-                                        <span>View Resources</span>
-                                    </button>
-                                </div>
-                                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                                    <div class="dropdown-content">
-                                    {% for link in resource.resources %}
-                                        <a href="{{ link.path }}" class="dropdown-item" target="_blank">
-                                        {{ link.name }}
-                                        </a>
-                                    {% endfor %}
-                                    </div>
-                                </div>
-                            </div>
+                                <a href="{{ resource.resources }}" target="_blank">
+                                <button  class="button is-info" style='background-color: #5e9bfe;'>
+                                    <span>View Resources</span>
+                                </button></a>
                             {% else %}
                             <button class="button is-disabled">
                                 <span>No Resources</span>
@@ -81,7 +63,13 @@ layout: default
                             <!--end button-->
                             <br>
                             <br>
-                            <p class='card-footer'>{{ resource.tags }}</p>
+                            <p>Tags:</p>
+                            <div class='c-footer'>
+                                {% for r in resource.tags %}
+                                    <button class='button is-small' style='margin: 1%;'>{{ r }}</button>
+                                {% endfor %}
+                                <!--{{ resource.tags }}-->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -93,38 +81,6 @@ layout: default
 </div>
 </div>
 <link rel="stylesheet" href="/assets/css/paginate.css">
-
-<script type='text/javascript' src='/assets/js/paginate.js'>
-</script>
-
-
-
-
-
-<!--<table class="table-borderless is-fullwidth  myTable">
-    <tbody>
-    {% for post in site.posts %}
-    <tr>
-        <td>
-        {% if post.title != 404 %}
-        <h2 class="title is-1 centered"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
-        <br>
-        <p>{{ post.excerpt }}</p>
-        <br>
-        <p><a href="{{ post.url }}"> ... Read more</a></p>
-        <br>
-        {% endif %}
-        </td>
-        {% if post.image %}
-        <td>
-        <span class="image main"><img src="{{ post.image }}" alt="" /></span>
-        </td>
-        {% endif %}
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>-->
 
 <script>
 
@@ -154,24 +110,49 @@ function filter_search(word) {
     } 
 }
 
-let tags = document.getElementsByClassName('resource-tag');
-for (let tag of tags) {
-    tag.onclick = function() {
-        checkbox_text = this.parentElement.innerText;
-        if (this.checked) {
+function tags_are_checked(checkboxes, tags) {
+    for (let checkbox of checkboxes) {
+        if (checkbox.checked) {
+            checkbox_text = checkbox.parentElement.innerText;
+            checkbox_text = checkbox_text.substring(1,);
+            if (tags.search(checkbox_text) != -1) {
+                return true;
+            } 
+        }
+    }
+    return false;
+}
+
+function no_boxes_checked(checkboxes) {
+    for (let checkbox of checkboxes) {
+        if (checkbox.checked) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+let checkboxes = document.getElementsByClassName('resource-tag');
+for (let checkbox of checkboxes) {
+    checkbox.onclick = function() {
+
+        // Reset checkboxes if all unticked
+        if (no_boxes_checked(checkboxes)) {
+            console.log('hey')
             for (let resource of resources) {
-                let str = resource.getElementsByClassName('card-footer')[0].innerText;
-                if (str != checkbox_text) {
-                    resource.style.display = "none";
-                }
+                resource.style.display = "";
             }
-            
         } else {
+
+            //For each resource card check if tags belong to set of ticked checkboxes
             for (let resource of resources) {
-                let str = resource.getElementsByClassName('card-footer')[0].innerText;
-                if (str != checkbox_text) {
-                    resource.style.display = "";
-                }
+                    let tags = resource.getElementsByClassName('c-footer')[0].innerText;
+                    if (tags_are_checked(checkboxes,tags)) {
+                        resource.style.display = "";
+                    } else {
+                        resource.style.display = "none";
+                    }
             }
         }
     }
