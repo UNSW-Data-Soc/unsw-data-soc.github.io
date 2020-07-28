@@ -24,6 +24,9 @@
                         </a>
 
                         <div class="navbar-dropdown">
+                          <a href="{{ item.link }}" class="navbar-item">
+                            {{ item.name }}
+                          </a>
                           {% for page in item.dropdown %}
                           {% if page.name == "Jobs Board"%}
                             {% capture url %} {{ page.link }} {% endcapture %}
