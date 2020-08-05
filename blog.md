@@ -39,36 +39,39 @@ layout: default
         </div>
       </div>
     </nav>
-  <div class = "panel">
-      <div class = "body">
-        
-      </div>
-    </div>
-    <br>
-    <table class="table-borderless is-fullwidth  myTable">
+    <div class = "body">
+    <div class = "table-container">
+    <table class="table-borderless overflow myTable">
         <tbody>
         {% for post in site.posts %}
         <tr>
           <td>
+            <div class = "columns">
+            <div class = "column">
             {% if post.title != 404 %}
-            <h2 class="title is-1 centered"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
+            <h2 class="title is-1 centered is-size-5-mobile"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
             {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
             <br>
-            <p>{{ post.excerpt }}</p>
+            <p class = "is-size-7-mobile">{{ post.excerpt }}</p>
             <br>
             <p><a href="{{ post.url }}"> ... Read more</a></p>
             <br>
             {% endif %}
+            </div>
+            {% if post.image %}
+              <div class = "column">
+                <figure class="image"><img src="{{ post.image }}" alt="" /></figure>
+              </div>
+              <br><br>
+            {% endif %}
+          </div>
           </td>
-          {% if post.image %}
-          <td>
-          <figure class="image"><img src="{{ post.image }}" alt="" /></figure>
-          </td>
-          {% endif %}
         </tr>
         {% endfor %}
         </tbody>
     </table>
+    </div>
+    </div>
   </div>
 </div>
 
