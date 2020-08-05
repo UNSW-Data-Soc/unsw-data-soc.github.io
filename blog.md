@@ -52,7 +52,7 @@ layout: default
             <h2 class="title is-1 centered is-size-5-mobile"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
             {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
             <br>
-            <p class = "is-size-7-mobile">{{ post.excerpt }}</p>
+            <p class = "is-size-3-mobile">{{ post.excerpt }}</p>
             <br>
             <p><a href="{{ post.url }}"> ... Read more</a></p>
             <br>
