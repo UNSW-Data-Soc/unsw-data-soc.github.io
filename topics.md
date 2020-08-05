@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: blog/tag-index
+permalink: blog/topics
 ---
 <link rel="stylesheet" href="/assets/css/tags.css">
 <section class = "hero is-info is-bold">

@@ -1,71 +1,40 @@
+- title: Neural Networks
+  tags: [machine learning]
+  description: Theory on feedforward and back propagation algorithms and how to implement neural networks in python.
+  resources: https://drive.google.com/drive/folders/1Mgz-fNiSVQD3vNo2O5KIvCDvy41zpOw1?usp=sharing
+
 - title: Data Science Workshop 1
   tags: [machine learning]
   description: Linear Regression
-  resources:
-    - name: Resources
-      path: https://drive.google.com/drive/folders/1axe_Jdvd6P_hP_8IY73wKbwJp15FQQS6?usp=sharing
+  resources: https://drive.google.com/drive/folders/1axe_Jdvd6P_hP_8IY73wKbwJp15FQQS6?usp=sharing
 
 - title: Data Science Workshop 2
   tags: [machine learning]
   description: Logistic Regression
-  resources:
-    - name: Resources
-      path: https://drive.google.com/drive/folders/19pAO-oLyyoqZn_mXkezbg2f11GH0ECA1?usp=sharing
+  resources: https://drive.google.com/drive/folders/19pAO-oLyyoqZn_mXkezbg2f11GH0ECA1?usp=sharing
 
 - title: Data Science Workshop 3
   tags: [machine learning]
   description: Decision Trees
-  resources:
-    - name: Resources
-      path: https://drive.google.com/drive/folders/1nvtNpnnwa38xEVP-NO7WJ42Lc0L_KQX-?usp=sharing
-
+  resources: https://drive.google.com/drive/folders/1nvtNpnnwa38xEVP-NO7WJ42Lc0L_KQX-?usp=sharing
 
 - title: Python Workshop 1
   tags: [programming language]
   description: Our first introductory python workshop.
-  resources:
-    - path: https://docs.google.com/presentation/d/1wttLtNKtkaMfoohhUcJPyfO3tHqw6zVcCI-pYE38LX8/edit?usp=sharing
-      name: Slides
-    - name: world.py
-      path: https://drive.google.com/file/d/1rY2alh2BtppbsC7MIHnZ2lduAGSZYotl/view?usp=sharing
-    - name: Webinar recording
-      path: https://drive.google.com/file/d/1VBHM25z0d5VvUwuFBGFxykz12VQXmjKS/view?usp=sharing
+  resources: https://drive.google.com/drive/folders/1XFyLVu1m1OG4EQT-JMNelY8jQ0DjAXjK?usp=sharing
 
 - title: Python Workshop 2
   tags: [programming language]
   description: The second workshop in our introductory python series.
-  resources:
-    - name: Slides
-      path: https://docs.google.com/presentation/d/1JNDTszYW5LSDqqBUS_XiG4uUh_r0_f-99liSSL_lt1k/edit?usp=sharing
-    - name: Webinar recording
-      path: https://drive.google.com/file/d/15nDHy141sjPX1A9td_FBti-qdn2Sf8T1/view?usp=sharing
+  resources: https://drive.google.com/drive/folders/1qUq-AINEZg2_9bct__buGHjyO_cAcmtm?usp=sharing
 
 - title: R Workshop 1
   tags: [programming language]
   description: Our first introductory R workshop.
-  resources:
-    - name: Slides
-      path: /resources_page/2020/R_workshop_1/slides.html
-    - name: R markdown
-      path: https://drive.google.com/file/d/1ajdReB4w5NJg4olN7jFf7aA9TGcWzPiN/view?usp=sharing
-    - name: Class Script
-      path: https://drive.google.com/file/d/15yGyI9u5_XSZirhahOFhRbUXGcki-uTM/view?usp=sharing
+  resources: https://drive.google.com/drive/folders/1TmvppJ8HCbPuSDSzE-TS1xAf6M89kkNI?usp=sharing
 
 - title: R Workshop 2
   tags: [programming language]
   description: The second workshop in our introductory R series.
-  resources:
-    - name: Slides
-      path: /resources_page/2020/R_workshop_2/slides.html
-    - name: R markdown
-      path: https://drive.google.com/file/d/1uNJy9wCJRvWQN_oSU6caUdNeh-E1veJU/view?usp=sharing
-    - name: Webinar recording part 1
-      path: https://drive.google.com/file/d/1utNAd1HKT0f8uHYnGiqH4mqH3EsiUG10/view?usp=sharing
-    - name: Webinar recording part 2
-      path: https://drive.google.com/file/d/1JUAzfyw9tTzMpIQF5A7CsHiVpR4aUNW0/view?usp=sharing
-    - name: students.csv
-      path: https://drive.google.com/file/d/12ZpMIKNwjtLE5fm6nfYDxyBJRyr8CndF/view?usp=sharing
-    - name: mtcars.csv
-      path: https://drive.google.com/file/d/1MVVkNibdnK7A4R2sqalkOq6_cu4c_eHV/view?usp=sharing
-
+  resources: https://drive.google.com/drive/folders/1Uqv38n9YKHfgd1x4pRrY-SUYCcORcBx-?usp=sharing
 
