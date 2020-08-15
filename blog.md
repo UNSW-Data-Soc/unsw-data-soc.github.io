@@ -40,7 +40,6 @@ layout: default
       </div>
     </nav>
     <div class = "body">
-    <div class = "table-container">
     <table class="table-borderless overflow myTable">
         <tbody>
         {% for post in site.posts %}
@@ -71,7 +70,6 @@ layout: default
         </tbody>
     </table>
     </div>
-    </div>
   </div>
 </div>
 
@@ -79,7 +77,7 @@ layout: default
 <script>
 
   let options = {
-    numberPerPage: 4,
+    numberPerPage: 10,
     goBar:true, 
     pageCounter:true, 
   };
