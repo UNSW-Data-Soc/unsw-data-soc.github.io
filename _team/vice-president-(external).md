@@ -8,4 +8,4 @@ image: laurel-lu.jpg
 one_line: Wait no, it's L-A-U-R-E-L, not yanny!!!
 ---
 
-This is Laurel. Laurel is a big brained human. Laurel gets sh** done. Be like Laurel. Legend has it that she has only felt pressure once in her life, and that was when deciding on which new wholefoods item to get from Woolies. Whether it be keeping the rat mentality alive in Datasoc to organising portfolios to finding the best food on campus, our External VP knows what to do.
+This is Laurel. Laurel is a big brained human. Laurel gets things done. Be like Laurel. Legend has it that she has only felt pressure once in her life, and that was when deciding on which new wholefoods item to get from Woolies. Whether it be keeping the rat mentality alive in Datasoc to organising portfolios to finding the best food on campus, our External VP knows what to do.

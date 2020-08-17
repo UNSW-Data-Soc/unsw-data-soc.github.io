@@ -5,26 +5,16 @@
       link: /team
 - name: Our Sponsors
   link: /sponsors
-  dropdown:
-    - name: Become a Sponsor
-      link: /become-a-sponsor
 - name: Blog
   link: /blog
   dropdown:
-    - name: Tag Index
-      link: /tag-index
+    - name: Topics
+      link: /topics
 - name: Our Events
   link: /events
-  dropdown:
-    - name: Current Events
-      link: #
-    - name: Past Events
-      link: #
 - name: Resources
   link: /resources
   dropdown:
-    - name: Resources
-      link: 
     - name: Jobs Board
       link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
