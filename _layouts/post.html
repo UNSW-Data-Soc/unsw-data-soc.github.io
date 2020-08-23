@@ -3,10 +3,61 @@ layout: default
 ---
 <div class="hero-body">
 	<div class="container">
-		<h1 class="title is-1">{{ page.title }}</h1>
-		{% if page.date %}<p> <i>Published {{ page.date | date_to_string }}</i></p>{% endif %}
-		<br>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		{{ content }}
+		<div class = "columns is-variable is-8">
+			<div class = "column is-three-quarters">
+				<div class = "content-header-block">
+					<h1 class="title is-1">{{ page.title }}</h1>
+				</div>
+				{% if page.date %}<p> <i>Published {{ page.date | date_to_string }}</i></p>{% endif %}
+				{% if page.author %}<p> <i>By <b>{{ page.author}}</b></i></p>{% endif %}
+				<br>
+				<div class="content">
+				{% if page.image %}
+					<figure>
+						<span>
+							<img class = "maxed responsive-img" src="{{ page.image }}" alt="" >
+						</span>
+						{% if page.caption %}
+							<figcaption>
+								<p class = "has-text-grey is-size-7">
+									{{ page.caption }}
+								</p>
+							</figcaption>
+						{% endif %}
+					</figure>				
+				{% endif %}
+				<br>
+					<text class = "is-size-5">{{ content | markdownify}}</text>
+				<br>	
+				</div>
+				<div class = "tags"></div>
+				
+				Tags: 
+				{% for tag in page.tags %}
+					<span class = "tag"><a href = "{{site.baseurl}}/blog/tag-index#{{tag}}"> {{tag}}</a></span>
+				{% endfor %}
+			</div>
+			<div class = "column">
+				<table class="table">
+					<thead> <h1 class = "title">Newest Posts</h1></thead>
+					<tbody>
+					{% for post in site.posts limit:4 %}
+						{% if post.title != page.title %}
+						<tr>
+							<td>
+								<h2 class="title"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
+								{% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
+								<br>
+								<p><a href="{{ post.url }}"> ... Read more</a></p>
+								<br>
+							</td>
+						</tr>
+						{% endif %}
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 </div>
+

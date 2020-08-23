@@ -3,38 +3,22 @@
   dropdown:
     - name: Our Team
       link: /team
-    - name: Constitution
-      link: /constitution
 - name: Our Sponsors
   link: /sponsors
-  dropdown:
-    - name: Become a Sponsor
-      link: /become-a-sponsor
 - name: Blog
   link: /blog
+  dropdown:
+    - name: Topics
+      link: /topics
 - name: Our Events
   link: /events
-  dropdown:
-    - name: Current Events
-      link: #
-    - name: Past Events
-      link: #
 - name: Resources
   link: /resources
   dropdown:
-    - name: Courses
-      link: #
-    - name: Workshops
-      link: #
     - name: Jobs Board
-      link: https://trello.com/b/iy42OQH1 
+      link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
   link: /publications
-  dropdown:
-    - name: First Year Guide
-      link: /first-year-guide
-    - name: Newsletter
-      link: /newsletter
 - name: Contact Us
   link: /contact
 - name: SpArc
