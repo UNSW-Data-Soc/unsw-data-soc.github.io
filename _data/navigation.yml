@@ -1,8 +1,12 @@
+- name: Datathon
+  link: /datathon
 - name: About Us
   link: /about
   dropdown:
     - name: Our Team
       link: /team
+    - name: SpArc
+      link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
 - name: Our Sponsors
   link: /sponsors
 - name: Blog
@@ -21,5 +25,3 @@
   link: /publications
 - name: Contact Us
   link: /contact
-- name: SpArc
-  link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
