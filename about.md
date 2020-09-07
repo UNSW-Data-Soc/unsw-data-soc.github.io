@@ -256,20 +256,24 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 
 <div class="hero-body">
     <div class="container">
-        <div class="row example-centered">
+        <div class="columns is-vcentered">
             <div class="column is-7 is-offset-3">
                 <ul class="no_bullet">
                     <li class="lightbulb">
                         DataSoc aims to become Australia’s leading student run society platform in assisting students on achieving their data science career goals.
+                        <br><br>
                     </li>
                     <li class="jobboard">
                         We strive to create the data science related opportunities for students in their studies and careers alike. We host information sessions, networking evenings, and many more career-focused events that could help open new pathways for students.
+                        <br><br>
                     </li>
                     <li class="mice">
                         We aim to enrich students' lives with a sense of community and diversity among UNSW data science students. We host a list of various social activities such as BBQs, competitions, etc. that welcome everyone to attend and meet like minded people.
+                        <br><br>
                     </li>
                     <li class="zoom">
                         We want to support data science students in their studies with DataSoc’s help sessions, workshops and peer supporters. 
+                        <br><br>
                     </li>
                 </ul>
             </div>
