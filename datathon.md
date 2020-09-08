@@ -30,31 +30,35 @@ details[open] summary {
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
-    <div class="hero-body" style=" background:rgba(0,0,0,0.4);">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/datathon-2020.png'); background-position: center; background-size: cover">
+    <div class="hero-body">
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column has-text-centered is-hero-title">
-                    <h2 class="subtitle is-4 has-text-light">DataSoc presents:</h2>
-                    <h1 class="title is-1 is-bigger has-text-light">Datathon 2020</h1> 
-                </div>
-            </div>
+            <p class="has-text-centered">
+                <br><br>
+                <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
+                    Register
+                </a>
+                <br><br>
+            </p>
         </div>
     </div>
 </div>
+
 
 <div class="hero-body">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-three-quarters has-text-centered">
-                <h1 class="title">
-                    Hello its Datathon time
-                </h1>
-                <h2 class="subtitle is-4">
-                    About this Event.
+               <div class="column has-text-centered is-hero-title">
+                    <h2 class="subtitle is-4 has-text-black">DataSoc x Atlassian Presents:</h2>
+                    <h1 class="title is-1 is-bigger has-text-black">Datathon 2020</h1> 
+                </div>
+                <h3 class="subtitle is-4">
                     <br>
-                    Insert information.
-                </h2>     
+                    If you are looking to put your analytical and coding skills into practice, DataSoc is proud to present you our annual Datathon for 2020!
+                    <br><br>This year, DataSoc has partnered up with Atlassian, and together we present to you an opportunity to experience what it is like to use the power of data to solve real-world problems while working alongside industry mentors from Atlassian, BCG, Accenture, Deloitte, EY, KPMG, Westpac, and UNSW data experts. 
+                    <br>
+                </h3>     
             </div> 
         </div>
     </div>
@@ -92,6 +96,63 @@ details[open] summary {
 <section class="hero is-primary">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
     <div class="container">
+        <div class="level-item">
+            <h1 class="title">
+                Prizes 
+            </h1>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+    <div class="columns features">
+        <div class="column is-4">
+            <div class="card is-shady ">
+                <div class="card-content">
+                    <div class="content">
+                        <h4>1st Place Prize </h4>
+                        <p >$450 Cash from Datasoc. <br> 
+                            Coffee chat with senior Atalassian representative and potential fast-track to a role. <br>
+                            Atlassian Merch
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="content">
+                        <h4>2nd Place Prize</h4>
+                        <p>$300 Cash from Datasoc. <br> 
+                            Resume review with Atlassian senior campus recruiter <br>
+                            Atlassian Merch
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="content">
+                        <h4> 3rd Place Prize </h4>
+                        <p>$150 Cash from Datasoc <br>
+                        Atlassian Merch
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="hero is-primary">
+  <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
+    <div class="container" id="register">
         <div class="level-item">
             <h1 class="title">
                 Register Here
