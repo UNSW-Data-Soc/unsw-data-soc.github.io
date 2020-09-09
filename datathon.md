@@ -30,20 +30,19 @@ details[open] summary {
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/datathon-2020.png'); background-position: center; background-size: cover">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/datathon-2020.png'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
     <div class="hero-body">
         <div class="container">
-            <p class="has-text-centered">
-                <br><br>
-                <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
+            <div class="columns is-vcentered">
+                <div class="column has-text-centered is-hero-title">
+                    <<a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
                     Register
-                </a>
-                <br><br>
-            </p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 
 <div class="hero-body">
     <div class="container">
