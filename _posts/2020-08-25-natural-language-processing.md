@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Natural Language Processing: The Love Child of Machine Learning and Linguistics"
-date:   2020-08-15
+date:   2020-09-09
 tags:
     - machine learning
     - data science
