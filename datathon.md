@@ -30,19 +30,20 @@ details[open] summary {
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/datathon-2020.png'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/datathon-2020.png'); background-position: center; background-attachment: fixed; background-size: cover">
     <div class="hero-body">
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column has-text-centered is-hero-title">
-                    <<a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
+            <p class="has-text-centered">
+                <br><br>
+                <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
                     Register
-                    </a>
-                </div>
-            </div>
+                </a>
+                <br><br>
+            </p>
         </div>
     </div>
 </div>
+
 
 <div class="hero-body">
     <div class="container">
@@ -64,7 +65,8 @@ details[open] summary {
 </div>
 
 <section class="hero is-primary">
-  <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
+  <div class="hero-body" style=" background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     <div class="container">
         <div class="level-item">
             <h1 class="title">
@@ -81,10 +83,34 @@ details[open] summary {
             <div class="column is-three-fifths is-offset-one-fifth">
                     <details>
                     <summary>
-                        Hi?
+                        What is a datathon?
                     </summary>     
                         <p>
                         yes
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Can I enter alone/less than a full team?
+                    </summary>     
+                        <p>
+                        Can you???
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Who does the intellectual property belong to?
+                    </summary>     
+                        <p>
+                        Me
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        What can I expect?
+                    </summary>     
+                        <p>
+                        To have fun.
                         </p>
                     </details>
             </div>
@@ -104,6 +130,8 @@ details[open] summary {
   </div>
 </section>
 
+<br><br>
+
 <section class="container">
     <div class="columns features">
         <div class="column is-4">
@@ -111,10 +139,9 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4>1st Place Prize </h4>
-                        <p >$450 Cash from Datasoc. <br> 
-                            Coffee chat with senior Atalassian representative and potential fast-track to a role. <br>
-                            Atlassian Merch
-                        </p>
+                        <li>$450 Cash from Datasoc.</li>
+                        <li>Coffee chat with senior Atalassian representative and potential fast-track to a role.</li>
+                        <li>Atlassian Merch</li>
                     </div>
                 </div>
             </div>
@@ -124,10 +151,9 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4>2nd Place Prize</h4>
-                        <p>$300 Cash from Datasoc. <br> 
-                            Resume review with Atlassian senior campus recruiter <br>
-                            Atlassian Merch
-                        </p>
+                        <li>$300 Cash from Datasoc. </li>
+                        <li>Resume review with Atlassian senior campus recruiter </li>
+                        <li>Atlassian Merch</li>
                     </div>
                 </div>
             </div>
@@ -137,9 +163,8 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4> 3rd Place Prize </h4>
-                        <p>$150 Cash from Datasoc <br>
-                        Atlassian Merch
-                        </p>
+                        <li>$150 Cash from Datasoc </li>
+                        <li>Atlassian Merch</li>
                     </div>
                 </div>
             </div>
@@ -147,7 +172,20 @@ details[open] summary {
     </div>
 </section>
 
+<br><br>
 
+<section class="hero is-primary">
+  <div class="hero-body" style=" background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
+    <div class="container" id="register">
+        <div class="level-item">
+            <h1 class="title">
+                Our Sponsors
+            </h1>
+        </div>
+    </div>
+  </div>
+</section>
 
 <section class="hero is-primary">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
