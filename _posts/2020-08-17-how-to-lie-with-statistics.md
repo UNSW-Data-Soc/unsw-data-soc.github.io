@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How people lie to your face – with factual numbers."
-date: 2020-08-02
+date: 2020-08-17
 tags: 
     - statistics
     - communication
@@ -10,7 +10,9 @@ image: https://pics.me.me/statistics-shows-that-teenage-pregnancy-drops-dramatic
 excerpt_separator: <!--more-->
 ---
 
-“Numbers don’t lie.” You’ve heard this age-old adage before – but remember the follow-up: “… but people do.” As data-literate individuals in a data-drenched world, we need to keep our wits about us and retain our critical thinking when people present us with studies and visualisations that seem to have all the answers. Here’s why, and some examples.
+“Numbers don’t lie...**but people do.**”
+
+As data-literate individuals in a data-drenched world, we need to keep our wits about us and retain our critical thinking when people present us with studies and visualisations that seem to have all the answers. Here’s why, with some examples.
 
 <!--more-->
 
