@@ -28,6 +28,8 @@ If humans use language by constructing from the ground-up, building meaningless 
 
 [The text is broken down into components](https://www.tutorialspoint.com/natural_language_processing/natural_language_discourse_processing.htm), and [analysed against the syntax rules of the language being used](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_natural_language_processing.htm). The ‘dictionary meaning’ of individual words is identified, as well as combinations of individual words that form a distinct meaning. These are then contextualized: the word ‘bear’ can mean very different things, after all, when I say ‘I bear the weight of the world’ compared to ‘there’s a bear in my house!’.
 
+![A map of the steps in natural language processing](https://www.tutorialspoint.com/artificial_intelligence/images/steps_in_nlp.jpg)
+
 Natural language processing currently [uses deep learning neural networks to train AI in human languages](https://searchbusinessanalytics.techtarget.com/definition/natural-language-processing-NLP). However, this model requires a massive amount of data to ‘teach’ the AI – in much the same way a child requires constant spoken interaction to begin to grasp the usage of language. The quantity of data required proves one of the challenges facing this model, but it [proves more flexible and intuitive than the earlier, machine-learning algorithms that followed a more rules-based approach](https://searchbusinessanalytics.techtarget.com/definition/natural-language-processing-NLP). 
 
 ## Current Applications
