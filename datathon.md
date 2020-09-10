@@ -34,7 +34,7 @@ details[open] summary {
     <div class="hero-body">
         <div class="container">
             <div class="has-text-centered">
-                <a><img src="/assets/datathon/atlassian.png"></a>
+                <a><img src="/assets/images/datathon/atlassian.png"></a>
             </div>
             <div class="column has-text-centered is-hero-title">
                 <h2 class="subtitle is-4 has-text-white">DataSoc x Atlassian Presents:</h2>
@@ -196,7 +196,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 
 <div class="contianer">
     <div class="has-text-centered">
-        <a><img src="/assets/datathon/atlassian.png"></a>
+        <a><img src="/assets/images/datathon/atlassian.png"></a>
     </div>
 </div>
 
