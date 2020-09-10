@@ -30,15 +30,22 @@ details[open] summary {
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/datathon-2020.png'); background-position: center; background-attachment: fixed; background-size: cover">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/datathon/background.png'); background-position: center; background-attachment: fixed; background-size: cover">
     <div class="hero-body">
         <div class="container">
+            <div class="has-text-centered">
+                <a><img src="/assets/datathon/atlassian.png"></a>
+            </div>
+            <div class="column has-text-centered is-hero-title">
+                <h2 class="subtitle is-4 has-text-white">DataSoc x Atlassian Presents:</h2>
+                <h1 class="title is-1 is-bigger has-text-white">Datathon 2020</h1> 
+            </div>
             <p class="has-text-centered">
-                <br><br>
-                <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
-                    Register
-                </a>
-                <br><br>
+            <br><br>
+            <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
+                Register
+            </a>
+            <br><br>
             </p>
         </div>
     </div>
@@ -186,6 +193,12 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     </div>
   </div>
 </section>
+
+<div class="contianer">
+    <div class="has-text-centered">
+        <a><img src="/assets/datathon/atlassian.png"></a>
+    </div>
+</div>
 
 <section class="hero is-primary">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
