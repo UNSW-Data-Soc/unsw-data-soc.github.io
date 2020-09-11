@@ -175,7 +175,6 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 <div class="container">
     <div class="columns is-centered">
         <div class="column is-three-quarters has-text-centered">
-                
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesHqAO5sf5tOnTXnKjGKLG7GxCSlGtoNDRu0X30l63n2PuMA/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             
         </div>
