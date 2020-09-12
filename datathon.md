@@ -52,11 +52,11 @@ details[open] summary {
             </p>
         </div>
         <br><br>
-        <div class="container" style="height:0px">
+        <div class="columns" style="height:0px">
                 <a><img src="/assets/images/datathon/kpmg.png"
-                    style="max-width:20%"></a>
+                    style="max-width:20% left:10px"></a>
                 <a><img src="/assets/images/datathon/bcg.png"
-                    style="max-width:25%"></a>
+                    style="max-width:25% left:10px"></a>
                 <a><img src="/assets/images/datathon/accenture.png"
                     style="max-width:10%"></a>
                 <a><img src="/assets/images/datathon/westpac.png"
@@ -157,6 +157,24 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
   </div>
 </section>
 
+<div class="hero-body">
+    <div class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+                {% for i in site.data.datathon %}
+                <div class="column">
+                    <div class="sponsor_icon">
+                        <a href="{{ i.link }}">
+                            <img src="{{ i.icon }}">
+                        </a>
+                    </div>
+                </div>
+                {% endfor%}
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="hero is-primary">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
     <div class="container" id="register">
@@ -175,6 +193,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 <div class="container">
     <div class="columns is-centered">
         <div class="column is-three-quarters has-text-centered">
+                
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesHqAO5sf5tOnTXnKjGKLG7GxCSlGtoNDRu0X30l63n2PuMA/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             
         </div>
