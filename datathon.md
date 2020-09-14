@@ -30,7 +30,7 @@ details[open] summary {
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/datathon/background.png'); background-position: center; background-attachment: fixed; background-size: cover">
+<div class="hero is-bold is-medium" style="background-image: url('/assets/images/datathon/background.png'); background-position: center; background-attachment: fixed; background-size: cover">
     <div class="hero-body">
         <div class="container" style="height:130px">
             <div class="has-text-centered">
@@ -43,26 +43,15 @@ details[open] summary {
                 <h2 class="subtitle is-4 has-text-white">DataSoc x Atlassian Presents:</h2>
                 <h1 class="title is-1 is-bigger has-text-white">Datathon 2020</h1> 
             </div>
-            <p class="has-text-centered">
-            <br><br>
-            <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
-                Register
-            </a>
-            <br><br>
+            <p class="subtitle has-text-white has-text-centered">
+                Saturday October 3 &mdash; Sunday October 4
+                <br>
+                Zoom and Slack
+                <br><br>
+                <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
+                    Register Here!
+                </a>
             </p>
-        </div>
-        <br><br>
-        <div class="columns" style="height:0px">
-                <a><img src="/assets/images/datathon/kpmg.png"
-                    style="max-width:20% left:10px"></a>
-                <a><img src="/assets/images/datathon/bcg.png"
-                    style="max-width:25% left:10px"></a>
-                <a><img src="/assets/images/datathon/accenture.png"
-                    style="max-width:10%"></a>
-                <a><img src="/assets/images/datathon/westpac.png"
-                    style="max-width:15%"></a>
-                <a><img src="/assets/images/datathon/deloitte.png"
-                    style="max-width:15%"></a>
         </div>
     </div>
 </div>
@@ -72,16 +61,26 @@ details[open] summary {
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-three-quarters has-text-centered">
-               <div class="column has-text-centered is-hero-title">
-                    <h2 class="subtitle is-4 has-text-black">DataSoc x Atlassian Presents:</h2>
-                    <h1 class="title is-1 is-bigger has-text-black">Datathon 2020</h1> 
-                </div>
                 <h3 class="subtitle is-4">
                     <br>
                     If you are looking to put your analytical and coding skills into practice, DataSoc is proud to present you our annual Datathon for 2020!
                     <br><br>This year, DataSoc has partnered up with Atlassian, and together we present to you an opportunity to experience what it is like to use the power of data to solve real-world problems while working alongside industry mentors from Atlassian, BCG, Accenture, Deloitte, EY, KPMG, Westpac, and UNSW data experts. 
-                    <br>
-                </h3>     
+                    <br><br>
+                    <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/2691426797791998/?active_tab=discussion">Follow the Event on Facebook!</a>
+                    <br><br>
+                    You and your team will be given a real-world problem which you will have 24 hours to work on a presentation-ready solution to pitch your ideas to the judges.
+                    <br><br>
+                    Register with a team of up to 4, or register as an individual and we will place you into a team. Entry is free but spots are limited, so make sure to register below!
+                    <br><br>
+                </h3>
+                <div class="columns">
+                <div class="column">
+                <a class="button is-rounded is-large is-outlined is-info is-bold" href="#register">Register Here!</a>
+                </div>
+                <div class="column">
+                <a class="button is-rounded is-large is-info is-outlined is-bold" href="#faq">FAQs</a>
+                </div>
+                </div>
             </div> 
         </div>
     </div>
@@ -108,9 +107,9 @@ details[open] summary {
             <div class="card is-shady ">
                 <div class="card-content">
                     <div class="content">
-                        <h4>1st Place Prize </h4>
+                        <h4 class="has-text-centered">1st Place Prize </h4>
                         <li>$450 Cash from Datasoc.</li>
-                        <li>Coffee chat with senior Atalassian representative and potential fast-track to a role.</li>
+                        <li>Coffee chat with senior Atlassian representative and potential fast-track to a role.</li>
                         <li>Atlassian Merch</li>
                     </div>
                 </div>
@@ -120,7 +119,7 @@ details[open] summary {
             <div class="card is-shady">
                 <div class="card-content">
                     <div class="content">
-                        <h4>2nd Place Prize</h4>
+                        <h4 class="has-text-centered">2nd Place Prize</h4>
                         <li>$300 Cash from Datasoc. </li>
                         <li>Resume review with Atlassian senior campus recruiter </li>
                         <li>Atlassian Merch</li>
@@ -132,7 +131,7 @@ details[open] summary {
             <div class="card is-shady">
                 <div class="card-content">
                     <div class="content">
-                        <h4> 3rd Place Prize </h4>
+                        <h4 class="has-text-centered"> 3rd Place Prize </h4>
                         <li>$150 Cash from Datasoc </li>
                         <li>Atlassian Merch</li>
                     </div>
@@ -147,10 +146,10 @@ details[open] summary {
 <section class="hero is-primary">
   <div class="hero-body" style=" background-color: #21D4FD;
 background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
-    <div class="container" id="register">
+    <div class="container">
         <div class="level-item">
             <h1 class="title">
-                Our Sponsors
+                Our Partners
             </h1>
         </div>
     </div>
@@ -158,6 +157,9 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 </section>
 
 <div class="hero-body">
+    <div class="container">
+    <h3 class="subtitle is-4 has-text-centered">Our annual flagship datathon would not be possible without the support of our valuable partner companies. Special thanks goes out to Atlassian for sponsoring us and this event in particular!</h3><br>
+    </div>
     <div class="section">
         <div class="container">
             <div class="columns is-vcentered">
@@ -175,9 +177,9 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     </div>
 </div>
 
-<section class="hero is-primary">
+<section class="hero is-primary"  id="register">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
-    <div class="container" id="register">
+    <div class="container">
         <div class="level-item">
             <a id="register">
                 <h1 class="title">
@@ -193,9 +195,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 <div class="container">
     <div class="columns is-centered">
         <div class="column is-three-quarters has-text-centered">
-                
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesHqAO5sf5tOnTXnKjGKLG7GxCSlGtoNDRu0X30l63n2PuMA/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            
         </div>
     </div>
 </div>
@@ -204,7 +204,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 
     
 
-<section class="hero is-primary">
+<section class="hero is-primary" id="faq">
   <div class="hero-body" style=" background-color: #21D4FD;
 background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     <div class="container">
@@ -226,23 +226,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         What is a datathon?
                     </summary>     
                         <p>
-                        yes
-                        </p>
-                    </details>
-                    <details>
-                    <summary>
-                        Can I enter alone/less than a full team?
-                    </summary>     
-                        <p>
-                        Can you???
-                        </p>
-                    </details>
-                    <details>
-                    <summary>
-                        Who does the intellectual property belong to?
-                    </summary>     
-                        <p>
-                        Me
+                        A Datathon is a competition - typically over a weekend - where participants are presented with a technical case problem and then come up with, implement, and present a solution to the judging panel. There will also be a Q&A session, after which the judging panel will award the most precise and best presented, but also creative, solutions!
                         </p>
                     </details>
                     <details>
@@ -250,8 +234,62 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         What can I expect?
                     </summary>     
                         <p>
-                        To have fun.
+                        To have fun and learn heaps!
                         </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Can I enter alone/less than a full team?
+                    </summary>     
+                        <p>
+                        Teams are up to 4 people - you can register with a pre-made team of up to 4, or register as an individual and be placed into a team.
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        When will regos close?
+                    </summary>     
+                        <p>
+                        In a couple days apparently?
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Does it cost me anything to join?
+                    </summary>     
+                        <p>
+                        Absolutely not - this Datathon is completely free for students! In fact, DataSoc is committed to free opportunities and events for students interested in data analytics and machine learning!
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        I've never done this before?! Can I still participate?
+                    </summary>     
+                        <p>
+                        We’ve got your back!
+                        To fully equip you with all the essential skills to success, we will provide you with all the support and guidance you will need. We will be holding a series of workshops and mentoring sessions on the day of Datathon and of course, there will also be 20+ industry mentors to provide you with one-on-one guidance!
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                       Where can I find out more info about the event?
+                    </summary>     
+                        <p>
+                        For regular updates, make sure to click "Going" on the <a href="https://www.facebook.com/events/2691426797791998">Facebook Event</a> and follow us on our socials!
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        How will we be judged?
+                    </summary>     
+                        <ul>
+                            <li>Appropriateness of solution for the given problem statement.</li>
+                            <li>Rigour of data collection, analysis, and interpretation.</li>
+                            <li>Value and impact of solution.</li>
+                            <li>Feasibility and suitability of solution.</li>
+                            <li>Creativity.</li>
+                            <li>Clarity and quality of presentation.</li>
+                        </ul>
                     </details>
             </div>
         </div>

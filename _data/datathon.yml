@@ -1,19 +1,14 @@
 - name: deloitte
   icon: /assets/images/datathon/deloitte.png
-  link: https://www.quantium.com/
-  
 - name: kpmg
   icon: /assets/images/datathon/kpmg.png
-  link: https://www.quantium.com/
-  
 - name: bcg
   icon: /assets/images/datathon/bcg.png
-  link: https://www.quantium.com/
-
 - name: westpac
   icon: /assets/images/datathon/westpac.png
-  link: https://www.quantium.com/
-
 - name: accenture
   icon: /assets/images/datathon/accenture.png
-  link: https://www.quantium.com/
+- name: ey
+  icon: /assets/images/datathon/ey.png
+- name: unswmaths
+  icon: /assets/images/datathon/unswmaths.png
