@@ -108,7 +108,7 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4 class="has-text-centered">1st Place Prize </h4>
-                        <li>$450 Cash from Datasoc.</li>
+                        <li>$900 Cash</li>
                         <li>Coffee chat with senior Atlassian representative and potential fast-track to a role.</li>
                         <li>Atlassian Merch</li>
                     </div>
@@ -120,7 +120,7 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4 class="has-text-centered">2nd Place Prize</h4>
-                        <li>$300 Cash from Datasoc. </li>
+                        <li>$600 Cash</li>
                         <li>Resume review with Atlassian senior campus recruiter </li>
                         <li>Atlassian Merch</li>
                     </div>
@@ -132,7 +132,7 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4 class="has-text-centered"> 3rd Place Prize </h4>
-                        <li>$150 Cash from Datasoc </li>
+                        <li>$300 Cash</li>
                         <li>Atlassian Merch</li>
                     </div>
                 </div>
@@ -226,7 +226,9 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         What is a datathon?
                     </summary>     
                         <p>
-                        A Datathon is a competition - typically over a weekend - where participants are presented with a technical case problem and then come up with, implement, and present a solution to the judging panel. There will also be a Q&A session, after which the judging panel will award the most precise and best presented, but also creative, solutions!
+                        In a traditional datathon, competitors are to create a predictive model given a dataset and limited time spanning up to 24 hours. We will be providing a collection of datasets which should be used as part of your solution. You will also have the freedom to use any other data if you'd like to look around.
+                        <br><br>
+                        As for this year however, we have decided to structure our datathon as more of a case competition, with heavier weighting on evidence and reasoning behind the models alongside predictive accuracy.
                         </p>
                     </details>
                     <details>
@@ -250,7 +252,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         When will regos close?
                     </summary>     
                         <p>
-                        In a couple days apparently?
+                        Registrations close when we reach capacity, or at latest by Friday 27th September
                         </p>
                     </details>
                     <details>
@@ -268,6 +270,22 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         <p>
                         We’ve got your back!
                         To fully equip you with all the essential skills to success, we will provide you with all the support and guidance you will need. We will be holding a series of workshops and mentoring sessions on the day of Datathon and of course, there will also be 20+ industry mentors to provide you with one-on-one guidance!
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Should I join even if I have limited knowledge of modelling techniques?
+                    </summary>     
+                        <p>
+                        YES! The question is designed to be accessible to entrants of all skill levels and technical backgrounds.
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Will we receive help during the datathon?
+                    </summary>     
+                        <p>
+                        YES! We have lined up workshops and industry mentors to help guide you through even if you have 0 experience.
                         </p>
                     </details>
                     <details>
