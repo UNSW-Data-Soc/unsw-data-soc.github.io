@@ -163,7 +163,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                 {% for i in site.data.datathon %}
                 <div class="column">
                     <div class="sponsor_icon">
-                        <a href="{{ i.link }}">
+                        <a target="_blank" href="{{ i.link }}">
                             <img src="{{ i.icon }}">
                         </a>
                     </div>
