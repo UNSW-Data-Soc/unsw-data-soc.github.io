@@ -75,9 +75,6 @@ details[open] summary {
                 </h3>
                 <div class="columns">
                 <div class="column">
-                <a class="button is-rounded is-large is-outlined is-info is-bold" href="#register">Register Here!</a>
-                </div>
-                <div class="column">
                 <a class="button is-rounded is-large is-info is-outlined is-bold" href="#faq">FAQs</a>
                 </div>
                 </div>
