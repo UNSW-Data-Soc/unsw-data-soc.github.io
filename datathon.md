@@ -207,7 +207,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     <div class="container">
         <div class="level-item">
             <h1 class="title">
-                FAQ
+                FAQs
             </h1>
         </div>
     </div>
