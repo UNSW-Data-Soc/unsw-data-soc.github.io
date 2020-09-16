@@ -1,0 +1,14 @@
+- name: deloitte
+  icon: /assets/images/datathon/deloitte.png
+- name: kpmg
+  icon: /assets/images/datathon/kpmg.png
+- name: bcg
+  icon: /assets/images/datathon/bcg.png
+- name: westpac
+  icon: /assets/images/datathon/westpac.png
+- name: accenture
+  icon: /assets/images/datathon/accenture.png
+- name: ey
+  icon: /assets/images/datathon/ey.png
+- name: unswmaths
+  icon: /assets/images/datathon/unswmaths.png
