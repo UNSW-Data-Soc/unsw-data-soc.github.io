@@ -40,7 +40,7 @@ layout: default
       </div>
     </nav>
     <div class = "body">
-    <table class="table-borderless overflow myTable">
+    <table class="table overflow myTable">
         <tbody>
         {% for post in site.posts %}
         <tr>
@@ -59,7 +59,7 @@ layout: default
             </div>
             {% if post.image %}
               <div class = "column">
-                <figure class="image"><img src="{{ post.image }}" alt="" /></figure>
+                <span><figure class="image"><img src="{{ post.image }}" alt="" /></figure></span>
               </div>
               <br><br>
             {% endif %}
