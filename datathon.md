@@ -108,6 +108,7 @@ details[open] summary {
                         <li>$900 Cash</li>
                         <li>Coffee chat with senior Atlassian representative and potential fast-track to a role.</li>
                         <li>Atlassian Merch</li>
+                        <li>UNSW Maths & Stats Hoodie, keep cup, USB, and bag.</li>
                     </div>
                 </div>
             </div>
@@ -120,6 +121,7 @@ details[open] summary {
                         <li>$600 Cash</li>
                         <li>Resume review with Atlassian senior campus recruiter </li>
                         <li>Atlassian Merch</li>
+                        <li>UNSW Maths & Stats water bottle, keep cup, USB, and bag.</li>
                     </div>
                 </div>
             </div>
@@ -131,6 +133,7 @@ details[open] summary {
                         <h4 class="has-text-centered"> 3rd Place Prize </h4>
                         <li>$300 Cash</li>
                         <li>Atlassian Merch</li>
+                        <li>UNSW Maths & Stats keep cup, USB, and bag.</li>
                     </div>
                 </div>
             </div>
