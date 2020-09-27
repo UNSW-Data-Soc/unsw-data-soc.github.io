@@ -224,8 +224,6 @@ introduction: |
 
 </style>
 
-
-
 <div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
@@ -275,12 +273,10 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         We want to support data science students in their studies with DataSoc’s help sessions, workshops and peer supporters. 
                         <br><br>
                     </li>
+                    <p>
+                    With this, DataSoc aims to make your university experience even more fun and fulfilling, whilst maximizing your employment opportunity and career progression in data science.
+                    </p>     
                 </ul>
-            </div>
-            <div class="column is-three-fifths is-offset-3">
-                <p>
-                With this, DataSoc aims to make your university experience even more fun and fulfilling, whilst maximizing your employment opportunity and career progression in data science.
-                </p>               
             </div>
         </div>
     </div>
