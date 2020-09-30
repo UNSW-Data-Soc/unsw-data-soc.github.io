@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 
 So you want to get hired as a data scientist, but just what skills do you need to qualify for the job? 
 
-At Data Soc, we care about you and your career opportunities, and we want you to get your dream job in your dream field (assuming it’s data science. This might not be the blog post for you if you’re an aspiring screenwriter). So, today, we present a checklist of essential skills for every data scientist.
+At DataSoc, we care about you and your career opportunities, and we want you to get your dream job in your dream field (assuming it’s data science. This might not be the blog post for you if you’re an aspiring screenwriter). So, today, we present a checklist of essential skills for every data scientists.
 
 <!--more-->
 
@@ -39,7 +39,7 @@ Now that humans have tricked computers into thinking for us, the next essential 
 Being able to visualise data is crucial in the understanding and analysis of it. Images can communicate complex ideas and patterns quickly and concisely. Understanding data visualisation software such as Tableau, Qlikview could be crucial to breaking into the industry.
 
 
-##Maths and Statistics
+## Maths and Statistics
 
 Data science, like most contemporary sciences, is built upon the foundation of mathematics. All of the above skills are deeply rooted in maths: the basis of statistics will help you understand the data you see. Linear algebra and calculus are the backbone of machine learning. Discrete mathematics are the heart of computer systems. 
 
