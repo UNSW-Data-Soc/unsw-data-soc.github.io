@@ -47,10 +47,6 @@ details[open] summary {
                 Saturday October 3 &mdash; Sunday October 4
                 <br>
                 Zoom and Slack
-                <br><br>
-                <a class="button is-rounded is-large is-inverted is-outlined is-black is-bold" href="#register">
-                    Register Here!
-                </a>
             </p>
         </div>
     </div>
