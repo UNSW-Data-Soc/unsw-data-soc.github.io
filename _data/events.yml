@@ -1,4 +1,108 @@
 Events:
+ - name: Datathon 2020
+   img: /assets/images/events/datathon-2020.png
+   start-date: 2020-10-03
+   end-date: 2020-10-04
+   time: 9am-6pm
+   description: |
+
+   location: Online
+   link: https://www.facebook.com/events/2691426797791998/
+ - name: Neural Networks Workshop
+   img: /assets/images/events/neural_network.jpg 
+   start-date: 2020-07-17
+   end-date: 2020-07-17
+   time: 1pm-2:30pm
+   description: |
+
+   location: Online
+   link: https://www.facebook.com/events/2649469971932663/
+ - name: Microwave Masterclass
+   img: /assets/images/events/microwave_masterclass.jpg 
+   start-date: 2020-09-24
+   end-date: 2020-09-24
+   time: 2pm-4pm
+   description: |
+
+   location: Online
+   link: https://www.facebook.com/events/1334966560007237/
+ - name: Data Visualisation Workshop
+   img: /assets/images/events/among_us.jpg 
+   start-date: 2020-10-08
+   end-date: 2020-10-08
+   time: 8pm-10pm
+   description: |
+
+   location: Online
+   link: https://www.facebook.com/events/757251541487798/
+ - name: Among Us
+   img: /assets/images/events/visualisation_workshop.jpg 
+   start-date: 2020-09-28
+   end-date: 2020-09-28
+   time: 4pm-5pm
+   description: |
+
+   location: Online
+   link: https://www.facebook.com/events/522823225235534/
+ - name: Intro to AI with Quantium
+   img: /assets/images/events/intro_to_AI.jpg 
+   start-date: 2020-10-13
+   end-date: 2020-10-13
+   time: 4pm-6pm
+   description: |
+
+   location: Microsoft Teams
+   link: https://www.facebook.com/events/1735396966614569
+ - name: Data Analysis For Causality
+   img: /assets/images/events/causality_workshop.jpg 
+   start-date: 2020-10-21
+   end-date: 2020-10-22
+   time: 4pm-5:30pm
+   description: |
+
+   location: Online
+   link: https://www.facebook.com/events/425347218832040/
+ - name: 2021 Director Recruitment
+   img: /assets/images/events/director_recruit_2021.jpg 
+   start-date: 2020-10-19
+   end-date: 2020-10-30
+   time:
+   description: |
+    Have you wanted to get more involved in fields related to Data Science? Do you want to get leadership experience in working with a dedicated team? Or maybe you want to make bonds with other members of a driven society? <br> We have some good news for you: director applications for DataSoc are now open!
+   location: 
+   link: https://www.facebook.com/events/2794714944110719/
+ - name: Networking Night
+   img: /assets/images/events/networking_night.jpg 
+   start-date: 2020-11-03
+   end-date: 2020-11-03
+   time: 5pm-7pm
+   description: |
+    Are you a data science student in your final year? Or an inquisitive data scientist just starting out?<br>Then you’ll be happy to hear that DataSoc is proud to present its 2020 Data Science Networking Night! It'll be a night filled with endless opportunities to connect with industry professionals and recruiters from esteemed companies, including:<br>
+    - Accenture Applied Intelligence <br>
+    - Akuna Capital <br>
+    - CBA <br>
+    - Equifax <br>
+    - EY <br>
+   location: Zoom
+   link: https://www.facebook.com/events/684204085813372/
+ - name: Halloween BOO!-vie Night
+   img: /assets/images/events/halloween_boovie_night.jpg 
+   start-date: 2020-10-29
+   end-date: 2020-10-29
+   time: 8pm
+   description: |
+    DataSoc is proud to present to you our 🎃 Halloween Boo!-vie Night 🎃 on Thursday 29th of October. So grab your favourite guys, ghouls and snacks, and trick or treat yo’ self to this sp👽👽ky movie night to get yourself into that Halloween spirit. ☠️🕸🕷💀<br>You’ll be fang-ing us for the memories when you leave, so don’t miss out!
+   location: Online
+   link: https://www.facebook.com/events/831221024317138
+ - name: 2021 Peer Mentor Recruitment
+   img: /assets/images/events/peer_mentor_2021.jpg 
+   start-date: 2020-10-26
+   end-date: 2020-11-06
+   time:
+   description: |
+    We’re excited to announce that in 2021 DataSoc is bringing back the Peer Mentoring program - now’s your chance to apply to become a mentor next year. If you want to gain experience in leadership and bond with the motivated members of this society, this is definitely for you! <br> Over a series of meetups with your mentees, you’ll have the chance to guide them about life at university and show them what involvement in data science means to you.
+   location: Discord
+   link: https://www.facebook.com/events/2068222233307729/
  - name: Trivia and Memes for Self-Quaranteens
    img: /assets/images/events/trivia.jpg 
    start-date: 2020-07-09

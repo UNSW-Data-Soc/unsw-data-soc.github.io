@@ -1,5 +1,3 @@
-- name: Datathon
-  link: /datathon
 - name: About Us
   link: /about
   dropdown:
