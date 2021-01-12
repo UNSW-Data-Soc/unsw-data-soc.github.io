@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: default
 ---
 <section class="hero is-info">
     <div class="hero-body" style="background: rgb(1,213,255); background: linear-gradient(90deg, rgba(1,213,255,1) 0%, rgba(4,146,255,1) 25%, rgba(190,1,255,1) 100%);">
