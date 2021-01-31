@@ -46,9 +46,23 @@ introduction: This is the events page
                     <br>
                     <div class='media-content'>
                         <p class='title is-4 has-text-centered is-uppercase'> DataSoc Presents: {{event.name}}</p>
-                        <p class='is-size-5 has-text-centered has-text-weight-light'>{{event.description}}</p>
-                        <br>
-                        <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Sign up here!"> More Information Here! </a></p>
+                        <!-- {% if event.description %}
+                            <p class='is-size-8 has-text-centered has-text-weight-light'>{{event.description}}</p>
+                            <br>
+                        {% endif %} -->
+                        {% if event.start-date != event.end-date %}
+                            <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }} - {{event.end-date | date:"%B %d, %Y" }}</p>
+                        {% else %}
+                            <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }}</p>
+                        {% endif %}
+                        {% if event.time %}
+                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{event.location}}</p>
+                        {% endif %}
+                        {% if event.link %}
+                            <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Sign up here!"> More Information Here! </a></p>
+                        {% else %}
+                            <p class='subtitle is-6 has-text-centered'>Link coming soon!</p>
+                        {% endif %}
                         <br>
                     </div>
                 </div>
