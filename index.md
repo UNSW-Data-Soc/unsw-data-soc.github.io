@@ -5,7 +5,7 @@ title: Welcome to DataSoc
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover.jpg'); background-position: center center; background-attachment: fixed; background-size: cover;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4);">
         <div class="container">
             <div class="columns is-vcentered">
@@ -14,7 +14,7 @@ title: Welcome to DataSoc
                     <h1 class="title is-1 is-bigger has-text-light">DataSoc</h1> 
                     <h2 class="subtitle is-4 has-text-light">University of New South Wales</h2>
                     <p class="">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSffSdDlZLRMnWokOwlpKEVaaklL39nkgkjnZ0iaqdoL134nVA/viewform?usp=sf_link" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Join Us!</a>
+                        <a href="https://forms.gle/hLDY7bAGa1H4CV348" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Join Us!</a>
                     </p>
                     <div class="social-links pt-5">
                         {% for item in site.data.contact.Media %}
