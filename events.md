@@ -32,11 +32,11 @@ introduction: This is the events page
     {% for event in e %}
         {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
         {% if curr_time < event_date %}
-            {% assign mod = index | modulo: 2 %}
+            {% assign mod = index | modulo: 3 %}
             {% if mod == 0 and index != 0 %}
                 <div class='columns'>
             {% endif %}
-            <div class='column is-6'>
+            <div class='column is-4'>
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-3by3">
@@ -68,14 +68,11 @@ introduction: This is the events page
                 </div>
             </div>
             {% assign index = index | plus: 1 %}
-            {% if mod == 1 %}
+            {% if mod == 2 %}
                 </div>   
             {% endif %}
         {% endif %}
     {% endfor %}
-    {% if mod != 1 and index != 0 %}
-        </div>
-    {% endif %}
     <br>
     <h2 class="title is-1 centered">Previous Events</h2>
     {% assign first_element = e.first.end-date | date: "%s" %}
