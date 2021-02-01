@@ -25,7 +25,7 @@ layout: default
                 <br><br>
                 Be sure to check out our social media links!
                 <br><br><br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSffSdDlZLRMnWokOwlpKEVaaklL39nkgkjnZ0iaqdoL134nVA/viewform?usp=sf_link" target="_blank">
+                <a href="https://forms.gle/hLDY7bAGa1H4CV348" target="_blank">
                     <button class="button is-info is-bold">Join Us!</button></a>
                 <br><br><br>
             </p>
