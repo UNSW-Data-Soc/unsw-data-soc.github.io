@@ -12,7 +12,7 @@ introduction: This is the events page
       </h1>
       <br>
       <h2 class="subtitle">
-      From social events to workshops to networking oppurtunities
+      From social events to workshops to networking opportunities
       </h2>
     </div>
   </div>
