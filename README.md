@@ -6,6 +6,8 @@ Website for UNSW DataSoc. This website is the face of the society and has a brea
 * Team
 * Sponsors
 * Resources for students
+* Events
+* Blogs, Publications
 * Contact details
 * Joining details
 
@@ -55,7 +57,7 @@ Github Pages builds and deploys our website automatically from master. We will n
 
 * **Victor Tsang** - *Initial work* - [victorwctsang](https://github.com/victorwctsang)
 * **Victor Tsang, Bernardo Croll, Cindy Sun, Norton Wu, Nathan Cao, Aileen Wang, William Feng** - *Major Revamp as the 2020 DataSoc IT/Pubs Subcommittee*
-* **William Feng, Aileen Wang** - Directors of the 2021 DataSoc IT/Publications Subcommittee
+* **William Feng, Aileen Wang** - *Directors of the 2021 DataSoc IT/Publications Portfolio*
 
 See the full list of [contributors](https://github.com/UNSW-Data-Soc/unsw-data-soc.github.io/graphs/contributors) who participated in this project.
 
