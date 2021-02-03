@@ -4,11 +4,10 @@ Events:
    start-date: 2021-02-08
    end-date: 2021-02-19
    description: A big welcome to everyone that joined UNSW in 2021, and an even bigger thank you to those who joined DataSoc! DataSoc is holding its annual Peer Mentoring Program. We'd like to help you settle into your new uni life. Not sure where your lecture is? Don't sweat it, your Mentors will be there to point you in the right direction. Haven't met anyone in your cohort? Allow us to introduce you to a group of 5 other first years in your boat. Sign up now! (Link to be released)
-   
  - name: Welcome to 2021 BBQ
    img: /assets/images/events/coming_soon.jpg
-   start-date: 2021-02-17
-   end-date: 2021-02-17
+   start-date: 2021-02-16
+   end-date: 2021-02-16
    time: 12pm-3pm
    location: Library Lawn BBQ
  - name: Demystifying data science with Atlassian
@@ -16,7 +15,7 @@ Events:
    start-date: 2021-02-17
    end-date: 2021-02-17
    time: 2pm-4pm
-   location: Location to be confirmed
+   location: Online (Zoom)
  - name: Datathon 2020
    img: /assets/images/events/datathon-2020.png
    start-date: 2020-10-03
