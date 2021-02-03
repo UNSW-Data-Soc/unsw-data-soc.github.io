@@ -65,9 +65,14 @@ title: Welcome to DataSoc
                         {% assign e = site.data.events.Events | sort_natural: "start-date" %}
                         {% for event in e %}
                             {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
-                            {% if curr_time < event_date %}
-                            <ol><h4 class='has-text-black'><b><i>{{event_date | date:"%B %d, %Y"}}</i></b></h4></ol>
-                            <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" tit0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001le="Sign up here!">{{event.name}}</a></h4></ol>
+                            {% if curr_time < event_date and event.start-date != event.end-date %}
+                                <ol><h4 class='has-text-black'><b><i>{{event.start-date | date:"%B %d, %Y" }} - {{event_date | date:"%B %d, %Y"}}</i></b></h4></ol>
+                                <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" tit0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001le="Sign up here!">{{event.name}}</a></h4></ol>
+                            <br>
+                            {% endif %}
+                            {% if curr_time < event_date and event.start-date == event.end-date %}
+                                <ol><h4 class='has-text-black'><b><i>{{event_date | date:"%B %d, %Y"}}</i></b></h4></ol>
+                                <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" tit0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001le="Sign up here!">{{event.name}}</a></h4></ol>
                             <br>
                             {% endif %}
                         {% endfor %}
