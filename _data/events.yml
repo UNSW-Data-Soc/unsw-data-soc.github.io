@@ -1,9 +1,10 @@
 Events:
  - name: Peer Mentoring 2021
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/peer_mentoring_2021.jpg
    start-date: 2021-02-08
    end-date: 2021-02-19
    description: A big welcome to everyone that joined UNSW in 2021, and an even bigger thank you to those who joined DataSoc! DataSoc is holding its annual Peer Mentoring Program. We'd like to help you settle into your new uni life. Not sure where your lecture is? Don't sweat it, your Mentors will be there to point you in the right direction. Haven't met anyone in your cohort? Allow us to introduce you to a group of 5 other first years in your boat. Sign up now! (Link to be released)
+   link: https://www.facebook.com/events/407905556976265/
  - name: Welcome to 2021 BBQ
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-02-16
@@ -112,7 +113,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/831221024317138
  - name: 2021 Peer Mentor Recruitment
-   img: /assets/images/events/peer_mentor_2021.jpg 
+   img: /assets/images/events/peer_mentor_recruitment.jpg 
    start-date: 2020-10-26
    end-date: 2020-11-06
    time:
