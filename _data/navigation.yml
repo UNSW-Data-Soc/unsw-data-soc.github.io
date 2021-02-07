@@ -21,5 +21,8 @@
       link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
   link: /publications
+  dropdown:
+    - name: First Year Guide
+      link: /first-year-guide
 - name: Contact Us
   link: /contact
