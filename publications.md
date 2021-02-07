@@ -45,7 +45,7 @@ introduction: You can find all of our publications here!
                   <div class="column is-5 featured-content va centered">
                     <div>
                       <h3 class="heading post-category">Guide</h3>
-                      <h1 class="title post-title">2020 First Years Guide</h1>
+                      <h1 class="title post-title">2021 First Year Guide</h1>
                       <p class="post-excerpt">UNSW has a whole host of different experiences and opportunities, 
                         so much so that it can feel super daunting and confusing. <br> If this is how you feel (and even if it’s not) 
                         - this First Year Guide is for you! </p>

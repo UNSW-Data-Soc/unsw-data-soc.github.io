@@ -6,7 +6,7 @@ introduction:
     <br><br>
     UNSW has a whole host of different experiences and opportunities, so much so that it can feel super daunting and confusing. If this is how you feel (and even if it's not) - this <b>First Year Guide</b> is for you!
     <br><br>
-    Look inside for our top tips for wandering the campus, maximising your freebies, raising your WAM and padding your resum&eacute;!
+    Look inside for our top tips for wandering the campus, maximising your social skills, raising your WAM and padding your resum&eacute;!
     <br><br>
 document: https://drive.google.com/file/d/1NgbUxAXhRbhQeMJE4GDxs1AC45TbtUS3/preview
 ---
@@ -27,6 +27,8 @@ document: https://drive.google.com/file/d/1NgbUxAXhRbhQeMJE4GDxs1AC45TbtUS3/prev
                 UNSW has a whole host of different experiences and opportunities, so much so that it can feel super daunting and confusing. If this is how you feel (and even if it's not) - this <b>First Year Guide</b> is for you!
                 <br><br>
                 Look inside for our top tips for wandering the campus, maximising your freebies, raising your WAM and padding your resum&eacute;!
+                <br><br>
+                Note that this was created at the start of 2021 by the DataSoc Board, so it's tailored to your (online) studies in light of the current situation!
             </h2>
           </div>
         </div>
