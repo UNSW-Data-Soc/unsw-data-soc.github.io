@@ -8,7 +8,7 @@ introduction:
     <br><br>
     Look inside for our top tips for wandering the campus, maximising your social skills, raising your WAM and padding your resum&eacute;!
     <br><br>
-document: https://drive.google.com/file/d/1BQcc-FdUje3tAKCS0Wuxj5fuhCvtxqst/preview
+document: https://drive.google.com/file/d/1w5BycXfxz9lYRUTNqmUxj8JlFcU7cx1D/preview
 ---
 <html lang="en">
     {% include head.html %}
