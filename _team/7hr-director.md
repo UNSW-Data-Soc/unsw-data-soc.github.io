@@ -7,4 +7,14 @@ degree: Bachelor of Data Science and Decisions
 image: winston-sun.jpg
 one_line:
 ---
-I am Winston Sun
+*Favourite music artist?*
+<br>
+Illenium/JuiceWrld (depends what time of the day tbh)
+<br><br>
+*Current phone lockscreen?*
+<br>
+my phat sosij dog doing a sleep 💜
+<br><br>
+*Guilty pleasure?*
+<br>
+cheating my form at the gym D:

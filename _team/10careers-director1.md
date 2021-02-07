@@ -7,4 +7,13 @@ degree: Bachelor of Data Science and Decisions
 image: aarthi-kumararaja.jpg
 one_line:
 ---
-I am Aarthi Kumararaja
+*Current phone lockscreen?*
+<br>
+your social and marketing directors drunk 💜
+<br><br>
+*Favourite spot on campus?*
+<br>
+Iv never been 😔
+<br><br>
+*Any fun fact*
+I am allergic to kiwi

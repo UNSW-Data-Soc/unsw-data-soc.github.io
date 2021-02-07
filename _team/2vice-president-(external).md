@@ -7,4 +7,14 @@ degree: Bachelor of Data Science and Decisions
 image: vincent-chen.jpg
 one_line:
 ---
-I am Vincent Chen
+*Something on your bucket list?*
+<br>
+See the Northern Lights
+<br><br>
+*Favourite music artist?*
+<br>
+blackbear
+<br><br>
+*Does pineapple belong on pizza?*
+<br>
+yEEEEs

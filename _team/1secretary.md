@@ -7,4 +7,14 @@ degree: Bachelor of Commerce/Science
 image: chantelle-liu.jpg
 one_line:
 ---
-I am Chantelle Liu
+*Does pineapple belong on pizza*
+<br>
+Yes, did you guys not grow up with Hawaiian pizza?!
+<br><br>
+*Biggest pet peeve?*
+<br>
+When people chew with their mouth open
+<br><br>
+*If you had any superpower, what would it be?*
+<br>
+Teleportation, think of all the time you would save

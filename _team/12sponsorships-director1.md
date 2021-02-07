@@ -7,4 +7,14 @@ degree: Bachelor of Data Science and Decisions
 image: shubh-patel.jpg
 one_line:
 ---
-I am Shubh Patel
+*Next country you want to travel to?*
+<br>
+Iceland
+<br><br>
+*Something on your bucket list?*
+<br>
+Sky Diving
+<br><br>
+*Does pineapple belong on pizza?*
+<br>
+YES!
