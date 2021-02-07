@@ -59,7 +59,7 @@ introduction: This is the events page
                             <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{event.location}}</p>
                         {% endif %}
                         {% if event.link %}
-                            <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Sign up here!"> More Information Here! </a></p>
+                            <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Go to the Facebook Event!"> More Information Here! </a></p>
                         {% else %}
                             <p class='subtitle is-6 has-text-centered'>Link coming soon!</p>
                         {% endif %}
@@ -73,6 +73,7 @@ introduction: This is the events page
             {% endif %}
         {% endif %}
     {% endfor %}
+    <br>
     <br>
     <h2 class="title is-1 centered">Previous Events</h2>
     {% assign first_element = e.first.end-date | date: "%s" %}

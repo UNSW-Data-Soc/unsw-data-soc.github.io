@@ -83,7 +83,7 @@ title: Welcome to DataSoc
         </div>
     </div>
 </div>
-<div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/ibm.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
+<div class="hero is-bold is-medium" style="background-image: url('/assets/images/events/2020/ibm.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;">
     <div class="hero-body" style="background:rgba(0,0,0,0.6);">
         <div class="container">
             <div class="level">

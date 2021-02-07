@@ -1,24 +1,45 @@
 Events:
  - name: Peer Mentoring 2021
-   img: /assets/images/events/peer_mentoring_2021.jpg
+   img: /assets/images/events/peer_mentoring.jpg
    start-date: 2021-02-08
    end-date: 2021-02-19
-   description: A big welcome to everyone that joined UNSW in 2021, and an even bigger thank you to those who joined DataSoc! DataSoc is holding its annual Peer Mentoring Program. We'd like to help you settle into your new uni life. Not sure where your lecture is? Don't sweat it, your Mentors will be there to point you in the right direction. Haven't met anyone in your cohort? Allow us to introduce you to a group of 5 other first years in your boat. Sign up now! (Link to be released)
+   description: A big welcome to everyone that joined UNSW in 2021, and an even bigger thank you to those who joined DataSoc! DataSoc is holding its annual 🌟 Peer Mentoring Program 🌟to help you settle into your new uni life.
+    Not sure where your lecture is? 🤔🤷 Don’t sweat it, your Mentors will be there to point you in the right ➡️ direction.
+    Haven't met anyone in your cohort? Allow us to introduce you to a group of other first years in your boat!
+    So sign up now, and start off your time at uni right!
    link: https://www.facebook.com/events/407905556976265/
- - name: Welcome to 2021 BBQ
-   img: /assets/images/events/coming_soon.jpg
-   start-date: 2021-02-16
-   end-date: 2021-02-16
-   time: 12pm-3pm
-   location: Library Lawn BBQ
- - name: Demystifying data science with Atlassian
-   img: /assets/images/events/coming_soon.jpg
+ - name: O-Week
+   img: /assets/images/events/o_week.jpg
+   start-date: 2021-02-09
+   end-date: 2021-02-11
+   description: WELCOME TO DATASOC!! We’re kicking off 2021 at UNSW O-Week!!
+   time: 9am-4pm
+   location: Alumni West
+   link: https://www.facebook.com/events/455842289116011
+#  - name: Welcome to 2021 BBQ
+#    img: /assets/images/events/welcome_to_2021.jpg
+#    start-date: 2021-02-16
+#    end-date: 2021-02-16
+#    time: 12pm-3pm
+#    location: Library Lawn BBQ
+ - name: Demystifying Data Science with Atlassian
+   img: /assets/images/events/demystifying_data_science.jpg
    start-date: 2021-02-17
    end-date: 2021-02-17
    time: 2pm-4pm
    location: Online (Zoom)
+   link: https://www.facebook.com/events/878231583006404/
+
+
+
+
+
+
+
+
+
  - name: Datathon 2020
-   img: /assets/images/events/datathon-2020.png
+   img: /assets/images/events/2020/datathon-2020.png
    start-date: 2020-10-03
    end-date: 2020-10-04
    time: 9am-6pm
@@ -27,7 +48,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/2691426797791998/
  - name: Neural Networks Workshop
-   img: /assets/images/events/neural_network.jpg 
+   img: /assets/images/events/2020/neural_network.jpg 
    start-date: 2020-07-17
    end-date: 2020-07-17
    time: 1pm-2:30pm
@@ -36,7 +57,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/2649469971932663/
  - name: Microwave Masterclass
-   img: /assets/images/events/microwave_masterclass.jpg 
+   img: /assets/images/events/2020/microwave_masterclass.jpg 
    start-date: 2020-09-24
    end-date: 2020-09-24
    time: 2pm-4pm
@@ -45,7 +66,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/1334966560007237/
  - name: Data Visualisation Workshop
-   img: /assets/images/events/among_us.jpg 
+   img: /assets/images/events/2020/among_us.jpg 
    start-date: 2020-10-08
    end-date: 2020-10-08
    time: 8pm-10pm
@@ -54,7 +75,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/757251541487798/
  - name: Among Us
-   img: /assets/images/events/visualisation_workshop.jpg 
+   img: /assets/images/events/2020/visualisation_workshop.jpg 
    start-date: 2020-09-28
    end-date: 2020-09-28
    time: 4pm-5pm
@@ -63,7 +84,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/522823225235534/
  - name: Intro to AI with Quantium
-   img: /assets/images/events/intro_to_AI.jpg 
+   img: /assets/images/events/2020/intro_to_AI.jpg 
    start-date: 2020-10-13
    end-date: 2020-10-13
    time: 4pm-6pm
@@ -72,7 +93,7 @@ Events:
    location: Microsoft Teams
    link: https://www.facebook.com/events/1735396966614569
  - name: Data Analysis For Causality
-   img: /assets/images/events/causality_workshop.jpg 
+   img: /assets/images/events/2020/causality_workshop.jpg 
    start-date: 2020-10-21
    end-date: 2020-10-22
    time: 4pm-5:30pm
@@ -81,7 +102,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/425347218832040/
  - name: 2021 Director Recruitment
-   img: /assets/images/events/director_recruit_2021.jpg 
+   img: /assets/images/events/2020/director_recruit_2021.jpg 
    start-date: 2020-10-19
    end-date: 2020-10-30
    time:
@@ -90,7 +111,7 @@ Events:
    location: 
    link: https://www.facebook.com/events/2794714944110719/
  - name: Networking Night
-   img: /assets/images/events/networking_night.jpg 
+   img: /assets/images/events/2020/networking_night.jpg 
    start-date: 2020-11-03
    end-date: 2020-11-03
    time: 5pm-7pm
@@ -104,7 +125,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/684204085813372/
  - name: Halloween BOO!-vie Night
-   img: /assets/images/events/halloween_boovie_night.jpg 
+   img: /assets/images/events/2020/halloween_boovie_night.jpg 
    start-date: 2020-10-29
    end-date: 2020-10-29
    time: 8pm
@@ -113,7 +134,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/831221024317138
  - name: 2021 Peer Mentor Recruitment
-   img: /assets/images/events/peer_mentor_recruitment.jpg 
+   img: /assets/images/events/2020/peer_mentor_recruitment.jpg 
    start-date: 2020-10-26
    end-date: 2020-11-06
    time:
@@ -122,7 +143,7 @@ Events:
    location: Discord
    link: https://www.facebook.com/events/2068222233307729/
  - name: Trivia and Memes for Self-Quaranteens
-   img: /assets/images/events/trivia.jpg 
+   img: /assets/images/events/2020/trivia.jpg 
    start-date: 2020-07-09
    end-date: 2020-07-09
    time: 8pm - 10pm
@@ -131,7 +152,7 @@ Events:
    location: Discord
    link: https://www.facebook.com/events/2616083408606843/
  - name: Meet The Team x Quantium
-   img: /assets/images/events/meet-quantium.jpg 
+   img: /assets/images/events/2020/meet-quantium.jpg 
    start-date: 2020-07-07
    end-date: 2020-07-07
    time: 4pm - 5:30pm
@@ -140,7 +161,7 @@ Events:
    location: Microsoft Teams
    link: https://www.facebook.com/events/295616628156471/
  - name: Accent your Career with Accenture
-   img: /assets/images/events/Accent_your_career.jpg 
+   img: /assets/images/events/2020/Accent_your_career.jpg 
    start-date: 2020-06-18
    end-date: 2020-06-18
    time: 4pm - 5pm
@@ -149,7 +170,7 @@ Events:
    location: Microsoft Teams
    link: https://www.facebook.com/events/281089026272024/
  - name: Intro to Data Science Techniques
-   img: /assets/images/events/intro-to-datasci.jpg 
+   img: /assets/images/events/2020/intro-to-datasci.jpg 
    start-date: 2020-06-15
    end-date: 2020-06-29
    time: 5pm - 6pm
@@ -158,7 +179,7 @@ Events:
    location: Google Hangouts
    link: https://www.facebook.com/events/363426787966184
  - name: Inaugural Hoodie Release!
-   img: /assets/images/events/hoodie.jpg 
+   img: /assets/images/events/2020/hoodie.jpg 
    start-date: 2020-06-10
    end-date: 2020-06-21
    time:
@@ -172,7 +193,7 @@ Events:
    location:
    link: https://www.facebook.com/events/4127681983938788
  - name: Arcade Night
-   img: /assets/images/events/arcade-night.jpg 
+   img: /assets/images/events/2020/arcade-night.jpg 
    start-date: 2020-06-08
    end-date: 2020-06-08
    time: 7pm - 9pm
@@ -180,7 +201,7 @@ Events:
    location: Discord
    link: https://www.facebook.com/events/2979754915584906
  - name: Peer Mentoring Closing Event
-   img: /assets/images/events/peer-closing.jpg 
+   img: /assets/images/events/2020/peer-closing.jpg 
    start-date: 2020-05-17
    end-date: 2020-05-17
    time: 3pm - 5pm
@@ -188,7 +209,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/164014545041673
  - name: Intro to Python
-   img: /assets/images/events/intro-python.jpg 
+   img: /assets/images/events/2020/intro-python.jpg 
    start-date: 2020-04-15
    end-date: 2020-04-16
    time: 5pm - 6pm
@@ -196,7 +217,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/920499925070875/
  - name: Intro to R
-   img: /assets/images/events/intro-r.jpg 
+   img: /assets/images/events/2020/intro-r.jpg 
    start-date: 2020-04-08
    end-date: 2020-04-09
    time: 5pm - 6pm
@@ -204,7 +225,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/810134286176041/
  - name: Meet the Managers
-   img: /assets/images/events/meet-managers.jpg 
+   img: /assets/images/events/2020/meet-managers.jpg 
    start-date: 2020-03-12
    end-date: 2020-03-12
    time: 6pm - 8:30pm
@@ -212,7 +233,7 @@ Events:
    location: Roundhouse Function Room 7/8
    link: https://forms.gle/LbXKf98xxhHqDdSj7
  - name: Data Science Information Night
-   img: /assets/images/events/data-info-night.jpg 
+   img: /assets/images/events/2020/data-info-night.jpg 
    start-date: 2020-03-04
    end-date: 2020-03-04
    time: 5pm - 7pm
@@ -220,7 +241,7 @@ Events:
    location: Mathews Theatre C, UNSW
    link: https://www.facebook.com/events/192084338867497/
  - name: Applied Intelligence with Accenture
-   img: /assets/images/events/applied-intelligence.jpg 
+   img: /assets/images/events/2020/applied-intelligence.jpg 
    start-date: 2020-02-28
    end-date: 2020-02-28
    time: 5pm - 7pm
@@ -228,7 +249,7 @@ Events:
    location: Sussex St, Barangaroo NSW 2000, Australia
    link: https://www.facebook.com/events/233529207664627/
  - name: Subcommittee Applications 2020
-   img: /assets/images/events/subcom.jpg 
+   img: /assets/images/events/2020/subcom.jpg 
    start-date: 2020-02-23
    end-date: 2020-03-06
    time:
@@ -236,7 +257,7 @@ Events:
    location: 
    link: https://www.facebook.com/events/589112671671247/
  - name: Meet the Directors 2020 BBQ
-   img: /assets/images/events/directors.jpg 
+   img: /assets/images/events/2020/directors.jpg 
    start-date: 2020-02-24
    end-date: 2020-02-24
    time: 12pm - 3pm
@@ -244,7 +265,7 @@ Events:
    location: Physics Lawn
    link: https://www.facebook.com/events/127181535291612/
  - name: Free Pizza Party!
-   img: /assets/images/events/pizza-party.jpg 
+   img: /assets/images/events/2020/pizza-party.jpg 
    start-date: 2020-02-18
    end-date: 2020-02-18
    time: 12pm - 2pm
