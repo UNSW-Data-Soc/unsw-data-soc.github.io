@@ -15,6 +15,6 @@ YESS sweet and savoury is the ultimate combo
 <br>
 The scene from Spirited Away where Chihiro is crying while eating bread with Haku but make it aesthetiC
 <br><br>
-*Favourite youtube channel?*
+*Favourite YouTube channel?*
 <br>
 Nikocado Avocado wins this one

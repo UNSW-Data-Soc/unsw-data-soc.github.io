@@ -11,7 +11,7 @@ one_line:
 <br>
 Iceland
 <br><br>
-*Favourite youtube channel?*
+*Favourite YouTube channel?*
 <br>
 Chris Smoove
 <br><br>

@@ -7,7 +7,7 @@ degree: Bachelor of Data Science and Decisions
 image: samraggi-pant.jpg
 one_line:
 ---
-*Favourite movie/tv show*
+*Favourite movie/tv show?*
 <br>
 Bojack Horseman or The Inbetweeners I can't choose
 <br><br>

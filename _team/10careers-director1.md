@@ -15,5 +15,5 @@ your social and marketing directors drunk 💜
 <br>
 Iv never been 😔
 <br><br>
-*Any fun fact*
+*Fun fact?*
 I am allergic to kiwi

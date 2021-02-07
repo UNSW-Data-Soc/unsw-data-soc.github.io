@@ -15,6 +15,6 @@ Hilmer level 5 (couches + quiet = nap)
 <br>
 Bok choy!!
 <br><br>
-*Any fun fact*
+*Fun fact?*
 <br>
 I had fishbowl 3 times in the past week (sponsor me pls) (also i'm sorry for being so boring i have no fun facts)

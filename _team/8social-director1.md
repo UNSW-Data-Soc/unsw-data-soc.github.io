@@ -15,6 +15,6 @@ salty 😛
 <br>
 Rich Brian/Taylor Swift, range ik
 <br><br>
-*Any fun fact*
+*Fun fact?*
 <br>
 i cropped your careers director out of the photo xx

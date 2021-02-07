@@ -7,7 +7,7 @@ degree: Bachelor of Commerce/Science
 image: chantelle-liu.jpg
 one_line:
 ---
-*Does pineapple belong on pizza*
+*Does pineapple belong on pizza?*
 <br>
 Yes, did you guys not grow up with Hawaiian pizza?!
 <br><br>

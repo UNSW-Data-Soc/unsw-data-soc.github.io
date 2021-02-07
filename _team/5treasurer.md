@@ -7,7 +7,7 @@ degree: Bachelor of Data Science and Decisions
 image: ashleigh-feng.jpg
 one_line:
 ---
-*Favourite youtube channel?*
+*Favourite YouTube channel?*
 <br>
 Cody Ko
 <br><br>

@@ -11,10 +11,10 @@ one_line:
 <br>
 Sydney Fish Market - you have to try the sushi donuts and get the salmon sashimi
 <br><br>
-*Favourite movie/tv show*
+*Favourite movie/tv show?*
 <br>
 Elementary - so much better than the other Sherlock series out there
 <br><br>
-*Any fun fact*
+*Fun fact?*
 <br>
 The photo is of me with my border collie puppy Teddy! We were very lucky to get her despite being in the middle of COVID

@@ -7,7 +7,7 @@ degree: Bachelor of Data Science and Decisions
 image: alexander-swan.jpg
 one_line:
 ---
-*Does pineapple belong on pizza*
+*Does pineapple belong on pizza?*
 <br>
 My priority when choosing pizza toppings is to make sure I can fit as much on there as possible. So yes.
 <br><br>
