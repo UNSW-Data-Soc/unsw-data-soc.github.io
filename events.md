@@ -55,8 +55,10 @@ introduction: This is the events page
                         {% else %}
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }}</p>
                         {% endif %}
-                        {% if event.time %}
+                        {% if event.time and event.location %}
                             <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{event.location}}</p>
+                        {% elsif event.time %}
+                            <p class='subtitle is-6 has-text-centered'>{{event.time}}</p>
                         {% endif %}
                         {% if event.link %}
                             <p class='subtitle is-6 has-text-centered'> <a href="{{event.link}}" title="Go to the Facebook Event!"> More Information Here! </a></p>
@@ -68,11 +70,9 @@ introduction: This is the events page
                 </div>
             </div>
             {% assign index = index | plus: 1 %}
-            {% if mod == 2 %}
-                </div>   
-            {% endif %}
         {% endif %}
     {% endfor %}
+    </div>
     <br>
     <br>
     <h2 class="title is-1 centered">Previous Events</h2>
