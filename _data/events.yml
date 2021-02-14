@@ -16,12 +16,12 @@ Events:
    time: 9am-4pm
    location: Alumni West
    link: https://www.facebook.com/events/455842289116011
-#  - name: Welcome to 2021 BBQ
-#    img: /assets/images/events/welcome_to_2021.png
-#    start-date: 2021-02-16
-#    end-date: 2021-02-16
-#    time: 12pm-3pm
-#    location: Library Lawn BBQ
+ - name: Welcome to 2021 BBQ
+   img: /assets/images/events/welcome_to_2021.png
+   start-date: 2021-02-16
+   end-date: 2021-02-16
+   time: 12pm-3pm
+   link: https://www.facebook.com/events/144679580832706
  - name: Demystifying Data Science with Atlassian
    img: /assets/images/events/demystifying_data_science.png
    start-date: 2021-02-17
@@ -37,7 +37,7 @@ Events:
 
 
 
-
+# 2020 Events
  - name: Datathon 2020
    img: /assets/images/events/2020/datathon-2020.png
    start-date: 2020-10-03
