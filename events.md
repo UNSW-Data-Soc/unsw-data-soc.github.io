@@ -28,7 +28,7 @@ introduction: This is the events page
         <div class='columns'>
     {% endif %}
     {% assign index = 0 %}
-    {% assign e = site.data.events.Events | sort_natural: "start-date" %}
+    {% assign e = site.data.events.Events | sort_natural: "end-date" %}
     {% for event in e %}
         {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
         {% if curr_time < event_date %}
@@ -70,9 +70,14 @@ introduction: This is the events page
                 </div>
             </div>
             {% assign index = index | plus: 1 %}
+            {% if mod == 2 %}
+                </div>
+            {% endif %}
         {% endif %}
     {% endfor %}
-    </div>
+    {% if mod != 2 %}
+        </div>
+    {% endif %}
     <br>
     <br>
     <h2 class="title is-1 centered">Previous Events</h2>
