@@ -42,8 +42,54 @@ Events:
    time: 8pm-10pm
    location: Online
    link: https://www.facebook.com/events/3640342139419216/
-
-
+ - name: Camp
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-05-28
+   end-date: 2021-05-30
+   location: The Tops Conference Centre
+ - name: Python Essentials
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-03-01
+   end-date: 2021-03-01
+   time: 3pm-4:30pm
+   location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
+ - name: Python in Practice
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-03-04
+   end-date: 2021-03-04
+   time: 3pm-4:30pm
+   location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
+ - name: Pub Crawl
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-03-19
+   end-date: 2021-03-19
+   time: 7pm-11pm
+   location: City
+ - name: Intro to Alooba
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-03-22
+   end-date: 2021-03-22
+   time: 4pm
+   location: Online
+ - name: Intro to R
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-03-15
+   end-date: 2021-03-15
+   location: Online
+ - name: Intro to SQL
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-04-05
+   end-date: 2021-04-05
+   location: Online
+ - name: Mid Term BBQ
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-03-31
+   end-date: 2021-03-31
+ - name: Networking Night
+   img: /assets/images/events/coming_soon.jpg
+   start-date: 2021-04-01
+   end-date: 2021-04-01
+   location: Online
 
 
 
