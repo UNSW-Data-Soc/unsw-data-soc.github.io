@@ -47,12 +47,14 @@ Events:
    start-date: 2021-05-28
    end-date: 2021-05-30
    location: The Tops Conference Centre
+   tag: planned
  - name: Python Essentials
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-03-01
    end-date: 2021-03-01
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
+   link: https://www.facebook.com/events/1864386547063836
  - name: Python in Practice
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-03-04
@@ -71,25 +73,30 @@ Events:
    end-date: 2021-03-22
    time: 4pm
    location: Online
+   tag: planned
  - name: Intro to R
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-03-15
    end-date: 2021-03-15
    location: Online
+   tag: planned
  - name: Intro to SQL
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-04-05
    end-date: 2021-04-05
    location: Online
+   tag: planned
  - name: Mid Term BBQ
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-03-31
    end-date: 2021-03-31
+   tag: planned
  - name: Networking Night
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-04-01
    end-date: 2021-04-01
    location: Online
+   tag: planned
 
 
 
