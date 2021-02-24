@@ -1,3 +1,8 @@
+- title: Demystifying Data Science
+  tags: [data science]
+  description: Wondering where the sexiest job of the 21st century can take you? Look no further!
+  resources: https://drive.google.com/drive/folders/1KZiLCIIW1Z3z57k8i6Spdu8n4T8Chf29?usp=sharing
+
 - title: Neural Networks
   tags: [machine learning]
   description: Theory on feedforward and back propagation algorithms and how to implement neural networks in python.
@@ -19,22 +24,22 @@
   resources: https://drive.google.com/drive/folders/1nvtNpnnwa38xEVP-NO7WJ42Lc0L_KQX-?usp=sharing
 
 - title: Python Workshop 1
-  tags: [programming language]
+  tags: [programming]
   description: Our first introductory python workshop.
   resources: https://drive.google.com/drive/folders/1XFyLVu1m1OG4EQT-JMNelY8jQ0DjAXjK?usp=sharing
 
 - title: Python Workshop 2
-  tags: [programming language]
+  tags: [programming]
   description: The second workshop in our introductory python series.
   resources: https://drive.google.com/drive/folders/1qUq-AINEZg2_9bct__buGHjyO_cAcmtm?usp=sharing
 
 - title: R Workshop 1
-  tags: [programming language]
+  tags: [programming]
   description: Our first introductory R workshop.
   resources: https://drive.google.com/drive/folders/1TmvppJ8HCbPuSDSzE-TS1xAf6M89kkNI?usp=sharing
 
 - title: R Workshop 2
-  tags: [programming language]
+  tags: [programming]
   description: The second workshop in our introductory R series.
   resources: https://drive.google.com/drive/folders/1Uqv38n9YKHfgd1x4pRrY-SUYCcORcBx-?usp=sharing
 
