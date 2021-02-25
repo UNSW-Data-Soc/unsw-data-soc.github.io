@@ -56,11 +56,12 @@ Events:
    location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
    link: https://www.facebook.com/events/1864386547063836
  - name: Python in Practice
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/python_in_practice.jpg
    start-date: 2021-03-04
    end-date: 2021-03-04
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
+   link: https://www.facebook.com/events/465355151165024/
  - name: Pub Crawl
    img: /assets/images/events/coming_soon.jpg
    start-date: 2021-03-19
