@@ -67,7 +67,11 @@ title: Welcome to DataSoc
                             {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
                             {% if curr_time < event_date and event.start-date != event.end-date %}
                                 <ol><h4 class='has-text-black'><b><i>{{event.start-date | date:"%B %d, %Y" }} - {{event_date | date:"%B %d, %Y"}}</i></b></h4></ol>
-                                <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" title="Sign up here!">{{event.name}}</a></h4></ol>
+                                {% if event.link %}
+                                    <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" title="Sign up here!">{{event.name}}</a></h4></ol>
+                                {% else %}
+                                    <ol><h4 class='subtitle is-4 has-text-black'><a href="events/" title="Details coming soon!">{{event.name}}</a></h4></ol>
+                                {% endif %}
                                 <br>
                                 {% assign index = index | plus: 1 %}
                                 {% if index == 3 %}
@@ -76,7 +80,11 @@ title: Welcome to DataSoc
                             {% endif %}
                             {% if curr_time < event_date and event.start-date == event.end-date %}
                                 <ol><h4 class='has-text-black'><b><i>{{event_date | date:"%B %d, %Y"}}</i></b></h4></ol>
-                                <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" title="Sign up here!">{{event.name}}</a></h4></ol>
+                                {% if event.link %}
+                                    <ol><h4 class='subtitle is-4 has-text-black'><a href="{{event.link}}" title="Sign up here!">{{event.name}}</a></h4></ol>
+                                {% else %}
+                                    <ol><h4 class='subtitle is-4 has-text-black'><a href="events/" title="Details coming soon!">{{event.name}}</a></h4></ol>
+                                {% endif %}
                                 <br>
                                 {% assign index = index | plus: 1 %}
                                 {% if index == 3 %}
