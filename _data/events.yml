@@ -43,7 +43,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/3640342139419216/
  - name: Camp
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/planned_events.png
    start-date: 2021-05-28
    end-date: 2021-05-30
    location: The Tops Conference Centre
@@ -63,37 +63,37 @@ Events:
    location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
    link: https://www.facebook.com/events/465355151165024/
  - name: Pub Crawl
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/upcoming_events.png
    start-date: 2021-03-19
    end-date: 2021-03-19
    time: 7pm-11pm
    location: City
  - name: Intro to Alooba
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/planned_events.png
    start-date: 2021-03-22
    end-date: 2021-03-22
    time: 4pm
    location: Online
    tag: planned
  - name: Intro to R
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/planned_events.png
    start-date: 2021-03-15
    end-date: 2021-03-15
    location: Online
    tag: planned
  - name: Intro to SQL
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/planned_events.png
    start-date: 2021-04-05
    end-date: 2021-04-05
    location: Online
    tag: planned
  - name: Mid Term BBQ
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/planned_events.png
    start-date: 2021-03-31
    end-date: 2021-03-31
    tag: planned
  - name: Networking Night
-   img: /assets/images/events/coming_soon.jpg
+   img: /assets/images/events/planned_events.png
    start-date: 2021-04-01
    end-date: 2021-04-01
    location: Online
@@ -133,7 +133,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/1334966560007237/
  - name: Data Visualisation Workshop
-   img: /assets/images/events/2020/among_us.jpg 
+   img: /assets/images/events/2020/visualisation_workshop.jpg 
    start-date: 2020-10-08
    end-date: 2020-10-08
    time: 8pm-10pm
@@ -142,7 +142,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/757251541487798/
  - name: Among Us
-   img: /assets/images/events/2020/visualisation_workshop.jpg 
+   img: /assets/images/events/2020/among_us.jpg 
    start-date: 2020-09-28
    end-date: 2020-09-28
    time: 4pm-5pm
