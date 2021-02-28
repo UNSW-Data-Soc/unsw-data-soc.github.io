@@ -220,6 +220,34 @@ introduction: |
         padding-left: 104px;
         padding-top: 8px;
     }
+    
+    li.book {
+        background: url('/assets/images/icons/coloured/book.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+    
+    li.coffee {
+        background: url('/assets/images/icons/coloured/coffee.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+    
+    li.thumbs_up {
+        background: url('/assets/images/icons/coloured/thumbs_up.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
+    
+    li.sunglasses {
+        background: url('/assets/images/icons/coloured/sunglasses.png') no-repeat left top;
+        height: 104px;
+        padding-left: 104px;
+        padding-top: 8px;
+    }
 }
 
 </style>
@@ -249,8 +277,6 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     </div>
   </div>
 </section>
-
-
 
 <div class="hero-body">
     <div class="container">
@@ -290,10 +316,58 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
   </div>
 </div>
 
-<p><br><br><br></p>
+<br><br><br>
+
 
 <section class="hero is-primary">
-  <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
+  <div class="hero-body" style=" background-color: #21D4FD;
+background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
+    <div class="container">
+        <div class="level-item">
+            <h1 class="title">
+                Our Values
+            </h1>
+        </div>
+    </div>
+  </div>
+</section>
+
+<div class="hero-body">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column is-7 is-offset-3">
+                Our successes to date could not have be achieved without our thriving subcommittee teams year after year. Here are our core values that persists amongst all portfolios. <br><br>
+                <ul class="no_bullet">
+                    <li class="book">
+                        <p><strong>Learn continuously and effectively</strong></p>
+                        We seek to provide innovative and meaningful experiences for students, adapting to change and committing to ongoing development. We highly encourage you to actively seek ways to improve and find new ways to solve problems.
+                        <br><br>
+                    </li>
+                    <li class="coffee">
+                        <p><strong>Have a good time</strong></p>
+                        At DataSoc, it is important to us that every experience here is a constructive and positive one. After every event and every meeting, we want you all to be leaving with a smile and a new friend!
+                        <br><br>
+                    </li>
+                    <li class="thumbs_up">
+                        <p><strong>Be the best at what you do</strong></p>
+                        What distinguishes DataSoc members from others, despite having all different areas and expertise? It's the passion that we bring to everything we do. We approach every task with confidence, seize all opportunities and never settle for "acceptable".
+                        <br><br>
+                    </li>
+                    <li class="sunglasses">
+                        <p><strong>Take ownership and be transparent</strong></p>
+                        As the DataSoc team, we celebrate the individual work and achievement of others, but must also be accountable for the tasks to which we have committed and see through what we started.
+                        <br><br>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<section class="hero is-primary">
+  <div class="hero-body" style="background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     <div class="container">
         <div class="level-item">
             <h1 class="title">
@@ -303,73 +377,73 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     </div>
   </div>
 </section>
-<div class="hero-body">
-<div class="container-fluid">
-    <div class="column is-8 is-offset-2">
-        <div class="row example-centered">
-            <ul class="timeline timeline-centered">
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">April, 2017</h3>
-                        <p>DataSoc was founded along side its very first iteration of the official website!</p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">May, 2017</h3>
-                        <p>DataSoc announces and hosts its first ever event: 
-                        <br>
-                        Meet the representatives of Tableau Software, and get to know the power of Tableau in AI and modern data science. </p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">June, 2017</h3>
-                        <p>DataSoc hosts its first ever hackathon, and its first ever networking night with Alibaba, Suncorp, Bupa, and many more. </p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">August, 2017</h3>
-                        <p>Official DataSoc youtube announced. Since then, many videos covering the topics of AI and machine learning has been uploaded!</p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">March, 2018</h3>
-                        <p>DataSoc celebrates 1000 likes and 1000+ follows on Facebook! This month also marks the beginning of DataSoc's Weekly Data Discoveries tradition that continues to this day in our newsletters!</p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">September, 2018</h3>
-                        <p> Welcomed SKYnet, DataSoc's friendly chatbot helper, ready to answer questions on DataSoc's behalf.</p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">March, 2019</h3>
-                        <p>DataSoc's website undergoes a modern transformation as we welcome new members and a doubled subcommitee team alike.
-                        </p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="title is-4">September, 2019</h3>
-                        <p>In this month, as DataSoc celebrated its 2000 likes on Facebook, DataSoc hosted its first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-</div>
+  <div class="container-fluid">
+    <br><br>
+      <div class="column is-8 is-offset-2">
+          <div class="row example-centered">
+              <ul class="timeline timeline-centered">
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">April, 2017</h3>
+                          <p>DataSoc was founded along side its very first iteration of the official website!</p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">May, 2017</h3>
+                          <p>DataSoc announces and hosts its first ever event: 
+                          <br>
+                          Meet the representatives of Tableau Software, and get to know the power of Tableau in AI and modern data science. </p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">June, 2017</h3>
+                          <p>DataSoc hosts its first ever hackathon, and its first ever networking night with Alibaba, Suncorp, Bupa, and many more. </p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">August, 2017</h3>
+                          <p>Official DataSoc youtube announced. Since then, many videos covering the topics of AI and machine learning has been uploaded!</p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">March, 2018</h3>
+                          <p>DataSoc celebrates 1000 likes and 1000+ follows on Facebook! This month also marks the beginning of DataSoc's Weekly Data Discoveries tradition that continues to this day in our newsletters!</p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">September, 2018</h3>
+                          <p> Welcomed SKYnet, DataSoc's friendly chatbot helper, ready to answer questions on DataSoc's behalf.</p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">March, 2019</h3>
+                          <p>DataSoc's website undergoes a modern transformation as we welcome new members and a doubled subcommitee team alike.
+                          </p>
+                      </div>
+                  </li>
+                  <li class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content">
+                          <h3 class="title is-4">September, 2019</h3>
+                          <p>In this month, as DataSoc celebrated its 2000 likes on Facebook, DataSoc hosted its first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
+                          </p>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
