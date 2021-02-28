@@ -3,6 +3,7 @@ Major Sponsors:
     icon: /assets/images/logos/custom/quantium.png
     link: https://www.quantium.com/
     description: |-
+      
       Quantium is an Australian, globally recognised leader in the development of data-driven insights and ideas. They provide insights into the rapidly changing needs and preferences of consumers, and ideas about how brands can engage customers and what their businesses should do to succeed.
       
       By combining the best of human and artificial intelligence to power possibilities for individuals, organisations and society, Quantium bring expertise in two core domains to develop cutting-edge solutions for a ‘big data world’.
@@ -17,6 +18,8 @@ Major Sponsors:
     icon: /assets/images/logos/custom/alooba.jpeg
     link: https://www.alooba.com/
     description: |-
+      
+
       Alooba is the world's only data & analytics skills assessment platform.
 
       By assessing across all skills and roles, Alooba embraces a new recruitment process.
@@ -24,7 +27,8 @@ Partners:
   - name: Akuna Capital 
     icon: /assets/images/logos/custom/akuna.png
     link: https://akunacapital.com/
-    description: |-
+    description: |- 
+      
       Akuna Capital was first conceptualised in Sydney, and its first office was opened in 2011, in Chicago. They now operate from additional offices in Sydney, Shanghai, and Boston.
       
       With a commitment to cutting-edge technology, Akuna Capital is a proprietary trading firm specialising in derivatives market-making and sophisticated modelling.
@@ -35,3 +39,19 @@ Partners:
       Macquarie is a global financial services group operating in 31 markets in asset management, retail and business banking, wealth management, leasing and asset financing, market access, commodity trading, renewables development, investment banking and principal investment.
       
       The diversity of Macquarie's operations, combined with a strong capital position and robust risk management framework, has contributed to their 51-year record of unbroken profitability.
+  - name: Data Science and AI Association of Australia
+    icon: /assets/images/logos/custom/dsai.png
+    link: https://dsai.org.au/
+    description: |-
+      
+      Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
+
+      Through a range of activities like meetups, workshops, study groups and publications, DSAi aims at helping professionals understand industry trends, employment scenarios and stay on top of the latest research.
+  - name: Commonwealth Bank of Australia
+    icon: /assets/images/logos/custom/commonwealth.png
+    link: https://www.commbank.com.au/
+    description: |-
+
+      Commonwealth Bank is Australia's leading provider of integrated financial services, including retail, premium, business and institutional banking, funds management, superannuation, insurance, investment and share-broking products and services.
+
+      The objective of our business strategy is to deliver balanced and sustainable outcomes for our customers, community, people and shareholders.  Our focus areas are financial education, contributing to the community and good business practices.
