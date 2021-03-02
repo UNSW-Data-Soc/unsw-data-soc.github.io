@@ -34,6 +34,38 @@ Events:
    img: /assets/images/events/subcommittee_recruitment.jpg
    start-date: 2021-02-15
    end-date: 2021-03-05
+   description: "Hi there!
+    <br><br>
+    Eager to join a thriving community and make lifelong friends especially after a year of online university? Interested about the Data Science scene and contributing impact to the UNSW student community? Well look no further! Applications for DataSoc's 2021 subcommittee are now open!
+    DataSoc is looking for enthusiastic and driven students to contribute to the largest constituent data science society in Australia!
+    <br><br>
+    Becoming a subcommittee member is a great way to develop both your professional and interpersonal skills, and at the same time allow you to interact with an amazing group of friends and like-minded individuals. Students in all years are welcome to apply!
+    <br><br>
+    For 2021 we are recruiting for the following roles:
+    <br>
+    💼 Careers
+    <br>
+    🎡 Social
+    <br>
+    📣 Marketing
+    <br>
+    📖 Education
+    <br>
+    ⌨ IT / Pubs
+    <br>
+    🌏 Human Resources / Diversity
+    <br>
+    [Learn more about each portfolio here:](https://drive.google.com/.../1Oxflu.../view...)
+    <br><br>
+    Applications are marked on a rolling basis so be sure to get yours in quickly!!
+    <br>
+    - All applications are due strictly by FRIDAY of Week 3 (5th of March)
+    <br><br>
+    - Interviews will be run starting from MONDAY (1st of March) of Week 3 through to THURSDAY of Week 4 (11th of March)
+    <br><br>
+    - Successful applicants will be notified of interview times by Saturday 6th March at latest
+    <br><br>
+    [APPLY HERE!](https://forms.gle/r7V7JSYxKNbZ6ut26)"
    link: https://www.facebook.com/events/426683498616566/
  - name: UNSW Combined Science Trivia Night
    img: /assets/images/events/combined_science_trivia_night.jpg
@@ -52,6 +84,19 @@ Events:
    img: /assets/images/events/python_essentials.jpg
    start-date: 2021-03-01
    end-date: 2021-03-01
+   description: 'answer = input("Interested in learning one of the most coveted and useful skills that will bolster your job applications? Y/N")
+    <br><br>
+    if answer == Y:
+    <br><br>
+    print("Come join us for our Python workshop, which requires no pre-requisite coding knowledge!")
+    <br><br>
+    if answer == N:
+    <br><br>
+    print("See answer for Y 🐍")
+    <br><br>
+    In this Python workshop we will be providing an intuitive and in-depth introduction to the basics of Python, one of the most versatile programming languages so that you can gain the practical skills necessary to transition into many pathways in data science and computer science.
+    <br><br>
+    [REGISTER HERE!](https://forms.gle/3F4nk1EFa1Hgpn566)'
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
    link: https://www.facebook.com/events/1864386547063836
@@ -59,6 +104,15 @@ Events:
    img: /assets/images/events/python_in_practice.jpg
    start-date: 2021-03-04
    end-date: 2021-03-04
+   description: "Have you ever wondered how Python 🐍 could be relevant to Data Science 📈?
+    <br><br>
+    Make sure you come to our second Python workshop where we will dive into the practical applications of Python in manipulating large datasets. 
+    <br><br>
+    If you are someone looking to expand your skillset and make the first step into a potential career in Data Science then this is definitely the workshop for you! 
+    <br><br>
+    Make sure you also sign up for our first Python Essentials workshop if you want to learn some core concepts or just simply to refresh 💆‍♂️ your knowledge of Python.
+    <br><br>
+    [SIGN UP HERE!](https://forms.gle/FJ7kbf8m8LHuMrNS7)"
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
    link: https://www.facebook.com/events/465355151165024/
