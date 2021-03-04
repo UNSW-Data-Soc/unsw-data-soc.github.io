@@ -124,8 +124,8 @@ Events:
    location: City
  - name: Intro to Alooba
    img: /assets/images/events/planned_events.png
-   start-date: 2021-03-22
-   end-date: 2021-03-22
+   start-date: 2021-03-23
+   end-date: 2021-03-23
    time: 4pm
    location: Online
    tag: planned
@@ -152,6 +152,11 @@ Events:
    end-date: 2021-04-01
    location: Online
    tag: planned
+- name: First Year Speed-Friending
+  start-date: 2021-03-31
+  end-date: 2021-03-31
+  location: UNSW
+  tag: planned
 
 
 
