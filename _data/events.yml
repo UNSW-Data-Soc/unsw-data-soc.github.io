@@ -116,12 +116,29 @@ Events:
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
    link: https://www.facebook.com/events/465355151165024/
- - name: Pub Crawl
-   img: /assets/images/events/upcoming_events.png
-   start-date: 2021-03-19
-   end-date: 2021-03-19
-   time: 7pm-11pm
-   location: City
+ - name: Happiest Hours
+   link: https://www.facebook.com/events/262493815459591/
+   img: /assets/images/events/happiest_hours.jpg
+   start-date: 2021-03-18
+   end-date: 2021-03-18
+   time: 6:45pm-11pm
+   description: "It’s Thursday evening and you’re headed home to spend the night playing games alone in your room, or to catch up on (Week 2) lectures... 🥱
+    <br><br>
+    Instead, make the most out of your Thursday and come along to DataSoc and Side Bar’s Happiest Hours!!!
+    <br><br>
+    There is no better time to meet new people in a relaxed environment and… possibly even meet your next match 🌶😻
+    <br><br>
+    Get keen for some of the ✨ happiest hours✨ with:
+    <br>
+    $5 beers 🍻, wines 🍷, spirits 👻,
+    <br>
+    $6 tequila 🧂
+    <br>
+    $10 pizzas 🍕
+    Register NOW for FREE entry!! Places are limited, you don’t want to miss out on this one!
+    <br>
+    [REGISTER HERE!](https://forms.gle/GxupsEHusJ93oy1k6)"
+   location: Side Bar (509 Pitt St, Sydney)
  - name: Intro to Alooba
    img: /assets/images/events/planned_events.png
    start-date: 2021-03-23
