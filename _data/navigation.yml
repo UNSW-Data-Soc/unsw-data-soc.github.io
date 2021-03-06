@@ -1,3 +1,5 @@
+- name: Home
+  link: /index
 - name: About Us
   link: /about
   dropdown:
