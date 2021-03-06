@@ -81,7 +81,7 @@ Events:
    location: The Tops Conference Centre
    tag: planned
  - name: Python Essentials
-   img: /assets/images/events/python_essentials.jpg
+   img: /assets/images/events/python_essentials.png
    start-date: 2021-03-01
    end-date: 2021-03-01
    description: 'answer = input("Interested in learning one of the most coveted and useful skills that will bolster your job applications? Y/N")
@@ -101,7 +101,7 @@ Events:
    location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
    link: https://www.facebook.com/events/1864386547063836
  - name: Python in Practice
-   img: /assets/images/events/python_in_practice.jpg
+   img: /assets/images/events/python_in_practice.png
    start-date: 2021-03-04
    end-date: 2021-03-04
    description: "Have you ever wondered how Python 🐍 could be relevant to Data Science 📈?
@@ -116,19 +116,27 @@ Events:
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
    link: https://www.facebook.com/events/465355151165024/
- - name: Pub Crawl
-   img: /assets/images/events/upcoming_events.png
-   start-date: 2021-03-19
-   end-date: 2021-03-19
-   time: 7pm-11pm
-   location: City
+ - name: Happiest Hours
+   img: /assets/images/events/happiest_hours.jpg
+   start-date: 2021-03-18
+   end-date: 2021-03-18
+   time: 6:45pm-11pm
+   location: Side Bar (Pitt St)
+   description: "It’s Thursday evening and you’re headed home to spend the night playing games alone in your room, or to catch up on (Week 2) lectures... 🥱
+    <br><br>
+    Instead, make the most out of your Thursday and come along to DataSoc and Side Bar’s Happiest Hours!!!
+    <br><br>
+    There is no better time to meet new people in a relaxed environment and… possibly even meet your next match 🌶😻
+    <br><br>
+    Register NOW for FREE entry and a FREE DRINK upon arrival!! Places are limited, you don’t want to miss out on this one!
+    [REGISTER HERE!](https://forms.gle/GxupsEHusJ93oy1k6)"
+   link: https://www.facebook.com/events/262493815459591/
  - name: Intro to Alooba
-   img: /assets/images/events/planned_events.png
+   img: /assets/images/events/upcoming_events.png
    start-date: 2021-03-23
    end-date: 2021-03-23
    time: 4pm
    location: Online
-   tag: planned
  - name: Intro to R
    img: /assets/images/events/planned_events.png
    start-date: 2021-03-15
@@ -153,11 +161,10 @@ Events:
    location: Online
    tag: planned
  - name: First Year Speed-Friending
-   img: /assets/images/events/planned_events.png
+   img: /assets/images/events/upcoming_events.png
    start-date: 2021-03-31
    end-date: 2021-03-31
    location: UNSW
-   tag: planned
    
 
 
