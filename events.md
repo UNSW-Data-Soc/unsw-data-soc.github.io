@@ -61,7 +61,11 @@ introduction: This is the events page
                             <p class='subtitle is-6 has-text-centered'>{{event.time}}</p>
                         {% endif %}
                         <div  style="text-align: center;">
+<<<<<<< HEAD
                              {% if event.description and event.link %}
+=======
+                             {% if event.link %}
+>>>>>>> af7ca145268ae873c5aa529e46b971283fc7642e
                                 <span class="button modal-button" data-target="event-- {{ event.name | replace: ' ', '-' | downcase }}">
                                 <p class='subtitle is-6 has-text-centered'>  More Information Here!</p>
                              </span>
