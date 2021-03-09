@@ -116,6 +116,20 @@ Events:
    time: 3pm-4:30pm
    location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
    link: https://www.facebook.com/events/465355151165024/
+ - name: Disaster at the Joadia Islands Gameathon
+   img:  /assets/images/events/gameathon_dsai.jpg
+   start-date: 2021-03-15
+   end-date: 2021-04-11
+   description: "If you’ve got great ideas then our friends at DSAi (Data Science and AI Association of Australia) want to hear from you! Imagine a hackathon where you don’t need to code. That’s right NO CODE! Simply share your GREAT IDEAS!
+   <br><br>
+   Essentially, that’s what they are after in conjunction with the Australian Defence Force and their Defence Science and Technology Group.
+   <br><br>
+   They’ve got a no-code hackathon that to do with gaming strategy, specifically game-design and AI-assistance and they want your ideas to help.
+   <br><br>
+   Click [here](https://medium.com/dsai/share-ideas-win-great-prizes-help-australia-7b6ab7bb157f) for more information!
+   <br><br>
+   Also check out the [event page](http://joadia.dsai.org.au/) where you can register interest!"
+   link: https://www.facebook.com/DataSoc/posts/2640476976255212
  - name: Happiest Hours
    img: /assets/images/events/happiest_hours.jpg
    start-date: 2021-03-18
@@ -131,12 +145,27 @@ Events:
     Register NOW for FREE entry and a FREE DRINK upon arrival!! Places are limited, you don’t want to miss out on this one!
     [REGISTER HERE!](https://forms.gle/GxupsEHusJ93oy1k6)"
    link: https://www.facebook.com/events/262493815459591/
- - name: Intro to Alooba
-   img: /assets/images/events/upcoming_events.png
+ - name: "Intro to Alooba: Acing Online Assessments"
+   img: /assets/images/events/intro_to_alooba.png
    start-date: 2021-03-23
    end-date: 2021-03-23
-   time: 4pm
+   time: 5pm-6pm
    location: Online
+   description: "
+   🔇THE RESUME REVOLUTION IS HERE 🔇
+   <br><br>
+   Sick and tired of writing cover letter after cover letter? Weary of spending countless hours pouring over your resume? Well the time has come to rise up ✊🏼 and CHALLENGE THE POWER.
+   <br><br>
+   Come along to Acing Online Assessments! to learn all about how their company is getting rid of resumes in the hiring process! Yes you heard me right, NO MORE RESUMES!
+   <br><br>
+   But that’s not all... Everyone who registers will be emailed a FREE SAMPLE QUIZ that gives you an exclusive glimpse of how the post resume hiring world will look like, and how well your perform in it!
+   <br><br>
+   We will be running through insights and results live and in studio so don’t miss out on this amazing opportunity to get ahead and see how attractive you are to potential employers!
+   <br><br>
+   What are you waiting for???
+   <br><br>
+   [REGISTER NOW!](https://forms.gle/VMAu4DwAACnDJCJu6)"
+   link: https://www.facebook.com/events/431889234734681/
  - name: Intro to R
    img: /assets/images/events/planned_events.png
    start-date: 2021-03-15
@@ -166,6 +195,20 @@ Events:
    end-date: 2021-03-31
    time: 1pm-3pm
    location: UNSW
+ - name: Disaster at the Joadia Islands Gameathon
+   img:  /assets/images/events/gameathon_dsai.jpg
+   start-date: 2021-03-15
+   end-date: 2021-04-11
+   description: "If you’ve got great ideas then our friends at DSAi (Data Science and AI Association of Australia) want to hear from you! Imagine a hackathon where you don’t need to code. That’s right NO CODE! Simply share your GREAT IDEAS!
+   <br><br>
+   Essentially, that’s what they are after in conjunction with the Australian Defence Force and their Defence Science and Technology Group.
+   <br><br>
+   They’ve got a no-code hackathon that to do with gaming strategy, specifically game-design and AI-assistance and they want your ideas to help.
+   <br><br>
+   Click [here](https://medium.com/dsai/share-ideas-win-great-prizes-help-australia-7b6ab7bb157f) for more information!
+   <br><br>
+   Also check out the [event page](http://joadia.dsai.org.au/) where you can register interest!"
+   link: https://www.facebook.com/DataSoc/posts/2640476976255212
    
 
 
