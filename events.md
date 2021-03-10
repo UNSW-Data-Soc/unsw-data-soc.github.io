@@ -49,7 +49,11 @@ introduction: This is the events page
                     </div>
                     <br>
                     <div class='card-content'>
+                        {% if event.name == 'Disaster at the Joadia Islands Gameathon' %}
+                        <p class='title is-4 has-text-centered is-uppercase'> DSAI Presents: {{event.name}}</p>
+                        {% else %}
                         <p class='title is-4 has-text-centered is-uppercase'> DataSoc Presents: {{event.name}}</p>
+                        {% endif %}
                         {% if event.start-date != event.end-date %}
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }} - {{event.end-date | date:"%B %d, %Y" }}</p>
                         {% else %}
