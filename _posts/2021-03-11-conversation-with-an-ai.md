@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Conversation with an AI"
-date:   2021-02-15
+date:   2021-03-11
 tags: 
     - data science
     - artificial intelligence
