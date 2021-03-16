@@ -9,7 +9,7 @@ introduction:
     We've got useful rundowns of the data industry landscape,  practical tips on job searching, as well as insider info from sponsors and students alike. 
     <br><br>
     If you're looking for a place to start, some extra information, and some guidance 
-    from experienced professionals, have a check out of Careers Guide! 
+    from experienced professionals, have a check out of our  Careers Guide! 
     <br><br>
 document: https://drive.google.com/file/d/1UxawlBq1DEiQHvhcnZNUQwoqjUHE-xff/preview
 ---

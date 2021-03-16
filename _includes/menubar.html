@@ -47,10 +47,22 @@
       </div>
   </nav>
 </div>
-
+<div class="notification">
+  <button class="delete"></button>
+  <p class="has-text-centered">
+      <span class="tag is-info">New</span> Check out our new <a href = "careers-guide">Careers Guide!</a>
+  </p>
+</div>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+//delete notification
+(document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    const $notification = $delete.parentNode;
 
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+});
 // Get all "navbar-burger" elements
 const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
