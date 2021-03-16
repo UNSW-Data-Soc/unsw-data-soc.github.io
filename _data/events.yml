@@ -172,7 +172,6 @@ Events:
    location: Online
    tag: planned
  - name: Intro to SQL
-   img: /assets/images/events/planned_events.png
    start-date: 2021-04-05
    end-date: 2021-04-05
    location: Online
@@ -189,7 +188,6 @@ Events:
    location: Online
    tag: planned
  - name: First Year Speed-Friending
-   img: /assets/images/events/upcoming_events.png
    start-date: 2021-03-31
    end-date: 2021-03-31
    time: 1pm-3pm

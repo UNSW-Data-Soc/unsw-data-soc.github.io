@@ -44,7 +44,11 @@ introduction: This is the events page
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-3by3">
+                        {% if event.img %}
                         <img src="{{event.img}}" alt="Placeholder image">
+                        {% else %}
+                        <img src="/assets/images/events/upcoming_events.png" alt="Placeholder image">
+                        {% endif %}
                         </figure>
                     </div>
                     <br>
@@ -116,7 +120,7 @@ introduction: This is the events page
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-3by3">
-                        <img src="{{event.img}}" alt="Placeholder image">
+                        <img src="/assets/images/events/planned_events.png" alt="Placeholder image">
                         </figure>
                     </div>
                     <br>
