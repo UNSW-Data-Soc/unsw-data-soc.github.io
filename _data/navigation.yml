@@ -26,5 +26,7 @@
   dropdown:
     - name: First Year Guide
       link: /first-year-guide
+    - name: Careers Guide
+      link: /careers-guide
 - name: Contact Us
   link: /contact

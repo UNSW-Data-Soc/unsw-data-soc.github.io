@@ -45,13 +45,23 @@ introduction: You can find all of our publications here!
                   <div class="column is-5 featured-content va centered">
                     <div>
                       <h3 class="heading post-category">Guide</h3>
+                      <h1 class="title post-title">2021 Careers Guide</h1>
+                      <p class="post-excerpt">
+                      Data Science can be difficult to navigate career-wise. 
+                      <br>
+                      If you're looking for a place to start, some extra information, and some guidance 
+                      from experienced professionals, have a check out of Careers Guide!
+                      </p>
+                      <br>
+                      <a href="careers-guide" class="button is-primary">View</a>
+                      <br><br>
                       <h1 class="title post-title">2021 First Year Guide</h1>
                       <p class="post-excerpt">UNSW has a whole host of different experiences and opportunities, 
                         so much so that it can feel super daunting and confusing. <br><br> If this is how you feel (and even if it’s not) 
                         - this First Year Guide is for you! </p>
                       <br>
                       <a href="first-year-guide" class="button is-primary">View</a>
-                      <br>
+                      <br> 
                     </div>
                   </div>
                 </article>
