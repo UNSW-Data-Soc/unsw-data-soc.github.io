@@ -79,7 +79,6 @@ Events:
    start-date: 2021-05-28
    end-date: 2021-05-30
    location: The Tops Conference Centre
-   tag: planned
  - name: Python Essentials
    img: /assets/images/events/python_essentials.png
    start-date: 2021-03-01
