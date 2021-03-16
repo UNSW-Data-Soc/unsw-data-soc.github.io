@@ -44,7 +44,7 @@ introduction: You can find all of our publications here!
                     <h1 class="title post-title">2021 Careers Guide</h1>
                       <p class="post-excerpt">
                       Data Science can be difficult to navigate career-wise. 
-                      <br>
+                      <br><br>
                       If you're looking for a place to start, some extra information, and some guidance 
                       from experienced professionals, have a check out of Careers Guide!
                       </p>
