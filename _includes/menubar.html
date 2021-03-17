@@ -47,12 +47,14 @@
       </div>
   </nav>
 </div>
+{% if page.url != "/publications/careers-guide" %}
 <div class="notification">
   <button class="delete"></button>
   <p class="has-text-centered">
       <span class="tag is-info">New</span> Check out our new <a href = "/publications/careers-guide" >Careers Guide!</a>
   </p>
 </div>
+{% endif %}
 <script>
   document.addEventListener('DOMContentLoaded', () => {
 //delete notification
