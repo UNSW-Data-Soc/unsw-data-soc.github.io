@@ -176,10 +176,9 @@ Events:
    end-date: 2021-04-05
    location: Online
    tag: planned
- - name: Mid Term BBQ
-   img: /assets/images/events/planned_events.png
-   start-date: 2021-03-31
-   end-date: 2021-03-31
+ - name: Beginner's Datathon
+   start-date: 2021-04-10
+   end-date: 2021-04-10
    tag: planned
  - name: Networking Night
    img: /assets/images/events/planned_events.png
