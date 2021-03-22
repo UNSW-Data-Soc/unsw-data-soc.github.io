@@ -75,10 +75,18 @@ Events:
    location: Online
    link: https://www.facebook.com/events/3640342139419216/
  - name: Camp
-   img: /assets/images/events/upcoming_events.png
+   img: /assets/images/events/camp.png
    start-date: 2021-05-28
    end-date: 2021-05-30
    location: The Tops Conference Centre
+   link: https://www.facebook.com/photo/?fbid=128224022641298&set=a.126687986128235
+   description: "IT’S THE END OF THE WORLD. And we want YOU to witness it with us.
+    <br><br>
+    Gather your wits and your speed because DataSoc and MathSoc are holding a camp!
+    <br><br>
+    Unleash your inner survivor to take on the beginning of Term 2 for a weekend of fun camp activities🏃‍♀️, intense challenges🏅, good food🍜, NIGHTLY parties🕺 and drinks🍻.
+    <br><br>
+    [Grab your Early Bird tickets before they're gone](https://fb.me/e/20YvHcTeV)!"
  - name: Python Essentials
    img: /assets/images/events/python_essentials.png
    start-date: 2021-03-01
