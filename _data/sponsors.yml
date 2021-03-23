@@ -11,9 +11,16 @@ Major Sponsors:
     icon: /assets/images/logos/custom/atlassian.png
     link: https://www.atlassian.com/
     description: |-
-      Starting out as a young company founded by two UNSW alumni, Atlassian has grown to have over 2.6M community members and global offices in 7 different countries.
-      
       Atlassian develops world class products for software developers, project managers, and content management.
+
+      Behind every great human achievement, there is a team. From medicine and space travel, to disaster response and pizza deliveries, their products help teams all over the planet advance humanity through the power of software. Atlassian's mission is to help unleash the potential of every team.
+  - name: Westpac
+    icon: /assets/images/logos/custom/westpac.png
+    link: https://www.westpac.com.au/
+    description: |-
+      Westpac is Australia’s oldest bank and company, one of four major banking organisations in Australia and one of the largest banks in New Zealand. They provide a broad range of banking and financial services in these markets, including consumer, business and institutional banking and wealth management services.
+
+      Westpac Group's portfolio of financial services brands and businesses is focused on their purpose which is Helping Australians Succeed. From ensuring customers can save and invest with confidence, to helping with the financial needs of small businesses, multi-national corporates, institutional and government clients, Westpac puts customers at the centre of everything they do.
   - name: Alooba
     icon: /assets/images/logos/custom/alooba.png
     link: https://www.alooba.com/
@@ -54,4 +61,12 @@ Partners:
 
       Commonwealth Bank is Australia's leading provider of integrated financial services, including retail, premium, business and institutional banking, funds management, superannuation, insurance, investment and share-broking products and services.
 
-      The objective of our business strategy is to deliver balanced and sustainable outcomes for our customers, community, people and shareholders.  Our focus areas are financial education, contributing to the community and good business practices.
+      The objective of CBA's business strategy is to deliver balanced and sustainable outcomes for customers, community, people and shareholders.  Their focus areas are financial education, contributing to the community and good business practices.
+  - name: National Australia Bank
+    icon: /assets/images/logos/custom/nab.png
+    link: https://www.nab.com.au/
+    description: |-
+
+      National Bank Australia has more than 30,000 people, serving 9 million customers, at over 900 locations throughout Australia, New Zealand and around the world.
+
+      As Australia’s largest business bank, NAB works with small, medium and large businesses, supporting their customers through every stage of their business needs. They also fund essential infrastructure in our communities (like schools, hospitals and roads) in a way that’s responsible, inclusive and innovative.
