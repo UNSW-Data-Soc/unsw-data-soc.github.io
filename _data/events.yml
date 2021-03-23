@@ -174,26 +174,52 @@ Events:
    [REGISTER NOW!](https://forms.gle/VMAu4DwAACnDJCJu6)"
    link: https://www.facebook.com/events/431889234734681/
  - name: Intro to R
-   img: /assets/images/events/planned_events.png
-   start-date: 2021-04-05
-   end-date: 2021-04-05
-   location: Online
-   tag: planned
+   img: /assets/images/events/intro_to_r.jpeg
+   start-date: 2021-04-06
+   end-date: 2021-04-06
+   time: 12pm-1:30pm
+   location: Online <a href="unsw.zoom.us/j/84246266057">(Zoom)</a>
+   description: "
+   𝗥 you:
+   <br>
+    • 📊A Data Science student📊
+    <br>
+    • 🤓An Actuarial Studies student🤓
+    <br>
+    • 🔢A student majoring in Statistics or🔢
+    <br>
+    • 👩‍🎓A student?👨‍🎓
+    <br><br>
+    If you're any of the above, come along to our Introduction to R workshop aimed to introduce you to an extremely popular and highly extensible language for data science, data analysis and machine learning!
+    <br><br>
+    With live demonstrations 💻 and practical content that 👉🏼YOU👈🏼 can take part in, this is a perfect chance for you to get started on one of the 📈fastest-growing📈 statistical languages of the 21st century.
+    <br><br>
+    Don't think you're 𝗥-eady to learn? 😭 Our workshop is designed to be intuitive, and even those with minimal or no programming knowledge can be elevated to a standard level, preparing them for more intermediate workshops held later this year.
+    <br><br>
+    So what 𝗥 you waiting for?
+    <br><br>
+    [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
+   link: https://www.facebook.com/events/443973773601289/
  - name: Intro to SQL
-   start-date: 2021-04-05
-   end-date: 2021-04-05
+   start-date: 2021-04-19
+   end-date: 2021-04-19
    location: Online
    tag: planned
  - name: Beginner's Datathon
    start-date: 2021-04-10
    end-date: 2021-04-10
+   time: 9am-7pm
    tag: planned
  - name: First Year Speed-Friending
    start-date: 2021-03-31
    end-date: 2021-03-31
    time: 1pm-3pm
    location: UNSW
-
+ - name: Telcos & Utilities Panel
+   start-date: 2021-04-12
+   end-date: 2021-04-12
+   location: Online
+   tag: planned
 
 
 
