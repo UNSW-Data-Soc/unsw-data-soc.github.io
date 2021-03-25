@@ -7,7 +7,7 @@ permalink: blog/topics
   <div class = "hero-body">
     <div class = "container">
       <h1 class = "title">
-      Tag Index
+      Blog Tag Index
       </h1>
     </div>
   </div>
@@ -16,21 +16,20 @@ permalink: blog/topics
     <div class = "container"> 
       <h1 class = "title">Tags</h1>
       {% for tag in site.tags %}               
-      <details>
-      <summary>
-      {{ tag[0] }}<span> ({{ tag[1].size }})</span>
-      </summary>                
-          <p>
-          {% for post in tag[1] %}
-          <ul>
-          <li><a href="{{ post.url }}"> {{post.title }}</a> — {{ post.date | date_to_string }}
-          </li>
-          </ul>
-          {% endfor %}
-          </p>
-
-      </details>
-  {% endfor %}
+        <details>
+        <summary>
+        {{ tag[0] }}<span>({{ tag[1].size }})</span>
+        </summary>                
+            <p>
+            {% for post in tag[1] %}
+            <ul>
+            <li><a href="{{ post.url }}"> {{ post.title }}</a> — {{ post.date | date_to_string }}
+            </li>
+            </ul>
+            {% endfor %}
+            </p>
+        </details>
+      {% endfor %}
     </div>
 </div>
 
