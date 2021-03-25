@@ -40,7 +40,7 @@ introduction: You can find all of our publications here!
               <div class="column is-12 post">
                 <article class="columns featured">
                   <h3 class="heading post-category">Guides</h3>
-                  <div class="column is-6 post-img image is-128x128"> 
+                  <div class="column is-6 featured-content va centered"> 
                     <h1 class="title post-title">2021 Careers Guide</h1>
                       <p class="post-excerpt">
                       Data Science can be difficult to navigate career-wise. 
