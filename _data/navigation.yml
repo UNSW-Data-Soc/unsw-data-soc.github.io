@@ -9,13 +9,13 @@
       link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
 - name: Our Sponsors
   link: /sponsors
+- name: Our Events
+  link: /events
 - name: Blog
   link: /blog
   dropdown:
     - name: Topics
       link: /topics
-- name: Our Events
-  link: /events
 - name: Resources
   link: /resources
   dropdown:
