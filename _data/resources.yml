@@ -1,3 +1,8 @@
+- title: Introduction to R
+  tags: [programming]
+  description: Beginner's Guide to R programming - particularly relevant for datathons!
+  resources: https://drive.google.com/drive/u/1/folders/1-XF7KAgsyUs4cmmzLMcShODQg1k_1CJ8
+
 - title: Python Essentials & Python in Practice
   tags: [programming]
   description: Python basics and its practical applications in manipulating large datasets
