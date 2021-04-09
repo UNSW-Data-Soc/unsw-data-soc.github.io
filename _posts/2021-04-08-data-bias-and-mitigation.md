@@ -18,6 +18,8 @@ excerpt_separator: <!--more-->
 
 Given their predictive accuracy and ease of creation, models trained on massive amounts of data are everywhere, and are increasingly used to inform important decisions. How much your insurance premium costs, whether you get a home loan or how much your next plane ticket costs are reduced to mathematical functions. They input your personal data as parameters and spit out a final value which guides the decision.
 
+<!--more-->
+
 While they have massively optimised most sectors of our society, they are not foolproof. Being inventions of the human mind they are ingenious, but flawed.
 
 One major issue is bias in models. Models are often skewed between groups - racial/ethnic, socioeconomic or sex for example - and [have been seen making discriminatory decisions](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G).
