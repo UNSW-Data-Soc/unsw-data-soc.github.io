@@ -12,10 +12,6 @@ image: /assets/images/blog/data-bias-cover.jpg
 excerpt_separator: <!--more-->
 ---
 
-# Bias in data and models, and their mitigation techniques
-
-## Intro
-
 Given their predictive accuracy and ease of creation, models trained on massive amounts of data are everywhere, and are increasingly used to inform important decisions. How much your insurance premium costs, whether you get a home loan or how much your next plane ticket costs are reduced to mathematical functions. They input your personal data as parameters and spit out a final value which guides the decision.
 
 <!--more-->
@@ -48,7 +44,7 @@ In the creation of classical machine learning models, it is usually up to the mo
 
 While this allows for freedom and flexibility regarding the complexity of the model or the dimensionality and size of the data, it opens up another dangerous source of bad models.
 
-The data scientist must make sure that only the appropriate variables make it into the model. Otherwise, this may lead to the model trying to infer patterns from irrelevant factors. Interestingly, this can also lead to something called adversarial attacking, a way to exploit weak models to influence their predictions. For more information, I recommend reading here LINK.
+The data scientist must make sure that only the appropriate variables make it into the model. Otherwise, this may lead to the model trying to infer patterns from irrelevant factors. Interestingly, this can also lead to something called adversarial attacking, a way to exploit weak models to influence their predictions. For more information, I recommend [reading here](https://towardsdatascience.com/adversarial-attacks-in-machine-learning-and-how-to-defend-against-them-a2beed95f49c).
 
 Further, not including enough relevant predictors can lead to a similar model which (unsuccessfully) tries to base its patterns on noise.
 
@@ -76,7 +72,7 @@ Below is an example of how this looks, courtesy of [this article](https://toward
 
 ![Effects of the Disparate Impact Remover Algorithm](/assets/images/blog/bias_mitigation.JPG)
 
-*Image courtesy of Stacey Ronaghan in her [Towards Data Science article](https://towardsdatascience.com/ai-fairness-explanation-of-disparate-impact-remover-ce0da59451f1)*
+*Image courtesy of Stacey Ronaghan in her [Towards Data Science article](https://towardsdatascience.com/ai-fairness-explanation-of-disparate-impact-remover-ce0da59451f1).*
 
 ### 2. Data scientists making poor decisions
 
@@ -85,7 +81,7 @@ Below is an example of how this looks, courtesy of [this article](https://toward
 In order to answer this question we use an amazing data science tool. You may have heard the saying _the simplest model is the best model_ - and here we use dimensionality reduction. One such example is PCA - principal component analysis. The idea behind these algorithms is to see which features of the data impact the predictor variable the most. By choosing the most important variables, you can begin to eliminate irrelevant information which would only add error and overfitting issues to your problem setup.
 
 You can run PCA in R with:
-`prcomp(df )`
+`prcomp(df)`
 Where df is some dataframe or matrix.
 
 *Does my model have enough variables?*
