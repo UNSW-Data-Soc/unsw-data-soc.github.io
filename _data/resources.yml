@@ -1,6 +1,11 @@
+- title: Starter-thon R Workshop
+  tags: [programming]
+  description: Overview of Regression Models, Data Manipulation and Data Visualisation
+  resources: https://drive.google.com/drive/folders/1A4Av9zwz3CUZWFrXNI2FeHfo9IqbI8A5
+
 - title: Introduction to R
   tags: [programming]
-  description: Beginner's Guide to R programming - particularly relevant for datathons!
+  description: Beginner's Guide to R programming
   resources: https://drive.google.com/drive/u/1/folders/1-XF7KAgsyUs4cmmzLMcShODQg1k_1CJ8
 
 - title: Python Essentials & Python in Practice
