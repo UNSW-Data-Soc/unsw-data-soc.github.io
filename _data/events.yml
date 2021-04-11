@@ -201,11 +201,6 @@ Events:
     <br><br>
     [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
    link: https://www.facebook.com/events/443973773601289/
- - name: Intro to SQL
-   start-date: 2021-04-19
-   end-date: 2021-04-19
-   location: Online
-   tag: planned
  - name: Starter-thon
    img: \assets\images\events\starter-thon.jpg
    start-date: 2021-04-10
@@ -264,8 +259,13 @@ Events:
     Register [here](https://forms.gle/wR2qqtMR7uf7Em92A) so you don't miss out!!
    link: https://www.facebook.com/events/785383262409069/
  - name: Telcos & Utilities Panel
-   start-date: 2021-04-12
-   end-date: 2021-04-12
+   start-date: 2021-06-14
+   end-date: 2021-06-14
+   location: Online
+   tag: planned
+ - name: Intro to SQL
+   start-date: 2021-06-07
+   end-date: 2021-06-07
    location: Online
    tag: planned
 
