@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trading Stocks Based on Sentiment"
-date:   2021-04-10
+date:   2021-04-15
 tags: 
     - data science
     - skills
