@@ -1,3 +1,5 @@
+- name: Home
+  link: /index
 - name: About Us
   link: /about
   dropdown:
@@ -7,13 +9,13 @@
       link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
 - name: Our Sponsors
   link: /sponsors
+- name: Our Events
+  link: /events
 - name: Blog
   link: /blog
   dropdown:
     - name: Topics
       link: /topics
-- name: Our Events
-  link: /events
 - name: Resources
   link: /resources
   dropdown:
@@ -21,5 +23,10 @@
       link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
   link: /publications
+  dropdown:
+    - name: First Year Guide
+      link: /first-year-guide
+    - name: Careers Guide
+      link: /careers-guide
 - name: Contact Us
   link: /contact

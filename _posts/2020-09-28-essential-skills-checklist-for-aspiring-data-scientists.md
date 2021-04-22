@@ -4,9 +4,8 @@ title:  "Essential Skills Checklist for Aspiring Data Scentists"
 date:   2020-09-28
 tags: 
     - data science
-    - job
+    - careers
     - skills
-    - industry
     - guide
 author: Xinyi Sun
 image: /assets/images/blog/20-09-28.jpg

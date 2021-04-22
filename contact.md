@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: default
 ---
 <section class="hero is-info">
     <div class="hero-body" style="background: rgb(1,213,255); background: linear-gradient(90deg, rgba(1,213,255,1) 0%, rgba(4,146,255,1) 25%, rgba(190,1,255,1) 100%);">
@@ -25,7 +25,7 @@ layout: landing
                 <br><br>
                 Be sure to check out our social media links!
                 <br><br><br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSffSdDlZLRMnWokOwlpKEVaaklL39nkgkjnZ0iaqdoL134nVA/viewform?usp=sf_link" target="_blank">
+                <a href="https://forms.gle/hLDY7bAGa1H4CV348" target="_blank">
                     <button class="button is-info is-bold">Join Us!</button></a>
                 <br><br><br>
             </p>

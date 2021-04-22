@@ -8,10 +8,10 @@ permalink: /about/team/
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">
-	{% assign portfolios = "Execs, External, Internal" | split: ", " %}
+	{% assign portfolios = "Executives, External, Internal" | split: ", " %}
 	<div class="tabs is-boxed is-centered main-menu is-large" id="nav">
 		<ul>
-			{% for i in (0..3) %}
+			{% for i in (0..2) %}
 			{% if forloop.first == true %}
 				{% assign active_status = "is-active" %}
 			{% else %}

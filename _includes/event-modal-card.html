@@ -1,0 +1,20 @@
+<div id="event-- {{ include.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">  
+    <div class="modal-background"></div>  
+    <div class="modal-content">  
+        <header class="modal-card-head">
+            <div class="modal-card-title">
+                <p class="title">{{ include.name }}</p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button> 
+        </header>
+        <section class="modal-card-body">
+            <div class="content">
+                <p>{{ include.description | markdownify }}</p>
+                <p><a href = "{{include.link}}">View on Facebook here!</a></p>
+            </div>
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button modal-button-close" aria-label="close">Close</button> 
+        </footer>
+    </div>
+</div>

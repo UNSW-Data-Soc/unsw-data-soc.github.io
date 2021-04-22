@@ -9,7 +9,7 @@ introduction: |
   <br><br>
   It's our long term goal to help our members become as capable they can be, and it wouldn't be possible without the continued support from industry.
   <br><br>
-  **Interested in sponsoring? Reach out to [external@unswdata.com](mailto:external@unswdata.com) and view our prospectus [here.](/sponsors/become-a-sponsor)**
+  **Interested in sponsoring? Reach out to [external@unswdata.com](mailto:external@unswdata.com)**
 ---
 <div class="hero-body">
   <!--Sponsors -->

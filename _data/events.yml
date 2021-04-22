@@ -1,6 +1,282 @@
 Events:
+ - name: Peer Mentoring 2021
+   img: /assets/images/events/peer_mentoring.png
+   start-date: 2021-02-08
+   end-date: 2021-02-19
+   description: A big welcome to everyone that joined UNSW in 2021, and an even bigger thank you to those who joined DataSoc! DataSoc is holding its annual 🌟 Peer Mentoring Program 🌟to help you settle into your new uni life.
+    Not sure where your lecture is? 🤔🤷 Don’t sweat it, your Mentors will be there to point you in the right ➡️ direction.
+    Haven't met anyone in your cohort? Allow us to introduce you to a group of other first years in your boat!
+    So sign up now, and start off your time at uni right!
+   link: https://www.facebook.com/events/407905556976265/
+ - name: O-Week
+   img: /assets/images/events/o_week.png
+   start-date: 2021-02-09
+   end-date: 2021-02-11
+   description: WELCOME TO DATASOC!! We’re kicking off 2021 at UNSW O-Week!!
+   time: 9am-4pm
+   location: Alumni West
+   link: https://www.facebook.com/events/455842289116011
+ - name: Welcome to 2021
+   img: /assets/images/events/welcome_to_2021.png
+   start-date: 2021-02-16
+   end-date: 2021-02-16
+   time: 8pm-9pm
+   location: Online <a href="https://discord.gg/7knVqwvr">(Discord)</a>
+   link: https://www.facebook.com/events/144679580832706
+ - name: Demystifying Data Science with Atlassian
+   img: /assets/images/events/demystifying_data_science.png
+   start-date: 2021-02-17
+   end-date: 2021-02-17
+   time: 2pm-4pm
+   location: Online <a href="http://unsw.zoom.us/j/88530292472">(Zoom)</a>
+   link: https://www.facebook.com/events/878231583006404/
+ - name: 2021 Subcommittee Recruitment
+   img: /assets/images/events/subcommittee_recruitment.jpg
+   start-date: 2021-02-15
+   end-date: 2021-03-05
+   description: "Hi there!
+    <br><br>
+    Eager to join a thriving community and make lifelong friends especially after a year of online university? Interested about the Data Science scene and contributing impact to the UNSW student community? Well look no further! Applications for DataSoc's 2021 subcommittee are now open!
+    DataSoc is looking for enthusiastic and driven students to contribute to the largest constituent data science society in Australia!
+    <br><br>
+    Becoming a subcommittee member is a great way to develop both your professional and interpersonal skills, and at the same time allow you to interact with an amazing group of friends and like-minded individuals. Students in all years are welcome to apply!
+    <br><br>
+    For 2021 we are recruiting for the following roles:
+    <br>
+    💼 Careers
+    <br>
+    🎡 Social
+    <br>
+    📣 Marketing
+    <br>
+    📖 Education
+    <br>
+    ⌨ IT / Pubs
+    <br>
+    🌏 Human Resources / Diversity
+    <br>
+    [Learn more about each portfolio here:](https://drive.google.com/.../1Oxflu.../view...)
+    <br><br>
+    Applications are marked on a rolling basis so be sure to get yours in quickly!!
+    <br>
+    - All applications are due strictly by FRIDAY of Week 3 (5th of March)
+    <br><br>
+    - Interviews will be run starting from MONDAY (1st of March) of Week 3 through to THURSDAY of Week 4 (11th of March)
+    <br><br>
+    - Successful applicants will be notified of interview times by Saturday 6th March at latest
+    <br><br>
+    [APPLY HERE!](https://forms.gle/r7V7JSYxKNbZ6ut26)"
+   link: https://www.facebook.com/events/426683498616566/
+ - name: UNSW Combined Science Trivia Night
+   img: /assets/images/events/combined_science_trivia_night.jpg
+   start-date: 2021-02-24
+   end-date: 2021-02-24
+   time: 8pm-10pm
+   location: Online
+   link: https://www.facebook.com/events/3640342139419216/
+ - name: Camp
+   img: /assets/images/events/camp.png
+   start-date: 2021-05-28
+   end-date: 2021-05-30
+   location: The Tops Conference Centre
+   link: https://www.facebook.com/events/4305401209487840/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A148055843783571%7D%7D]%22%7D
+   description: >-
+    IT’S THE END OF THE WORLD. And we want YOU to witness it with us.
+    <br><br>
+    Gather your wits and your speed because DataSoc and MathSoc are holding a camp!
+    <br><br>
+    Unleash your inner survivor to take on the beginning of Term 2 for a weekend of fun camp activities🏃‍♀️, intense challenges🏅, good food🍜, NIGHTLY parties🕺 and drinks🍻.
+    <br><br>
+    [General Admission Tickets selling NOW](https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FC71xYy9AUJri7Pta9%3Ffbclid%3DIwAR1NlDNkr_YFSqSo06_RseCf47czzlObfnJafjXqvI0YDcdiLayqCilWgOM&h=AT16AFG8os70Y5dAEDvhcgKXgseooEbKubaQV2URgEgGVTIEC0hkEL5VzQssll-VMSZGcF-q8nWmd83yJMRjnRzNU8j6naWQSEdWXd7_zgSbrrMjfyF8z3IobYToUXF1QKPj&__tn__=-UK-R&c[0]=AT1FWh573TY-97AICGIOZWiXm-gWYtED1A2LL3Y7IxF0hJrAhtl5SPHL64lNx0Bd6bGrUBdYAFfSXQzmfhVlb3aOMCeq1T5kcEN90P8lpCLjNiBnoEndH4ZMM0pfpa9QOjbMSD7Z1IsoNUylje4EBYHqIKcuUlaOFU0fE5RBKev46Q)!
+ - name: Python Essentials
+   img: /assets/images/events/python_essentials.png
+   start-date: 2021-03-01
+   end-date: 2021-03-01
+   description: 'answer = input("Interested in learning one of the most coveted and useful skills that will bolster your job applications? Y/N")
+    <br><br>
+    if answer == Y:
+    <br><br>
+    print("Come join us for our Python workshop, which requires no pre-requisite coding knowledge!")
+    <br><br>
+    if answer == N:
+    <br><br>
+    print("See answer for Y 🐍")
+    <br><br>
+    In this Python workshop we will be providing an intuitive and in-depth introduction to the basics of Python, one of the most versatile programming languages so that you can gain the practical skills necessary to transition into many pathways in data science and computer science.
+    <br><br>
+    [REGISTER HERE!](https://forms.gle/3F4nk1EFa1Hgpn566)'
+   time: 3pm-4:30pm
+   location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
+   link: https://www.facebook.com/events/1864386547063836
+ - name: Python in Practice
+   img: /assets/images/events/python_in_practice.png
+   start-date: 2021-03-04
+   end-date: 2021-03-04
+   description: "Have you ever wondered how Python 🐍 could be relevant to Data Science 📈?
+    <br><br>
+    Make sure you come to our second Python workshop where we will dive into the practical applications of Python in manipulating large datasets. 
+    <br><br>
+    If you are someone looking to expand your skillset and make the first step into a potential career in Data Science then this is definitely the workshop for you! 
+    <br><br>
+    Make sure you also sign up for our first Python Essentials workshop if you want to learn some core concepts or just simply to refresh 💆‍♂️ your knowledge of Python.
+    <br><br>
+    [SIGN UP HERE!](https://forms.gle/FJ7kbf8m8LHuMrNS7)"
+   time: 3pm-4:30pm
+   location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
+   link: https://www.facebook.com/events/465355151165024/
+ - name: Disaster at the Joadia Islands Gameathon
+   img:  /assets/images/events/gameathon_dsai.jpg
+   start-date: 2021-03-15
+   end-date: 2021-04-11
+   description: "If you’ve got great ideas then our friends at DSAi (Data Science and AI Association of Australia) want to hear from you! Imagine a hackathon where you don’t need to code. That’s right NO CODE! Simply share your GREAT IDEAS!
+   <br><br>
+   Essentially, that’s what they are after in conjunction with the Australian Defence Force and their Defence Science and Technology Group.
+   <br><br>
+   They’ve got a no-code hackathon that to do with gaming strategy, specifically game-design and AI-assistance and they want your ideas to help.
+   <br><br>
+   Click [here](https://medium.com/dsai/share-ideas-win-great-prizes-help-australia-7b6ab7bb157f) for more information!
+   <br><br>
+   Also check out the [event page](http://joadia.dsai.org.au/) where you can register interest!"
+   link: https://www.facebook.com/DataSoc/posts/2640476976255212
+ - name: Happiest Hours
+   img: /assets/images/events/happiest_hours.jpg
+   start-date: 2021-03-18
+   end-date: 2021-03-18
+   time: 6:45pm-11pm
+   location: Side Bar (Pitt St)
+   description: "It’s Thursday evening and you’re headed home to spend the night playing games alone in your room, or to catch up on (Week 2) lectures... 🥱
+    <br><br>
+    Instead, make the most out of your Thursday and come along to DataSoc and Side Bar’s Happiest Hours!!!
+    <br><br>
+    There is no better time to meet new people in a relaxed environment and… possibly even meet your next match 🌶😻
+    <br><br>
+    Register NOW for FREE entry and a FREE DRINK upon arrival!! Places are limited, you don’t want to miss out on this one!
+    [REGISTER HERE!](https://forms.gle/GxupsEHusJ93oy1k6)"
+   link: https://www.facebook.com/events/262493815459591/
+ - name: "Intro to Alooba: Acing Online Assessments"
+   img: /assets/images/events/intro_to_alooba.png
+   start-date: 2021-03-23
+   end-date: 2021-03-23
+   time: 5pm-6pm
+   location: Online
+   description: "
+   🔇THE RESUME REVOLUTION IS HERE 🔇
+   <br><br>
+   Sick and tired of writing cover letter after cover letter? Weary of spending countless hours pouring over your resume? Well the time has come to rise up ✊🏼 and CHALLENGE THE POWER.
+   <br><br>
+   Come along to Acing Online Assessments! to learn all about how their company is getting rid of resumes in the hiring process! Yes you heard me right, NO MORE RESUMES!
+   <br><br>
+   But that’s not all... Everyone who registers will be emailed a FREE SAMPLE QUIZ that gives you an exclusive glimpse of how the post resume hiring world will look like, and how well your perform in it!
+   <br><br>
+   We will be running through insights and results live and in studio so don’t miss out on this amazing opportunity to get ahead and see how attractive you are to potential employers!
+   <br><br>
+   What are you waiting for???
+   <br><br>
+   [REGISTER NOW!](https://forms.gle/VMAu4DwAACnDJCJu6)"
+   link: https://www.facebook.com/events/431889234734681/
+ - name: Intro to R
+   img: /assets/images/events/intro_to_r.jpeg
+   start-date: 2021-04-06
+   end-date: 2021-04-06
+   time: 12pm-1:30pm
+   location: Online <a href="unsw.zoom.us/j/84246266057">(Zoom)</a>
+   description: "
+   𝗥 you:
+   <br>
+    • 📊A Data Science student📊
+    <br>
+    • 🤓An Actuarial Studies student🤓
+    <br>
+    • 🔢A student majoring in Statistics or🔢
+    <br>
+    • 👩‍🎓A student?👨‍🎓
+    <br><br>
+    If you're any of the above, come along to our Introduction to R workshop aimed to introduce you to an extremely popular and highly extensible language for data science, data analysis and machine learning!
+    <br><br>
+    With live demonstrations 💻 and practical content that 👉🏼YOU👈🏼 can take part in, this is a perfect chance for you to get started on one of the 📈fastest-growing📈 statistical languages of the 21st century.
+    <br><br>
+    Don't think you're 𝗥-eady to learn? 😭 Our workshop is designed to be intuitive, and even those with minimal or no programming knowledge can be elevated to a standard level, preparing them for more intermediate workshops held later this year.
+    <br><br>
+    So what 𝗥 you waiting for?
+    <br><br>
+    [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
+   link: https://www.facebook.com/events/443973773601289/
+ - name: Starter-thon
+   img: \assets\images\events\starter-thon.jpg
+   start-date: 2021-04-10
+   end-date: 2021-04-10
+   time: 9am-6pm
+   link: https://www.facebook.com/events/881745642680912/
+   description: >-
+    Are you interested in using data but don’t know how to get started? Sign up for DataSoc’s STARTER-THON to learn by doing instead of just watching!
+    <br><br>
+    Tailored to beginners with little to no experience with data, our starter-thon employs the most basic coding skills and machine learning algorithms (like regression!) to analyse simple, clean datasets!
+    <br><br>
+    By taking part in this, you will:
+    <br>
+    ✔️Gain valuable hands-on experience of using data to solve problems
+    <br>
+    ✔️Boost your resume with a personal project
+    <br>
+    ✔️Present insights to industry professionals and receive invaluable feedback
+    <br><br>
+    🚩How does it work? 🚩
+    <br>
+    You can sign up in teams of 3-4 or we will assign you to a team. On the day, you will be given a series of problems with a simple dataset, and 5 hours to work on a presentation-ready solution to pitch to the judges.
+    <br><br>
+    🚩 Who is eligible? 🚩
+    <br>
+    First and second years of any undergraduate degree!
+    <br><br>
+    😞 What if I don’t know what to do? 😞
+    <br>
+    '1. Make sure to attend our beginner R workshop at 12pm on the 6th of April (Tuesday Week 8!). Check it out [here!](https://fb.me/e/9ADrtxEoP)'
+    <br>
+    2. Don’t worry! During the event, we will have a preparation workshop and mentors who will help you out if you get stuck!
+    <br><br>
+    🏆Prizes🏆
+    <br>
+    To Be Announced - click “Going” or “Interested” to stay updated!
+    <br><br>
+    [REGISTER NOW!](https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FBimcoz75Bjb6Mv3y5%3Ffbclid%3DIwAR3JqCbhjuIqQKOpxmWIUc4J7X9jMT80akMEQ2zl4mpezbHXqbRGiAnIRq8&h=AT3znApyfutXHBbgPmT-cQfCkypAFWva844GfWX2d0cow1LKfGlKS8IqdExWrX3Vu1JokB6v-W-STlNOM1XZmUvILM2hD24I_gEW858xcb9apsBkHFOLP2Mn1oUNNJWVnSTQ&__tn__=q&c[0]=AT1VtLh64l_wtQMakfBrrbVKR6Bd5v7EmuLiKO5aJXqLJuDsIkh6p5gki4S447j87SpFT2l_UbHdoJKIYZ5jVnjDxojvXZmXTRoi2cb_xL-_AVolR6nKgQkrvYyQkFxLKTwpHxf4OiHzQ2_TH09ZDRLm)
+ - name: First Year Speed-Friending
+   img: \assets\images\events\speed-friending.jpg
+   start-date: 2021-03-31
+   end-date: 2021-03-31
+   time: 1pm-3pm
+   location: UNSW
+   description: 
+    🎺 CALLING ALL FIRST YEARS 🎺
+    <br><br>
+    Are you a first year looking to make some new friends ??🥺🥺
+    <br><br>
+    Still nervous about going to uni and sitting alone for lunch?
+    <br><br>
+    Whether you want to meet someone to suffer through confusing coding challenges or just someone to chill with at uni, DataSoc's first year speed friending event has got you covered! Come meet other first years and bond over fun activities, games and FREE FOOD. 🍕🥖🍪🍩
+    <br><br>
+    Don’t worry if you do not know anyone, we guarantee by the end of the event you will have met many new people. And who knows it IS on a Wednesday, so Wednesday drinks after, haha kidding ... unless 👉🏼👈🏼 😝
+    <br><br>
+    Register [here](https://forms.gle/wR2qqtMR7uf7Em92A) so you don't miss out!!
+   link: https://www.facebook.com/events/785383262409069/
+ - name: Telcos & Utilities Panel
+   start-date: 2021-06-14
+   end-date: 2021-06-14
+   location: Online
+   tag: planned
+ - name: Intro to SQL
+   start-date: 2021-06-07
+   end-date: 2021-06-07
+   location: Online
+   tag: planned
+
+
+
+
+
+
+# 2020 Events
  - name: Datathon 2020
-   img: /assets/images/events/datathon-2020.png
+   img: /assets/images/events/2020/datathon-2020.png
    start-date: 2020-10-03
    end-date: 2020-10-04
    time: 9am-6pm
@@ -9,7 +285,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/2691426797791998/
  - name: Neural Networks Workshop
-   img: /assets/images/events/neural_network.jpg 
+   img: /assets/images/events/2020/neural_network.jpg 
    start-date: 2020-07-17
    end-date: 2020-07-17
    time: 1pm-2:30pm
@@ -18,7 +294,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/2649469971932663/
  - name: Microwave Masterclass
-   img: /assets/images/events/microwave_masterclass.jpg 
+   img: /assets/images/events/2020/microwave_masterclass.jpg 
    start-date: 2020-09-24
    end-date: 2020-09-24
    time: 2pm-4pm
@@ -27,7 +303,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/1334966560007237/
  - name: Data Visualisation Workshop
-   img: /assets/images/events/among_us.jpg 
+   img: /assets/images/events/2020/visualisation_workshop.jpg 
    start-date: 2020-10-08
    end-date: 2020-10-08
    time: 8pm-10pm
@@ -36,7 +312,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/757251541487798/
  - name: Among Us
-   img: /assets/images/events/visualisation_workshop.jpg 
+   img: /assets/images/events/2020/among_us.jpg 
    start-date: 2020-09-28
    end-date: 2020-09-28
    time: 4pm-5pm
@@ -45,7 +321,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/522823225235534/
  - name: Intro to AI with Quantium
-   img: /assets/images/events/intro_to_AI.jpg 
+   img: /assets/images/events/2020/intro_to_AI.jpg 
    start-date: 2020-10-13
    end-date: 2020-10-13
    time: 4pm-6pm
@@ -54,7 +330,7 @@ Events:
    location: Microsoft Teams
    link: https://www.facebook.com/events/1735396966614569
  - name: Data Analysis For Causality
-   img: /assets/images/events/causality_workshop.jpg 
+   img: /assets/images/events/2020/causality_workshop.jpg 
    start-date: 2020-10-21
    end-date: 2020-10-22
    time: 4pm-5:30pm
@@ -63,7 +339,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/425347218832040/
  - name: 2021 Director Recruitment
-   img: /assets/images/events/director_recruit_2021.jpg 
+   img: /assets/images/events/2020/director_recruit_2021.jpg 
    start-date: 2020-10-19
    end-date: 2020-10-30
    time:
@@ -72,7 +348,7 @@ Events:
    location: 
    link: https://www.facebook.com/events/2794714944110719/
  - name: Networking Night
-   img: /assets/images/events/networking_night.jpg 
+   img: /assets/images/events/2020/networking_night.jpg 
    start-date: 2020-11-03
    end-date: 2020-11-03
    time: 5pm-7pm
@@ -86,7 +362,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/684204085813372/
  - name: Halloween BOO!-vie Night
-   img: /assets/images/events/halloween_boovie_night.jpg 
+   img: /assets/images/events/2020/halloween_boovie_night.jpg 
    start-date: 2020-10-29
    end-date: 2020-10-29
    time: 8pm
@@ -95,7 +371,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/831221024317138
  - name: 2021 Peer Mentor Recruitment
-   img: /assets/images/events/peer_mentor_2021.jpg 
+   img: /assets/images/events/2020/peer_mentor_recruitment.jpg 
    start-date: 2020-10-26
    end-date: 2020-11-06
    time:
@@ -104,7 +380,7 @@ Events:
    location: Discord
    link: https://www.facebook.com/events/2068222233307729/
  - name: Trivia and Memes for Self-Quaranteens
-   img: /assets/images/events/trivia.jpg 
+   img: /assets/images/events/2020/trivia.jpg 
    start-date: 2020-07-09
    end-date: 2020-07-09
    time: 8pm - 10pm
@@ -113,7 +389,7 @@ Events:
    location: Discord
    link: https://www.facebook.com/events/2616083408606843/
  - name: Meet The Team x Quantium
-   img: /assets/images/events/meet-quantium.jpg 
+   img: /assets/images/events/2020/meet-quantium.jpg 
    start-date: 2020-07-07
    end-date: 2020-07-07
    time: 4pm - 5:30pm
@@ -122,7 +398,7 @@ Events:
    location: Microsoft Teams
    link: https://www.facebook.com/events/295616628156471/
  - name: Accent your Career with Accenture
-   img: /assets/images/events/Accent_your_career.jpg 
+   img: /assets/images/events/2020/Accent_your_career.jpg 
    start-date: 2020-06-18
    end-date: 2020-06-18
    time: 4pm - 5pm
@@ -131,7 +407,7 @@ Events:
    location: Microsoft Teams
    link: https://www.facebook.com/events/281089026272024/
  - name: Intro to Data Science Techniques
-   img: /assets/images/events/intro-to-datasci.jpg 
+   img: /assets/images/events/2020/intro-to-datasci.jpg 
    start-date: 2020-06-15
    end-date: 2020-06-29
    time: 5pm - 6pm
@@ -140,7 +416,7 @@ Events:
    location: Google Hangouts
    link: https://www.facebook.com/events/363426787966184
  - name: Inaugural Hoodie Release!
-   img: /assets/images/events/hoodie.jpg 
+   img: /assets/images/events/2020/hoodie.jpg 
    start-date: 2020-06-10
    end-date: 2020-06-21
    time:
@@ -154,7 +430,7 @@ Events:
    location:
    link: https://www.facebook.com/events/4127681983938788
  - name: Arcade Night
-   img: /assets/images/events/arcade-night.jpg 
+   img: /assets/images/events/2020/arcade-night.jpg 
    start-date: 2020-06-08
    end-date: 2020-06-08
    time: 7pm - 9pm
@@ -162,7 +438,7 @@ Events:
    location: Discord
    link: https://www.facebook.com/events/2979754915584906
  - name: Peer Mentoring Closing Event
-   img: /assets/images/events/peer-closing.jpg 
+   img: /assets/images/events/2020/peer-closing.jpg 
    start-date: 2020-05-17
    end-date: 2020-05-17
    time: 3pm - 5pm
@@ -170,7 +446,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/164014545041673
  - name: Intro to Python
-   img: /assets/images/events/intro-python.jpg 
+   img: /assets/images/events/2020/intro-python.jpg 
    start-date: 2020-04-15
    end-date: 2020-04-16
    time: 5pm - 6pm
@@ -178,7 +454,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/920499925070875/
  - name: Intro to R
-   img: /assets/images/events/intro-r.jpg 
+   img: /assets/images/events/2020/intro-r.jpg 
    start-date: 2020-04-08
    end-date: 2020-04-09
    time: 5pm - 6pm
@@ -186,7 +462,7 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/810134286176041/
  - name: Meet the Managers
-   img: /assets/images/events/meet-managers.jpg 
+   img: /assets/images/events/2020/meet-managers.jpg 
    start-date: 2020-03-12
    end-date: 2020-03-12
    time: 6pm - 8:30pm
@@ -194,7 +470,7 @@ Events:
    location: Roundhouse Function Room 7/8
    link: https://forms.gle/LbXKf98xxhHqDdSj7
  - name: Data Science Information Night
-   img: /assets/images/events/data-info-night.jpg 
+   img: /assets/images/events/2020/data-info-night.jpg 
    start-date: 2020-03-04
    end-date: 2020-03-04
    time: 5pm - 7pm
@@ -202,7 +478,7 @@ Events:
    location: Mathews Theatre C, UNSW
    link: https://www.facebook.com/events/192084338867497/
  - name: Applied Intelligence with Accenture
-   img: /assets/images/events/applied-intelligence.jpg 
+   img: /assets/images/events/2020/applied-intelligence.jpg 
    start-date: 2020-02-28
    end-date: 2020-02-28
    time: 5pm - 7pm
@@ -210,7 +486,7 @@ Events:
    location: Sussex St, Barangaroo NSW 2000, Australia
    link: https://www.facebook.com/events/233529207664627/
  - name: Subcommittee Applications 2020
-   img: /assets/images/events/subcom.jpg 
+   img: /assets/images/events/2020/subcom.jpg 
    start-date: 2020-02-23
    end-date: 2020-03-06
    time:
@@ -218,7 +494,7 @@ Events:
    location: 
    link: https://www.facebook.com/events/589112671671247/
  - name: Meet the Directors 2020 BBQ
-   img: /assets/images/events/directors.jpg 
+   img: /assets/images/events/2020/directors.jpg 
    start-date: 2020-02-24
    end-date: 2020-02-24
    time: 12pm - 3pm
@@ -226,7 +502,7 @@ Events:
    location: Physics Lawn
    link: https://www.facebook.com/events/127181535291612/
  - name: Free Pizza Party!
-   img: /assets/images/events/pizza-party.jpg 
+   img: /assets/images/events/2020/pizza-party.jpg 
    start-date: 2020-02-18
    end-date: 2020-02-18
    time: 12pm - 2pm
