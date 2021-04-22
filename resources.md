@@ -46,6 +46,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
                     <div class='card'>
                         <div class='card-content'>
                             <p class='title is-5'>{{ resource.title }}</p>
+                            <p class='subtitle is-6'>{{ resource.date }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
                             </div>
