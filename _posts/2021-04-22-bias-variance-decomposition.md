@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Errors and Bias - Variance Decomposition"
-date:   2021-04-20
+date:   2021-04-22
 tags: 
     - data science
     - skills
