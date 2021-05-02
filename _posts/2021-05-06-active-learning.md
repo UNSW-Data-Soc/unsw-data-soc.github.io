@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Active Learning: faster and cheaper than before"
-date:   2021-04-26
+date:   2021-05-06
 tags: 
     - data science
     - data analytics
@@ -33,9 +33,9 @@ What you need, surprisingly, is a human. You need someone who knows the answer w
 So I present to you a new problem setup: **[active learning]()**. This method incorporates the fact that not all data were created equal. The model takes charge of the training process and selects its own examples for the information source (also known as the oracle or teacher - usually a human) to label.
 
 ![Why is active learning better than random sampling?](/assets/images/blog/active_learning_boundary.JPG)
-_Source: https://www.datacamp.com/community/tutorials/active-learning_
+_Source: <https://www.datacamp.com/community/tutorials/active-learning>_
 
-In this diagram, we can see the power of active learning in practice. If we are constructing a model that can classify whether a point is green or red, traditional practices of randomly selecting a small number of points, having them labelled, then performing a regression can be improved. On the right, the active learner chooses the points which are most instructive to the classification task. Take the point (-4,0). It’s green, way over to the left, and vertically in the middle. If you had a limited number of points to find the best “decision boundary”, that point is not at all very helpful - it would be much more beneficial to choose points that are uncertain and in the middle to have labelled to build a better line.
+In this diagram, we can see the power of active learning in practice. If we are constructing a model that can classify whether a point is green or red, traditional practices of randomly selecting a small number of points, having them labelled, then performing a regression can be improved. On the right, the active learner chooses the points which are most instructive to the classification task. Take the point (-4,0). It’s green, way over to the left, and vertically in the middle. If you had a limited number of points to find the best “decision boundary”, that point is not at all very helpful - it would have been more beneficial to choose points that were uncertain and in the middle to have labelled to build a better line.
 
 Active learning is the answer to a cost-optimisation problem: how can we choose data points to be labelled if labelling is expensive? One interesting way of doing this that I’ll explore is **pool-based uncertainty sampling**.
 
@@ -45,14 +45,15 @@ Let’s break it down: if the sampling is _pool-based_, this means that the lear
 
 Intuitively, this is a very solid foundation on which to train the model. If you’re a student doing practice tests for two subjects and you get 95% on one test, and 50% on the other, you will certainly maximise your term WAM if you study for the subject you did worse in.
 
-There are plenty of other sampling types and combinations thereof - if you’re interested have a read [here](https://en.wikipedia.org/wiki/Active_learning_(machine_learning).
+There are plenty of other sampling types and combinations thereof - if you’re interested have a read [here](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)).
 
 ## How good is active learning?
 
 The benefit of this dynamic querying strategy is that you reach higher accuracies much faster than random sampling. 
 
 ![How much faster is active learning than normal learning?](/assets/images/blog/active-learning-graph.png)
-_Source: https://www.kdnuggets.com/2018/10/introduction-active-learning.html_
+
+_Source: <https://www.kdnuggets.com/2018/10/introduction-active-learning.html>_
 
 Have a look at this graph. The active learner is much faster at getting higher accuracies, but of course, once both learners have seen all the data they are equally accurate. This is why it’s a great solution to situations where labelled data is expensive to come by.
 
@@ -81,11 +82,11 @@ y_new = input('What label is this: {}'.format(query_inst))
 # supply label for queried instance
 learner.teach(X_pool[query_idx], y_new)
 ```
-_Source: https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html_
+_Source: <https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html>_
 
 ## Conclusion
 
-I hope this demonstrates that active learning is a simple yet powerful way to accelerate your model’s accuracy in a cost-effective way, particularly in situations where acquiring labelled data is expensive.
+I hope this was a helpful demonstration that active learning is a simple yet powerful way to accelerate your model’s accuracy in a cost-effective way, particularly in situations where acquiring labelled data is expensive.
 
 
 
