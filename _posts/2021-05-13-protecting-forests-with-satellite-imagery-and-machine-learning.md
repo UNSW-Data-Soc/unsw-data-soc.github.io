@@ -5,6 +5,7 @@ date:   2021-05-12
 tags: 
     - data science
     - data analytics
+    - conservation
 author: Gordon Huang
 image: /assets/images/blog/21-05-13-banner.jpg
 excerpt_separator: <!--more-->
@@ -35,7 +36,7 @@ _Figure 2: A zoomed image of logging roads and selective logging._
 ![Multi-categorical classification of satellite images of forest](/assets/images/blog/21-05-13-fig3.png)
 _Figure 3: Multi-categorical labelling of satellite images of the Amazon basin. Source: [Understanding the planet from space - Kaggle, Planet](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data)_
 
-The online data science platform Kaggle then partnered with Planet to host a public competition for the data science community to training machine learning algorithms using this dataset. The best models achieved up to 93.317% accuracy on images of selective logging in the Amazon basin. As shown in figures 2 and 4, selective logging can be difficult and time-consuming to identify manual, but given enough quality labeled data, supervised machine learning algorithms are able to take advantage of satellite imagery at scale.
+The online data science platform Kaggle then partnered with Planet to host a public competition for the online data science community to train machine learning algorithms using this dataset. The best models achieved up to 93.317% accuracy on images of selective logging in the Amazon basin. As shown in figures 2 and 4, selective logging can be difficult and time-consuming to identify manual, but given enough quality labeled data, supervised machine learning algorithms are able to take advantage of satellite imagery at scale.
 
 ![Satellite images of logging roads](/assets/images/blog/21-05-13-fig4.png)
 _Figure 4: The brown lines on the right of this image are logging roads. Note the faint brown dots in the area around the roads._
@@ -48,4 +49,4 @@ For example, Global Forest Watch contributed key data and analysis to reporting 
 Having transparent, public monitoring of forests greatly reduces the cases of unauthorised logging, and also repels corporations from using cheap, unsustainable deforestation practices for lumbering, mining and agriculture. Consumers also have greater assurance that suppliers are adhering to their sustainability commitments.
 
 ## Conclusion
-Tree cover and deforestation is just one of many areas of environmental conservation where data science techniques can be combined with quality datasets to produce highly valuable information. These insights can then inform policymakers, companies and activists on the best course of action to conserving the environment. I hope you found this article informative of how machine learning can help monitor and protect the environment at a global scale.
+Tree cover and deforestation is just one of many areas of environmental conservation where machine learning can be combined with quality datasets to produce highly valuable information. These insights can then inform policymakers, companies and activists on the best course of action to conserving the environment. I hope you found this article informative of how data science techniques can help monitor and protect the environment at a global scale.
