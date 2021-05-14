@@ -17,7 +17,7 @@ layout: default
 <!-- Newsletter subscription form styles -->
 <style>
 
-ul li {
+form ul li {
     /* background-color: green; */
     border-width: 4px 10px 4px 14px;
     border-style: solid;
