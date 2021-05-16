@@ -27,7 +27,7 @@
                             {{ item.name }}
                           </a>
                           {% for page in item.dropdown %}
-                          {% if page.name == "Jobs Board"%}
+                          {% if page.name == "Jobs Board" or page.name == "SpArc" %}
                             {% capture url %} {{ page.link }} {% endcapture %}
                           {% else %}
                             {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
