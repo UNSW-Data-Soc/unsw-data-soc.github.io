@@ -30,7 +30,7 @@
                           {% if page.name == "Jobs Board" or page.name == "SpArc" %}
                             {% capture url %} {{ page.link }} {% endcapture %}
                           {% else %}
-                            {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
+                            {% capture url %} {{ item.link }} {{ page.link }} {% endcapture %}
                           {% endif %}
                           <a href="{{ url }}" class="navbar-item">{{ page.name }}</a>
                           {% endfor %}
