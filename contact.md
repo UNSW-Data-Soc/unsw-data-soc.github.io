@@ -16,8 +16,8 @@ layout: default
 
 
 <div class="hero-body; container has-text-black">
-    <div class="columns is-8 is-variable">
-        <div class="column is-half has-text-left" style="padding-top:38px"> 
+    <div class="columns is-8 is-variable" style="display:flex;flex-wrap: wrap;">
+        <div class="column is-half has-text-left" style="padding-top:38px;flex: 1 0 auto;"> 
             <p class="is-size-5">
                 <br>
                 Hi! If you've got any questions about DataSoc or just want to know more, feel free to reach out to us via the email below.
@@ -64,7 +64,7 @@ layout: default
                 </p>
             </div>
         </div>
-        <div class="column is-5 is-offset-1 has-text-left">
+        <div class="column is-5 is-offset-1 has-text-left" style="flex: 1 0 500px;margin-left:10px;">
             <br><br>
             <!-- Begin Mailchimp Signup Form -->
             <!-- Default mailchimp form css imported from this link -->
@@ -100,7 +100,7 @@ layout: default
                 <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style=
                     "border: 1px solid #ccc;
                     border-radius: 5px;
-                    padding: 25px;">
+                    padding: 10px 25px 10px 25px;">
                     <div id="mc_embed_signup_scroll">
                         <h2>Subscribe to our newsletter!</h2>
                         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
