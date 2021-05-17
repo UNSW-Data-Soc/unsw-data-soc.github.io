@@ -20,9 +20,9 @@ layout: default
         <div class="column is-half has-text-left"> 
             <p class="is-size-5">
                 <br>
-                Hi! Do you have a question? Want to stay updated? <i>Homework help?</i>
+                Hi! If you've got something to ask or you just want to know more, feel free to reach out to us via the email below.
                 <br><br>
-                Homework help isn't really our thing, but if you've got something to ask or you just want to know more, don't be afraid to reach out to us!
+                Stay updated with us by subscribing to our newletter on the right! We send bi-weekly updates on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news on the wider data science community.
                 <br><br>
                 Be sure to check out our social media links!
                 <br><br><br>
@@ -53,17 +53,29 @@ layout: default
                     <img src="/assets/images/social_media/youtube.png" style="height:35px"> </a>
                 <br><br><br>
             </div>
+            <div class="columns is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:35px">
+                <p class="is-size-3">
+                    <b>“The world is one big data problem.”</b>
+                </p>
+                <br>
+                <p class="is-size-5">
+                    <br><br>
+                    - Andrew McAfee
+                    <br>
+                </p>
+            </div>
         </div>
         <div class="column is-5 is-offset-1 has-text-left">
             <br><br>
             <!-- Begin Mailchimp Signup Form -->
+            <!-- Default mailchimp form css imported from this link -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
-                /* #mc_embed_signup {
-                    background: #fff; 
+                #mc_embed_signup {
+                    /* background: #fff; 
                     clear: left; 
-                    font: 14px Helvetica,Arial,sans-serif;
-                } */
+                    font: 14px Helvetica,Arial,sans-serif; */
+                }
                 form ul li {
                     border-width: 4px 10px 4px 14px;
                     border-style: solid;
@@ -71,14 +83,21 @@ layout: default
                 }
                 .form-field-label {
                     font-weight: normal;
-                    font-size: 113%;
+                    /* font-size: 108%; */
+                }
+                #fields-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .fields-column {
+                    flex-grow: 1;
                 }
             </style>
             <div id="mc_embed_signup">
                 <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style=
                     "border: 1px solid #ccc;
                     border-radius: 5px;
-                    padding: 25px;">
+                    padding: 20px;">
                     <div id="mc_embed_signup_scroll">
                     <h2>Subscribe to our newsletter!</h2>
                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -87,15 +106,17 @@ layout: default
                         class="form-field-label">zID (without the 'z')<span class="asterisk">*</span></label>
                         <input type="number" name="MMERGE3" class="required" value="" id="mce-MMERGE3">
                     </div>
-                    <div class="mc-field-group">
-                        <label for="mce-FNAME"
-                        class="form-field-label">First Name  <span class="asterisk">*</span></label>
-                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-LNAME"
-                        class="form-field-label">Last Name  <span class="asterisk">*</span></label>
-                        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                    <div class='fields-container'>
+                        <div class="mc-field-group fields-column">
+                            <label for="mce-FNAME"
+                            class="form-field-label">First Name  <span class="asterisk">*</span></label>
+                            <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                        </div>
+                        <div class="mc-field-group fields-column">
+                            <label for="mce-LNAME"
+                            class="form-field-label">Last Name  <span class="asterisk">*</span></label>
+                            <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                        </div>
                     </div>
                     <div class="mc-field-group">
                         <label for="mce-EMAIL"
@@ -145,56 +166,64 @@ layout: default
                     <div class="mc-field-group input-group">
                         <label
                         class="form-field-label">Degree </label>
-                        <ul>
-                            <li>
-                                <input type="checkbox" value="1" name="group[6286][1]" id="mce-group[6286]-6286-0">
-                                <label for="mce-group[6286]-6286-0">Data Science</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="2" name="group[6286][2]" id="mce-group[6286]-6286-1">
-                                <label for="mce-group[6286]-6286-1">Actuarial Studies</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="4" name="group[6286][4]" id="mce-group[6286]-6286-2">
-                                <label for="mce-group[6286]-6286-2">Mathematics</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="8" name="group[6286][8]" id="mce-group[6286]-6286-3">
-                                <label for="mce-group[6286]-6286-3">Computer Science</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="16" name="group[6286][16]" id="mce-group[6286]-6286-4">
-                                <label for="mce-group[6286]-6286-4">Business</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="32" name="group[6286][32]" id="mce-group[6286]-6286-5">
-                                <label for="mce-group[6286]-6286-5">Art and Design</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="64" name="group[6286][64]" id="mce-group[6286]-6286-6">
-                                <label for="mce-group[6286]-6286-6">Art and Social Sciences</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="128" name="group[6286][128]" id="mce-group[6286]-6286-7">
-                                <label for="mce-group[6286]-6286-7">Built Environment</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="256" name="group[6286][256]" id="mce-group[6286]-6286-8">
-                                <label for="mce-group[6286]-6286-8">Engineering</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="512" name="group[6286][512]" id="mce-group[6286]-6286-9">
-                                <label for="mce-group[6286]-6286-9">Law</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="1024" name="group[6286][1024]" id="mce-group[6286]-6286-10">
-                                <label for="mce-group[6286]-6286-10">Medicine</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" value="2048" name="group[6286][2048]" id="mce-group[6286]-6286-11">
-                                <label for="mce-group[6286]-6286-11">Science</label>
-                            </li>
-                        </ul>
+                        <div id="fields-container">
+                            <div class="fields-column">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" value="1" name="group[6286][1]" id="mce-group[6286]-6286-0">
+                                        <label for="mce-group[6286]-6286-0">Data Science</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="2" name="group[6286][2]" id="mce-group[6286]-6286-1">
+                                        <label for="mce-group[6286]-6286-1">Actuarial Studies</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="4" name="group[6286][4]" id="mce-group[6286]-6286-2">
+                                        <label for="mce-group[6286]-6286-2">Mathematics</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="8" name="group[6286][8]" id="mce-group[6286]-6286-3">
+                                        <label for="mce-group[6286]-6286-3">Computer Science</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="16" name="group[6286][16]" id="mce-group[6286]-6286-4">
+                                        <label for="mce-group[6286]-6286-4">Business</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="32" name="group[6286][32]" id="mce-group[6286]-6286-5">
+                                        <label for="mce-group[6286]-6286-5">Art and Design</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fields-column">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" value="64" name="group[6286][64]" id="mce-group[6286]-6286-6">
+                                        <label for="mce-group[6286]-6286-6">Art and Social Sciences</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="128" name="group[6286][128]" id="mce-group[6286]-6286-7">
+                                        <label for="mce-group[6286]-6286-7">Built Environment</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="256" name="group[6286][256]" id="mce-group[6286]-6286-8">
+                                        <label for="mce-group[6286]-6286-8">Engineering</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="512" name="group[6286][512]" id="mce-group[6286]-6286-9">
+                                        <label for="mce-group[6286]-6286-9">Law</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="1024" name="group[6286][1024]" id="mce-group[6286]-6286-10">
+                                        <label for="mce-group[6286]-6286-10">Medicine</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" value="2048" name="group[6286][2048]" id="mce-group[6286]-6286-11">
+                                        <label for="mce-group[6286]-6286-11">Science</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display:none"></div>
@@ -209,16 +238,6 @@ layout: default
             <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[3]='MMERGE3';ftypes[3]='number';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='MMERGE4';ftypes[4]='radio';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[5]='MMERGE5';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
             <!--End mc_embed_signup-->
         </div>
-    </div>
-    <div class="columns is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:35px">
-        <p class="is-size-3">
-            <b>“The world is one big data problem.”</b>
-        </p>
-        <p class="is-size-5">
-            <br><br>
-            - Andrew McAfee
-            <br>
-        </p>
     </div>
     <br><br>
     <div class="columns is-vcentered is-centered">
