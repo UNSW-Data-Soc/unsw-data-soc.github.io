@@ -17,12 +17,12 @@ layout: default
 
 <div class="hero-body; container has-text-black">
     <div class="columns is-8 is-variable">
-        <div class="column is-half has-text-left"> 
+        <div class="column is-half has-text-left" style="padding-top:38px"> 
             <p class="is-size-5">
                 <br>
-                Hi! If you've got something to ask or you just want to know more, feel free to reach out to us via the email below.
+                Hi! If you've got any questions about DataSoc or just want to know more, feel free to reach out to us via the email below.
                 <br><br>
-                Stay updated with us by subscribing to our newletter on the right! We send bi-weekly updates on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news on the wider data science community.
+                Stay update to date with us by subscribing to our newletter on the right! We send bi-weekly newsletters on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
                 <br><br>
                 Be sure to check out our social media links!
                 <br><br><br>
@@ -53,11 +53,10 @@ layout: default
                     <img src="/assets/images/social_media/youtube.png" style="height:35px"> </a>
                 <br><br><br>
             </div>
-            <div class="columns is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:35px">
+            <div class="columns is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:35px;margin-top:30px">
                 <p class="is-size-3">
                     <b>“The world is one big data problem.”</b>
                 </p>
-                <br>
                 <p class="is-size-5">
                     <br><br>
                     - Andrew McAfee
@@ -92,146 +91,151 @@ layout: default
                 .fields-column {
                     flex-grow: 1;
                 }
+                #mc_embed_signup_scroll {
+                    display: flex;
+                    flex-direction: column;
+                }
             </style>
             <div id="mc_embed_signup">
                 <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style=
                     "border: 1px solid #ccc;
                     border-radius: 5px;
-                    padding: 20px;">
+                    padding: 25px;">
                     <div id="mc_embed_signup_scroll">
-                    <h2>Subscribe to our newsletter!</h2>
-                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                    <div class="mc-field-group size1of2">
-                        <label for="mce-MMERGE3"
-                        class="form-field-label">zID (without the 'z')<span class="asterisk">*</span></label>
-                        <input type="number" name="MMERGE3" class="required" value="" id="mce-MMERGE3">
-                    </div>
-                    <div class='fields-container'>
-                        <div class="mc-field-group fields-column">
-                            <label for="mce-FNAME"
-                            class="form-field-label">First Name  <span class="asterisk">*</span></label>
-                            <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                        <h2>Subscribe to our newsletter!</h2>
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                        <div class="mc-field-group size1of2" style="width:40%">
+                            <label for="mce-MMERGE3"
+                            class="form-field-label">zID (without the 'z')<span class="asterisk">*</span></label>
+                            <input type="number" name="MMERGE3" class="required" value="" id="mce-MMERGE3">
                         </div>
-                        <div class="mc-field-group fields-column">
-                            <label for="mce-LNAME"
-                            class="form-field-label">Last Name  <span class="asterisk">*</span></label>
-                            <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-                        </div>
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-EMAIL"
-                        class="form-field-label">Email Address  <span class="asterisk">*</span></label>
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                    </div>
-                    <div class="mc-field-group input-group">
-                        <label
-                        class="form-field-label">Gender </label>
-                        <ul>
-                            <li>
-                                <input type="radio" value="Male" name="MMERGE4" id="mce-MMERGE4-0">
-                                <label for="mce-MMERGE4-0">Male</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="Female" name="MMERGE4" id="mce-MMERGE4-1">
-                                <label for="mce-MMERGE4-1">Female</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="Other or prefer not to say" name="MMERGE4" id="mce-MMERGE4-2">
-                                <label for="mce-MMERGE4-2">Other or prefer not to say</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-MMERGE6"
-                        class="form-field-label">Undergraduate or Postgraduate? </label>
-                        <select name="MMERGE6" class="" id="mce-MMERGE6">
-                            <option value=""></option>
-                            <option value="Undergraduate">Undergraduate</option>
-                            <option value="Postgraduate">Postgraduate</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-MMERGE5"
-                        class="form-field-label">Current Year in University </label>
-                        <select name="MMERGE5" class="" id="mce-MMERGE5">
-                            <option value=""></option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5+">5+</option>
-                        </select>
-                    </div>
-                    <div class="mc-field-group input-group">
-                        <label
-                        class="form-field-label">Degree </label>
-                        <div id="fields-container">
-                            <div class="fields-column">
-                                <ul>
-                                    <li>
-                                        <input type="checkbox" value="1" name="group[6286][1]" id="mce-group[6286]-6286-0">
-                                        <label for="mce-group[6286]-6286-0">Data Science</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="2" name="group[6286][2]" id="mce-group[6286]-6286-1">
-                                        <label for="mce-group[6286]-6286-1">Actuarial Studies</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="4" name="group[6286][4]" id="mce-group[6286]-6286-2">
-                                        <label for="mce-group[6286]-6286-2">Mathematics</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="8" name="group[6286][8]" id="mce-group[6286]-6286-3">
-                                        <label for="mce-group[6286]-6286-3">Computer Science</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="16" name="group[6286][16]" id="mce-group[6286]-6286-4">
-                                        <label for="mce-group[6286]-6286-4">Business</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="32" name="group[6286][32]" id="mce-group[6286]-6286-5">
-                                        <label for="mce-group[6286]-6286-5">Art and Design</label>
-                                    </li>
-                                </ul>
+                        <div id='fields-container' style="flex-wrap:nowrap">
+                            <div class="mc-field-group fields-column" style="padding-right:20px">
+                                <label for="mce-FNAME"
+                                class="form-field-label">First Name  <span class="asterisk">*</span></label>
+                                <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
                             </div>
-                            <div class="fields-column">
-                                <ul>
-                                    <li>
-                                        <input type="checkbox" value="64" name="group[6286][64]" id="mce-group[6286]-6286-6">
-                                        <label for="mce-group[6286]-6286-6">Art and Social Sciences</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="128" name="group[6286][128]" id="mce-group[6286]-6286-7">
-                                        <label for="mce-group[6286]-6286-7">Built Environment</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="256" name="group[6286][256]" id="mce-group[6286]-6286-8">
-                                        <label for="mce-group[6286]-6286-8">Engineering</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="512" name="group[6286][512]" id="mce-group[6286]-6286-9">
-                                        <label for="mce-group[6286]-6286-9">Law</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="1024" name="group[6286][1024]" id="mce-group[6286]-6286-10">
-                                        <label for="mce-group[6286]-6286-10">Medicine</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" value="2048" name="group[6286][2048]" id="mce-group[6286]-6286-11">
-                                        <label for="mce-group[6286]-6286-11">Science</label>
-                                    </li>
-                                </ul>
+                            <div class="mc-field-group fields-column" style="padding-right:20px">
+                                <label for="mce-LNAME"
+                                class="form-field-label">Last Name  <span class="asterisk">*</span></label>
+                                <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
                             </div>
                         </div>
-                    </div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8dc568d0db37b26ed75ba4d94_01f8128da2" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL"
+                            class="form-field-label">Email Address  <span class="asterisk">*</span></label>
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                        <div class="mc-field-group input-group">
+                            <label
+                            class="form-field-label">Gender </label>
+                            <ul>
+                                <li>
+                                    <input type="radio" value="Male" name="MMERGE4" id="mce-MMERGE4-0">
+                                    <label for="mce-MMERGE4-0">Male</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="Female" name="MMERGE4" id="mce-MMERGE4-1">
+                                    <label for="mce-MMERGE4-1">Female</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="Other or prefer not to say" name="MMERGE4" id="mce-MMERGE4-2">
+                                    <label for="mce-MMERGE4-2">Other or prefer not to say</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-MMERGE6"
+                            class="form-field-label">Undergraduate or Postgraduate? </label>
+                            <select name="MMERGE6" class="" id="mce-MMERGE6">
+                                <option value=""></option>
+                                <option value="Undergraduate">Undergraduate</option>
+                                <option value="Postgraduate">Postgraduate</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-MMERGE5"
+                            class="form-field-label">Current Year in University </label>
+                            <select name="MMERGE5" class="" id="mce-MMERGE5">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5+">5+</option>
+                            </select>
+                        </div>
+                        <div class="mc-field-group input-group">
+                            <label
+                            class="form-field-label">Degree </label>
+                            <div id="fields-container">
+                                <div class="fields-column">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" value="1" name="group[6286][1]" id="mce-group[6286]-6286-0">
+                                            <label for="mce-group[6286]-6286-0">Data Science</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="2" name="group[6286][2]" id="mce-group[6286]-6286-1">
+                                            <label for="mce-group[6286]-6286-1">Actuarial Studies</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="4" name="group[6286][4]" id="mce-group[6286]-6286-2">
+                                            <label for="mce-group[6286]-6286-2">Mathematics</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="8" name="group[6286][8]" id="mce-group[6286]-6286-3">
+                                            <label for="mce-group[6286]-6286-3">Computer Science</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="16" name="group[6286][16]" id="mce-group[6286]-6286-4">
+                                            <label for="mce-group[6286]-6286-4">Business</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="32" name="group[6286][32]" id="mce-group[6286]-6286-5">
+                                            <label for="mce-group[6286]-6286-5">Art and Design</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="fields-column">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" value="64" name="group[6286][64]" id="mce-group[6286]-6286-6">
+                                            <label for="mce-group[6286]-6286-6">Art and Social Sciences</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="128" name="group[6286][128]" id="mce-group[6286]-6286-7">
+                                            <label for="mce-group[6286]-6286-7">Built Environment</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="256" name="group[6286][256]" id="mce-group[6286]-6286-8">
+                                            <label for="mce-group[6286]-6286-8">Engineering</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="512" name="group[6286][512]" id="mce-group[6286]-6286-9">
+                                            <label for="mce-group[6286]-6286-9">Law</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="1024" name="group[6286][1024]" id="mce-group[6286]-6286-10">
+                                            <label for="mce-group[6286]-6286-10">Medicine</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="2048" name="group[6286][2048]" id="mce-group[6286]-6286-11">
+                                            <label for="mce-group[6286]-6286-11">Science</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8dc568d0db37b26ed75ba4d94_01f8128da2" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
                     </div>
                 </form>
             </div>
