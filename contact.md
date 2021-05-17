@@ -14,22 +14,6 @@ layout: default
     </div>
 </section>
 
-<!-- Newsletter subscription form styles -->
-<style>
-
-form ul li {
-    /* background-color: green; */
-    border-width: 4px 10px 4px 14px;
-    border-style: solid;
-    border-color: transparent;
-}
-
-.form-field-label {
-    font-weight: normal;
-    font-size: 113%;
-}
-</style>
-
 
 <div class="hero-body; container has-text-black">
     <div class="columns is-8 is-variable">
@@ -75,12 +59,26 @@ form ul li {
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
-                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                /* #mc_embed_signup {
+                    background: #fff; 
+                    clear: left; 
+                    font: 14px Helvetica,Arial,sans-serif;
+                } */
+                form ul li {
+                    border-width: 4px 10px 4px 14px;
+                    border-style: solid;
+                    border-color: transparent; 
+                }
+                .form-field-label {
+                    font-weight: normal;
+                    font-size: 113%;
+                }
             </style>
             <div id="mc_embed_signup">
-                <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style=
+                    "border: 1px solid #ccc;
+                    border-radius: 5px;
+                    padding: 25px;">
                     <div id="mc_embed_signup_scroll">
                     <h2>Subscribe to our newsletter!</h2>
                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
