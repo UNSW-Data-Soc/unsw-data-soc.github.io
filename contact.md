@@ -22,7 +22,7 @@ layout: default
                 <br>
                 Hi! Whether you've got questions about DataSoc or just want to know more, feel free to reach out to us via the email below.
                 <br><br>
-                Stay update to date with us by subscribing to our newletter using the form on the right. We send bi-weekly news on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
+                Stay update to date with us by subscribing to our newletter using the form on this page. We send bi-weekly news on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
                 <br><br>
                 Be sure to check out our social media links!
                 <br><br>
@@ -30,7 +30,7 @@ layout: default
                 <br><br>
                 <a href="https://forms.gle/hLDY7bAGa1H4CV348" target="_blank">
                     <button class="button is-info is-bold">Join Us!</button></a>
-                <br><br><br>
+                <br><br>
             </p>
             <div>
                 <b>Email:</b> <a href="mailto:{{ site.data.contact.Email }}">{{ site.data.contact.Email }}</a>
@@ -40,33 +40,32 @@ layout: default
                 Level 2 Basser College (Entrance through Gate 5 on High St.)<br>
                 University of New South Wales<br>
                 Kensington NSW 2056<br>
-                <br><br>
+                <br>
             </div>
             <div class="social media">
                 <a href="https://www.facebook.com/DataSoc/" target="_blank">
-                    <img src="/assets/images/social_media/facebook.png" style="width:35px; margin-right:10px"> </a>
+                    <img src="/assets/images/social_media/f_logo_RGB-Hex-Blue_512.png" style="height:30px; margin-right:15px"> </a>
                 <a href="https://www.instagram.com/unswdatasoc/" target="_blank">
-                    <img src="/assets/images/social_media/instagram.png" style="width:35px; margin-right:10px"> </a>
+                    <img src="/assets/images/social_media/Instagram_AppIcon_Aug2017.png" style="height:30px; margin-right:15px"> </a>
                 <a href="https://au.linkedin.com/company/datasoc" target="_blank">
-                    <img src="/assets/images/social_media/linkedin.png" style="width:35px; margin-right:10px"> </a>
+                    <img src="/assets/images/social_media/linkedin.png" style="height:30px; margin-right:15px"> </a>
                 <a href="https://github.com/unswdata/" target="_blank">
-                    <img src="/assets/images/social_media/github.png" style="width:35px; margin-right:10px"> </a>
+                    <img src="/assets/images/social_media/github.png" style="height:30px; margin-right:15px"> </a>
                 <a href="https://www.youtube.com/channel/UC5xEG38_Jr0251sMBoj8xwQ" target="_blank">
-                    <img src="/assets/images/social_media/youtube.png" style="height:35px"> </a>
-                <br><br><br>
+                    <img src="/assets/images/social_media/youtube_social_circle_red.png" style="height:30px;"> </a>
+                <br><br>
             </div>
-            <div class="columns is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:35px;margin-top:30px">
-                <p class="is-size-3" >
-                    <b>“The world is one big data problem.”</b>
-                </p>
-                <p class="is-size-5">
-                    <br><br>
-                    - Andrew McAfee
+            <div class="rows is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:30px;margin-top:30px">
+                <div class="is-size-3" style="">
+                    <b style="font-size:80%;">“The world is one big data problem.”</b>
+                </div>
+                <div class="is-size-5" style="text-align:right;">
+                    Andrew McAfee
                     <br>
-                </p>
+                </div>
             </div>
         </div>
-        <div class="column is-5 is-offset-1 has-text-left" style="flex: 1 0 500px;margin-left:10px;">
+        <div class="column is-5 is-offset-1 has-text-left" style="flex: 1 0 auto;margin-left:10px;">
             <br><br>
             <!-- Begin Mailchimp Signup Form -->
             <!-- Default mailchimp form css imported from this link -->
