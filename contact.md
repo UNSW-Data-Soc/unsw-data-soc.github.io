@@ -20,12 +20,14 @@ layout: default
         <div class="column is-half has-text-left" style="padding-top:38px;flex: 1 0 auto;"> 
             <p class="is-size-5">
                 <br>
-                Hi! If you've got any questions about DataSoc or just want to know more, feel free to reach out to us via the email below.
+                Hi! Whether you've got questions about DataSoc or just want to know more, feel free to reach out to us via the email below.
                 <br><br>
-                Stay update to date with us by subscribing to our newletter on the right! We send bi-weekly newsletters on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
+                Stay update to date with us by subscribing to our newletter using the form on the right. We send bi-weekly news on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
                 <br><br>
                 Be sure to check out our social media links!
-                <br><br><br>
+                <br><br>
+                Ready to make things official? Become a member of DataSoc with the link below!
+                <br><br>
                 <a href="https://forms.gle/hLDY7bAGa1H4CV348" target="_blank">
                     <button class="button is-info is-bold">Join Us!</button></a>
                 <br><br><br>
@@ -54,7 +56,7 @@ layout: default
                 <br><br><br>
             </div>
             <div class="columns is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:35px;margin-top:30px">
-                <p class="is-size-3">
+                <p class="is-size-3" >
                     <b>“The world is one big data problem.”</b>
                 </p>
                 <p class="is-size-5">
