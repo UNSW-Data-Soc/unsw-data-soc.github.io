@@ -1,8 +1,8 @@
 ---
-layout: landing
+layout: landing-banner
 title: About Us
 subtitle: What we really do.
-title-image: city3_left.png
+colour: is-warning
 introduction: |
   At DataSoc, our goal is to discover how data shapes the world around us. 
   <br><br> 
@@ -265,23 +265,11 @@ introduction: |
     </div>
 </div>
 
-<section class="hero is-primary">
-  <div class="hero-body" style=" background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
-    <div class="container">
-        <div class="level-item">
-            <h1 class="title">
-                Our Goals
-            </h1>
-        </div>
-    </div>
-  </div>
-</section>
-
 <div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-7 is-offset-3">
+                <h2 class="title is-1 centered">Our Goals</h2>
                 <ul class="no_bullet">
                     <li class="lightbulb">
                         DataSoc aims to become Australia’s leading student run society platform in assisting students on achieving their data science career goals.
@@ -307,7 +295,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
         </div>
     </div>
 </div>
-
+<br><br>
 <div class="card column is-7 is-offset-3">
   <div class="card-content">
     <p class="title has-text-centered">
@@ -316,26 +304,12 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
   </div>
 </div>
 
-<br><br><br>
-
-
-<section class="hero is-primary">
-  <div class="hero-body" style=" background-color: #21D4FD;
-background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
-    <div class="container">
-        <div class="level-item">
-            <h1 class="title">
-                Our Values
-            </h1>
-        </div>
-    </div>
-  </div>
-</section>
-
+<br><br>
 <div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-7 is-offset-3">
+            <h2 class="title is-1 centered">Our Values</h2>
                 Our successes to date could not have be achieved without our thriving subcommittee teams year after year. Here are our core values that persists amongst all portfolios. <br><br>
                 <ul class="no_bullet">
                     <li class="book">
@@ -365,21 +339,10 @@ background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
 </div>
 
 <br>
-
-<section class="hero is-primary">
-  <div class="hero-body" style="background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
-    <div class="container">
-        <div class="level-item">
-            <h1 class="title">
-                Our History
-            </h1>
-        </div>
-    </div>
-  </div>
-</section>
   <div class="container-fluid">
     <br><br>
       <div class="column is-8 is-offset-2">
+      <h2 class="title is-1 centered">Our History</h2>
           <div class="row example-centered">
               <ul class="timeline timeline-centered">
                   <li class="timeline-item">
