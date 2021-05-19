@@ -30,7 +30,7 @@ layout: default
                 <br><br>
                 <a href="https://forms.gle/hLDY7bAGa1H4CV348" target="_blank">
                     <button class="button is-info is-bold">Join Us!</button></a>
-                <br><br>
+                <br><br><br>
             </p>
             <div>
                 <b>Email:</b> <a href="mailto:{{ site.data.contact.Email }}">{{ site.data.contact.Email }}</a>
@@ -53,7 +53,7 @@ layout: default
                     <img src="/assets/images/social_media/github.png" style="height:30px; margin-right:15px"> </a>
                 <a href="https://www.youtube.com/channel/UC5xEG38_Jr0251sMBoj8xwQ" target="_blank">
                     <img src="/assets/images/social_media/youtube_social_circle_red.png" style="height:30px;"> </a>
-                <br><br>
+                <br><br><br>
             </div>
             <div class="rows is-centered has-text-white" style="background-image: url('/assets/images/background.png'); border-radius:10px; padding:30px;margin-top:30px">
                 <div class="is-size-3" style="">
