@@ -259,11 +259,11 @@ Events:
     Register [here](https://forms.gle/wR2qqtMR7uf7Em92A) so you don't miss out!!
    link: https://www.facebook.com/events/785383262409069/
  - name: Telcos & Utilities Panel
-   start-date: 2021-06-14
-   end-date: 2021-06-14
+   start-date: 2021-06-08
+   end-date: 2021-06-08
    location: Online
    tag: planned
- - name: Intro to SQL
+ - name: Intro to SQL Workshop
    start-date: 2021-06-07
    end-date: 2021-06-07
    location: Online
@@ -317,7 +317,54 @@ Events:
     <br><br>
     [Register here!](https://forms.gle/QGKDJtybdZG3Wt1T7)'
    link: https://www.facebook.com/events/1404358259922359
+ - name: Amazing Race w/ EcoSoc
+   start-date: 2021-06-12
+   end-date: 2021-06-12
+   tag: planned
+ - name: Guest - Jake Antmann
+   start-date: 2021-06-15
+   end-date: 2021-06-15
+   tag: planned
+ - name: Atlassian Datathon
+   start-date: 2021-06-19
+   end-date: 2021-06-19
+   tag: planned
+ - name: Data Cleaning Workshop
+   start-date: 2021-06-21
+   end-date: 2021-06-21
+   tag: planned
+ - name: Healthcare Panel
+   start-date: 2021-06-22
+   end-date: 2021-06-24
+   tag: planned
+ - name: Dodgeball w/ FinSoc
+   start-date: 2021-06-27
+   end-date: 2021-06-27
+   tag: planned
+ - name: Tableau Workshop
+   start-date: 2021-07-02
+   end-date: 2021-07-02
+   tag: planned
+ - name: Networking Night
+   start-date: 2021-07-10
+   end-date: 2021-07-10
+   tag: planned
+ - name: Mid-term BBQ
+   start-date: 2021-07-11
+   end-date: 2021-07-11
+   tag: planned
 
+
+# === Template ===
+#  - name: 
+#    img: 
+#    start-date: 
+#    end-date: 
+#    location: 
+#    time: 
+#    description: 
+
+#    link: 
 
 
 
@@ -371,7 +418,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/522823225235534/
  - name: Intro to AI with Quantium
-   img: /assets/images/events/2020/intro_to_AI.jpg 
+   img: /assets/images/events/2020/Intro_to_AI.jpg 
    start-date: 2020-10-13
    end-date: 2020-10-13
    time: 4pm-6pm
