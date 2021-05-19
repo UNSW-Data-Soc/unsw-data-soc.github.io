@@ -65,11 +65,10 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="column is-5 is-offset-1 has-text-left" style="flex: 1 0 auto;margin-left:10px;">
-            <br><br>
-
-
-
+        <div class="column is-5 is-offset-1 has-text-left" style="flex: 1 0 auto;padding-top:38px;margin-left:10px;">
+            <!-- margin-left: 10px; overrides jekyll styling which makes a much larger, uglier left margin.
+                 Admittedly a hacky solution, but works for now.-->
+            {% include subscription-form.html %}
         </div>
     </div>
     <br><br>
