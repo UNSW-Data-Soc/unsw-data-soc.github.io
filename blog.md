@@ -13,7 +13,7 @@ layout: default
       Blog
       </h1>
       <h2 class = "subtitle">
-      Stay up to date
+      Stay up to date with the world of data science.
       </h2>
     </div>
   </div>

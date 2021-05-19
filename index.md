@@ -18,7 +18,7 @@ title: Welcome to DataSoc
                     </p>
                     <div class="social-links pt-5">
                         {% for item in site.data.contact.Media %}
-                        <a href="{{ item.link }}"><span class="icon has-text-light "><i class="{{ item.img_class }}"></i></span></a>
+                        <a href="{{ item.link }}" target="_blank"><span class="icon has-text-light "><i class="{{ item.img_class }}"></i></span></a>
                         {% endfor %}
                     </div>
                 </div>
