@@ -2,7 +2,7 @@
 layout: landing-banner
 title: Our Sponsors
 subtitle: Here are the amazing companies we work with
-colour: is-light
+colour: is-danger
 title-image: city3_left.png
 subtitle: |
   DataSoc wouldn't be DataSoc without the amazing companies we've worked with throughout our journey as a society.

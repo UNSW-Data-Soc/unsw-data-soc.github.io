@@ -1,8 +1,8 @@
 ---
 layout: landing-banner
 title: Contact Us
-subtitle: Thanks for visiting our website
-colour: is-light
+subtitle: Reach out to us here
+colour: is-link
 ---
 
 <div class="hero-body; container has-text-black">

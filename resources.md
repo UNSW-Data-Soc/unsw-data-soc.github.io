@@ -2,7 +2,7 @@
 layout: landing-banner
 title: Resources
 subtitle: From workshop slides to python guides
-colour: is-info
+colour: is-warning
 ---
 
 <br><br>
@@ -43,8 +43,8 @@ colour: is-info
                             <!--resources button-->
                             {% if resource.resources %}
                                 <a href="{{ resource.resources }}" target="_blank">
-                                <button  class="button is-info" style='background-color: #5e9bfe;'>
-                                    <span>View Resources</span>
+                                <button  class="button is-warning">
+                                    <span><b>View Resources</b></span>
                                 </button></a>
                             {% else %}
                             <button class="button is-disabled">

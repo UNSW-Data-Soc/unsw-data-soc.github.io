@@ -2,7 +2,7 @@
 layout: landing-banner
 title: Events
 subtitle: From social events to workshops to networking opportunities
-colour: is-info
+colour: is-link
 ---
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">

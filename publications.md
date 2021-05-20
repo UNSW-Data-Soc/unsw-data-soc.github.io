@@ -36,7 +36,7 @@ colour: is-light
                       from experienced professionals, have a check out of Careers Guide!
                       </p>
                       <br>
-                      <a href="careers-guide" class="button is-primary">View</a>
+                      <a href="careers-guide" class="button is-info">View</a>
                       <br>
                   </div>
                   <div class="column is-6 featured-content va centered">
@@ -46,7 +46,7 @@ colour: is-light
                         so much so that it can feel super daunting and confusing. <br><br> If this is how you feel (and even if it’s not) 
                         - this First Year Guide is for you! </p>
                       <br>
-                      <a href="first-year-guide" class="button is-primary">View</a>
+                      <a href="first-year-guide" class="button is-info">View</a>
                       <br> 
                     </div>
                   </div>
@@ -68,7 +68,7 @@ colour: is-light
                     <h1 class="title post-title">{{ news.name }} </h1>
                     <p class="post-excerpt"> {{ news.excerpt }} </p>
                     <br>
-                    <a href="{{ news.link }}" target="_blank" class="button is-primary">Read More</a>
+                    <a href="{{ news.link }}" target="_blank" class="button is-info">Read More</a>
                   </div>
                 </article>
               </div>
@@ -86,7 +86,7 @@ colour: is-light
                     <h1 class="title post-title">{{ news.name }}</h1>
                     <p class="post-excerpt">{{ news.excerpt }} <br> </p>
                     <br>
-                    <a href="{{ news.link }}" target="_blank" class="button is-primary">Read More</a>
+                    <a href="{{ news.link }}" target="_blank" class="button is-info">Read More</a>
                   </div>
                 </article>
               </div>
