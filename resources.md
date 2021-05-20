@@ -43,8 +43,8 @@ colour: is-warning
                             <!--resources button-->
                             {% if resource.resources %}
                                 <a href="{{ resource.resources }}" target="_blank">
-                                <button  class="button is-warning">
-                                    <span><b>View Resources</b></span>
+                                <button  class="button is-info">
+                                    <span>View Resources</span>
                                 </button></a>
                             {% else %}
                             <button class="button is-disabled">
