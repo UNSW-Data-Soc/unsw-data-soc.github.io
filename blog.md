@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJ4JGEM1JH"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BJ4JGEM1JH');
+</script>
+
 <link rel="stylesheet" href="/assets/css/paginate.css">
 
 <script type='text/javascript' src='/assets/js/paginate.js'>

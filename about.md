@@ -10,6 +10,15 @@ introduction: |
   <br><br>
   We aspire to connect, educate and support our members by running social and career events alongside industry partnered educational workshops.
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJ4JGEM1JH"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BJ4JGEM1JH');
+</script>
 
 <style>
 .timeline {
