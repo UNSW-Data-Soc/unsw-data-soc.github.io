@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Data Visualisation: The Google Translate Between Business and Data Teams?"
-date:   2021-05-17
+date:   2021-05-20
 tags:
 - data science
 - data visualisation
 author: Maggie Chan
-image: /assets/images/blog/21-05-17.jpg
+image: /assets/images/blog/21-05-20.jpg
 excerpt_separator: <!--more-->
 ---
 Data visualisation has come a long way since the era of making column and bar charts on excel. New visualisation tools like Tableau and Google Charts offer a user-friendly solution that caters to a range of users of varying skills. Translating bland tables of data into graphical modules of data and information has helped accelerate the trend of ‘data-driven’ decisions across organisations.   

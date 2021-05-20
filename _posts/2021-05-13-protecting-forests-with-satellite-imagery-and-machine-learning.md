@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Protecting Forests with Satellite Imagery and Machine Learning"
-date:   2021-05-12
+date:   2021-05-13
 tags: 
     - data science
     - data analytics
