@@ -15,11 +15,11 @@ title: Welcome to DataSoc
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover.jpg'); background-position: center center; background-attachment: fixed; background-size: cover;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4);">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-offset-8 is-hero-title ">
+                <div class="column is-offset-0 is-hero-title ">
                     <h2 class="subtitle is-4 has-text-light">Welcome to</h2>
                     <h1 class="title is-1 is-bigger has-text-light">DataSoc</h1> 
                     <h2 class="subtitle is-4 has-text-light">University of New South Wales</h2>
@@ -131,7 +131,7 @@ title: Welcome to DataSoc
                         </div>
                         {% endfor %}
                     </div>
-                    {% endfor%}
+                    {% endfor %}
                 </div>
             </div>
         </div>
