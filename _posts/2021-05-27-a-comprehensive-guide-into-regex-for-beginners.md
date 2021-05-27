@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Beginner's Guide to Regex"
+title:  "A Comprehensive Guide into Regex for Beginners"
 date:   2021-05-27
 tags: 
     - regex
