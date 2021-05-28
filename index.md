@@ -36,6 +36,11 @@ title: Welcome to DataSoc
 .sponsor-figure {
     /* width: 90%; */
     flex: 1 1 30%;
+    padding: 10px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
