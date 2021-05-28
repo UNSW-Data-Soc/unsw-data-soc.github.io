@@ -13,6 +13,10 @@ title: Welcome to DataSoc
 </script>
 
 <style>
+.hero-body {
+    padding: 5rem;
+}
+
 .level {
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -34,10 +38,10 @@ title: Welcome to DataSoc
 }
 
 .sponsor-figure {
-    /* width: 90%; */
     flex: 1 1 30%;
-    padding: 10px 15px;
+    padding: 10px 15px !important;
 
+    /* Displaying logo figures */
     display: flex;
     flex-direction: column;
     justify-content: center;
