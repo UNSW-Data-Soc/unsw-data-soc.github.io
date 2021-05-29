@@ -287,10 +287,10 @@ Events:
    [Register Here!](https://forms.gle/L1mmMQpM6kDuMuSq6)"
    location: Zoom
    link: https://www.facebook.com/events/160312812728870/
- - name: Intro to SQL Workshop
-   start-date: 2021-06-07
-   end-date: 2021-06-07
-   location: Online
+ - name: Beginner’s Guide To Exploratory Data Analysis
+   start-date: 2021-06-17
+   end-date: 2021-06-17
+   location: Zoom
    tag: planned
  - name: DataSoc's End of T1 Beach BBQ
    img: \assets\images\events\end-of-term-bbq.jpg
