@@ -344,8 +344,32 @@ Events:
     [Register here!](https://forms.gle/QGKDJtybdZG3Wt1T7)'
    link: https://www.facebook.com/events/1404358259922359
  - name: Advance to GO
+   img: \assets\images\events\Advance to GO.png
    start-date: 2021-06-13
    end-date: 2021-06-13
+   time: 1pm - 4pm
+   description: '
+   Never won a game of monopoly? 🎲😤
+   <br><br>
+   Fear not! Come along to DataSoc X EcoSoc’s 🏎 Advance to GO 🏎 event and be the first to reach the finish line 🏁!
+   <br><br>
+   In a race of intellect 🧠 and speed 🏃‍♂️ , advance with your team by completing numerous fun and challenging activities scattered around the city and be prepared to fight for those property cards! 🚨💰🏨
+   <br><br>
+   ❓ How does it work? ❓
+   <br>
+   Sign up either individually or in a team of 3 or 4 to complete multiple physical and non-physical challenges scattered around the city. Be the first team to reach the finish line to win a price!
+   <br><br>
+   🏆 Prizes 🏆
+   <br>
+   TBD - but keep your eyes 👀 peeled!
+   <br><br>
+   Gather your team, pick your pieces wisely, take a CHANCE and advance to go!
+   <br><br>
+   Places are limited so sign up quick!!
+   <br><br>
+   [Register here!](https://forms.gle/zxX3DGa3zev2XY828)'
+   location: City Hyde Park
+   link: https://www.facebook.com/events/1324681851267937
  - name: Guest - Jake Antmann
    start-date: 2021-06-15
    end-date: 2021-06-15
@@ -357,9 +381,11 @@ Events:
  - name: Data Cleaning Workshop
    start-date: 2021-06-17
    end-date: 2021-06-17
+   tag: planned
  - name: Into the Dataverse
    start-date: 2021-06-22
    end-date: 2021-06-22
+   tag: planned
  - name: Dodgeball w/ FinSoc
    start-date: 2021-06-27
    end-date: 2021-06-27
