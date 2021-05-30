@@ -12,6 +12,44 @@ title: Welcome to DataSoc
     gtag('config', 'G-BJ4JGEM1JH');
 </script>
 
+<style>
+.hero-body {
+    padding: 5rem;
+}
+
+.level {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#contact-container {
+    flex: 1 1 auto;
+}
+
+#sponsors-container {
+    flex: 1 1 auto;
+
+}
+
+.sponsor-figure-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.sponsor-figure {
+    flex: 1 1 30%;
+    padding: 10px 15px !important;
+
+    /* Displaying logo figures */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+</style>
+
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
@@ -113,25 +151,25 @@ title: Welcome to DataSoc
     <div class="hero-body" style="background:rgba(0,0,0,0.6);">
         <div class="container">
             <div class="level">
-                <div class="column is-6 is-hero-title">
+                <div class="column is-6 is-hero-title" id="contact-container">
                     <h2 class="subtitle is-4 has-text-white">Curated content, straight to your mailbox.</h2>
                     <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Subscribe to our newsletter!</a>
                     <br><br>
                     <h2 class="subtitle is-4 has-text-white">Or get in touch with us <a href="/contact/">here</a>.</h2>
                 </div>
-                <div class="column is-4">
+                <div class="column is-4" id="sponsors-container">
                     <h2 class="subtitle is-4 has-text-white">Proudly sponsored by:</h2>
-                    {% for tier in site.data.sponsors %}
-                    <div class="columns is-gapless">
-                        {% for sponsor in tier[1] %}
-                        <div class="column">
-                            <figure class="image is-256x256">
-                                <a target="blank" href="{{ sponsor.link }}"><img src="{{ sponsor.icon }}"></a>
-                            </figure>
-                        </div>
+                    <div class="columns is-gapless sponsor-figure-container">
+                        {% for tier in site.data.sponsors %}
+                            {% for sponsor in tier[1] %}
+                                <div class="column sponsor-figure">
+                                    <figure class="image is-256x256">
+                                        <a target="blank" href="{{ sponsor.link }}"><img src="{{ sponsor.icon }}"></a>
+                                    </figure>
+                                </div>
+                            {% endfor %}
                         {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
             </div>
         </div>
