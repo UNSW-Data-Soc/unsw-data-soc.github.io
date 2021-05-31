@@ -108,7 +108,7 @@ Now, it’s your turn! Have a go at answering the following questions. To make i
 *16954*<br><br>
 **7.	How many words begin with a letter from the first half of the alphabet (‘a’ – ‘m’), followed by a letter from the second half of the alphabet (‘n’ – ‘z’), and then continues to alternate between letters from the first and second half of the alphabet?**  
 *927*<br><br>
-**8.	List the first 10 words that begin with the letter ‘s’, with the letter ‘w’ as the 3rd last character.**  
+**8.	List the first 10 words that begin with the letter ‘t’, with the letter ‘w’ as the 3rd last character.**  
 *takeaway*  
 *takedowns*  
 *tallowed*  
