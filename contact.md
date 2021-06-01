@@ -1,15 +1,6 @@
 ---
 layout: default
 ---
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJ4JGEM1JH"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BJ4JGEM1JH');
-</script>
 
 <section class="hero is-info">
     <div class="hero-body" style="background: rgb(1,213,255); background: linear-gradient(90deg, rgba(1,213,255,1) 0%, rgba(4,146,255,1) 25%, rgba(190,1,255,1) 100%);">
