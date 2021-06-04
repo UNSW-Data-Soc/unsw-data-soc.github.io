@@ -29,11 +29,11 @@ Anchors do not match any character, but instead specify the position in a string
 
 Let’s say you wanted to match the word ‘he’. If you just have `he` as the regex, you’ll have a series of other words returned, since the command will literally return any string that contains ‘he’ anywhere. Now, if we tried `^he`, then we’ll match words like ‘hear’ and ‘hexagon’, since this means we want ‘he’ to appear at the start of the string. Similarly, if we tried `he$`, then we’ll match words like ‘loathe’ and ‘backache’ since it now means we want ‘he’ to appear at the end of the string. Meanwhile, if we have both anchors inside the regex like `^he$`, then this means that we want to match all words which are strictly ‘he’.
 
-## Character sets
+## Character Sets
 A character set is used to match a single character out of several specified characters wrapped around square brackets.
 - `[]` to match any character inside the set
 - `-` to denote a range inside a set
-- `^` to exclude the characters inside a set (not to be confused with its anchor meaning from above)
+- `^` to exclude the characters inside a set *(not to be confused with its anchor meaning from above)*
 
 For example, `[jmy]et` will match any of the words: jet, met and yet (again, remember that there are many other words that this regex could match, as there are no anchors).
 We can also conveniently use ranges such as `[a-z]`, `[D-K]` and `[0-9]` to specify the corresponding letters or digits without having to list them out in an inefficient manner.
@@ -41,7 +41,7 @@ Now, what if we wanted all the characters except for a particular few? Say I wan
 
 ## Special Characters
 So far, we have only been restricted to literal characters, but regex also has a few characters with special meanings that enable this tool to be so effective in its pattern matching.
-- `.` matches any one character (except a new line \n)
+- `.` matches any one character *(except a new line \n)*
 - `*` matches zero or more repetitions of the previous character
 - `?` matches zero or one occurrences of the previous character
 - `+` matches one or more occurrences of the previous character
