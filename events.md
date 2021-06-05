@@ -52,7 +52,7 @@ colour: is-link
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }}</p>
                         {% endif %}
                         {% if event.time and event.location %}
-                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{event.location}}</p>
+                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{ event.location }}</p>
                         {% elsif event.time %}
                             <p class='subtitle is-6 has-text-centered'>{{event.time}}</p>
                         {% endif %}
