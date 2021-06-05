@@ -4,6 +4,7 @@ title: Blog
 subtitle: Stay up to date
 colour: is-info
 ---
+
 <link rel="stylesheet" href="/assets/css/paginate.css">
 
 <script type='text/javascript' src='/assets/js/paginate.js'>

@@ -4,6 +4,7 @@ title: Events
 subtitle: From social events to workshops to networking opportunities
 colour: is-link
 ---
+
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">
     <h2 class="title is-1 centered">Upcoming Events</h2>
