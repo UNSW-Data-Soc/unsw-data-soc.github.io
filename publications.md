@@ -1,24 +1,9 @@
 ---
-layout: default
+layout: landing-banner
 title: Publications
-subtitle: Keep up with Datasoc in the wider community!
-title-image: city3_left.png
-introduction: You can find all of our publications here!
+subtitle: You can find all of our publications here!
+colour: is-light
 ---
-
-<!-- Introduction -->
-<section class="hero is-light is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        {{ page.title }}
-      </h1>
-      <h2 class="subtitle">
-        {{ page.introduction }} 
-      </h2>
-    </div>
-  </div>
-</section>
   <nav class="navbar is-white">
       <div class="container">
           <div id="navMenu" class="navbar-menu">

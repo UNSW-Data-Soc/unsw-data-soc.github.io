@@ -1,20 +1,9 @@
 ---
-layout: default
+layout: landing-banner
+title: Contact Us
+subtitle: Reach out to us here
+colour: is-link
 ---
-
-<section class="hero is-info">
-    <div class="hero-body" style="background: rgb(1,213,255); background: linear-gradient(90deg, rgba(1,213,255,1) 0%, rgba(4,146,255,1) 25%, rgba(190,1,255,1) 100%);">
-        <div class="container">
-            <h1 class="title is-1">
-                Contact Us
-            </h1>
-            <h2 class="subtitle is-5">
-                Thanks for visiting our website!
-            </h2>
-        </div>
-    </div>
-</section>
-
 
 <div class="hero-body; container has-text-black">
     <div class="columns is-8 is-variable" style="display:flex;flex-wrap: wrap;margin: 0 auto">
