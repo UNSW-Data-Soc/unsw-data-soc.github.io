@@ -45,7 +45,7 @@ title: Welcome to DataSoc
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
 <div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover;">
-    <div class="hero-body" style=" background:rgba(0,0,0,0.4);">
+    <div class="hero-body" style=" background:rgba(0,0,0,0.3);">
         <div class="container">
             <div class="columns is-vcentered">
                 <div class="column is-offset-0 is-hero-title ">
