@@ -395,38 +395,6 @@ Events:
    [Register here!](https://forms.gle/zxX3DGa3zev2XY828)'
    location: City Hyde Park
    link: https://www.facebook.com/events/1324681851267937
- - name: Guest - Jake Antmann
-   start-date: 2021-06-15
-   end-date: 2021-06-15
-   tag: planned
- - name: Atlassian Datathon
-   start-date: 2021-06-19
-   end-date: 2021-06-19
-   tag: planned
- - name: Data Cleaning Workshop
-   start-date: 2021-06-17
-   end-date: 2021-06-17
-   tag: planned
- - name: Into the Dataverse
-   start-date: 2021-06-22
-   end-date: 2021-06-22
-   tag: planned
- - name: Dodgeball w/ FinSoc
-   start-date: 2021-06-27
-   end-date: 2021-06-27
-   tag: planned
- - name: Tableau Workshop
-   start-date: 2021-07-02
-   end-date: 2021-07-02
-   tag: planned
- - name: Networking Night
-   start-date: 2021-07-10
-   end-date: 2021-07-10
-   tag: planned
- - name: Mid-term BBQ
-   start-date: 2021-07-11
-   end-date: 2021-07-11
-   tag: planned
  - name: No more Queries - A Guide to SQL
    start-date: 2021-06-17
    end-date: 2021-06-17
@@ -478,7 +446,35 @@ Events:
     With some brilliant representatives 👩‍🏫, an open panel for you to ask questions ❓ and two rounds of networking 🗣, this is the PERFECT opportunity to deepdive into the unique world of healthcare!
    <br><br>
    [Register here!](https://forms.gle/4CPHrTvRrWXvRvnY7)"
-
+ - name: Guest - Jake Antmann
+   start-date: 2021-06-15
+   end-date: 2021-06-15
+   tag: planned
+ - name: Atlassian Datathon
+   start-date: 2021-06-19
+   end-date: 2021-06-19
+   tag: planned
+ - name: Data Cleaning Workshop
+   start-date: 2021-06-17
+   end-date: 2021-06-17
+   tag: planned
+ - name: Dodgeball w/ FinSoc
+   start-date: 2021-06-27
+   end-date: 2021-06-27
+   tag: planned
+ - name: Tableau Workshop
+   start-date: 2021-07-02
+   end-date: 2021-07-02
+   tag: planned
+ - name: Networking Night
+   start-date: 2021-07-10
+   end-date: 2021-07-10
+   tag: planned
+ - name: Mid-term BBQ
+   start-date: 2021-07-11
+   end-date: 2021-07-11
+   tag: planned
+   
 # === Template ===
 #  - name: 
 #    img: 
