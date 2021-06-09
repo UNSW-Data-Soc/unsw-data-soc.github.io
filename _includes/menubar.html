@@ -27,13 +27,14 @@
                             {{ item.name }}
                           </a>
                           {% for page in item.dropdown %}
-                          {% if page.name == "Jobs Board" or page.name == "SpArc" %}
-                            {% capture url %} {{ page.link }} {% endcapture %}
-                          {% else %}
-                            {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
-                          {% endif %}
-                          <a href="{{ url }}" class="navbar-item">{{ page.name }}</a>
-                          {% endfor %}
+                            {% if page.name == "Jobs Board" or page.name == "SpArc" %}
+                                {% capture url %} {{ page.link }} {% endcapture %}
+                                <a href="{{ url }}" target="_blank" class="navbar-item">{{ page.name }}</a>
+                            {% else %}
+                                {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
+                                <a href="{{ url }}" target="_self" class="navbar-item">{{ page.name }}</a>
+                            {% endif %}
+                          {% endfor %}                        
                         </div>
                       </div>
                     {% else %}

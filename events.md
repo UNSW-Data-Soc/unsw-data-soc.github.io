@@ -1,23 +1,11 @@
 ---
-layout: default
+layout: landing-banner
 title: Events
-title-image: city3_left.png
-introduction: This is the events page
+subtitle: From social events to workshops to networking opportunities
+colour: is-link
 ---
+
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-<section class="hero is-info is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Events
-      </h1>
-      <br>
-      <h2 class="subtitle">
-      From social events to workshops to networking opportunities
-      </h2>
-    </div>
-  </div>
-</section>
 <div class="hero-body">
     <h2 class="title is-1 centered">Upcoming Events</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
@@ -64,7 +52,7 @@ introduction: This is the events page
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }}</p>
                         {% endif %}
                         {% if event.time and event.location %}
-                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{event.location}}</p>
+                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{ event.location }}</p>
                         {% elsif event.time %}
                             <p class='subtitle is-6 has-text-centered'>{{event.time}}</p>
                         {% endif %}
