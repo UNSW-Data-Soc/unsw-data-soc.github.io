@@ -399,7 +399,7 @@ Events:
    start-date: 2021-06-17
    end-date: 2021-06-17
    time: 11am - 12:30pm
-   location: UNSW and Zoom
+   location: UNSW and Online
    link: https://www.facebook.com/events/289754699459986
    img: \assets\images\events\sql-workshop.jpg
    description: "Kickoff T2 with Datasoc’s SQL workshop! Whether you are new to coding or an experienced database enthusiast, come along to develop your programming skills 👩‍💻 and gain valuable knowledge 🧠 about the most 📈widely-implemented📈 database language in the world!
@@ -446,6 +446,36 @@ Events:
     With some brilliant representatives 👩‍🏫, an open panel for you to ask questions ❓ and two rounds of networking 🗣, this is the PERFECT opportunity to deepdive into the unique world of healthcare!
    <br><br>
    [Register here!](https://forms.gle/4CPHrTvRrWXvRvnY7)"
+ - name: Data Cleaning in Python
+   start-date: 2021-06-24
+   end-date: 2021-06-24
+   time: 11am - 12pm
+   location: UNSW and Online
+   link: https://fb.me/e/29AgG6CXf
+   img: \assets\images\events\data-cleaning-python.jpg
+   description: "
+   *In partnership with FinTech Soc...*
+   <br><br>
+   Data cleaning is the steps taken to prepare data for analysis. 📊 It involves the process of detecting 🔍 and modifying 👩‍💻 corrupt or inaccurate records in datasets.
+   <br><br>
+   In this workshop you'll learn 🐍 python 🐍 data cleaning skills for:
+   <br>
+  ✅ Removing or modifying incomplete data
+  <br>
+  ✅ Finding solutions to missing data
+  <br>
+  ✅ Correcting improperly formatted data
+  <br>
+  ✅ Dealing with inconsistent data
+  <br>
+  And much more!
+  <br><br>
+  ​The best part is that you'll learn all this in ONE HOUR! 🤯🤯🤯
+  <br><br>
+   [Register here!](https://forms.gle/FfMsxCNuwqVaEnWG8)"
+ - name: Guest - Jake Antmann
+   start-date: 2021-06-15
+   end-date: 2021-06-15
  - name: DATA1001 Revision Workshop
    start-date: 2021-08-02
    end-date: 2021-08-02
@@ -453,10 +483,6 @@ Events:
  - name: Atlassian Datathon
    start-date: 2021-07-17
    end-date: 2021-07-17
-   tag: planned
- - name: Data Cleaning Workshop
-   start-date: 2021-06-24
-   end-date: 2021-06-24
    tag: planned
  - name: Dodgeball with FinSoc
    start-date: 2021-06-27
