@@ -446,19 +446,19 @@ Events:
     With some brilliant representatives 👩‍🏫, an open panel for you to ask questions ❓ and two rounds of networking 🗣, this is the PERFECT opportunity to deepdive into the unique world of healthcare!
    <br><br>
    [Register here!](https://forms.gle/4CPHrTvRrWXvRvnY7)"
- - name: Guest - Jake Antmann
-   start-date: 2021-06-15
-   end-date: 2021-06-15
+ - name: DATA1001 Revision Workshop
+   start-date: 2021-08-02
+   end-date: 2021-08-02
    tag: planned
  - name: Atlassian Datathon
-   start-date: 2021-06-19
-   end-date: 2021-06-19
+   start-date: 2021-07-17
+   end-date: 2021-07-17
    tag: planned
  - name: Data Cleaning Workshop
-   start-date: 2021-06-17
-   end-date: 2021-06-17
+   start-date: 2021-06-24
+   end-date: 2021-06-24
    tag: planned
- - name: Dodgeball w/ FinSoc
+ - name: Dodgeball with FinSoc
    start-date: 2021-06-27
    end-date: 2021-06-27
    tag: planned
@@ -466,13 +466,13 @@ Events:
    start-date: 2021-07-02
    end-date: 2021-07-02
    tag: planned
- - name: Networking Night
-   start-date: 2021-07-10
-   end-date: 2021-07-10
+ - name: Banks Networking Night
+   start-date: 2021-07-06
+   end-date: 2021-07-06
    tag: planned
  - name: Mid-term BBQ
-   start-date: 2021-07-11
-   end-date: 2021-07-11
+   start-date: 2021-07-07
+   end-date: 2021-07-07
    tag: planned
    
 # === Template ===
