@@ -288,8 +288,8 @@ Events:
    location: Zoom
    link: https://www.facebook.com/events/160312812728870/
  - name: Beginner’s Guide To Exploratory Data Analysis
-   start-date: 2021-06-17
-   end-date: 2021-06-17
+   start-date: 2021-07-19
+   end-date: 2021-07-19
    location: Zoom
    tag: planned
  - name: DataSoc's End of T1 Beach BBQ
@@ -476,12 +476,15 @@ Events:
  - name: Guest - Jake Antmann
    start-date: 2021-06-15
    end-date: 2021-06-15
+ - name: DATA1001 Revision Workshop
+   start-date: 2021-08-02
+   end-date: 2021-08-02
    tag: planned
  - name: Atlassian Datathon
-   start-date: 2021-06-19
-   end-date: 2021-06-19
+   start-date: 2021-07-17
+   end-date: 2021-07-17
    tag: planned
- - name: Dodgeball w/ FinSoc
+ - name: Dodgeball with FinSoc
    start-date: 2021-06-27
    end-date: 2021-06-27
    tag: planned
@@ -489,13 +492,13 @@ Events:
    start-date: 2021-07-02
    end-date: 2021-07-02
    tag: planned
- - name: Networking Night
-   start-date: 2021-07-10
-   end-date: 2021-07-10
+ - name: Banks Networking Night
+   start-date: 2021-07-06
+   end-date: 2021-07-06
    tag: planned
  - name: Mid-term BBQ
-   start-date: 2021-07-11
-   end-date: 2021-07-11
+   start-date: 2021-07-07
+   end-date: 2021-07-07
    tag: planned
    
 # === Template ===
