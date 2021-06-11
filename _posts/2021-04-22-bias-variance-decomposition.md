@@ -5,8 +5,7 @@ date:   2021-04-22
 tags: 
     - data science
     - skills
-    - python
-    - natural language processing
+    - modelling
     - machine learning
 author: Amber Dang
 image: \assets\images\blog\21-04-22-banner.jpg
