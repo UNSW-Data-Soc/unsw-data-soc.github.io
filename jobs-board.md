@@ -93,7 +93,7 @@ introduction: This is the jobs board
     {% endif %}
     <br>
     <br>
-    <h2 class="title is-1 centered">Future jobs</h2>
+    <h2 class="title is-1 centered"> Future jobs </h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
     {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
     {% assign last_element = e.last.end-date | date: "%s" %}
