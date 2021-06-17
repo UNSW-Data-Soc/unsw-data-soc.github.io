@@ -25,7 +25,7 @@ While improvements in overall levels of data literacy across the workforce serve
 
 ## What is a dashboard?
 
-First of all, what even is a dashboard? As defined by [Wikipedia](https://en.wikipedia.org/wiki/Dashboard), it’s ‘a type of graphical user interface which often provides at-a-glance views of key performance indicators (KPIs) relevant to a particular objective or business process’. In layman’s terms, it’s a collection of graphs that tell you everything important about the subject at hand in a glance. 
+First of all, what even is a dashboard? As defined by [Wikipedia](https://en.wikipedia.org/wiki/Dashboard_(business)), it’s ‘a type of graphical user interface which often provides at-a-glance views of key performance indicators (KPIs) relevant to a particular objective or business process’. In layman’s terms, it’s a collection of graphs that tell you everything important about the subject at hand in a glance. 
 
 A simple concept, in theory. But how do you make a dashboard - your run-of-the-mill, average dashboard - _good_?
 
