@@ -477,10 +477,6 @@ Events:
    start-date: 2021-08-02
    end-date: 2021-08-02
    tag: planned
- - name: Atlassian Datathon
-   start-date: 2021-07-17
-   end-date: 2021-07-17
-   tag: planned
  - name: Dodgeball with FinSoc
    start-date: 2021-06-27
    end-date: 2021-06-27
@@ -508,7 +504,11 @@ Events:
    We’re looking for the brightest minds to join us across every degree. Find out more at CommBank Connect. Expressions of Interest are essential.
    '
    link: https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view
-   
+ - name: Atlassian Datathon
+   start-date: 2021-07-22
+   end-date: 2021-07-22
+   time: 12pm-5pm
+   location: Online
 
 
 # === Template ===
