@@ -41,10 +41,10 @@ colour: is-link
                     </div>
                     <br>
                     <div class='card-content'>
-                        {% if event.name == 'Disaster at the Joadia Islands Gameathon' %}
-                        <p class='title is-4 has-text-centered is-uppercase'> DSAI Presents: {{event.name}}</p>
+                        {% if event.name == 'Commbank Connect' %}
+                            <p class='title is-4 has-text-centered is-uppercase'>{{event.name}}</p>
                         {% else %}
-                        <p class='title is-4 has-text-centered is-uppercase'> DataSoc Presents: {{event.name}}</p>
+                            <p class='title is-4 has-text-centered is-uppercase'>DataSoc Presents: {{event.name}}</p>
                         {% endif %}
                         {% if event.start-date != event.end-date %}
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }} - {{event.end-date | date:"%B %d, %Y" }}</p>
@@ -59,8 +59,8 @@ colour: is-link
                         <div  style="text-align: center;">
                             {% if event.link %}
                                 <span class="button modal-button" data-target="event-- {{ event.name | replace: ' ', '-' | downcase }}">
-                                <p class='subtitle is-6 has-text-centered'>  More Information Here!</p>
-                             </span>
+                                    <p class='subtitle is-6 has-text-centered'>More Information Here!</p>
+                                </span>
                             {% else %}
                                 <p class='subtitle is-6 has-text-centered'>Details coming soon!</p>
                             {% endif %}
