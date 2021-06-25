@@ -8,11 +8,11 @@ tags:
     - modelling
     - industry
 author: Gordon Huang
-image: \assets\images\blog\21-06-24\banner.jpg
+image: \assets\images\blog\21-06-24-banner.jpg
 excerpt_separator: <!--more-->
 ---
 
-The age-old mining industry supplies invaluable natural resources on which our modern technology and infrastructure depend. To meet the ever-increasing global demand for natural resources such as metal, oil, battery lithium and nuclear uranium fuel, mining firms undergo monumental projects in highly unpredictable environments including both global economies and natural terrain. In this article we will explore how the mining industry leverages data to maximise the efficiency of their operations.
+The age-old mining industry supplies invaluable natural resources on which our modern technology and infrastructure depend. To meet the ever-increasing global demand for natural resources such as metal, oil, battery lithium and nuclear uranium fuel, mining firms undergo monumental projects in highly unpredictable economic and natural environments. In this article we will explore how the mining industry leverages data to maximise the efficiency and productivity of their operations.
 
 <!--more-->
 
