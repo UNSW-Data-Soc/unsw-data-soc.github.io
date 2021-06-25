@@ -366,7 +366,7 @@ Events:
     <br><br>
     Our industry mentoring program is a sure fire way to jumpstart your professional development and network your way to success, don’t miss out!
     <br><br>
-    [Register here!](https://forms.gle/QGKDJtybdZG3Wt1T7)'
+    *Registrations have closed*'
    link: https://www.facebook.com/events/1404358259922359
  - name: Advance to GO
    img: \assets\images\events\Advance to GO.png
@@ -403,7 +403,7 @@ Events:
    link: https://www.facebook.com/events/289754699459986
    img: \assets\images\events\sql-workshop.jpg
    description: "Kickoff T2 with Datasoc’s SQL workshop! Whether you are new to coding or an experienced database enthusiast, come along to develop your programming skills 👩‍💻 and gain valuable knowledge 🧠 about the most 📈widely-implemented📈 database language in the world!
-  <br><br>
+   <br><br>
    What is SQL❓
    <br><br>
    If your problem has anything to do with data then SQL is for you! SQL is a programming language widely used across all industries🏢 when it comes to managing data or searching for specific features in a database📊.
@@ -498,11 +498,12 @@ Events:
    start-date: 2021-06-24
    end-date: 2021-07-15
    time: <a href="https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view">See full flyer</a>
-   description: '
+   description: "
    Did you know CommBank was rated #4 in the 2021 LinkedIn Top Companies list?
    <br><br>
    We’re looking for the brightest minds to join us across every degree. Find out more at CommBank Connect. Expressions of Interest are essential.
-   '
+   <br><br>
+   [View full details on flyer here!](https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view)"
    link: https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view
  - name: Atlassian Datathon
    start-date: 2021-07-22
