@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mining blog"
+title:  "Mining Data: Data in the Mineral Mining Industry"
 date:   2021-06-24
 tags: 
     - data science
