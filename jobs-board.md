@@ -15,7 +15,6 @@ title-image: city3_left.png
         <h2> We will have more jobs coming soon, stay tuned! </h2>
     {% else %}
         <div class='columns'>
-    {% endif %}
     {% assign index = 0 %}
     {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
     {% for job in e %}
@@ -54,9 +53,10 @@ title-image: city3_left.png
                 </div>
             {% endif %}
         {% endif %}
-    {% endfor %}
     {% if mod != 3 %}
         </div>
+    {% endif %}
+    {% endfor %}
     {% endif %}
     <br>
     <br>
@@ -78,7 +78,7 @@ title-image: city3_left.png
             {% if mod == 0 and index != 0 %}
                 <div class='columns'>
             {% endif %}
-            <div class='column is-4'>
+            <div class='column is-3'>
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-1by1">
