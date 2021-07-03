@@ -7,14 +7,16 @@ degree:
 image: samraggi-pant.jpg
 one_line:
 ---
-*Favourite movie/tv show?*
+*Description*
 <br>
-Bojack Horseman or The Inbetweeners I can't choose
+The Human Resources (Diversity) Subcommittee is responsible for fostering the culture of DataSoc. From running internal, team
+building events; to collaborating with other societies, our role is to maintain positive relations both internally and externally. We aim
+to increase the representation of different groups in the Data Science space and also welcome new perspectives and insights.
 <br><br>
-*Song recommendation?*
+*Subcommittee Members*
 <br>
-Wouldn't Leave - Kanye West, PARTYNEXTDOOR
+* Aimee Soenarjo
+* Aryaman Singh
+* Quincy Zhou
+* Sophia Chia
 <br><br>
-*Guilty pleasure?*
-<br>
-Watching shitty youtube compilations of Trisha Paytas, Nikocado Avocado, 1000-lb Sisters, Extreme Cheapskates, and more 

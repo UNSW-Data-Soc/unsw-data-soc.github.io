@@ -7,14 +7,18 @@ degree:
 image: samraggi-pant.jpg
 one_line:
 ---
-*Favourite movie/tv show?*
+*Description*
 <br>
-Bojack Horseman or The Inbetweeners I can't choose
+DataSoc’s strongest contribution to the student community lies in our commitment to bridge the gap between university and industry.
+Our portfolio runs a variety of professional development and networking events in collaboration with both established companies and
+fast-growing startups.
 <br><br>
-*Song recommendation?*
+*Subcommittee Members*
 <br>
-Wouldn't Leave - Kanye West, PARTYNEXTDOOR
+* Abhijot Singh
+* Kento Seki
+* Kevin Wei Zhou
+* Maria Zhang
+* Pengpeng Duan
+* Saumil Talati
 <br><br>
-*Guilty pleasure?*
-<br>
-Watching shitty youtube compilations of Trisha Paytas, Nikocado Avocado, 1000-lb Sisters, Extreme Cheapskates, and more 
