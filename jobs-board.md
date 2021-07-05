@@ -40,7 +40,7 @@ title-image: city3_left.png
                     <br>
                     <div class='card-content'>
                         <p class='title is-4 has-text-centered is-uppercase'> {{job.name}} </p>
-                        <p class='subtitle is-6 has-text-centered'>{{job.end-date | date:"%B %d, %Y" }}</p>
+                        <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
                         {% if job.description %}
                             {% include event-modal-card.html name = job.name description = job.description link = job.link %}
                         {% endif %}
@@ -82,13 +82,15 @@ title-image: city3_left.png
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-1by1">
-                        <img src="{{job.img}}" alt="Placeholder image">
+                        <a href="{{job.link}}">
+                            <img src="{{job.img}}" alt="Placeholder image" class="center">
+                        </a>
                         </figure>
                     </div>
                     <br>
                     <div class='media-content'>
                         <p class='title is-5 has-text-centered is-uppercase'> {{job.name}}</p>
-                        <p class='subtitle is-6 has-text-centered'>{{job.end-date | date:"%B %d, %Y" }}</p>
+                        <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
                         <br>
                     </div>
                 </div>
