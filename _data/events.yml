@@ -481,10 +481,23 @@ Events:
    start-date: 2021-07-02
    end-date: 2021-07-02
    tag: planned
- - name: Banks Networking Night
-   start-date: 2021-07-06
-   end-date: 2021-07-06
-   tag: planned
+ - name: Banks and Financial Services
+   img: /assets/images/events/banks_and_financial_services.jpeg
+   start-date: 2021-07-13
+   end-date: 2021-07-13
+   description: "
+   You've just swiped your card for another purchase you definitely did not need... your bank account is crying right now 👀😭
+  Westpac and Mastercard - we use these on an everyday basis, but have you ever wondered how they harness the power of data science to operate? 😨 What's it like to work for any of them? 😱
+  Let us put your mind at ease, as you’ll be hearing ALL ABOUT THEM in the 💸 💳 💵 Banks & Financial Services Panel 💵 💳 💸, our THIRD INSTALLMENT OF Into the Dataverse 🚀
+  ❓----------> First time here? <----------❓
+  The Into the Dataverse Series features specialised introductions to a wide range of different corporate environments and how data plays a role in their specific industries.
+  This time, we’re speaking to ⚡️ high-powered ⚡️ professionals managing 📈 high-stakes data 📈… Come and discover how it all works ‼️
+  INCLUDING:
+  ✅ An enlightening panel discussion centered around your 🔥burning🔥questions about data science careers in finance 💸 and banking 💳
+  ✅ An❗️EXCLUSIVE ❗️chance to NETWORK with these professionals and hear all about their experiences, advice, and insights
+  ✅ A Surprise Entry… 🥳🥳
+   "
+   link: https://www.facebook.com/events/509001980348534
  - name: Commbank Connect
    img: /assets/images/events/commbank_connect.png
    start-date: 2021-06-24
