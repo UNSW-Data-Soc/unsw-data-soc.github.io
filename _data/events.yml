@@ -477,10 +477,6 @@ Events:
    start-date: 2021-08-02
    end-date: 2021-08-02
    tag: planned
- - name: Dodgeball with FinSoc
-   start-date: 2021-06-27
-   end-date: 2021-06-27
-   tag: planned
  - name: Tableau Workshop
    start-date: 2021-07-02
    end-date: 2021-07-02
@@ -488,10 +484,6 @@ Events:
  - name: Banks Networking Night
    start-date: 2021-07-06
    end-date: 2021-07-06
-   tag: planned
- - name: Mid-term BBQ
-   start-date: 2021-07-07
-   end-date: 2021-07-07
    tag: planned
  - name: Commbank Connect
    img: /assets/images/events/commbank_connect.png
