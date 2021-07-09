@@ -4,6 +4,11 @@
   description: Guide to remove and modify incomplete or inconsistent data.
   resources: https://drive.google.com/drive/folders/11YgD_E6UejnYJ5bdb7Yzq0v-nHfmw0JL
 
+- title: A Guide to SQL
+  date: 17 June 2021
+  tags: [programming]
+  description: Learn the most widely-implemented language used to search or managing data
+  resources: https://drive.google.com/drive/folders/1b6IKqBYRsQ6btPtUY18fAmOURRkwcXLj
 - title: Starter-thon R Workshop
   date: 10 April 2021
   tags: [programming]
