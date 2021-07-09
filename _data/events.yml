@@ -285,13 +285,30 @@ Events:
    As this is an ongoing series, feel free to drop some suggestions for future industries that you’d like to see!
    <br><br>
    [Register Here!](https://forms.gle/L1mmMQpM6kDuMuSq6)"
-   location: Zoom
+   location: Online
    link: https://www.facebook.com/events/160312812728870/
  - name: Beginner’s Guide To Exploratory Data Analysis
-   start-date: 2021-07-19
-   end-date: 2021-07-19
-   location: Zoom
-   tag: planned
+   img: /assets/images/events/exploratory_data_analysis.jpeg
+   start-date: 2021-07-16
+   end-date: 2021-07-16
+   time: 11am - 12pm
+   location: Online
+   description: "
+    Beginner data enthusiasts everywhere 👩‍💻👨‍💻 this is what you've been missing out on!
+    <br>
+    In ONE HOUR ⌚️, you'll be able to understand the basics of exploratory data analysis (EDA) 📊📈
+    <br><br>
+    📌 What is exploratory data analysis?
+    <br><br>
+    Exploratory data analysis (EDA) is the blueprint to data analysis in all data science projects. EDA provides a better understanding of the dataset's variables and their relationships, therefore being the steppingstone for you to analyse data more efficiently and correctly! Learn how to transform the most tedious step before your data analysis process into one that is fast, compelling, and fun! 🤩
+    <br><br>
+    📌 Should YOU participate in this workshop?
+    <br><br>
+    Whether you're just a beginner interested in data analytics or someone with more experience, learning the fundamentals of EDA is for anyone! So don't be afraid to ask questions and make this workshop the most fulfilling for you 🤓
+    <br><br>
+    [Register Here!](https://forms.gle/yf4XoQ5rvFGG5aKE6)
+   "
+   link: https://www.facebook.com/events/999684667434321
  - name: DataSoc's End of T1 Beach BBQ
    img: \assets\images\events\end-of-term-bbq.jpg
    start-date: 2021-05-16
@@ -316,7 +333,7 @@ Events:
     We hope to see you all there 🥰
     <br><br>
     [Register here!](https://forms.gle/S3VuLzanL426BfPW6)
-   link: https://www.facebook.com/events/231241818799325/?ref=newsfeed
+   link: https://www.facebook.com/events/231241818799325
  - name: Case Closed
    img: /assets/images/events/quantium_panel_session.png
    time: 5:30pm - 7:30pm
@@ -425,7 +442,7 @@ Events:
    time: 5:30pm - 7:00pm
    location: Online
    link: https://fb.me/e/4fEiMhpTT
-   img: \assets\images\events\into-the-dataverse.jpg
+   img: \assets\images\events\healthcare_deepdive.jpg
    description: "
    *In partnership with BINFSOC and BESS...*
    <br><br>
@@ -481,21 +498,30 @@ Events:
    start-date: 2021-07-02
    end-date: 2021-07-02
    tag: planned
- - name: Banks and Financial Services
+ - name: Intro the Dataverse - Banks & Financial Services
    img: /assets/images/events/banks_and_financial_services.jpeg
    start-date: 2021-07-13
    end-date: 2021-07-13
+   time: 5:30 - 7pm
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
    description: "
    You've just swiped your card for another purchase you definitely did not need... your bank account is crying right now 👀😭
+   <br><br>
   Westpac and Mastercard - we use these on an everyday basis, but have you ever wondered how they harness the power of data science to operate? 😨 What's it like to work for any of them? 😱
+  <br><br>
   Let us put your mind at ease, as you’ll be hearing ALL ABOUT THEM in the 💸 💳 💵 Banks & Financial Services Panel 💵 💳 💸, our THIRD INSTALLMENT OF Into the Dataverse 🚀
-  ❓----------> First time here? <----------❓
-  The Into the Dataverse Series features specialised introductions to a wide range of different corporate environments and how data plays a role in their specific industries.
+  <br><br>
   This time, we’re speaking to ⚡️ high-powered ⚡️ professionals managing 📈 high-stakes data 📈… Come and discover how it all works ‼️
+  <br><br>
   INCLUDING:
+  <br><br>
   ✅ An enlightening panel discussion centered around your 🔥burning🔥questions about data science careers in finance 💸 and banking 💳
+  <br><br>
   ✅ An❗️EXCLUSIVE ❗️chance to NETWORK with these professionals and hear all about their experiences, advice, and insights
+  <br><br>
   ✅ A Surprise Entry… 🥳🥳
+  <br><br>
+  [Register Here!](https://forms.gle/Jo4cYWbvtjVR3UeQ6)
    "
    link: https://www.facebook.com/events/509001980348534
  - name: Commbank Connect
