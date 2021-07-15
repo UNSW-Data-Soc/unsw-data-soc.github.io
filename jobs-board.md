@@ -15,16 +15,16 @@ title-image: city3_left.png
         <h2> We will have more jobs coming soon, stay tuned! </h2>
     {% else %}
         <div class='columns'>
-    {% assign index = 0 %}
-    {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
-    {% for job in e %}
-        {% capture end_date %}{{job.end-date | date: '%s'}}{% endcapture %}
-        {% if curr_time < end_date %}
-            {% assign mod = index | modulo: 4 %}
-            {% if mod == 0 and index != 0 %}
-                <div class='columns'>
-            {% endif %}
-            <div class='column is-3'>
+        {% assign index = 0 %}
+        {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
+        {% for job in e %}
+            {% capture end_date %}{{job.end-date | date: '%s'}}{% endcapture %}
+            {% if curr_time < end_date %}
+                {% assign mod = index | modulo: 4 %}
+                {% if mod == 0 and index != 0 %}
+                    <div class='columns'>
+                {% endif %}
+                <div class='column is-3'>
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-1by1">
@@ -47,19 +47,18 @@ title-image: city3_left.png
                         <br>
                     </div>
                 </div>
-            </div>
-            {% assign index = index | plus: 1 %}
-            {% if mod == 3 %}
+                </div>
+                {% assign index = index | plus: 1 %}
+                {% if mod == 3 %}
+                    </div>
+                {% endif %}
+            {% endif %}
+            {% if mod != 3 %}
                 </div>
             {% endif %}
-        {% endif %}
-    {% if mod != 3 %}
-        </div>
+        {% endfor %}
     {% endif %}
-    {% endfor %}
-    {% endif %}
-    <br>
-    <br>
+<div class="hero-body">
     <h2 class="title is-1 centered">Previous Jobs</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
     {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
@@ -101,5 +100,5 @@ title-image: city3_left.png
             {% endif %}
         {% endif %}
     {% endfor %}
-</div>
 <script src="/assets/js/modals.js"></script>
+
