@@ -11,6 +11,8 @@
   link: /sponsors
 - name: Our Events
   link: /events
+- name: Jobs Board
+  link: /jobs-board
 - name: Blog
   link: /blog
   dropdown:
@@ -18,9 +20,6 @@
       link: /topics
 - name: Resources
   link: /resources
-  dropdown:
-    - name: Jobs Board
-      link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
   link: /publications
   dropdown:
