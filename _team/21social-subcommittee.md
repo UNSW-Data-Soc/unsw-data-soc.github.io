@@ -4,17 +4,20 @@ portfolio: Subcommittee
 order: 21
 name: Social Subcommittee
 degree: 
-image: samraggi-pant - Sideways.jpg
+image: sideways.jpg
 one_line:
 ---
-*Favourite movie/tv show?*
+*Description*
 <br>
-Bojack Horseman or The Inbetweeners I can't choose
+The social team is pivotal in enabling student engagement with our society. This requires a passionate and welcoming team to
+foster a growing community. We are in charge of planning and carrying out social events that maintain and gain participation within
+the personal side of the society.
 <br><br>
-*Song recommendation?*
+*Subcommittee Members*
 <br>
-Wouldn't Leave - Kanye West, PARTYNEXTDOOR
+* Andrew Zhao
+* Annie Xue
+* Connor Yu
+* Gabriel Ting
+* Joey Xie
 <br><br>
-*Guilty pleasure?*
-<br>
-Watching shitty youtube compilations of Trisha Paytas, Nikocado Avocado, 1000-lb Sisters, Extreme Cheapskates, and more 

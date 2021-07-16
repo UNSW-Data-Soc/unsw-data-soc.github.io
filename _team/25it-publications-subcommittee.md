@@ -4,17 +4,18 @@ portfolio: Subcommittee
 order: 25
 name: IT/Publications Subcommittee
 degree: 
-image: samraggi-pant - Sideways.jpg
+image: sideways.jpg
 one_line:
 ---
-*Favourite movie/tv show?*
+*Description*
 <br>
-Bojack Horseman or The Inbetweeners I can't choose
+It/Publications is the bridge between DataSoc and UNSW students! This means maintaining the DataSoc website, publishing newsletters and
+writing interesting blog posts that illuminate fascinating areas of Data Science.
 <br><br>
-*Song recommendation?*
+*Subcommittee Members*
 <br>
-Wouldn't Leave - Kanye West, PARTYNEXTDOOR
+* Amber Dang
+* Gordon Huang
+* Julian Garratt
+* Maggie Chan
 <br><br>
-*Guilty pleasure?*
-<br>
-Watching shitty youtube compilations of Trisha Paytas, Nikocado Avocado, 1000-lb Sisters, Extreme Cheapskates, and more 

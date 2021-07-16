@@ -4,17 +4,19 @@ portfolio: Subcommittee
 order: 24
 name: Education Subcommittee
 degree: 
-image: samraggi-pant - Sideways.jpg
+image: sideways.jpg
 one_line:
 ---
-*Favourite movie/tv show?*
+*Description*
 <br>
-Bojack Horseman or The Inbetweeners I can't choose
+The Education portfolio is responsible for facilitating and hosting workshops, competitions and revision sessions throughout the
+year. The content that we cover include languages and techniques essential to data science, such as Python and R, data
+visualisation and machine learning methods.
 <br><br>
-*Song recommendation?*
+*Subcommittee Members*
 <br>
-Wouldn't Leave - Kanye West, PARTYNEXTDOOR
+* Noah Rubin
+* Rebecca Xing
+* William Dang
+* Kellie Yau
 <br><br>
-*Guilty pleasure?*
-<br>
-Watching shitty youtube compilations of Trisha Paytas, Nikocado Avocado, 1000-lb Sisters, Extreme Cheapskates, and more 

@@ -62,7 +62,11 @@ permalink: /about/team/
 						{% endif %}
 					{% endif %}
 						<div class="column is-3">
-							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line %}
+						{% if person.portfolio == "Subcommittee" %}
+							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who are we?" %}
+						{% else %}
+							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who am I?" %}
+						{% endif %}
 						</div>
 						{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content one_line=person.one_line %}
 					{% assign remaining_people = remaining_people | minus: 1 %}
