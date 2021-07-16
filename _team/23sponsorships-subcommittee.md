@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 23
 name: Sponsorships Subcommittee
 degree: 
-image: samraggi-pant.jpg
+image: samraggi-pant - Sideways.jpg
 one_line:
 ---
 *Favourite movie/tv show?*

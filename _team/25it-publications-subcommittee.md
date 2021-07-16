@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 25
 name: IT/Publications Subcommittee
 degree: 
-image: samraggi-pant.jpg
+image: samraggi-pant - Sideways.jpg
 one_line:
 ---
 *Favourite movie/tv show?*

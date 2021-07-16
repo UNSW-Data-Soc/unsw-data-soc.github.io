@@ -35,14 +35,22 @@ permalink: /about/team/
 			<div class="content">
 				<div class="container">
 					{% assign remaining_people = portfolio.size %}
+						{% if portfolio.size == 6 %}
+							{%assign columns = 3 %}
+						{% else %}
+							{%assign columns = 4 %}
+						{% endif %}
 					{% for person in portfolio %}
-					{% assign value = forloop.index0 | modulo: 4 %}
+					{% assign value = forloop.index0 | modulo: columns %}
 					{% if value == 0 %}
 						{% if forloop.index0 != 0 %}
 					</div>
-						{% endif %}
+					{% endif %}
 					<div class="columns">
-						{% if remaining_people == 2 %}
+						{% if remaining_people == 6 %}
+					<div class="column is-2">
+					</div>
+						{% elsif remaining_people == 2 %}
 					<div class="column is-3">
 					</div>
 						{% elsif remaining_people == 1 %}
