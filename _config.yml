@@ -10,3 +10,6 @@ collections:
     permalink: /blog/:year/:month/:day/:title/
   team:
     sort_by: order
+
+# Google Analytics
+google_analytics: UA-187021387-1

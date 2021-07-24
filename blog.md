@@ -1,33 +1,14 @@
 ---
-layout: default
+layout: landing-banner
+title: Blog
+subtitle: Stay up to date
+colour: is-info
 ---
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJ4JGEM1JH"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BJ4JGEM1JH');
-</script>
 
 <link rel="stylesheet" href="/assets/css/paginate.css">
 
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
-
-<section class = "hero is-info is-bold">
-  <div class = "hero-body">
-    <div class = "container">
-      <h1 class = "title">
-      Blog
-      </h1>
-      <h2 class = "subtitle">
-      Stay up to date with the world of data science.
-      </h2>
-    </div>
-  </div>
-</section>
 
 <div class="hero-body">
   <div class="container">

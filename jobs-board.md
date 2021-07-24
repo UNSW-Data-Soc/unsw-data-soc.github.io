@@ -68,7 +68,7 @@ title-image: city3_left.png
     {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
     {% assign first_element = e.first.end-date | date: "%s" %}
     {% if e == None or first_element > curr_time %}
-        <h2> Nothing here, sorry! </h2>
+        <h2> Nothing here at the moment! </h2>
     {% else %}
         <div class='columns'>
     {% endif %}
