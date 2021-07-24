@@ -25,40 +25,44 @@ title-image: city3_left.png
                     <div class='columns'>
                 {% endif %}
                 <div class='column is-3'>
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-1by1">
-                        {% if job.img %}
-                        <a href="{{job.link}}">
-                            <img src="{{job.img}}" alt="Placeholder image" class="center">
-                        </a>
-                        {% else %}
-                        <img src="/assets/images/events/upcoming_events.png" alt="Placeholder image">
-                        {% endif %}
-                        </figure>
-                    </div>
-                    <br>
-                    <div class='card-content'>
-                        <p class='title is-4 has-text-centered is-uppercase'> {{job.name}} </p>
-                        <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
-                        {% if job.description %}
-                            {% include event-modal-card.html name = job.name description = job.description link = job.link %}
-                        {% endif %}
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                            {% if job.img %}
+                            <a href="{{job.link}}">
+                                <img src="{{job.img}}" alt="Placeholder image">
+                            </a>
+                            {% endif %}
+                            </figure>
+                        </div>
                         <br>
+                        <div class='card-content'>
+                            <p class='title is-4 has-text-centered is-uppercase'> {{job.name}} </p>
+                            <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
+                             <div  style="text-align: center;">
+                                {% if job.description %}
+                                    <span class="button modal-button" data-target="job-- {{ job.name | replace: ' ', '-' | downcase }}">
+                                    <p class='subtitle is-6 has-text-centered'>More Information Here!</p>
+                                    </span>
+                                    {% include job-modal-card.html name = job.name description = job.description link = job.link %}
+                                {% endif %}
+                            </div>
+                            <br>
+                        </div>
                     </div>
-                </div>
                 </div>
                 {% assign index = index | plus: 1 %}
                 {% if mod == 3 %}
                     </div>
                 {% endif %}
             {% endif %}
+            {% endfor %}
             {% if mod != 3 %}
                 </div>
             {% endif %}
-        {% endfor %}
-    {% endif %}
-<div class="hero-body">
+            {% endif %}
+<br>
+<br>
     <h2 class="title is-1 centered">Previous Jobs</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
     {% assign e = site.data.jobs.Jobs | sort_natural: "end-date" %}
