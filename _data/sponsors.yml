@@ -34,9 +34,19 @@ Major Sponsors:
     icon: /assets/images/logos/custom/mirvac.png
     link: https://www.mirvac.com/
     description: |-
+      
       Mirvac is an Australian property group with a clearly defined purpose to reimagine urban life. By creating beautiful homes, inspiring workplace precincts and thriving shopping centres, they aim to make a positive contribution to our cities and communities.
 
       Mirvac was founded in 1972, which means they've been shaping Australia’s urban landscape for almost fifty years. Of course, they've evolved a lot over that time – growing from a small joint venture to become a thriving ASX-listed property group that leads the way in innovation, sustainability and placemaking.
+  - name: Relevance AI
+    icon: /assets/images/logos/custom/relevance_ai.png
+    link: https://relevance.ai/
+    description: |-
+      
+      Relevance AI is a machine learning SaaS startup building a platform to help companies and developers leverage machine learning vectors to extract business value from qualitative data such as text, images, audio, pdfs, etc. This involves managing the lifecycle of vectors such as creating, storing, evaluating, searching and analysing them.
+
+      Nearly 80% of your business data is image, text, audio or other qualitative formats. Stop wasting it in cold storage. Create data driven apps and analysis with Relevance AI.
+
 Partners:
   - name: Akuna Capital 
     icon: /assets/images/logos/custom/akuna.png
