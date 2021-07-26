@@ -38,7 +38,7 @@ colour: is-warning
                         </div>
                         <br>
                         <div class='card-content'>
-                            <p class='title is-4 has-text-centered is-uppercase'> {{job.name}} </p>
+                            <p class='title is-4 has-text-centered'> {{job.name}} </p>
                             <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
                              <div  style="text-align: center;">
                                 {% if job.description %}
@@ -93,7 +93,7 @@ colour: is-warning
                     </div>
                     <br>
                     <div class='media-content'>
-                        <p class='title is-5 has-text-centered is-uppercase'> {{job.name}}</p>
+                        <p class='title is-5 has-text-centered'> {{job.name}}</p>
                         <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
                         <br>
                     </div>
