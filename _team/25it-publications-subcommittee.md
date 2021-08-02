@@ -9,7 +9,7 @@ one_line:
 ---
 *Description*
 <br>
-It/Publications is the bridge between DataSoc and UNSW students! This means maintaining the DataSoc website, publishing newsletters and
+IT/Publications is the bridge between DataSoc and UNSW students! This means maintaining the DataSoc website, publishing newsletters and
 writing interesting blog posts that illuminate fascinating areas of Data Science.
 <br><br>
 *Subcommittee Members*
