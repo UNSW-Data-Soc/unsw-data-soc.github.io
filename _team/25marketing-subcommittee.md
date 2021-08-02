@@ -1,7 +1,7 @@
 ---
 position: 
 portfolio: Subcommittee
-order: 23
+order: 25
 name: Marketing
 degree: 
 image: marketing.jpg

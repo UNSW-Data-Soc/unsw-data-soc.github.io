@@ -1,7 +1,7 @@
 ---
 position: 
 portfolio: Subcommittee
-order: 24
+order: 23
 name: Education
 degree: 
 image: education.jpg
