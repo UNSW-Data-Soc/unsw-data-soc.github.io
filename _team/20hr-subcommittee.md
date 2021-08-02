@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 20
 name: HR Subcommittee
 degree: 
-image: sideways.jpg
+image: hr.jpg
 one_line:
 ---
 *Description*

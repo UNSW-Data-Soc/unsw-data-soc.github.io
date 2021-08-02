@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 23
 name: Marketing Subcommittee
 degree: 
-image: sideways.jpg
+image: marketing.jpg
 one_line:
 ---
 *Description*

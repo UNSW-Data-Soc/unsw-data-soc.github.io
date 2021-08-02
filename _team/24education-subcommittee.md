@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 24
 name: Education Subcommittee
 degree: 
-image: sideways.jpg
+image: education.jpg
 one_line:
 ---
 *Description*

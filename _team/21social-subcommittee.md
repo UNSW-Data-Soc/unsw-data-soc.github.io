@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 21
 name: Social Subcommittee
 degree: 
-image: sideways.jpg
+image: social.jpg
 one_line:
 ---
 *Description*

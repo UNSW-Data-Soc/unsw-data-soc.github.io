@@ -4,7 +4,7 @@ portfolio: Subcommittee
 order: 25
 name: IT/Publications Subcommittee
 degree: 
-image: sideways.jpg
+image: it_pubs.jpg
 one_line:
 ---
 *Description*
