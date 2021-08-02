@@ -41,35 +41,35 @@ permalink: /about/team/
 							{%assign columns = 4 %}
 						{% endif %}
 					{% for person in portfolio %}
-					{% assign value = forloop.index0 | modulo: columns %}
-					{% if value == 0 %}
-						{% if forloop.index0 != 0 %}
-					</div>
-					{% endif %}
-					<div class="columns">
-						{% if remaining_people == 6 %}
-					<div class="column is-2">
-					</div>
-						{% elsif remaining_people == 2 %}
-					<div class="column is-3">
-					</div>
-						{% elsif remaining_people == 1 %}
-					<div class="column is-4">
-					</div>
-						{% elsif remaining_people == 3 %}
-						<div class="column is-2">
-						</div>
+						{% assign value = forloop.index0 | modulo: columns %}
+						{% if value == 0 %}
+							{% if forloop.index0 != 0 %}
+								</div>
+							{% endif %}
+							<div class="columns">
+							{% if remaining_people == 6 %}
+								<div class="column is-2">
+								</div>
+							{% elsif remaining_people == 2 %}
+								<div class="column is-3">
+								</div>
+							{% elsif remaining_people == 1 %}
+								<div class="column is-4">
+								</div>
+							{% elsif remaining_people == 3 %}
+								<div class="column is-2">
+								</div>
+							{% endif %}
 						{% endif %}
-					{% endif %}
-						<div class="column is-3">
-						{% if person.portfolio == "Subcommittee" %}
-							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who are we?" %}
-						{% else %}
-							{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who am I?" %}
-						{% endif %}
-						</div>
-						{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content one_line=person.one_line %}
-					{% assign remaining_people = remaining_people | minus: 1 %}
+							<div class="column is-3">
+							{% if person.portfolio == "Subcommittee" %}
+								{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who are we?" %}
+							{% else %}
+								{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who am I?" %}
+							{% endif %}
+							</div>
+							{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content one_line=person.one_line %}
+						{% assign remaining_people = remaining_people | minus: 1 %}
 					{% endfor %}
 					</div>
 				</div>
