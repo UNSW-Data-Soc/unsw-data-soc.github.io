@@ -2,7 +2,7 @@
 position: 
 portfolio: Subcommittee
 order: 20
-name: HR Subcommittee
+name: Human Resources
 degree: 
 image: hr.jpg
 one_line:

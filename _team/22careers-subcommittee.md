@@ -2,7 +2,7 @@
 position: 
 portfolio: Subcommittee
 order: 22
-name: Careers Subcommittee
+name: Careers
 degree: 
 image: careers.jpg
 one_line:

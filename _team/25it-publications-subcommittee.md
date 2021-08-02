@@ -2,7 +2,7 @@
 position: 
 portfolio: Subcommittee
 order: 25
-name: IT/Publications Subcommittee
+name: IT/Publications
 degree: 
 image: it_pubs.jpg
 one_line:

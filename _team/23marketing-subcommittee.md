@@ -2,7 +2,7 @@
 position: 
 portfolio: Subcommittee
 order: 23
-name: Marketing Subcommittee
+name: Marketing
 degree: 
 image: marketing.jpg
 one_line:

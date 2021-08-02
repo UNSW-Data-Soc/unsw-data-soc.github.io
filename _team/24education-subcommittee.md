@@ -2,7 +2,7 @@
 position: 
 portfolio: Subcommittee
 order: 24
-name: Education Subcommittee
+name: Education
 degree: 
 image: education.jpg
 one_line:

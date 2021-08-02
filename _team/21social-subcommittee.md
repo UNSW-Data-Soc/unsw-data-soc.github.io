@@ -2,7 +2,7 @@
 position: 
 portfolio: Subcommittee
 order: 21
-name: Social Subcommittee
+name: Social
 degree: 
 image: social.jpg
 one_line:
