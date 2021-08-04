@@ -19,6 +19,6 @@ fast-growing startups.
 * Kento Seki
 * Kevin Wei Zhou
 * Maria Zhang
-* Pengpeng Duan
+* Krystal Duan
 * Saumil Talati
 <br><br>

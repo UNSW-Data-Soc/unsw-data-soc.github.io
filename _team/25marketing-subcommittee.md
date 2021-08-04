@@ -18,5 +18,6 @@ create engaging and memorable content consistent with our brand to suit the even
 * Fiona Liang
 * Philip Zhou
 * Phoebe Loh
-* Viraj Srikar Danthurty
+* Tiarne Lo
+* Srikar Danthurty
 <br><br>
