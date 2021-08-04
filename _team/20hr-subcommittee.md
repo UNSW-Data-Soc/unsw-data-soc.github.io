@@ -19,4 +19,5 @@ to increase the representation of different groups in the Data Science space and
 * Aryaman Singh
 * Quincy Zhou
 * Sophia Chia
+* Usmaan Mohideen
 <br><br>
