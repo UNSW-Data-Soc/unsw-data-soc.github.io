@@ -24,9 +24,11 @@ colour: is-warning
             </div>
             <p>Tags</p>
             {% for tag in site.data.resource_tags %}
+            <div class = "row" >
             <label class="checkbox">
                 <input type="checkbox" class="resource-tag"> {{ tag }}
             </label>
+            </div>
             {% endfor %}
         </div>
         <div class='column is-9'>
