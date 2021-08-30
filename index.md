@@ -9,7 +9,7 @@ title: Welcome to DataSoc
 }
 
 .hero.is-large .hero-body {
-    padding: 17rem 3rem 9rem;
+    padding: 3rem 3rem 9rem;
 }
 
 .level {
@@ -34,12 +34,17 @@ title: Welcome to DataSoc
 
 .sponsor-figure {
     flex: 1 1 30%;
+    max-width: 30%;
     padding: 10px 15px !important;
 
     /* Displaying logo figures */
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.quote-container {
+    margin-bottom: 4rem;
 }
 
 
@@ -71,8 +76,13 @@ title: Welcome to DataSoc
 </div>
 <div class="hero is-medium">
     <div class="hero-body">
-        <div class="columns is-vcentered">
-            <div class="column is-4">
+            <div class="quote-container">
+                <div class="column is-8 is-offset-2 has-text-centered">
+                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>unites students with their passion for data science, machine learning and artificial intelligence.</i></h4>
+                </div>
+            </div>
+        <div class="columns">
+            <div class="column is-6">
                 <div class='box has-text-centered'>
                     <h3 class='title is-2'>Recent Blog Posts</h3>
                     <hr>
@@ -86,14 +96,7 @@ title: Welcome to DataSoc
                     <a href="blog/" class="button button-cta is-bold btn-align secondary-btn raised">All our posts!</a>
                 </div>
             </div>
-            <div class="column is-4 has-text-centered">
-                <div class="columns">
-                    <div class="column is-10 is-offset-1">
-                        <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>unites students with their passion for data science, machine learning and artificial intelligence.</i></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-4">
+            <div class="column is-6">
                 <div class='box has-text-centered'>
                     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
                     {% assign e = site.data.events.Events | sort_natural: "end-date" %}
