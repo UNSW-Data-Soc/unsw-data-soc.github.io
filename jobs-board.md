@@ -42,7 +42,7 @@ colour: is-warning
                     <br>
                     <p class='subtitle is-6 has-text-centered'>Closing Date: {{job.end-date | date:"%B %d, %Y" }}</p>
                     <br>
-                    <div  class = "content">
+                    <div  class = "content" style="text-align: center;">
                         {% if job.description %}
                             <span class="button modal-button" data-target="job-- {{ job.name | replace: ' ', '-' | downcase }}">
                             <p class='subtitle is-6 has-text-centered'>More Information Here!</p>
