@@ -27,6 +27,7 @@ colour: is-warning
             <label class="checkbox">
                 <input type="checkbox" class="resource-tag"> {{ tag }}
             </label>
+            <br>
             {% endfor %}
         </div>
         <div class='column is-9'>
@@ -129,20 +130,19 @@ for (let checkbox of checkboxes) {
 
         // Reset checkboxes if all unticked
         if (no_boxes_checked(checkboxes)) {
-            console.log('hey')
             for (let resource of resources) {
                 resource.style.display = "";
             }
         } else {
 
-            //For each resource card check if tags belong to set of ticked checkboxes
+            // For each resource card check if tags belong to set of ticked checkboxes
             for (let resource of resources) {
-                    let tags = resource.getElementsByClassName('c-footer')[0].innerText;
-                    if (tags_are_checked(checkboxes,tags)) {
-                        resource.style.display = "";
-                    } else {
-                        resource.style.display = "none";
-                    }
+                let tags = resource.getElementsByClassName('c-footer')[0].innerText;
+                if (tags_are_checked(checkboxes,tags)) {
+                    resource.style.display = "";
+                } else {
+                    resource.style.display = "none";
+                }
             }
         }
     }
