@@ -69,7 +69,7 @@ permalink: /about/team/
 								{% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who am I?" %}
 							{% endif %}
 							</div>
-							{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content one_line=person.one_line %}
+
 						{% assign remaining_people = remaining_people | minus: 1 %}
 					{% endfor %}
 					</div>
