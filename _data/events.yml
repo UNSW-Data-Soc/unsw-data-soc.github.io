@@ -1,4 +1,11 @@
 Events:
+ - name: "UNSW DataSoc x UNSW DogSoc Presents: React for a Rescue"
+   img: /assets/images/events/react-for-a-rescue.jpg
+   start-date: 2021-09-04
+   end-date: 2021-09-18
+   description: 🚨 DataSoc and DogSoc are raising money for the RSPCA, and all you have to do is REACT! 🚨 <br> Stretch your paws 🐾 and get ready to smile 😁, because DataSoc x DogSoc’s 2021 ‘React for a Rescue’ Pet Competition is coming! We know it’s been ruff 🤕 staying at home and everyone’s going through a tough pooch, so we’re calling all pets big and small during lockdown, it’s now your time to ✨shine!✨ (For a good cause too!) <br>  
+   location: Online <a href="https://discord.gg/7wC22UzH">(Discord)</a>
+   link: https://www.facebook.com/events/1204099226760085/
  - name: Peer Mentoring 2021
    img: /assets/images/events/peer_mentoring.png
    start-date: 2021-02-08
@@ -201,11 +208,11 @@ Events:
     <br><br>
     [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
    link: https://www.facebook.com/events/443973773601289/
- - name: Intro to SQL
-   start-date: 2021-04-19
-   end-date: 2021-04-19
+ - name: "UNSW DataSoc Presents: No More Queries - A Guide To SQL"
+   img: \assets\images\events\guide-to-sql.jpg
+   start-date: 2021-06-16
+   end-date: 2021-06-16
    location: Online
-   tag: planned
  - name: Starter-thon
    img: \assets\images\events\starter-thon.jpg
    start-date: 2021-04-10
@@ -263,14 +270,66 @@ Events:
     <br><br>
     Register [here](https://forms.gle/wR2qqtMR7uf7Em92A) so you don't miss out!!
    link: https://www.facebook.com/events/785383262409069/
- - name: Telcos & Utilities Panel
-   start-date: 2021-04-12
-   end-date: 2021-04-12
+ - name: "UNSW DataSoc Presents: Into the Dataverse - Telco and Utilities"
+   img: /assets/images/events/telco-and-utils.jpg
+   start-date: 2021-06-08
+   end-date: 2021-06-08
    location: Online
-   tag: planned
-
-
-
+ - name: "UNSW DataSoc x Quantium Presents: Case Closed"
+   img: /assets/images/events/case-closed.jpg
+   start-date: 2021-05-31
+   end-date: 2021-05-31
+   location: online
+ - name: "UNSW DataSoc x EcoSoc Present: Amazing Race - Advance to GO!"
+   img: /assets/images/events/advance-to-go.jpg
+   start-date: 2021-06-12
+   end-date: 2021-06-12
+   location: online
+ - name: "UNSW DataSoc x BINFSOC x BESS Present: Into the Dataverse - Healthcare Deepdive"
+   img: /assets/images/events/healthcare-deep-dive.jpg
+   start-date: 2021-06-22
+   end-date: 2021-06-22
+   location: online
+ - name: "UNSW DataSoc x FinTech Soc Present: Data Cleaning in Python"
+   img: /assets/images/events/data-cleaning-python.jpg
+   start-date: 2021-06-24
+   end-date:  2021-06-24
+   location: online
+ - name: "UNSW DataSoc Presents: Hoodies 2021"
+   img: /assets/images/events/hoodies.jpg
+   start-date: 2021-06-30
+   end-date: 2021-07-10
+   location: online
+ - name: "UNSW DataSoc Presents: Into the Dataverse - Banks & Financial Services"
+   img: /assets/images/events/banks-and-financial.jpg
+   start-date: 2021-07-13
+   end-date: 2021-07-13
+   location: online
+ - name: "UNSW DataSoc Presents: Beginner’s Guide To Exploratory Data Analysis"
+   img: /assets/images/events/exploratory-data-analysis.jpg
+   start-date: 2021-07-15
+   end-date: 2021-07-15
+   location: online
+ - name: "Tableau & UNSW FinTechSoc x DataSoc x TAS Present: Data Cleaning & Vis Workshops in Excel & Tableau"
+   img: /assets/images/events/data-cleaning-and-visualisation-workshop.jpg
+   start-date: 2021-07-16
+   end-date: 2021-07-23
+   location: online
+ - name: "UNSW DataSoc Presents: Virtual Escape Room - Escaping the Matrix"
+   img: /assets/images/events/escaping-the-matrix.jpg
+   start-date: 2021-07-21
+   end-date: 2021-07-21
+   location: online  
+ - name: "Relevance AI x UNSW DataSoc Present: From ML to Millions - A Startup Success"
+   img: /assets/images/events/from-ml-to-mil-a-startup-success.jpg
+   start-date: 2021-07-27
+   end-date: 2021-07-27
+   location: online  
+ - name: "UNSW DataSoc Presents: DATA1001 Revision - Key to Better Decisions"
+   img: /assets/images/events/key-to-better-decisions.jpg
+   start-date: 2021-08-08
+   end-date: 2021-08-08
+   location: online  
 
 
 
