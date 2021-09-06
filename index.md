@@ -60,8 +60,8 @@ title: Welcome to DataSoc
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; background-size: 100vw auto; overflowy: hidden">
-    <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; background-size: 100vw auto; overflowy: hidden;">
+    <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="columns is-vcentered">
                 <div class="column is-offset-0 is-hero-title ">
@@ -153,15 +153,15 @@ title: Welcome to DataSoc
         </div>
     </div>
 </div>
-<div class="hero is-bold is-medium" style="background: linear-gradient(27deg, rgba(235,226,147,1) 0%, rgba(226,182,131,1) 20%, rgba(230,154,154,1) 40%, rgba(207,162,255,1) 70%, rgba(110,204,252,1) 100%)">
-    <div class="hero-body" style="background:rgba(0,0,0,0.1);">
+<div class="hero is-bold is-medium">
+    <div class="hero-body" style="background: linear-gradient(27deg, rgba(12, 107, 147, 1) 0%, rgba(43, 184, 244, 1) 100%, rgba(159, 98, 162, 0.3) 25%, rgba(228, 91, 235, 0.3) 50%, rgba(250, 90, 103, 0.3) 75%, rgba(233, 109, 56, 0.3) 100%); box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
-            <div class="level" styles="display: flex">
+            <div class="level" styles="display: flex;">
                 <div class="column is-6 is-hero-title" id="contact-container">
                     <h2 class="subtitle is-4 has-text-white">Curated content, straight to your mailbox.</h2>
                     <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Subscribe to our newsletter</a>
                     <br><br>
-                    <h2 class="subtitle is-4 has-text-white">Or get in touch with us <a href="/contact/">here</a>.</h2>
+                    <h2 class="subtitle is-4 has-text-white">Or get in touch with us <a style="color: white; text-decoration: underline;" href="/contact/">here</a>.</h2>
                 </div>
             </div>
         </div>
@@ -169,7 +169,7 @@ title: Welcome to DataSoc
 </div>
 
 <div class="hero is-medium">
-    <div class="hero-body" style=" background:rgba(240, 240, 240, 1)">
+    <div class="hero-body" style="background:rgba(240, 240, 240, 1)">
         <div class="container">
             <div class="columns">
                 <div class="column is-8 is-offset-2">
@@ -209,12 +209,12 @@ title: Welcome to DataSoc
     </div>
 </div>
 
-<div class="hero is-bold is-medium" style="background: linear-gradient(27deg, rgba(235,226,147,1) 0%, rgba(226,182,131,1) 20%, rgba(230,154,154,1) 40%, rgba(207,162,255,1) 70%, rgba(110,204,252,1) 100%)">
-    <div class="hero-body" style="background:rgba(0,0,0,0.1);">
+<div class="hero is-bold is-medium">
+    <div class="hero-body">
         <div class="container">
             <div class="level">
                 <div class="column" id="sponsors-container">
-                    <h2 class="subtitle is-4 has-text-white">Proudly sponsored by:</h2>
+                    <h2 class="subtitle is-4">Proudly sponsored by:</h2>
                     <div class="columns is-gapless sponsor-figure-container">
                         {% for tier in site.data.sponsors %}
                             {% for sponsor in tier[1] %}
@@ -231,3 +231,6 @@ title: Welcome to DataSoc
         </div>
     </div>
 </div>
+
+<!-- Background gradient -->
+<!-- background: linear-gradient(27deg, rgba(73, 193, 245, 0.3) 0%, rgba(159, 98, 162, 0.3) 25%, rgba(228, 91, 235, 0.3) 50%, rgba(250, 90, 103, 0.3) 75%, rgba(233, 109, 56, 0.3) 100%); -->
