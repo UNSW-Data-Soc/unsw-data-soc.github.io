@@ -14,20 +14,27 @@ subtitle: |
 ---
 
 <style>
+
+img {
+    width:  200px;
+    height: 100px;
+    object-fit: scale-down;
+}
+
 .sponsor-figure-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    display: grid;
+    /** flex-flow: row wrap;
+    justify-content: space-around;**/
 }
 
 .sponsor-figure {
-    flex: 0 1 28%;
+    /**flex: 0 1 28%;*//
     padding: 1.25rem 0.625rem;
 
     /* Displaying logo figures */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    /**flex-direction: column;
+    justify-content: center;**/
 }
 
 .sponsor_info {
@@ -46,13 +53,13 @@ subtitle: |
                 {% for sponsor in tier[1] %}
                     <div class="column sponsor-figure">
                         <div class="sponsor_icon">
-                            <a href="{{ sponsor.link }}">
+                            <a href="{{ sponsor.link }}" target="_blank">
                                 <img src="{{ sponsor.icon }}">
                             </a>
                         </div>
-                        <div class="sponsor_info">
+                        <!-- <div class="sponsor_info">
                             {{ sponsor.description | newline_to_br}}
-                        </div>
+                        </div> -->
                     </div>
                 {% endfor %}
             </div>
