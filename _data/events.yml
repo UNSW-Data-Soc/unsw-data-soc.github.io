@@ -1,4 +1,11 @@
 Events:
+ - name: "UNSW DataSoc x UNSW DogSoc Presents: React for a Rescue"
+   img: /assets/images/events/react-for-a-rescue.jpg
+   start-date: 2021-09-04
+   end-date: 2021-09-18
+   description: 🚨 DataSoc and DogSoc are raising money for the RSPCA, and all you have to do is REACT! 🚨 <br> Stretch your paws 🐾 and get ready to smile 😁, because DataSoc x DogSoc’s 2021 ‘React for a Rescue’ Pet Competition is coming! We know it’s been ruff 🤕 staying at home and everyone’s going through a tough pooch, so we’re calling all pets big and small during lockdown, it’s now your time to ✨shine!✨ (For a good cause too!) <br>  
+   location: Online <a href="https://discord.gg/7wC22UzH">(Discord)</a>
+   link: https://www.facebook.com/events/1204099226760085/
  - name: Peer Mentoring 2021
    img: /assets/images/events/peer_mentoring.png
    start-date: 2021-02-08
@@ -201,6 +208,11 @@ Events:
     <br><br>
     [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
    link: https://www.facebook.com/events/443973773601289/
+ - name: "UNSW DataSoc Presents: No More Queries - A Guide To SQL"
+   img: \assets\images\events\guide-to-sql.jpg
+   start-date: 2021-06-16
+   end-date: 2021-06-16
+   location: Online
  - name: Starter-thon
    img: \assets\images\events\starter-thon.jpg
    start-date: 2021-04-10
@@ -634,8 +646,6 @@ Events:
 
 
 
-
-
 # === Template ===
 #  - name: 
 #    img: 
@@ -645,7 +655,6 @@ Events:
 #    time: 
 #    description: 
 #    link: 
-
 
 
 
