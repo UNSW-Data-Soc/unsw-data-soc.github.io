@@ -279,66 +279,393 @@ Events:
     <br><br>
     Register [here](https://forms.gle/wR2qqtMR7uf7Em92A) so you don't miss out!!
    link: https://www.facebook.com/events/785383262409069/
- - name: "UNSW DataSoc Presents: Into the Dataverse - Telco and Utilities"
-   img: /assets/images/events/telco-and-utils.jpg
+ - name: Into the Dataverse - Telco and Utilities
+   img: \assets\images\events\telco-and-utilities.jpg
    start-date: 2021-06-08
    end-date: 2021-06-08
+   time: 4:30pm - 6:00pm
+   description: "
+   Welcome to the first edition with the Telecommunications and Utilities Industry for our Into the Data-verse Series, which will feature specialised introductions ✅ to a wide range of different corporate environments and how data plays a role in their specific industries.
+   <br><br>
+   Learn about:
+   <br>
+   …how Telstra remains the fastest broadband networks in Australia 🏃‍♂️
+   <br>
+   …how AGL and Aemo harness the power of data science to keep our lights on 💡
+   <br>
+   … how data science is changing the industry?
+   <br>
+   … what steps you can take to land a role?
+   <br>
+   … all this AND MORE!!
+   <br><br>
+   With some brilliant representatives 👩‍💼, an open panel for you to ask questions❓and two rounds of networking 🗣️, this is the PERFECT opportunity to dive deeper into the unique world of telecommunications and utilities.
+   <br><br>
+   Fill out the registration, book your spot for this event and FOLLOW our page for more in our series.
+   <br><br>
+   As this is an ongoing series, feel free to drop some suggestions for future industries that you’d like to see!
+   <br><br>
+   [Register Here!](https://forms.gle/L1mmMQpM6kDuMuSq6)"
    location: Online
- - name: "UNSW DataSoc x Quantium Presents: Case Closed"
-   img: /assets/images/events/case-closed.jpg
-   start-date: 2021-05-31
-   end-date: 2021-05-31
-   location: online
- - name: "UNSW DataSoc x EcoSoc Present: Amazing Race - Advance to GO!"
-   img: /assets/images/events/advance-to-go.jpg
-   start-date: 2021-06-12
-   end-date: 2021-06-12
-   location: online
- - name: "UNSW DataSoc x BINFSOC x BESS Present: Into the Dataverse - Healthcare Deepdive"
-   img: /assets/images/events/healthcare-deep-dive.jpg
+   link: https://www.facebook.com/events/160312812728870/
+ - name: Beginner’s Guide To Exploratory Data Analysis
+   img: /assets/images/events/exploratory_data_analysis.jpeg
+   start-date: 2021-07-16
+   end-date: 2021-07-16
+   time: 11am - 12pm
+   location: Online
+   description: "
+    Beginner data enthusiasts everywhere 👩‍💻👨‍💻 this is what you've been missing out on!
+    <br>
+    In ONE HOUR ⌚️, you'll be able to understand the basics of exploratory data analysis (EDA) 📊📈
+    <br><br>
+    📌 What is exploratory data analysis?
+    <br><br>
+    Exploratory data analysis (EDA) is the blueprint to data analysis in all data science projects. EDA provides a better understanding of the dataset's variables and their relationships, therefore being the steppingstone for you to analyse data more efficiently and correctly! Learn how to transform the most tedious step before your data analysis process into one that is fast, compelling, and fun! 🤩
+    <br><br>
+    📌 Should YOU participate in this workshop?
+    <br><br>
+    Whether you're just a beginner interested in data analytics or someone with more experience, learning the fundamentals of EDA is for anyone! So don't be afraid to ask questions and make this workshop the most fulfilling for you 🤓
+    <br><br>
+    [Register Here!](https://forms.gle/yf4XoQ5rvFGG5aKE6)
+   "
+   link: https://www.facebook.com/events/999684667434321
+ - name: DataSoc's End of T1 Beach BBQ
+   img: \assets\images\events\end-of-term-bbq.jpg
+   start-date: 2021-05-16
+   end-date: 2021-05-16
+   location: Coogee Beach
+   time: 11am - 2pm
+   description: 
+    ❗ARE YOU:❗
+    <br><br>
+    ✅ Keen for an opportunity to meet 🤝amazing people 👫👭👬 and become THE biggest bnoc? 😩😩
+    <br><br>
+    ✅ A UNSW student ready 🥳 to have a good time 🕚 and chomp on some good food? 🌭
+    <br><br>
+    ✅ Searching 👀 for a social event 🕺to end 🙅‍♀️🙅‍♂️ T1 in the best way possible?
+    <br><br>
+    Then look no further! 
+    <br><br>
+    If you answered "YES" to any of the above questions...
+    <br><br>
+    You've been invited to come to the ✨ DataSoc End of Term Event ✨ !!
+    <br><br>
+    We hope to see you all there 🥰
+    <br><br>
+    [Register here!](https://forms.gle/S3VuLzanL426BfPW6)
+   link: https://www.facebook.com/events/231241818799325
+ - name: Case Closed
+   img: /assets/images/events/quantium_panel_session.png
+   time: 5:30pm - 7:30pm
+   start-date: 2021-06-01
+   end-date: 2021-06-01
+   link: https://www.facebook.com/events/242448144342652
+   description: "
+    Do YOU want to work for one the biggest data science firms in the business 😯? Gain some top secret information 🕵️ so you can get that elusive advantage?
+    <br><br>
+    Come join as Quantium delivers an insightful crash course of their selection process AND an interactive walkthrough of their unique case study recruitment process! 
+    <br><br>
+    Not only that - you will also get to improve your data and detective skills 🔐 with a hand picked CASE STUDY that will get your detective brain gears turning. ⚙️
+    <br><br>
+    So what top secret info will you get ?
+    <br><br>
+    • The inside scoop on Quantium’s interview process so you can get that 💰
+    <br><br>
+    • Personalised feedback from Quantium reps 
+    <br><br>
+    • Opportunities to connect and build your professional network 
+    <br><br>
+    ... And a lot more!
+    <br><br>
+    So why is an amazing case closer like you waiting? DO NOT LET THIS CASE REMAIN UNSOLVED 🗂️📁!
+    <br><br>
+    [Register here!](https://forms.gle/3ZitxG6MgBhPqXxw7)"
+   location: UNSW
+ - name: Industry Mentoring
+   img: /assets/images/events/industry-mentoring.jpeg
+   start-date: 2021-06-31
+   end-date: 2021-08-31
+   location: Online
+   description: '
+    OUR PROGRAM:
+    <br><br>
+    ✅  Will match you to your ideal mentor based on your degree and career preferences
+    <br><br>
+    ✅  Introduces you to experienced mentors from a myriad of industry giants including Atlassian, Canva, Macquarie Bank and EY
+    <br><br>
+    ✅  Incorporates weekly one-on-ones with your mentor, skill building workshops and cocktail parties to help you facilitate and develop professional connections
+    <br><br>
+    APPLICATION PROCESS:
+    <br>
+    1. Fill in the registration form by Wednesday 26th May.
+    <br>
+    2. Short interviews will be held on a rolling basis.
+    <br><br>
+    Our industry mentoring program is a sure fire way to jumpstart your professional development and network your way to success, don’t miss out!
+    <br><br>
+    *Registrations have closed*'
+   link: https://www.facebook.com/events/1404358259922359
+ - name: Advance to GO
+   img: \assets\images\events\Advance to GO.png
+   start-date: 2021-06-13
+   end-date: 2021-06-13
+   time: 1pm - 4pm
+   description: '
+   Never won a game of monopoly? 🎲😤
+   <br><br>
+   Fear not! Come along to DataSoc X EcoSoc’s 🏎 Advance to GO 🏎 event and be the first to reach the finish line 🏁!
+   <br><br>
+   In a race of intellect 🧠 and speed 🏃‍♂️ , advance with your team by completing numerous fun and challenging activities scattered around the city and be prepared to fight for those property cards! 🚨💰🏨
+   <br><br>
+   ❓ How does it work? ❓
+   <br>
+   Sign up either individually or in a team of 3 or 4 to complete multiple physical and non-physical challenges scattered around the city. Be the first team to reach the finish line to win a price!
+   <br><br>
+   🏆 Prizes 🏆
+   <br>
+   TBD - but keep your eyes 👀 peeled!
+   <br><br>
+   Gather your team, pick your pieces wisely, take a CHANCE and advance to go!
+   <br><br>
+   Places are limited so sign up quick!!
+   <br><br>
+   [Register here!](https://forms.gle/zxX3DGa3zev2XY828)'
+   location: City Hyde Park
+   link: https://www.facebook.com/events/1324681851267937
+ - name: No more Queries - A Guide to SQL
+   start-date: 2021-06-17
+   end-date: 2021-06-17
+   time: 11am - 12:30pm
+   location: UNSW and Online
+   link: https://www.facebook.com/events/289754699459986
+   img: \assets\images\events\sql-workshop.jpg
+   description: "Kickoff T2 with Datasoc’s SQL workshop! Whether you are new to coding or an experienced database enthusiast, come along to develop your programming skills 👩‍💻 and gain valuable knowledge 🧠 about the most 📈widely-implemented📈 database language in the world!
+   <br><br>
+   What is SQL❓
+   <br><br>
+   If your problem has anything to do with data then SQL is for you! SQL is a programming language widely used across all industries🏢 when it comes to managing data or searching for specific features in a database📊.
+   <br><br>
+   Our workshop will walk you through:
+   <br>
+   ✅ Database structures
+   <br>
+   ✅ Traversing a database
+   <br>
+   ✅ Filtering data
+   <br>
+   ✅ And more!
+   <br><br>
+   [Register here!](https://forms.gle/DEUUgf5bzyUoLHMj9)"
+ - name: Into the Dataverse - Healthcare Deepdive
    start-date: 2021-06-22
    end-date: 2021-06-22
-   location: online
- - name: "UNSW DataSoc x FinTech Soc Present: Data Cleaning in Python"
-   img: /assets/images/events/data-cleaning-python.jpg
+   time: 5:30pm - 7:00pm
+   location: Online
+   link: https://fb.me/e/4fEiMhpTT
+   img: \assets\images\events\healthcare_deepdive.jpg
+   description: "
+   *In partnership with BINFSOC and BESS...*
+   <br><br>
+   🚑 We’ve hit the next stop on our series Into the Dataverse with Healthcare 🚑.
+    <br><br>
+    First time here? The Into the Dataverse Series will feature specialised introductions to a wide range of different corporate environments and how data plays a role in their specific industries. So buckle up and let’s jump right in because we’ve got the best medicine 💊 to sort your career doubts!
+    <br><br>
+    Learn about:
+    <br>
+    - The Age of Covid and developments in Data and Bioinformatics
+    <br>
+    - How GE Health has adapted to new and emerging technologies?
+    <br>
+    - Where to next for cancer research?
+    <br>
+    - and MORE!!!
+    <br><br>
+    With some brilliant representatives 👩‍🏫, an open panel for you to ask questions ❓ and two rounds of networking 🗣, this is the PERFECT opportunity to deepdive into the unique world of healthcare!
+   <br><br>
+   [Register here!](https://forms.gle/4CPHrTvRrWXvRvnY7)"
+ - name: Data Cleaning in Python
    start-date: 2021-06-24
-   end-date:  2021-06-24
-   location: online
- - name: "UNSW DataSoc Presents: Hoodies 2021"
-   img: /assets/images/events/hoodies.jpg
-   start-date: 2021-06-30
-   end-date: 2021-07-10
-   location: online
- - name: "UNSW DataSoc Presents: Into the Dataverse - Banks & Financial Services"
-   img: /assets/images/events/banks-and-financial.jpg
-   start-date: 2021-07-13
-   end-date: 2021-07-13
-   location: online
- - name: "UNSW DataSoc Presents: Beginner’s Guide To Exploratory Data Analysis"
-   img: /assets/images/events/exploratory-data-analysis.jpg
-   start-date: 2021-07-15
-   end-date: 2021-07-15
-   location: online
- - name: "Tableau & UNSW FinTechSoc x DataSoc x TAS Present: Data Cleaning & Vis Workshops in Excel & Tableau"
-   img: /assets/images/events/data-cleaning-and-visualisation-workshop.jpg
+   end-date: 2021-06-24
+   time: 11am - 12pm
+   location: UNSW and Online
+   link: https://fb.me/e/29AgG6CXf
+   img: \assets\images\events\data-cleaning-python.jpg
+   description: "
+    *In partnership with FinTech Soc...*
+    <br><br>
+    Data cleaning is the steps taken to prepare data for analysis. 📊 It involves the process of detecting 🔍 and modifying 👩‍💻 corrupt or inaccurate records in datasets.
+    <br><br>
+    In this workshop you'll learn 🐍 python 🐍 data cleaning skills for:
+    <br>
+    ✅ Removing or modifying incomplete data
+    <br>
+    ✅ Finding solutions to missing data
+    <br>
+    ✅ Correcting improperly formatted data
+    <br>
+    ✅ Dealing with inconsistent data
+    <br>
+    And much more!
+    <br><br>
+    ​The best part is that you'll learn all this in ONE HOUR! 🤯🤯🤯
+    <br><br>
+   [Register here!](https://forms.gle/FfMsxCNuwqVaEnWG8)"
+ - name: DATA1001 Revision - Key to Better Decisions
+   img: /assets/images/events/data1001_revision.jpeg
+   start-date: 2021-08-09
+   end-date: 2021-08-09
+   time: 2 - 4pm
+   location: Online (Zoom)
+   description: "
+    What is statistics ∪ computer science ∪ business? 🤔 The DATA1001 workshop of course! 🤩
+    <br><br>
+    Don’t remember what’s the difference between ∪ and ∩? Think that binary trees and bloom filters are to do with plants? 🌱
+    <br><br>
+    Well in the DATA1001 workshop there will be no flowery 🌷 language, just explanations that will get straight to the point summarising week 1 to 10 content 📈
+    <br><br>
+    Join the 2 hour workshop that's coming up! Whether you're struggling to wrap your head around a concept 🤯 or in need of a quick recap with plenty of problem examples and straightforward demonstrations 📊. Say bye to confusion and hello to solutions 👋
+    <br><br>
+    [Register Here!](https://forms.gle/eR5s6iNY6UiDiiSd9)
+   "
+   link: https://www.facebook.com/events/320297019835205/
+ - name: Data Cleaning & Visualisation Workshops
+   img: /assets/images/events/data_cleaning_and_visualisation.jpeg
    start-date: 2021-07-16
    end-date: 2021-07-23
-   location: online
- - name: "UNSW DataSoc Presents: Virtual Escape Room - Escaping the Matrix"
-   img: /assets/images/events/escaping-the-matrix.jpg
+   time: 7 - 8pm
+   location: Online <a href="https://unsw.zoom.us/j/5820705382">(Zoom)</a>
+   description: "
+    In just one hour, learn useful skills in Data Cleaning in our FIRST workshop and then build on your skills in our SECOND workshop by visualising and analysing your data in Excel and Tableau!! 🤩🤩🤩
+    <br><br>
+    In WORKSHOP ONE you’ll learn: 🤓
+    <br>
+    ✅Understand how Tableau interprets a new dataset
+    <br>
+    ✅How to prepare data for analysis in Tableau - using Excel and Tableau Desktop
+    <br>
+    ✅Understand and execute unions, joins and pivoting columns to rows
+    <br><br>
+    In WORKSHOP TWO you’ll learn: 🧐
+    <br>
+    ✅Build charts, dashboards and a story using Tableau
+    <br>
+    ✅Learn dataviz design tips for effective visual communication and storytelling
+    <br>
+    ✅Work on a real-world dataset and create a project you can share online
+    <br><br>
+    NOTE – THIS EVENT IS TWO SEPARATE WORKSHOPS HELD ON TWO SEPARATE DAYS!!
+    <br><br>
+   [Register here!](https://forms.gle/EwGndauAnVHWLREc6)
+   "
+   link: https://www.facebook.com/events/1230273464092887
+ - name: Intro the Dataverse - Banks & Financial Services
+   img: /assets/images/events/banks_and_financial_services.jpeg
+   start-date: 2021-07-13
+   end-date: 2021-07-13
+   time: 5:30 - 7pm
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
+   description: "
+    You've just swiped your card for another purchase you definitely did not need... your bank account is crying right now 👀😭
+    <br><br>
+    Westpac and Mastercard - we use these on an everyday basis, but have you ever wondered how they harness the power of data science to operate? 😨 What's it like to work for any of them? 😱
+    <br><br>
+    Let us put your mind at ease, as you’ll be hearing ALL ABOUT THEM in the 💸 💳 💵 Banks & Financial Services Panel 💵 💳 💸, our THIRD INSTALLMENT OF Into the Dataverse 🚀
+    <br><br>
+    This time, we’re speaking to ⚡️ high-powered ⚡️ professionals managing 📈 high-stakes data 📈… Come and discover how it all works ‼️
+    <br><br>
+    INCLUDING:
+    <br><br>
+    ✅ An enlightening panel discussion centered around your 🔥burning🔥questions about data science careers in finance 💸 and banking 💳
+    <br><br>
+    ✅ An❗️EXCLUSIVE ❗️chance to NETWORK with these professionals and hear all about their experiences, advice, and insights
+    <br><br>
+    ✅ A Surprise Entry… 🥳🥳
+    <br><br>
+    [Register Here!](https://forms.gle/Jo4cYWbvtjVR3UeQ6)
+   "
+   link: https://www.facebook.com/events/509001980348534
+ - name: Commbank Connect
+   img: /assets/images/events/commbank_connect.png
+   start-date: 2021-06-24
+   end-date: 2021-07-15
+   description: "
+   Did you know CommBank was rated #4 in the 2021 LinkedIn Top Companies list?
+   <br><br>
+   We’re looking for the brightest minds to join us across every degree. Find out more at CommBank Connect. Expressions of Interest are essential.
+   <br><br>
+   "
+   link: https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view
+ - name: Atlassian Datathon
+   start-date: 2021-09-25
+   end-date: 2021-09-25
+   time: 12pm-5pm
+   location: Online
+ - name: Virtual Escape Room - Escaping the Matrix
+   img: /assets/images/events/escaping_the_matrix.jpeg
    start-date: 2021-07-21
    end-date: 2021-07-21
-   location: online  
- - name: "Relevance AI x UNSW DataSoc Present: From ML to Millions - A Startup Success"
-   img: /assets/images/events/from-ml-to-mil-a-startup-success.jpg
+   time: 8 - 9:30pm
+   location: Online
+   description: "
+    Have you ever had a dream 😴 that you were so sure was real? What if you couldn't wake up 👀?
+    <br>
+    How would you know the difference between imagination and reality❓
+    <br>
+    A glitch in the matrix is all it takes to unmask that hidden world 🎭
+    <br><br>
+    DataSoc proudly presents… Escaping the Matrix❗
+    <br><br>
+    Join us individually or in teams on a bullet-dodging escapade filled with mind-boggling puzzles🧩 and challenges, whilst competing against others!
+    <br>
+    It is up to you and your team to be the first to destroy the simulation before the Agents catch you👮‍♂️...
+    <br>
+    So red pill or blue pill💊? Blissful ignorance 🤷‍♀️ or face reality😨😨? It is up to you to decide.
+    <br><br>
+    [Register Here!](https://forms.gle/79MVxsEFFhFZtt4j9)
+   "
+   link: https://www.facebook.com/events/241627334200548
+ - name: Relevance AI - A Startup Success
+   img: /assets/images/events/relevance-ai-startup-success.jpg
    start-date: 2021-07-27
    end-date: 2021-07-27
-   location: online  
- - name: "UNSW DataSoc Presents: DATA1001 Revision - Key to Better Decisions"
-   img: /assets/images/events/key-to-better-decisions.jpg
-   start-date: 2021-08-08
-   end-date: 2021-08-08
-   location: online  
+   time: 5:00 - 6:30pm
+   location: Online
+   description: "
+    From finding investors to funding his ideas, to recruiting former Facebook, WooliesX and Atlassian employees who truly believed in them, co-founders Jacky Koh and Daniel Vassilev will be sharing their startup story 🤩.
+    <br>
+    So come along and find out about:
+    <br>
+    - How they created a revolutionary product 🤓
+    <br>
+    - How they raised millions for Relevance AI during COVID 📈
+    <br>
+    - An investor’s perspective into funding startups
+    <br>
+    ...and any other burning questions you might have about startups!
+    <br>
+    Maybe you also have your own enticing ideas and wonder if you’ll be able to make them come true? 💡
+    <br><br>
+    [Register Here!](https://forms.gle/W62mRgeHAsyYS7Wq5)
+   "
+   link: https://fb.me/e/1wHKwffhq
+
+
+
+
+
+
+# === Template ===
+#  - name: 
+#    img: 
+#    start-date: 
+#    end-date: 
+#    location: 
+#    time: 
+#    description: 
+#    link: 
+
+
 
 
 
@@ -389,7 +716,7 @@ Events:
    location: Online
    link: https://www.facebook.com/events/522823225235534/
  - name: Intro to AI with Quantium
-   img: /assets/images/events/2020/intro_to_AI.jpg 
+   img: /assets/images/events/2020/Intro_to_AI.jpg 
    start-date: 2020-10-13
    end-date: 2020-10-13
    time: 4pm-6pm

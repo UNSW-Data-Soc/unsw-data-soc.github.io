@@ -1,19 +1,9 @@
 ---
-layout: default
+layout: landing-banner
+title: Resources
+subtitle: From workshop slides to python guides
+colour: is-warning
 ---
-<section class="hero is-primary" style='background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Resources
-      </h1>
-      <h2 class="subtitle">
-        From workshop slides to python guides
-      </h2>
-    </div>
-  </div>
-</section>
 
 <br><br>
 <div class="content">
@@ -46,13 +36,14 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);'>
                     <div class='card'>
                         <div class='card-content'>
                             <p class='title is-5'>{{ resource.title }}</p>
+                            <p class='subtitle is-6'>{{ resource.date }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
                             </div>
                             <!--resources button-->
                             {% if resource.resources %}
                                 <a href="{{ resource.resources }}" target="_blank">
-                                <button  class="button is-info" style='background-color: #5e9bfe;'>
+                                <button  class="button is-info">
                                     <span>View Resources</span>
                                 </button></a>
                             {% else %}

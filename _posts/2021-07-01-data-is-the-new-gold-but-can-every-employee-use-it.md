@@ -19,10 +19,6 @@ The new ‘gold rush’ towards a [data-driven](https://www.cio.com/article/3449
   
 >Data literacy has become important, for almost everyone. Companies need more people with the ability to interpret data, to draw insights, and to ask the right questions in the first place.
 >[(Harvard Business Review)](https://hbr.org/2020/02/boost-your-teams-data-literacy)
-    
-
-The new ‘gold rush’ towards a [data-driven](https://www.cio.com/article/3449117/what-exactly-is-a-data-driven-organization.html) culture that promotes capitalising leading-edge insights from data has become ever prominent by organisations seeking to gain a competitive advantage in the dynamic business environment. With this, reveals an emerging need for employees across the organisation, not just in data science teams, to be data literate.
-
   
  
 ## What is data literacy?
