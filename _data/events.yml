@@ -1,4 +1,13 @@
 Events:
+ - name: "UNSW DataSoc Presents: Atlassian Datathon"
+   img: /assets/images/events/atlassian_datathon.jpg
+   start-date: 2021-09-19
+   end-date: 2021-09-25
+   description: Ever wondered what it takes to solve a challenging, real-world problem with the power of data? 🤔 <br>
+    Well look no further and immerse yourself in DataSoc x Atlassian’s annual datathon for 2021! 🤩 <br><br>
+    Capture your potential by putting your analytical 📈 and coding skills 🖥 to the test, and work alongside industry mentors to gain valuable, hands-on experience coveted by many hiring companies.
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
+   link: https://www.facebook.com/events/217071130480380
  - name: "UNSW DataSoc x UNSW DogSoc Presents: React for a Rescue"
    img: /assets/images/events/react-for-a-rescue.jpg
    start-date: 2021-09-04
