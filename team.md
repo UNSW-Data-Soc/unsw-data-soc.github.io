@@ -6,7 +6,18 @@ colour: is-info
 title-image: city2_left.png
 permalink: /about/team/
 ---
+<style>
+	.card{
+		min-height: 100%;
+		display:flex;
+  		flex-direction:column;
+	}
 
+	.card-image{
+		display:flex;
+		flex-grow:2;
+	}
+</style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body">
 	{% assign portfolios = "Executives, External, Internal, Subcommittee" | split: ", " %}
