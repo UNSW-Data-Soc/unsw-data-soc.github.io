@@ -41,7 +41,7 @@ details[open] summary {
         <div class="container">
             <div class="column has-text-centered is-hero-title">
                 <h2 class="subtitle is-4 has-text-white">DataSoc x Atlassian Presents:</h2>
-                <h1 class="title is-1 is-bigger has-text-white">Datathon 2020</h1> 
+                <h1 class="title is-1 is-bigger has-text-white">Datathon 2021</h1> 
             </div>
             <p class="subtitle has-text-white has-text-centered">
                 Saturday October 3 &mdash; Sunday October 4
@@ -191,7 +191,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 <div class="container">
     <div class="columns is-centered">
         <div class="column is-three-quarters has-text-centered">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesHqAO5sf5tOnTXnKjGKLG7GxCSlGtoNDRu0X30l63n2PuMA/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://forms.gle/J5jJQ6fcQNwzZcRH6" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
     </div>
 </div>
@@ -240,7 +240,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         Can I enter alone/less than a full team?
                     </summary>     
                         <p>
-                        Teams are up to 4 people - you can register with a pre-made team of up to 4, or register as an individual and be placed into a team.
+                        Teams are up to 4 people with a minimum of 2 female members.
                         </p>
                     </details>
                     <details>
@@ -248,7 +248,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         When will regos close?
                     </summary>     
                         <p>
-                        Registrations close when we reach capacity, or at latest by Friday 27th September
+                        Registrations close when we reach capacity, or at latest by Friday 17th September.
                         </p>
                     </details>
                     <details>
@@ -289,7 +289,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                        Where can I find out more info about the event?
                     </summary>     
                         <p>
-                        For regular updates, make sure to click "Going" on the <a href="https://www.facebook.com/events/2691426797791998">Facebook Event</a> and follow us on our socials!
+                        For regular updates, make sure to click "Going" on the <a href="https://www.facebook.com/events/217071130480380">Facebook Event</a> and follow us on our socials!
                         </p>
                     </details>
                     <details>
