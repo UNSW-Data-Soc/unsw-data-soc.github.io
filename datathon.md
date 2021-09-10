@@ -41,10 +41,10 @@ details[open] summary {
         <div class="container">
             <div class="column has-text-centered is-hero-title">
                 <h2 class="subtitle is-4 has-text-white">DataSoc x Atlassian Presents:</h2>
-                <h1 class="title is-1 is-bigger has-text-white">Datathon 2021</h1> 
+                <h1 class="title is-1 is-bigger has-text-white">World Cup</h1> 
             </div>
             <p class="subtitle has-text-white has-text-centered">
-                Saturday October 3 &mdash; Sunday October 4
+                Monday September 20 &mdash; Saturday September 25
                 <br>
                 Zoom and Slack
             </p>
@@ -59,14 +59,14 @@ details[open] summary {
             <div class="column is-three-quarters has-text-centered">
                 <h3 class="subtitle is-4">
                     <br>
-                    If you are looking to put your analytical and coding skills into practice, DataSoc is proud to present you our annual Datathon for 2020!
-                    <br><br>This year, DataSoc has partnered up with Atlassian, and together we present to you an opportunity to experience what it is like to use the power of data to solve real-world problems while working alongside industry mentors from Atlassian, BCG, Accenture, Deloitte, EY, KPMG, Westpac, and UNSW data experts. 
+                    If you are looking to put your analytical and coding skills into practice, DataSoc is proud to present you our annual Datathon for 2021!
+                    <br><br>This year, DataSoc has again partnered up with Atlassian, and together we present to you an opportunity to experience what it is like to use the power of data to solve real-world problems while working alongside industry mentors from Atlassian, BCG, Accenture, Deloitte, EY, KPMG, Westpac, and UNSW data experts. 
                     <br><br>
-                    <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/2691426797791998/?active_tab=discussion">Follow the Event on Facebook!</a>
+                    <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/217071130480380">Follow the Event on Facebook!</a>
                     <br><br>
-                    You and your team will be given a real-world problem which you will have 24 hours to work on a presentation-ready solution to pitch your ideas to the judges.
+                    You and your team will be given a real-world problem which you will have 5 days to work on a presentation-ready solution to pitch your ideas to the judges.
                     <br><br>
-                    Register with a team of up to 4, or register as an individual and we will place you into a team. Entry is free but spots are limited, so make sure to register below!
+                    Register with a team of up to 4 (with a minimum of 2 female members), or register as an individual and we will place you into a gender diverse team. Entry is free but spots are limited, so make sure to register below!
                     <br><br>
                 </h3>
                 <div class="columns">
@@ -101,10 +101,8 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4 class="has-text-centered">1st Place Prize </h4>
-                        <li>$900 Cash</li>
-                        <li>Coffee chat with senior Atlassian representative and potential fast-track to a role.</li>
-                        <li>Atlassian Merch</li>
-                        <li>UNSW Maths & Stats Hoodie, keep cup, USB, and bag.</li>
+                        <li>$500 Cash</li>
+                        <li>Virtual coffee chat with senior Atlassian representative and potential fast-track to a role.</li>
                     </div>
                 </div>
             </div>
@@ -114,10 +112,8 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4 class="has-text-centered">2nd Place Prize</h4>
-                        <li>$600 Cash</li>
-                        <li>Resume review with Atlassian senior campus recruiter </li>
-                        <li>Atlassian Merch</li>
-                        <li>UNSW Maths & Stats water bottle, keep cup, USB, and bag.</li>
+                        <li>$300 Cash</li>
+                        <li>Chat with Atlassian recruiting representative</li>
                     </div>
                 </div>
             </div>
@@ -127,7 +123,7 @@ details[open] summary {
                 <div class="card-content">
                     <div class="content">
                         <h4 class="has-text-centered"> 3rd Place Prize </h4>
-                        <li>$300 Cash</li>
+                        <li>$100 Cash</li>
                         <li>Atlassian Merch</li>
                         <li>UNSW Maths & Stats keep cup, USB, and bag.</li>
                     </div>
@@ -156,21 +152,6 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     <div class="container">
     <h3 class="subtitle is-4 has-text-centered">Our annual flagship datathon would not be possible without the support of our valuable partner companies. Special thanks goes out to Atlassian for sponsoring us and this event in particular!</h3><br>
     </div>
-    <div class="section">
-        <div class="container">
-            <div class="columns is-vcentered">
-                {% for i in site.data.datathon %}
-                <div class="column">
-                    <div class="sponsor_icon">
-                        <a target="_blank" href="{{ i.link }}">
-                            <img src="{{ i.icon }}">
-                        </a>
-                    </div>
-                </div>
-                {% endfor%}
-            </div>
-        </div>
-    </div>
 </div>
 
 <section class="hero is-primary"  id="register">
@@ -191,7 +172,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
 <div class="container">
     <div class="columns is-centered">
         <div class="column is-three-quarters has-text-centered">
-                <iframe src="https://forms.gle/J5jJQ6fcQNwzZcRH6" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeAw4YJTSvPEcI74nKsgWTWWOacxZJ5YISltxpxuBo0YemdOw/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
     </div>
 </div>
@@ -240,7 +221,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
                         Can I enter alone/less than a full team?
                     </summary>     
                         <p>
-                        Teams are up to 4 people with a minimum of 2 female members.
+                        Teams are up to 4 people with a minimum of 2 female members. If you're entering alone you will be automatically asigned to a team that meets the criteria.
                         </p>
                     </details>
                     <details>
