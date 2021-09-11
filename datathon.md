@@ -79,6 +79,7 @@ details[open] summary {
     </div>
 </div>
 
+<!-- style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);" -->
 
 <section class="hero is-primary">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
@@ -136,8 +137,7 @@ details[open] summary {
 <br><br>
 
 <section class="hero is-primary">
-  <div class="hero-body" style=" background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
+  <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
     <div class="container">
         <div class="level-item">
             <h1 class="title">
@@ -182,8 +182,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
     
 
 <section class="hero is-primary" id="faq">
-  <div class="hero-body" style=" background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">
+  <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
     <div class="container">
         <div class="level-item">
             <h1 class="title">
