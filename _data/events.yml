@@ -1,4 +1,28 @@
 Events:
+ - name: Machine Learning Workshop
+   start-date: To be Confirmed
+   end-date: To be Confirmed
+   tag: planned
+ - name: Mirvac Case Competition
+   start-date: 2021-10-04
+   end-date: 2021-10-11
+   tag: planned
+ - name: Games Night
+   start-date: 2021-10-17
+   end-date: 2021-10-17
+   tag: planned
+ - name: "Happiest Hours: Side Bar (Part 2)"
+   start-date: 2021-11-03
+   end-date: 2021-11-03
+   tag: planned
+ - name: "DataSoc's Got Talent"
+   start-date: 2021-10-08
+   end-date: 2021-10-08
+   tag: planned
+ - name: Annual General Meeting (AGM)
+   start-date: 2021-10-07
+   end-date: 2021-10-07
+   tag: planned
  - name: "UNSW DataSoc Presents: Atlassian Datathon"
    img: /assets/images/events/atlassian_datathon.jpg
    start-date: 2021-09-19
