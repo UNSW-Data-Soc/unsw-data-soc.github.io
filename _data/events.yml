@@ -23,7 +23,7 @@ Events:
    start-date: 2021-10-07
    end-date: 2021-10-07
    tag: planned
- - name: "UNSW DataSoc Presents: Atlassian Datathon"
+ - name: "Atlassian Datathon"
    img: /assets/images/events/atlassian_datathon.jpg
    start-date: 2021-09-19
    end-date: 2021-09-25
@@ -33,7 +33,7 @@ Events:
     [REGISTER HERE!](https://forms.gle/J5jJQ6fcQNwzZcRH6)
    location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
    link: https://www.facebook.com/events/217071130480380
- - name: "UNSW DataSoc x UNSW DogSoc Presents: React for a Rescue"
+ - name: "React for a Rescue"
    img: /assets/images/events/react-for-a-rescue.jpg
    start-date: 2021-09-04
    end-date: 2021-09-18
