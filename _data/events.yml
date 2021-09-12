@@ -1,47 +1,4 @@
 Events:
- - name: Machine Learning Workshop
-   start-date: To be Confirmed
-   end-date: To be Confirmed
-   tag: planned
- - name: Mirvac Case Competition
-   start-date: 2021-10-04
-   end-date: 2021-10-11
-   tag: planned
- - name: Games Night
-   start-date: 2021-10-17
-   end-date: 2021-10-17
-   tag: planned
- - name: "Happiest Hours: Side Bar (Part 2)"
-   start-date: 2021-11-03
-   end-date: 2021-11-03
-   tag: planned
- - name: "DataSoc's Got Talent"
-   start-date: 2021-10-08
-   end-date: 2021-10-08
-   tag: planned
- - name: Annual General Meeting (AGM)
-   start-date: 2021-10-07
-   end-date: 2021-10-07
-   tag: planned
- - name: "Atlassian Datathon"
-   img: /assets/images/events/atlassian_datathon.jpg
-   start-date: 2021-09-19
-   end-date: 2021-09-25
-   description: Ever wondered what it takes to solve a challenging, real-world problem with the power of data? 🤔 <br>
-    Well look no further and immerse yourself in DataSoc x Atlassian’s annual datathon for 2021! 🤩 <br><br>
-    Capture your potential by putting your analytical 📈 and coding skills 🖥 to the test, and work alongside industry mentors to gain valuable, hands-on experience coveted by many hiring companies. <br><br>
-    [REGISTER HERE!](https://forms.gle/J5jJQ6fcQNwzZcRH6)
-   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
-   link: https://www.facebook.com/events/217071130480380
- - name: "React for a Rescue"
-   img: /assets/images/events/react-for-a-rescue.jpg
-   start-date: 2021-09-04
-   end-date: 2021-09-18
-   description: 🚨 DataSoc and DogSoc are raising money for the RSPCA, and all you have to do is REACT! 🚨 <br>
-    Stretch your paws 🐾 and get ready to smile 😁, because DataSoc x DogSoc’s 2021 ‘React for a Rescue’ Pet Competition is coming! We know it’s been ruff 🤕 staying at home and everyone’s going through a tough pooch, so we’re calling all pets big and small during lockdown, it’s now your time to ✨shine!✨ (For a good cause too!) <br><br>
-    [REGISTER HERE!](https://forms.gle/Kj3bgnpFdStqrX1RA)
-   location: Online <a href="https://discord.gg/7wC22UzH">(Discord)</a>
-   link: https://www.facebook.com/events/1204099226760085/
  - name: Peer Mentoring 2021
    img: /assets/images/events/peer_mentoring.png
    start-date: 2021-02-08
@@ -647,7 +604,49 @@ Events:
     [Register Here!](https://forms.gle/W62mRgeHAsyYS7Wq5)
    "
    link: https://fb.me/e/1wHKwffhq
-
+ - name: Machine Learning Workshop
+   start-date: To be Confirmed
+   end-date: To be Confirmed
+   tag: planned
+ - name: Mirvac Case Competition
+   start-date: 2021-10-04
+   end-date: 2021-10-11
+   tag: planned
+ - name: Games Night
+   start-date: 2021-10-17
+   end-date: 2021-10-17
+   tag: planned
+ - name: "Happiest Hours: Side Bar (Part 2)"
+   start-date: 2021-11-03
+   end-date: 2021-11-03
+   tag: planned
+ - name: "DataSoc's Got Talent"
+   start-date: 2021-10-08
+   end-date: 2021-10-08
+   tag: planned
+ - name: Annual General Meeting (AGM)
+   start-date: 2021-10-07
+   end-date: 2021-10-07
+   tag: planned
+ - name: "Atlassian Datathon"
+   img: /assets/images/events/atlassian_datathon.jpg
+   start-date: 2021-09-19
+   end-date: 2021-09-25
+   description: Ever wondered what it takes to solve a challenging, real-world problem with the power of data? 🤔 <br>
+    Well look no further and immerse yourself in DataSoc x Atlassian’s annual datathon for 2021! 🤩 <br><br>
+    Capture your potential by putting your analytical 📈 and coding skills 🖥 to the test, and work alongside industry mentors to gain valuable, hands-on experience coveted by many hiring companies. <br><br>
+    [REGISTER HERE!](https://forms.gle/J5jJQ6fcQNwzZcRH6)
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
+   link: https://www.facebook.com/events/217071130480380
+ - name: "React for a Rescue"
+   img: /assets/images/events/react-for-a-rescue.jpg
+   start-date: 2021-09-04
+   end-date: 2021-09-18
+   description: 🚨 DataSoc and DogSoc are raising money for the RSPCA, and all you have to do is REACT! 🚨 <br>
+    Stretch your paws 🐾 and get ready to smile 😁, because DataSoc x DogSoc’s 2021 ‘React for a Rescue’ Pet Competition is coming! We know it’s been ruff 🤕 staying at home and everyone’s going through a tough pooch, so we’re calling all pets big and small during lockdown, it’s now your time to ✨shine!✨ (For a good cause too!) <br><br>
+    [REGISTER HERE!](https://forms.gle/Kj3bgnpFdStqrX1RA)
+   location: Online <a href="https://discord.gg/7wC22UzH">(Discord)</a>
+   link: https://www.facebook.com/events/1204099226760085/
 
 
 
