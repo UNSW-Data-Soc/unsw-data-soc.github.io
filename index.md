@@ -82,7 +82,7 @@ title: Welcome to DataSoc
     </div>
 </div>
 <div class="hero is-medium">
-    <div class="hero-body" style=" background:rgba(240, 240, 240, 1)">
+    <div class="hero-body background-shade">
         <div class="container">
             <div class="quote-container">
                 <div class="column is-8 is-offset-2 has-text-centered">
@@ -169,7 +169,7 @@ title: Welcome to DataSoc
 </div>
 
 <div class="hero is-medium">
-    <div class="hero-body" style="background:rgba(240, 240, 240, 1)">
+    <div class="hero-body background-shade">
         <div class="container">
             <div class="columns">
                 <div class="column is-8 is-offset-2">
