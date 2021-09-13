@@ -37,7 +37,9 @@ colour: is-warning
                 <div class='column is-4 search'>
                     <div class='card'>
                         <div class='card-content'>
-                            <p class='title is-5'>{{ resource.title }}</p>
+                            <a href="{{ resource.resources }}" target="_blank">
+                                <p class='title is-5'>{{ resource.title }}</p>
+                            </a>
                             <p class='subtitle is-6'>{{ resource.date }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
