@@ -2,6 +2,7 @@ Jobs:
  - name: Canva Summer Analytics Intern
    img: /assets/images/jobs/Canva.png
    end-date: 2021-07-30
+   tags: [internship]
    link: https://www.canva.com/careers/jobs/sydney-data-analytics-intern-summer-20212022/
    description: |- 
     At Canva, we work every day to make a significant positive impact on society. Our mission is to democratise design and empower creativity for everyone on every computing platform!
@@ -14,6 +15,7 @@ Jobs:
  - name: UBS Summer Internship, Global Markets
    img: /assets/images/jobs/UBS.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25008&siteid=5131&Areq=233111BR#jobDetails=235633_5131
    description: |-
     <b>Your role</b>
@@ -33,6 +35,7 @@ Jobs:
  - name: Goldman Sachs Global Markets Summer Analyst Program
    img: /assets/images/jobs/Goldman_Sachs.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.goldmansachs.com/careers/
    description: |-
 
@@ -66,6 +69,7 @@ Jobs:
  - name: Goldman Sachs Global Investment Research Summer Analyst Program
    img: /assets/images/jobs/Goldman_Sachs.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.goldmansachs.com/careers/
    description: |-
     Our Summer Analyst Program is a ten-week summer internship for students from late November to February. You will be fully immersed in the day-to-day activities of one of our divisions.
@@ -96,6 +100,7 @@ Jobs:
  - name: Goldman Sachs Asset Management Summer Analyst Program
    img: /assets/images/jobs/Goldman_Sachs.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.goldmansachs.com/careers/
    description: |-
     Goldman Sachs Asset Management is offering opportunities to join the team in Sydney as a Summer Analyst from late November 2021 to February 2022.
@@ -120,6 +125,7 @@ Jobs:
  - name: Goldman Sachs Global Markets Strats Summer Analyst Program
    img: /assets/images/jobs/Goldman_Sachs.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.goldmansachs.com/careers/
    description: |-
     Our Summer Analyst Program is a ten-week summer internship for students from late November to February. You will be fully immersed in the day-to-day activities of one of our divisions.
@@ -152,6 +158,7 @@ Jobs:
  - name: Goldman Sachs Corporate Advisory Summer Analyst Program 
    img: /assets/images/jobs/Goldman_Sachs.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.goldmansachs.com/careers/
    description: |-
     Our Summer Analyst Program is a ten-week summer internship for students from late November to February. You will be fully immersed in the day-to-day activities of one of our divisions.
@@ -180,6 +187,7 @@ Jobs:
  - name: Deutsche Bank Internship Corporate Finance
    img: /assets/images/jobs/Deutsche_Bank.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://db.recsolu.com/external/requisitions/iv44OhrwlliYvnfKwkciHg
    description: |-
     An internship at Deutsche Bank is your stepping stone to success and your first look into what life is like on our Graduate Programme. Successful interns will be invited to join the Deutsche Bank Graduate Programme.
@@ -198,6 +206,7 @@ Jobs:
  - name: Deutsche Bank Internship Fixed Income and Currencies Sales & Trading
    img: /assets/images/jobs/Deutsche_Bank.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://db.recsolu.com/external/requisitions/L6CmLxUwGbb1bEBVvNEJDA
    description: |-
     **Division specifics about the graduate role:** 
@@ -216,6 +225,7 @@ Jobs:
  - name: Bank of America Global Markets | Summer Analyst
    img: /assets/images/jobs/Bank_Of_America.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://bankcampuscareers.tal.net/vx/brand-4/candidate/so/pm/1/pl/1/opp/6715-APAC-Sydney-Global-Markets-Summer-Analyst-2022/en-GB
    description: |-
     **What you’ll do (Key Responsibilities):**
@@ -242,6 +252,7 @@ Jobs:
  - name: Macquarie Summer Internship Program – Australia
    img: /assets/images/jobs/Macquarie.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.careers.macquarie.com/en/job/957279/202122-macquarie-summer-internship-program-australia-brisbane-and-sydney
    description: |-
     **2020/2021 Summer Internship opportunities (job categories):**
@@ -264,6 +275,7 @@ Jobs:
  - name: Citibank Investment Banking, Summer Analyst - Sydney
    img: /assets/images/jobs/Citibank.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://jobs.citi.com/job/sydney/investment-banking-2021-summer-analyst-sydney/287/8410356448
    description: |-
     Citi’s Institutional Clients Group (ICG) is looking for Summer Analysts to join the Investment Banking team in Sydney. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions. 
@@ -278,6 +290,7 @@ Jobs:
  - name: Citibank Treasury and Trade Solutions, Summer Analyst - Sydney
    img: /assets/images/jobs/Citibank.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://jobs.citi.com/job/sydney/treasury-and-trade-solutions-2021-summer-analyst-sydney/287/8410356512
    description: |-
     Citi’s Treasury and Trade Solutions Group is looking for Summer Interns to join the team in Sydney. The Treasury and Trade Solutions team provides innovative banking solutions to help our clients conduct their business seamlessly across global borders. With our industry leading offerings, clients can streamline business processes, manage working liquidity and capital more effectively, reduce financing costs, secure timely transaction payments and commercial flow proceeds, and expand into new markets, minimizing associated risks in the process.
@@ -293,6 +306,7 @@ Jobs:
  - name: Accenture Internship Program 
    img: /assets/images/jobs/Accenture.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://www.accenture.com/au-en/careers/jobdetails?id=r00021046_en
    description: |-
     **As an Intern, you will be exposed to real world projects and have the opportunity to:**
@@ -323,12 +337,14 @@ Jobs:
  - name: SIG Quantitative Research Intern – PhD Student
    img: /assets/images/jobs/SIG.png
    end-date: 2021-07-27
+   tags: [internship]
    link: https://careers.sig.com/job/5412/Quantitative-Research-Intern-PhD-Student-Hire?mode=job&iis=Indeed&iisn=Indeed.com
    description: |-
     Our Quantitative Research Internship combines customized research projects with world class mentorship from our quant team – doctorate researchers dedicated to data-driven development and improvement of our trading models. Your project will leverage tools in mathematics and statistics to transform market anomalies into trading opportunities. You will also participate in an educational program that offers insight into the world of finance.
  - name: Hello Fresh Junior Product Analyst
    img: /assets/images/jobs/Hello_Fresh.png
    end-date: 2021-08-31
+   tags: part-time
    link: https://www.hellofresh.com/careers/listings/3287121?country=au
    description: |-
     We are hiring a Junior Product Analyst to join the Product Innovation and Optimisation team based in our Sydney Head Office. 
@@ -341,6 +357,7 @@ Jobs:
  - name: CommBank RBS - Analytics Summer Intern Program
    img: /assets/images/jobs/Commonwealth_Bank.png
    end-date: 2021-07-25
+   tags: [internship]
    link: https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html
    description: |-
     In Analytics, our people are finding the answers to some of Australia’s biggest customer challenges. With rich data at your fingertips, you’ll be joining a team of expert problem solvers who are unafraid of the unfamiliar.
@@ -361,6 +378,7 @@ Jobs:
  - name: Optiver Graduate Market Risk Analyst
    img: /assets/images/jobs/Optiver.png
    end-date: 2021-08-31
+   tags: [graduate program]
    link: https://www.optiver.com/working-at-optiver/career-opportunities/r816/
    description: |-
     
@@ -390,6 +408,7 @@ Jobs:
  - name: Futures Graduate Analyst (Sports Consulting)
    img: /assets/images/jobs/Futures_Sport_And_Entertainment.png
    end-date: 2021-08-31
+   tags: [graduate program]
    link: https://www.linkedin.com/jobs/view/2641011025/?alternateChannel=search&refId=%2Bc0lo3NLWS2yTYj4YZaSmw%3D%3D&trackingId=gAOzWgJJw5C0jprFB%2BQbKg%3D%3D
    description: |-
     At Futures you’ll get unrivalled access to senior leaders both internally through the Futures Global Management Team and across the industry by working hand in hand with our clients. As a lean, agile firm with a start-up mentality, you’ll get the opportunity to work on some of the premier events in Australian sport; think the Boxing Day Test, State of Origin or the Australian Open.  
@@ -414,6 +433,7 @@ Jobs:
  - name: Veolia Data Graduate
    img: /assets/images/jobs/Veolia.png
    end-date: 2021-08-02
+   tags: [graduate program]
    link: https://2022graduateprogram-veolia.pushapply.com/#/login#form_top
    description: |-
     You will have the opportunity to join our newly formed Data Management Office, working on strategic priorities for Veolia ANZ. The role will involve the continued development of the data ecosystem (i.e. data ingestion, data modelling, ETL and analytics) to support Veolia in projects that  identify new business opportunities, optimize revenue generation, and create innovative sustainable environmental solutions. 
@@ -430,6 +450,7 @@ Jobs:
  - name: Amazon Tech U Graduate Program
    img: /assets/images/jobs/Amazon.png
    end-date: 2021-07-31
+   tags: [graduate program]
    link: https://www.amazon.jobs/en/jobs/1261482/amazon-tech-u-graduate-program-2021
    description: |-
     Amazon Web Services (AWS), a subsidiary of Amazon.com and a leader in Cloud Computing, is seeking early career talent to join our AWS Tech U Program. This is a unique opportunity for driven, self-starters to play a key role in a fast-growing business, and to deliver significant value to AWS customers of all sizes from nimble startups to global brands. You will learn from top AWS subject matter experts and get paid while you train for an exciting career in the tech industry.
@@ -448,6 +469,7 @@ Jobs:
  - name: Optus Graduate Program | Human Resources
    img: /assets/images/jobs/Optus.png
    end-date: 2021-08-15
+   tags: [graduate program]
    link: https://groupcareers.singtel.com/job/Macquarie-Base-2022-Optus-Graduate-Program-Human-Resources-Sydn/583452010/?locale=en_GB
    description: |-
     Our Optus Graduate Program focuses on career growth, and the best part of this program is having the support of everyone around you. You don’t have to know everything; we’re all one big family looking at how we can create solutions together. From developing your experience across the business and being exposed to a diverse range of people, environments, and situations; we also provide supportive peer-to-peer learning/coaching, mentoring, training, and networking support from leaders across Optus. The opportunities are endless!
@@ -466,6 +488,7 @@ Jobs:
  - name: IBM GBS Workforce Management / Finance Analyst Internship – Sydney
    img: /assets/images/jobs/IBM.png
    end-date: 2021-08-31
+   tags: [internship]
    link: https://careers.ibm.com/job/13330478/2021-gbs-workforce-management-finance-analyst-internship-sydney-sydney-au/?codes=JB_Indeed
    description: |-
     We are the trusted partner for Australia and New Zealand’s businesses and governments as they reinvent using the cloud, AI, and blockchain within a secure environment. Our clients succeed because of our world-leading researchers, engineers, and designers and our deep industry expertise. We celebrate our diversity and unite in our passion for IBM. We are #anewIBM
