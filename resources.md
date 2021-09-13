@@ -4,6 +4,11 @@ title: Resources
 subtitle: From workshop slides to python guides
 colour: is-warning
 ---
+<style>
+    .card{
+        min-height:100%;
+    }
+</style>
 
 <br><br>
 <div class="content">
