@@ -209,7 +209,7 @@ ul {
                         Can I enter alone/less than a full team?
                     </summary>     
                         <p>
-                        Teams are 3 to 4 people with a minimum of 2 female members. If you're entering alone you will be automatically asigned to a team that meets the criteria. Please note that if you participate as an individual you're not guaranteed a spot in the datathon due to gender imbalance issues.
+                        Teams are 3 to 4 people with a minimum of 2 female members. If you're entering alone you will be automatically asigned to a team that meets the criteria.
                         </p>
                     </details>
                     <details>
@@ -233,7 +233,7 @@ ul {
                         I've never done this before?! Can I still participate?
                     </summary>     
                         <p>
-                        We will be holding a series of workshops and mentoring sessions on the day of the Datathon, however, complete beginners to data science and analytics may struggle. DataSoc's "Startathon" is the event suited towards beginners.
+                        We encourage all interested students to participate regardless of skill-level and will be holding a series of workshops and mentoring sessions on the day of the Datathon to help prepare you for the challenge.
                         </p>
                     </details>
                     <details>
@@ -241,7 +241,7 @@ ul {
                         Should I join even if I have limited knowledge of modelling techniques?
                     </summary>     
                         <p>
-                        Although giving the datathon your best effort is always encouraged, participants with limited experience are more suited towards DataSoc's "Startathon"
+                        Mentoring and workshops will be provided throughout the week to guide you through the Datathon. You are highly encouraged to participate regardless of your Machine Learning experience. DataSoc also runs a separate event for less experienced students called the "Startathon".
                         </p>
                     </details>
                     <details>
@@ -266,6 +266,14 @@ ul {
                     </summary>     
                         <p>
                         Find out at the <a href="https://www.facebook.com/events/690557315235498">Case Brief Kickoff</a>!
+                        </p>
+                    </details>
+                    <details>
+                    <summary>
+                        Am I guaranteed a spot if I enter as an individual?
+                    </summary>     
+                        <p>
+                        Please note that if you participate as an individual you're not guaranteed a spot in the datathon due to gender imbalance issues.
                         </p>
                     </details>
             </div>
