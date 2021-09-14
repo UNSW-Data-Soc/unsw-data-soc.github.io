@@ -35,7 +35,7 @@ ul {
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-medium" style="background-image: url('/assets/images/datathon/background.png'); background-position: center; background-attachment: fixed; background-size: cover">
+<div class="hero is-bold is-medium" style="background-image: url('/assets/images/datathon/datathonCP.png'); background-position: center; background-attachment: fixed; background-size: cover">
     <div class="hero-body">
         <div class="container" style="height:130px">
             <div class="has-text-centered">
