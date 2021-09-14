@@ -39,8 +39,8 @@ ul {
     <div class="hero-body">
         <div class="container" style="height:130px">
             <div class="has-text-centered">
-                <a><img src="/assets/images/datathon/atlassian.png"
-                    style="max-width:45%"></a>
+                <img src="/assets/images/datathon/atlassian.png"
+                    style="max-width:45%">
             </div>
         </div>
         <div class="container">
