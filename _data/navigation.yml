@@ -1,5 +1,7 @@
 - name: Home
   link: /index
+- name: Atlassian Datathon
+  link: /datathon
 - name: About Us
   link: /about
   dropdown:
