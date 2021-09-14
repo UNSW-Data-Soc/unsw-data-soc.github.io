@@ -241,7 +241,7 @@ ul {
                         Should I join even if I have limited knowledge of modelling techniques?
                     </summary>     
                         <p>
-                        Mentoring and workshops will be provided throughout the week to guide you through the Datathon. You are highly encouraged to participate regardless of your Machine Learning experience. DataSoc also runs a separate event for less experienced students called the "Startathon".
+                        Mentoring and workshops will be provided throughout the week to guide you through the Datathon. You are highly encouraged to participate regardless of your Machine Learning experience. DataSoc also runs a separate event for less experienced students called the "Starter-thon".
                         </p>
                     </details>
                     <details>
