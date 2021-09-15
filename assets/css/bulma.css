@@ -6843,7 +6843,7 @@ label.panel-block:hover {
 }
 
 .tabs.is-boxed a:hover {
-  background-color: whitesmoke;
+  background-color: #8c8c8c;
   border-bottom-color: #dbdbdb;
 }
 
