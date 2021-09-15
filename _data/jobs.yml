@@ -1,4 +1,58 @@
 Jobs:
+
+# TEMP
+ - name: Canva Summer Analytics Intern
+   img: /assets/images/jobs/Canva.png
+   end-date: 2021-09-30
+   tags: [internship]
+   link: https://www.canva.com/careers/jobs/sydney-data-analytics-intern-summer-20212022/
+   description: |- 
+    At Canva, we work every day to make a significant positive impact on society. Our mission is to democratise design and empower creativity for everyone on every computing platform!
+
+    Since launch in April 2013 we have grown exponentially, amassing over 55 million users in over 100 languages, making us one of the world's fastest-growing technology companies. We're growing rapidly and building a product that users really love --just check out Twitter!
+
+    As a Data Analytics Intern, you will have the opportunity to learn from a world-class team of Data Analysts, working on a modern data stack with a truly enormous amount of data. Our Analysts have come from a range of companies and institutions from all over the world, and are solving some of the most challenging problems in data.
+
+    You will have the opportunity to do meaningful work and help build features and functionality that impacts millions of users around the world. Data Analytics at Canva is all about understanding our product and customers, so that we can anticipate their needs and provide the best possible product for them.
+ - name: UBS Summer Internship, Global Markets
+   img: /assets/images/jobs/UBS.png
+   end-date: 2021-09-27
+   tags: [internship]
+   link: https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25008&siteid=5131&Areq=233111BR#jobDetails=235633_5131
+   description: |-
+    <b>Your role</b>
+
+    Do you want to join our trading team? You’ll:
+
+    • use our online systems to buy and sell foreign currencies, interest rate and credit products
+    
+    • provide advice, solutions and execution of our clients’ sales orders
+    
+    • make markets in a range of over-the-counter interest rate products (incl FX Swaps, XCCY Basis, OIS, Interest Rate Swaps, Government and Semi-Government bonds and Credit).
+    
+    <b>Your team</b>
+    
+    On this 9-week summer program, you’ll be a real part of the team, working with our experts and learning about the industry, our clients, our firm and a specific area of it. You’ll have plenty of opportunities to develop new skills and make contacts. And if you impress us, we might invite you to join our Graduate Talent Program once you’ve graduated.
+ - name: Optus Graduate Program | Human Resources
+   img: /assets/images/jobs/Optus.png
+   end-date: 2021-09-15
+   tags: [graduate program]
+   link: https://groupcareers.singtel.com/job/Macquarie-Base-2022-Optus-Graduate-Program-Human-Resources-Sydn/583452010/?locale=en_GB
+   description: |-
+    Our Optus Graduate Program focuses on career growth, and the best part of this program is having the support of everyone around you. You don’t have to know everything; we’re all one big family looking at how we can create solutions together. From developing your experience across the business and being exposed to a diverse range of people, environments, and situations; we also provide supportive peer-to-peer learning/coaching, mentoring, training, and networking support from leaders across Optus. The opportunities are endless!
+
+    **As part of our 2022 Optus Graduate Program, you will be participating in:**
+    
+    • A two-year program consisting of three, eight-month rotations within your specific Business Unit.
+    
+    • Opportunities to challenge yourself and ensure you contribute in making an impact to the business from day one!
+    
+    • Fun and rewarding experiences that will accelerate your personal and professional development; building a platform to encourage fulfilling your interests and goals.
+    
+    • On-the-job training and working at our Optus Campus Sydney in Macquarie Park.
+    
+    • Supportive transition into a role which best suits your capabilities/interests at the end of your time in the Graduate Program.
+
  - name: Canva Summer Analytics Intern
    img: /assets/images/jobs/Canva.png
    end-date: 2021-07-30
