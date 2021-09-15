@@ -1,23 +1,21 @@
 ---
-layout: default
+layout: landing-banner
 title: Events
-title-image: city3_left.png
-introduction: This is the events page
+subtitle: From social events to workshops to networking opportunities
+colour: is-link
 ---
+<style>
+    .card{
+        min-height:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    .card-image{
+        display:flex;
+        flex-grow:2;
+    }
+</style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-<section class="hero is-info is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Events
-      </h1>
-      <br>
-      <h2 class="subtitle">
-      From social events to workshops to networking opportunities
-      </h2>
-    </div>
-  </div>
-</section>
 <div class="hero-body">
     <h2 class="title is-1 centered">Upcoming Events</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
@@ -53,10 +51,10 @@ introduction: This is the events page
                     </div>
                     <br>
                     <div class='card-content'>
-                        {% if event.name == 'Disaster at the Joadia Islands Gameathon' %}
-                        <p class='title is-4 has-text-centered is-uppercase'> DSAI Presents: {{event.name}}</p>
+                        {% if event.name == 'Commbank Connect' %}
+                            <p class='title is-4 has-text-centered is-uppercase'>{{event.name}}</p>
                         {% else %}
-                        <p class='title is-4 has-text-centered is-uppercase'> DataSoc Presents: {{event.name}}</p>
+                            <p class='title is-4 has-text-centered is-uppercase'>DataSoc Presents: {{event.name}}</p>
                         {% endif %}
                         {% if event.start-date != event.end-date %}
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }} - {{event.end-date | date:"%B %d, %Y" }}</p>
@@ -64,15 +62,15 @@ introduction: This is the events page
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }}</p>
                         {% endif %}
                         {% if event.time and event.location %}
-                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{event.location}}</p>
+                            <p class='subtitle is-6 has-text-centered'>{{event.time}}, {{ event.location }}</p>
                         {% elsif event.time %}
                             <p class='subtitle is-6 has-text-centered'>{{event.time}}</p>
                         {% endif %}
                         <div  style="text-align: center;">
                             {% if event.link %}
                                 <span class="button modal-button" data-target="event-- {{ event.name | replace: ' ', '-' | downcase }}">
-                                <p class='subtitle is-6 has-text-centered'>  More Information Here!</p>
-                             </span>
+                                    <p class='subtitle is-6 has-text-centered'>More Information Here!</p>
+                                </span>
                             {% else %}
                                 <p class='subtitle is-6 has-text-centered'>Details coming soon!</p>
                             {% endif %}

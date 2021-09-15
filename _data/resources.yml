@@ -1,50 +1,88 @@
+- title: DATA1001 Revision
+  date: 9 August 2021
+  tags: [data science]
+  description: 2 hour workshop summarising week 1 to 10 content of DATA1001
+  resources: https://drive.google.com/drive/folders/1M89J671ADUpJSUxn2ZmILc2KvZNUmUWG
+
+- title: Data Cleaning in Python
+  date: 24 June 2021
+  tags: [programming]
+  description: Guide to remove and modify incomplete or inconsistent data
+  resources: https://drive.google.com/drive/folders/11YgD_E6UejnYJ5bdb7Yzq0v-nHfmw0JL
+
+- title: A Guide to SQL
+  date: 17 June 2021
+  tags: [programming]
+  description: Learn the most widely-implemented language used to search or manage data
+  resources: https://drive.google.com/drive/folders/1b6IKqBYRsQ6btPtUY18fAmOURRkwcXLj
+- title: Starter-thon R Workshop
+  date: 10 April 2021
+  tags: [programming]
+  description: Overview of Regression Models, Data Manipulation and Data Visualisation
+  resources: https://drive.google.com/drive/folders/1A4Av9zwz3CUZWFrXNI2FeHfo9IqbI8A5
+
+- title: Introduction to R
+  date: 6 April 2021
+  tags: [programming]
+  description: Beginner's Guide to R programming
+  resources: https://drive.google.com/drive/u/1/folders/1-XF7KAgsyUs4cmmzLMcShODQg1k_1CJ8
+
 - title: Python Essentials & Python in Practice
+  date: 1 March 2021
   tags: [programming]
   description: Python basics and its practical applications in manipulating large datasets
   resources: https://drive.google.com/drive/u/0/folders/1xuPdgmVGcSQB33aNP62tf3zcQ9juMjYI
 
 - title: Demystifying Data Science
+  date: 17 February 2021
   tags: [data science]
   description: Wondering where the sexiest job of the 21st century can take you? Look no further!
   resources: https://drive.google.com/drive/folders/1KZiLCIIW1Z3z57k8i6Spdu8n4T8Chf29?usp=sharing
 
 - title: Neural Networks
+  date: 17 July 2020
   tags: [machine learning]
   description: Theory on feedforward and back propagation algorithms and how to implement neural networks in python.
   resources: https://drive.google.com/drive/folders/1Mgz-fNiSVQD3vNo2O5KIvCDvy41zpOw1?usp=sharing
 
 - title: Data Science Workshop 1
+  date: 15 June 2020
   tags: [machine learning]
   description: Linear Regression
   resources: https://drive.google.com/drive/folders/1axe_Jdvd6P_hP_8IY73wKbwJp15FQQS6?usp=sharing
 
 - title: Data Science Workshop 2
+  date: 22 June 2020
   tags: [machine learning]
   description: Logistic Regression
   resources: https://drive.google.com/drive/folders/19pAO-oLyyoqZn_mXkezbg2f11GH0ECA1?usp=sharing
 
 - title: Data Science Workshop 3
+  date: 29 June 2020
   tags: [machine learning]
   description: Decision Trees
   resources: https://drive.google.com/drive/folders/1nvtNpnnwa38xEVP-NO7WJ42Lc0L_KQX-?usp=sharing
 
 - title: Python Workshop 1
+  date: 15 April 2020
   tags: [programming]
   description: Our first introductory python workshop.
   resources: https://drive.google.com/drive/folders/1XFyLVu1m1OG4EQT-JMNelY8jQ0DjAXjK?usp=sharing
 
 - title: Python Workshop 2
+  date: 16 April 2020
   tags: [programming]
   description: The second workshop in our introductory python series.
   resources: https://drive.google.com/drive/folders/1qUq-AINEZg2_9bct__buGHjyO_cAcmtm?usp=sharing
 
 - title: R Workshop 1
+  date: 8 April 2020
   tags: [programming]
   description: Our first introductory R workshop.
   resources: https://drive.google.com/drive/folders/1TmvppJ8HCbPuSDSzE-TS1xAf6M89kkNI?usp=sharing
 
 - title: R Workshop 2
+  date: 9 April 2020
   tags: [programming]
   description: The second workshop in our introductory R series.
   resources: https://drive.google.com/drive/folders/1Uqv38n9YKHfgd1x4pRrY-SUYCcORcBx-?usp=sharing
-
