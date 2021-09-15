@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Welcome to DataSoc
 ---
 
 <style>
@@ -27,7 +26,7 @@ details[open] summary {
 }
 
 ul {
-    list-style-position: inside;    
+    list-style-position: inside;
 }
 
 </style>
@@ -58,7 +57,7 @@ ul {
 </div>
 
 
-<div class="hero-body">
+<div class="hero-body background-shade">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-three-quarters has-text-centered">
@@ -84,8 +83,6 @@ ul {
     </div>
 </div>
 
-<!-- style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);" -->
-
 <section class="hero is-primary">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
     <div class="container">
@@ -98,51 +95,51 @@ ul {
   </div>
 </section>
 
-<br><br>
-
-<section class="container">
-    <div class="columns features">
-        <div class="column is-4">
-            <div class="card is-shady ">
-                <div class="card-content">
-                    <div class="content">
-                        <h4 class="has-text-centered">1st Place Prize </h4>
-                        <ul>
-                            <li>$500 Cash</li>
-                            <li>Virtual coffee chat with Atlassian (can be from any division)</li>
-                        </ul>
+<div class="hero-body background-shade">
+    <div class="container">
+        <br><br>
+        <div class="columns features">
+            <div class="column is-4">
+                <div class="card is-shady ">
+                    <div class="card-content">
+                        <div class="content">
+                            <h4 class="has-text-centered">1st Place Prize </h4>
+                            <ul>
+                                <li>$500 Cash</li>
+                                <li>Virtual coffee chat with Atlassian (can be from any division)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <h4 class="has-text-centered">2nd Place Prize</h4>
+                            <ul>
+                                <li>$300 Cash</li>
+                                <li>Chat with Atlassian recruiting representative</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <h4 class="has-text-centered"> 3rd Place Prize </h4>
+                            <li>$100 Cash</li>
+                            <li>Goodie Bag</li>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="column is-4">
-            <div class="card is-shady">
-                <div class="card-content">
-                    <div class="content">
-                        <h4 class="has-text-centered">2nd Place Prize</h4>
-                        <ul>
-                            <li>$300 Cash</li>
-                            <li>Chat with Atlassian recruiting representative</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column is-4">
-            <div class="card is-shady">
-                <div class="card-content">
-                    <div class="content">
-                        <h4 class="has-text-centered"> 3rd Place Prize </h4>
-                        <li>$100 Cash</li>
-                        <li>Goodie Bag</li>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <br><br>
     </div>
-</section>
-
-<br><br>
+</div>
 
 <section class="hero is-primary"  id="register">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
@@ -158,17 +155,17 @@ ul {
   </div>
 </section>
 
-<br>
-<section>
-<div class="container">
-    <div class="columns is-centered">
-        <div class="column is-three-quarters has-text-centered">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeAw4YJTSvPEcI74nKsgWTWWOacxZJ5YISltxpxuBo0YemdOw/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="hero-body background-shade">
+    <div class="container">
+        <br>
+        <div class="columns is-centered">
+            <div class="column is-three-quarters has-text-centered">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeAw4YJTSvPEcI74nKsgWTWWOacxZJ5YISltxpxuBo0YemdOw/viewform?embedded=true" width="700" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </div>
+        <br>
     </div>
-</div>
-</section>
-<br>    
+</div> 
 
 <section class="hero is-primary" id="faq">
   <div class="hero-body" style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);">
@@ -182,7 +179,7 @@ ul {
   </div>
 </section>
 
-<div class="hero-body">
+<div class="hero-body background-shade">
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-three-fifths is-offset-one-fifth">
