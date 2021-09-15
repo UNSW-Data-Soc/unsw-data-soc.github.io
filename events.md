@@ -16,7 +16,7 @@ colour: is-link
     }
 </style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-<div class="hero-body">
+<div class="hero-body background-shade">
     <h2 class="title is-1 centered">Upcoming Events</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
     {% assign e = site.data.events.Events | sort_natural: "end-date" %}

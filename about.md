@@ -252,7 +252,7 @@ introduction: |
 
 </style>
 
-<div class="hero-body">
+<div class="hero-body background-shade">
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-6">
@@ -265,7 +265,7 @@ introduction: |
     </div>
 </div>
 
-<div class="hero-body">
+<div class="hero-body background-shade">
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-7 is-offset-3">
@@ -291,21 +291,14 @@ introduction: |
                     With this, DataSoc aims to make your university experience even more fun and fulfilling, whilst maximizing your employment opportunity and career progression in data science.
                     </p>     
                 </ul>
+                <div style="margin: 4rem 0 5rem">
+                  <p class="title has-text-centered">
+                    "Opportunities don't happen. You create them."
+                  </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<br><br>
-<div class="card column is-7 is-offset-3">
-  <div class="card-content">
-    <p class="title has-text-centered">
-      "Opportunities don't happen. You create them."
-    </p>
-  </div>
-</div>
-
-<br><br>
-<div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-7 is-offset-3">
@@ -338,8 +331,7 @@ introduction: |
     </div>
 </div>
 
-<br>
-  <div class="container-fluid">
+<div class="hero-body background-shade">
     <br><br>
       <div class="column is-8 is-offset-2">
       <h2 class="title is-1 centered">Our History</h2>

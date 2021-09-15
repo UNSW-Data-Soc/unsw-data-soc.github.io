@@ -4,10 +4,11 @@ title: Jobs Board
 subtitle: Are you interested in gaining real-world experience to apply knowledge learnt in your degree and fast forward your career? Keep an eye out for internship and graduate opportunities that are constantly updated on this page!
 colour: is-warning
 ---
+
 <!-- MAKE SURE UPLOADED IMAGES ARE SQUARE -->
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-<div class="hero-body">
+<div class="hero-body background-shade">
     <h2 class="title is-1 centered">Upcoming Jobs</h2>
     <div class = 'columns'>
     <div class = 'column is-5 is-centered'>
@@ -122,6 +123,7 @@ colour: is-warning
 <br>
 <script src="/assets/js/modals.js"></script>
 
+
 <script>
 let jobs = document.getElementsByClassName('search')
 function tags_are_checked(checkboxes, tags) {
@@ -172,5 +174,4 @@ for (let checkbox of checkboxes) {
     }
 }
 </script>
-
 
