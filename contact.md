@@ -5,7 +5,7 @@ subtitle: Reach out to us here
 colour: is-link
 ---
 
-<div class="hero-body background-shade">
+<div class="hero-body background-shade has-text-black">
     <div class="columns is-8 is-variable" style="display:flex;flex-wrap: wrap;margin: 0 auto">
         <div class="column is-half has-text-left" style="padding-top:30px;flex: 1 1 auto;"> 
             <p class="is-size-5">
