@@ -40,7 +40,8 @@ title: Welcome to DataSoc
 
 .sponsor-figure {
     flex: 1 0 180px;
-    margin: 10% 4rem;
+    margin: 2% 4rem;
+    max-width: 25%;
 
     /* Displaying logo figures */
     display: flex;
@@ -51,9 +52,9 @@ title: Welcome to DataSoc
 .quote-container {
     margin-bottom: 4rem;
 }
-
-
 </style>
+
+
 
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>
