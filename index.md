@@ -49,6 +49,19 @@ title: Welcome to DataSoc
     justify-content: center;
 }
 
+@media (max-width: 700px) {
+    .sponsor-figure {
+        flex: 1 0 180px;
+        margin: 5% 4rem;
+        max-width: 50%;
+
+        /* Displaying logo figures */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .quote-container {
     margin-bottom: 4rem;
 }
