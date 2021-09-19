@@ -118,7 +118,7 @@ ul {
                         <div class="content">
                             <h4 class="has-text-centered">2nd Place Prize</h4>
                             <ul>
-                                <li>$300 Cash</li>
+                                <li>$200 Cash</li>
                                 <li>Chat with Atlassian recruiting representative</li>
                             </ul>
                         </div>
@@ -130,8 +130,8 @@ ul {
                     <div class="card-content">
                         <div class="content">
                             <h4 class="has-text-centered"> 3rd Place Prize </h4>
-                            <li>$100 Cash</li>
-                            <li>Goodie Bag</li>
+                            <li>$200 Cash</li>
+                            <li>Chat with Atlassian recruiting representative</li>
                         </div>
                     </div>
                 </div>
