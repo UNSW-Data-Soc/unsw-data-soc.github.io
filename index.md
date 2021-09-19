@@ -39,10 +39,8 @@ title: Welcome to DataSoc
 }
 
 .sponsor-figure {
-    flex: 1 1 25%;
-    max-width: 25%;
-    padding: 55px 68px !important;
-    height: 100px;
+    flex: 1 0 180px;
+    margin: 10% 4rem;
 
     /* Displaying logo figures */
     display: flex;
@@ -70,7 +68,7 @@ title: Welcome to DataSoc
 </div>
 
 <!-- PLEASE REMOVE THE MARGIN-TOP IN THE FOLLOWING LINE AFTER DATATHON IS COMPLETE -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); margin-top:-20px; background-position: center center; background-attachment: fixed; background-size: cover; background-size: 100vw auto; overflowy: hidden;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); margin-top:-20px; background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="columns is-vcentered">
@@ -225,10 +223,10 @@ title: Welcome to DataSoc
             <div class="level">
                 <div class="column" id="sponsors-container">
                     <h2 class="subtitle is-4">Proudly sponsored by:</h2>
-                    <div class="columns is-gapless sponsor-figure-container">
+                    <div class="sponsor-figure-container">
                         {% for tier in site.data.sponsors %}
                             {% for sponsor in tier[1] %}
-                                <div class="column sponsor-figure">
+                                <div class="sponsor-figure">
                                     <figure class="image is-256x256">
                                         <a target="blank" href="{{ sponsor.link }}"><img src="{{ sponsor.icon }}"></a>
                                     </figure>
