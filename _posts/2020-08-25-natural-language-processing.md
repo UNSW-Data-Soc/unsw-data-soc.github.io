@@ -3,9 +3,8 @@ layout: post
 title: "Natural Language Processing: The Love Child of Machine Learning and Linguistics"
 date:   2020-09-09
 tags:
-    - machine learning
-    - data science
-    - natural language processing
+    - Machine Learning, Deep Learning and Neural Networks
+    - Data Science
 author: Aileen Wang
 image: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 excerpt_separator: <!--more-->

@@ -3,11 +3,8 @@ layout: post
 title:  "Active Learning: faster and cheaper than before"
 date:   2021-05-06
 tags: 
-    - data science
-    - data analytics
-    - model training
-    - tutorial
-    - active learning
+    - Data Science
+    - Skills and Guidance
 author: Kai Mashimo
 image: /assets/images/blog/active-learning-cover.jpg
 excerpt_separator: <!--more-->

@@ -3,11 +3,8 @@ layout: post
 title:  "A Comprehensive Guide into Regex for Beginners"
 date:   2021-05-27
 tags: 
-    - regex
-    - data analytics
-    - guide
-    - tutorial
-    - skills
+    - Data Science
+    - Skills and Guidance
 author: William Feng
 image: /assets/images/blog/21-05-27.jpeg
 excerpt_separator: <!--more-->

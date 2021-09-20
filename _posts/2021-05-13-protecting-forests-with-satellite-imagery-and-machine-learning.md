@@ -3,10 +3,9 @@ layout: post
 title:  "Protecting Forests with Satellite Imagery and Machine Learning"
 date:   2021-05-13
 tags: 
-    - data science
-    - data analytics
-    - conservation
-    - machine learning
+    - Data Science
+    - Machine Learning, Deep Learning and Neural Networks
+    - Application of Data Science
 author: Gordon Huang
 image: /assets/images/blog/21-05-13-banner.jpg
 excerpt_separator: <!--more-->

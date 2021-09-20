@@ -3,9 +3,8 @@ layout: post
 title:  "The Visual Design of the Humble Dashboard"
 date:   2021-06-17
 tags: 
-    - data science
-    - dashboard
-    - design
+    - Data Science
+    - Skills and Guidance
 author: Aileen Wang
 image: \assets\images\blog\21-06-17\banner.jpg
 excerpt_separator: <!--more-->

@@ -1,8 +1,8 @@
 ---
 layout: landing-banner
 permalink: blog/topics
-title: Tags
-subtitle: Filter by topic
+title: Topics
+subtitle: Our blog posts directory and where to find the next interesting article!
 colour: is-info
 ---
 

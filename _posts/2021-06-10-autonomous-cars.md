@@ -3,9 +3,8 @@ layout: post
 title:  "Autonomous cars: Magic or simply Mathematics?"
 date:   2021-06-10
 tags: 
-    - data science
-    - machine learning
-    - self-driving cars
+    - Machine Learning, Deep Learning and Neural Networks
+    - Application of Data Science
 author: Amber Dang
 image: \assets\images\blog\21-06-10\banner.jpg
 excerpt_separator: <!--more-->

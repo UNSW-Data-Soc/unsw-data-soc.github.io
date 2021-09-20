@@ -3,8 +3,7 @@ layout: post
 title: ‘Data is the new gold’ - but can every employee use it? 
 date: 2021-07-01
 tags:
-- data visualisation
-- data literacy
+- Skills and Guidance
 author: Maggie Chan
 image: /assets/images/blog/21-07-01.jpg
 excerpt_separator: <!--more-->
