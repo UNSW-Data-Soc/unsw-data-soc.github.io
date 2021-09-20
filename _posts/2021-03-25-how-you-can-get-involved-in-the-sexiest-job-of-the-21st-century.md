@@ -3,10 +3,9 @@ layout: post
 title:  "How You Can Get Involved In 'The Sexiest Job of The 21st Century'"
 date:   2021-03-25
 tags: 
-    - data science
-    - careers
-    - skills
-    - opinion
+    - Data Science
+    - Skills and Guidance
+    - Opinion
 author: William Feng
 image: /assets/images/blog/21-03-25.jpeg
 excerpt_separator: <!--more-->

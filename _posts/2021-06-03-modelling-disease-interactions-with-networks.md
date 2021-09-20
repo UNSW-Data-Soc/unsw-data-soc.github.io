@@ -3,10 +3,8 @@ layout: post
 title: Modelling Disease Interactions with Networks 
 date: 2021-06-03
 tags:
-- data science
-- graph theory
-- modelling
-- python
+    - Data Science
+    - Skills and Guidance
 author: Julian Garratt
 image: /assets/images/blog/21-06-03/21-06-03-cover-pic.jpeg
 excerpt_separator: <!--more-->

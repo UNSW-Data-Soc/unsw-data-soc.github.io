@@ -3,10 +3,9 @@ layout: post
 title:  "Errors and Bias - Variance Decomposition"
 date:   2021-04-22
 tags: 
-    - data science
-    - skills
-    - modelling
-    - machine learning
+    - Data Science
+    - Skills and Guidance
+    - Statistics
 author: Amber Dang
 image: \assets\images\blog\21-04-22-banner.jpg
 excerpt_separator: <!--more-->

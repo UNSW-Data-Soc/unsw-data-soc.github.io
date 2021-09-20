@@ -3,9 +3,9 @@ layout: post
 title:  "Cause or Correlation, That is the Question"
 date:   2021-09-02
 tags: 
-    - opinion
-    - statistics
-    - data science
+    - Opinion
+    - Statistics
+    - Data Science
 author: Aileen Wang
 image: /assets/images/blog/21-09-02.jpg
 excerpt_separator: <!--more-->

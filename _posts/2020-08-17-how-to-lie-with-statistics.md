@@ -3,8 +3,8 @@ layout: post
 title: "How people lie to your face – with factual numbers."
 date: 2020-08-17
 tags: 
-    - statistics
-    - communication
+    - Statistics
+    - Skills and Guidance
 author: Victor Tsang
 image: https://pics.me.me/statistics-shows-that-teenage-pregnancy-drops-dramatically-after-20-10-29449624.png
 excerpt_separator: <!--more-->

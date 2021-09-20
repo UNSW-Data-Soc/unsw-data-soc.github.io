@@ -3,9 +3,8 @@ layout: post
 title:  "Conversation with an AI"
 date:   2021-03-11
 tags: 
-    - data science
-    - artificial intelligence
-    - natural language processing
+    - Data Science
+    - Machine Learning, Deep Learning and Neural Networks
 author: Aileen Wang
 image: /assets/images/blog/21-03-11.jpg
 excerpt_separator: <!--more-->
