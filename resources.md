@@ -5,8 +5,7 @@ subtitle: From workshop slides to python guides
 colour: is-warning
 ---
 
-<br><br>
-<div class="content">
+<div class="hero-body background-shade">
 <div class="container is-fluid">
     <div class='columns'>
         <div class='column is-3'>
@@ -148,4 +147,3 @@ for (let checkbox of checkboxes) {
     }
 }
 </script>
-

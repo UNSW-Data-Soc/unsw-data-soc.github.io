@@ -18,7 +18,7 @@ colour: is-light
           </div>
       </div>
   </nav>
-<div class="hero-body">
+<div class="hero-body background-shade">
   <div class="container">
       <div class="columns">
         <div class="column is-10 is-offset-1">
