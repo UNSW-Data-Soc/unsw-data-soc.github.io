@@ -273,6 +273,14 @@ ul {
                         Please note that if you participate as an individual you're not guaranteed a spot in the datathon due to gender imbalance issues.
                         </p>
                     </details>
+                    <details>
+                    <summary>
+                        Why haven't I received any emails even though I've registered for the datathon?
+                    </summary>     
+                        <p>
+                        Please check your junk or spam folder for any emails from competitions@unswdata.com. Make sure to whitelist that email as well, so that you receive all following datathon correspondence!
+                        </p>
+                    </details>
             </div>
         </div>
     </div>
