@@ -7,10 +7,10 @@ colour: is-warning
 
 <div class="hero-body background-shade">
 <div class="container is-fluid">
-    <div class='columns'>
-        <div class='column is-3'>
+    <div class="columns">
+        <div class="column is-2">
             <div class="field is-horizontal is-left">
-                <div class = "field-label is-normal is-left">
+                <div class = "field-label is-normal">
                     <label class = "label" for="searchBox">Search</label>
                 </div>
                 <div class = "field-body">
@@ -21,7 +21,8 @@ colour: is-warning
                     </div>
                 </div>
             </div>
-            <p>Tags</p>
+            <br>
+            <h2 class='subtitle is-6'><b>Tags</b></h2>
             {% for tag in site.data.resource_tags %}
             <label class="checkbox">
                 <input type="checkbox" class="resource-tag"> {{ tag }}
@@ -29,13 +30,15 @@ colour: is-warning
             <br>
             {% endfor %}
         </div>
-        <div class='column is-9'>
+        <div class='column is-10'>
             <div class='columns is-multiline is-centered'>
                 {% for resource in site.data.resources %}
                 <div class='column is-4 search'>
                     <div class='card'>
                         <div class='card-content'>
-                            <p class='title is-5'>{{ resource.title }}</p>
+                            <a href="{{ resource.resources }}" target="_blank">
+                                <p class='title is-5'>{{ resource.title }}</p>
+                            </a>
                             <p class='subtitle is-6'>{{ resource.date }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
@@ -57,7 +60,7 @@ colour: is-warning
                             <p>Tags:</p>
                             <div class='c-footer'>
                                 {% for r in resource.tags %}
-                                    <button class='button is-small' style='margin: 1%;'>{{ r }}</button>
+                                    <button class="button is-small" style="margin: 1%; cursor: default">{{ r }}</button>
                                 {% endfor %}
                                 <!--{{ resource.tags }}-->
                             </div>
