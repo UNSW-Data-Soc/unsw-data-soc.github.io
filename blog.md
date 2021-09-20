@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Blog
-subtitle: Stay in the loop with our weekly blog post!
+subtitle: Stay in the loop with our blog posts!
 colour: is-info
 ---
 
@@ -10,7 +10,7 @@ colour: is-info
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
 
-<div class="hero-body">
+<div class="hero-body background-shade">
   <div class="container">
     <nav class = "level">
       <div class = "level-left">
