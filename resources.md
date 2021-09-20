@@ -4,19 +4,14 @@ title: Resources
 subtitle: From workshop slides to python guides
 colour: is-warning
 ---
-<style>
-    .card{
-        min-height:100%;
-    }
-</style>
 
 <br><br>
 <div class="content">
 <div class="container is-fluid">
-    <div class='columns'>
-        <div class='column is-3'>
+    <div class="columns">
+        <div class="column is-2">
             <div class="field is-horizontal is-left">
-                <div class = "field-label is-normal is-left">
+                <div class = "field-label is-normal">
                     <label class = "label" for="searchBox">Search</label>
                 </div>
                 <div class = "field-body">
@@ -27,16 +22,17 @@ colour: is-warning
                     </div>
                 </div>
             </div>
-            <p>Tags</p>
+            <br>
+            <h2 class='subtitle is-6'><b>Tags</b></h2>
             {% for tag in site.data.resource_tags %}
             <div class = "row" >
-            <label class="checkbox">
-                <input type="checkbox" class="resource-tag"> {{ tag }}
-            </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="resource-tag"> {{ tag }}
+                </label>
             </div>
             {% endfor %}
         </div>
-        <div class='column is-9'>
+        <div class='column is-10'>
             <div class='columns is-multiline is-centered'>
                 {% for resource in site.data.resources %}
                 <div class='column is-4 search'>
