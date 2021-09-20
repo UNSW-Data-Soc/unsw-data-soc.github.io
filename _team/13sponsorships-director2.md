@@ -1,5 +1,5 @@
 ---
-position: Sponsorships Officer
+position: Sponsorships Director
 portfolio: External
 order: 13
 name: Celine Choo

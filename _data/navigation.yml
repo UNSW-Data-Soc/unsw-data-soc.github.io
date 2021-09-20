@@ -1,5 +1,7 @@
 - name: Home
   link: /index
+- name: Atlassian Datathon
+  link: /datathon
 - name: About Us
   link: /about
   dropdown:
@@ -7,10 +9,14 @@
       link: /team
     - name: SpArc
       link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
+    - name: Our Constitution  
+      link: https://docs.google.com/document/d/1iwS5coS_TKDLLZlhIbN2CNLPuzeg7crnkZ-la_QYFSg/edit?usp=sharing
 - name: Our Sponsors
   link: /sponsors
 - name: Our Events
   link: /events
+- name: Jobs Board
+  link: /jobs-board
 - name: Blog
   link: /blog
   dropdown:
@@ -18,9 +24,6 @@
       link: /topics
 - name: Resources
   link: /resources
-  dropdown:
-    - name: Jobs Board
-      link: https://trello.com/b/iy42OQH1/datasoc-opportunities-board-2020
 - name: Publications
   link: /publications
   dropdown:

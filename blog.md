@@ -10,7 +10,7 @@ colour: is-info
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
 
-<div class="hero-body">
+<div class="hero-body background-shade">
   <div class="container">
     <nav class = "level">
       <div class = "level-left">
@@ -30,8 +30,7 @@ colour: is-info
         </div>
       </div>
     </nav>
-    <div class = "body">
-    <table class="table overflow myTable">
+    <table class="table overflow myTable" style="background:#f0f2f5">
         <tbody>
         {% for post in site.posts %}
         <tr>
@@ -60,7 +59,6 @@ colour: is-info
         {% endfor %}
         </tbody>
     </table>
-    </div>
   </div>
 </div>
 

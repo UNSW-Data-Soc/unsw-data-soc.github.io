@@ -201,6 +201,11 @@ Events:
     <br><br>
     [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
    link: https://www.facebook.com/events/443973773601289/
+ - name: "UNSW DataSoc Presents: No More Queries - A Guide To SQL"
+   img: \assets\images\events\guide-to-sql.jpg
+   start-date: 2021-06-16
+   end-date: 2021-06-16
+   location: Online
  - name: Starter-thon
    img: \assets\images\events\starter-thon.jpg
    start-date: 2021-04-10
@@ -412,30 +417,6 @@ Events:
    [Register here!](https://forms.gle/zxX3DGa3zev2XY828)'
    location: City Hyde Park
    link: https://www.facebook.com/events/1324681851267937
- - name: No more Queries - A Guide to SQL
-   start-date: 2021-06-17
-   end-date: 2021-06-17
-   time: 11am - 12:30pm
-   location: UNSW and Online
-   link: https://www.facebook.com/events/289754699459986
-   img: \assets\images\events\sql-workshop.jpg
-   description: "Kickoff T2 with Datasoc’s SQL workshop! Whether you are new to coding or an experienced database enthusiast, come along to develop your programming skills 👩‍💻 and gain valuable knowledge 🧠 about the most 📈widely-implemented📈 database language in the world!
-   <br><br>
-   What is SQL❓
-   <br><br>
-   If your problem has anything to do with data then SQL is for you! SQL is a programming language widely used across all industries🏢 when it comes to managing data or searching for specific features in a database📊.
-   <br><br>
-   Our workshop will walk you through:
-   <br>
-   ✅ Database structures
-   <br>
-   ✅ Traversing a database
-   <br>
-   ✅ Filtering data
-   <br>
-   ✅ And more!
-   <br><br>
-   [Register here!](https://forms.gle/DEUUgf5bzyUoLHMj9)"
  - name: Into the Dataverse - Healthcare Deepdive
    start-date: 2021-06-22
    end-date: 2021-06-22
@@ -490,10 +471,24 @@ Events:
     ​The best part is that you'll learn all this in ONE HOUR! 🤯🤯🤯
     <br><br>
    [Register here!](https://forms.gle/FfMsxCNuwqVaEnWG8)"
- - name: DATA1001 Revision Workshop
-   start-date: 2021-08-02
-   end-date: 2021-08-02
-   tag: planned
+ - name: DATA1001 Revision - Key to Better Decisions
+   img: /assets/images/events/data1001_revision.jpeg
+   start-date: 2021-08-09
+   end-date: 2021-08-09
+   time: 2 - 4pm
+   location: Online (Zoom)
+   description: "
+    What is statistics ∪ computer science ∪ business? 🤔 The DATA1001 workshop of course! 🤩
+    <br><br>
+    Don’t remember what’s the difference between ∪ and ∩? Think that binary trees and bloom filters are to do with plants? 🌱
+    <br><br>
+    Well in the DATA1001 workshop there will be no flowery 🌷 language, just explanations that will get straight to the point summarising week 1 to 10 content 📈
+    <br><br>
+    Join the 2 hour workshop that's coming up! Whether you're struggling to wrap your head around a concept 🤯 or in need of a quick recap with plenty of problem examples and straightforward demonstrations 📊. Say bye to confusion and hello to solutions 👋
+    <br><br>
+    [Register Here!](https://forms.gle/eR5s6iNY6UiDiiSd9)
+   "
+   link: https://www.facebook.com/events/320297019835205/
  - name: Data Cleaning & Visualisation Workshops
    img: /assets/images/events/data_cleaning_and_visualisation.jpeg
    start-date: 2021-07-16
@@ -561,11 +556,6 @@ Events:
    <br><br>
    "
    link: https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view
- - name: Atlassian Datathon
-   start-date: 2021-09-25
-   end-date: 2021-09-25
-   time: 12pm-5pm
-   location: Online
  - name: Virtual Escape Room - Escaping the Matrix
    img: /assets/images/events/escaping_the_matrix.jpeg
    start-date: 2021-07-21
@@ -614,9 +604,49 @@ Events:
     [Register Here!](https://forms.gle/W62mRgeHAsyYS7Wq5)
    "
    link: https://fb.me/e/1wHKwffhq
-
-
-
+ - name: Machine Learning Workshop
+   start-date: To be Confirmed
+   end-date: To be Confirmed
+   tag: planned
+ - name: Mirvac Case Competition
+   start-date: 2021-10-04
+   end-date: 2021-10-11
+   tag: planned
+ - name: Games Night
+   start-date: 2021-10-17
+   end-date: 2021-10-17
+   tag: planned
+ - name: "Happiest Hours: Side Bar (Part 2)"
+   start-date: 2021-11-03
+   end-date: 2021-11-03
+   tag: planned
+ - name: "DataSoc's Got Talent"
+   start-date: 2021-10-08
+   end-date: 2021-10-08
+   tag: planned
+ - name: Annual General Meeting (AGM)
+   start-date: 2021-10-07
+   end-date: 2021-10-07
+   tag: planned
+ - name: "Atlassian Datathon"
+   img: /assets/images/events/atlassian_datathon.jpg
+   start-date: 2021-09-19
+   end-date: 2021-09-25
+   description: Ever wondered what it takes to solve a challenging, real-world problem with the power of data? 🤔 <br>
+    Well look no further and immerse yourself in DataSoc x Atlassian’s annual datathon for 2021! 🤩 <br><br>
+    Capture your potential by putting your analytical 📈 and coding skills 🖥 to the test, and work alongside industry mentors to gain valuable, hands-on experience coveted by many hiring companies. <br><br>
+    [REGISTER HERE!](https://forms.gle/J5jJQ6fcQNwzZcRH6)
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
+   link: https://www.facebook.com/events/217071130480380
+ - name: "React for a Rescue"
+   img: /assets/images/events/react-for-a-rescue.jpg
+   start-date: 2021-09-04
+   end-date: 2021-09-18
+   description: 🚨 DataSoc and DogSoc are raising money for the RSPCA, and all you have to do is REACT! 🚨 <br>
+    Stretch your paws 🐾 and get ready to smile 😁, because DataSoc x DogSoc’s 2021 ‘React for a Rescue’ Pet Competition is coming! We know it’s been ruff 🤕 staying at home and everyone’s going through a tough pooch, so we’re calling all pets big and small during lockdown, it’s now your time to ✨shine!✨ (For a good cause too!) <br><br>
+    [REGISTER HERE!](https://forms.gle/Kj3bgnpFdStqrX1RA)
+   location: Online <a href="https://discord.gg/7wC22UzH">(Discord)</a>
+   link: https://www.facebook.com/events/1204099226760085/
 
 
 
@@ -631,7 +661,6 @@ Events:
 #    time: 
 #    description: 
 #    link: 
-
 
 
 

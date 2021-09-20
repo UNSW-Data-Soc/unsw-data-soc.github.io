@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" style="padding-top: 1.5rem">
     <div class="card-image is-square">
       <figure class="image is-256x256">
         <img src="{{ include.image | prepend: '/assets/images/team/' }}" alt="{{ include.name }}">
@@ -14,7 +14,7 @@
       </div>
       <div class="content">
           <p><i>{{ include.one_line }}</i></p>
-        <span class="button modal-button is-info is-outlined" data-target="modal-{{ include.name | replace: ' ', '-' | downcase }}">Who am I?</span> 
+        <span class="button modal-button is-info is-outlined" data-target="modal-{{ include.name | replace: ' ', '-' | downcase }}">{{ include.button_text }}</span> 
       </div>
     </div>
 </div>

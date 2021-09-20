@@ -4,9 +4,19 @@ title: Events
 subtitle: From social events to workshops to networking opportunities
 colour: is-link
 ---
-
+<style>
+    .card{
+        min-height:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    .card-image{
+        display:flex;
+        flex-grow:2;
+    }
+</style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-<div class="hero-body">
+<div class="hero-body background-shade">
     <h2 class="title is-1 centered">Upcoming Events</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
     {% assign e = site.data.events.Events | sort_natural: "end-date" %}
