@@ -8,14 +8,8 @@ permalink: /about/team/
 ---
 <style>
 	.card{
-		min-height: 100%;
 		display:flex;
   		flex-direction:column;
-	}
-
-	.card-image{
-		display:flex;
-		flex-grow:2;
 	}
 </style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
@@ -47,9 +41,9 @@ permalink: /about/team/
 			<div class="content">
 				{% assign remaining_people = portfolio.size %}
 					{% if portfolio.size == 6 %}
-						{%assign columns = 3 %}
+						{% assign columns = 3 %}
 					{% else %}
-						{%assign columns = 4 %}
+						{% assign columns = 4 %}
 					{% endif %}
 				{% for person in portfolio %}
 					{% assign value = forloop.index0 | modulo: columns %}
@@ -64,12 +58,6 @@ permalink: /about/team/
 						{% elsif remaining_people == 2 %}
 							<div class="column is-3">
 							</div>
-<<<<<<< HEAD
-
-						{% assign remaining_people = remaining_people | minus: 1 %}
-					{% endfor %}
-					</div>
-=======
 						{% elsif remaining_people == 1 %}
 							<div class="column is-4">
 							</div>
@@ -88,7 +76,6 @@ permalink: /about/team/
 						{% include team-modal-card.html name=person.name image=person.image position=person.position degree=person.degree content=person.content one_line=person.one_line %}
 					{% assign remaining_people = remaining_people | minus: 1 %}
 				{% endfor %}
->>>>>>> production
 				</div>
 			</div>
 		</div>
