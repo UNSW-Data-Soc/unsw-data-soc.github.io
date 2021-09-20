@@ -6848,7 +6848,7 @@ label.panel-block:hover {
 }
 
 .tabs.is-boxed a:hover {
-  background-color: whitesmoke;
+  background-color: #8c8c8c;
   border-bottom-color: #dbdbdb;
 }
 
@@ -11332,3 +11332,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 /*# sourceMappingURL=bulma.css.map */
+
+/* Custom CSS */
+.background-shade {
+  background: #f0f2f5;
+}

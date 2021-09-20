@@ -5,8 +5,7 @@ subtitle: From workshop slides to python guides
 colour: is-warning
 ---
 
-<br><br>
-<div class="content">
+<div class="hero-body background-shade">
 <div class="container is-fluid">
     <div class="columns">
         <div class="column is-2">
@@ -25,11 +24,10 @@ colour: is-warning
             <br>
             <h2 class='subtitle is-6'><b>Tags</b></h2>
             {% for tag in site.data.resource_tags %}
-            <div class = "row" >
-                <label class="checkbox">
-                    <input type="checkbox" class="resource-tag"> {{ tag }}
-                </label>
-            </div>
+            <label class="checkbox">
+                <input type="checkbox" class="resource-tag"> {{ tag }}
+            </label>
+            <br>
             {% endfor %}
         </div>
         <div class='column is-10'>
@@ -134,23 +132,21 @@ for (let checkbox of checkboxes) {
 
         // Reset checkboxes if all unticked
         if (no_boxes_checked(checkboxes)) {
-            console.log('hey')
             for (let resource of resources) {
                 resource.style.display = "";
             }
         } else {
 
-            //For each resource card check if tags belong to set of ticked checkboxes
+            // For each resource card check if tags belong to set of ticked checkboxes
             for (let resource of resources) {
-                    let tags = resource.getElementsByClassName('c-footer')[0].innerText;
-                    if (tags_are_checked(checkboxes,tags)) {
-                        resource.style.display = "";
-                    } else {
-                        resource.style.display = "none";
-                    }
+                let tags = resource.getElementsByClassName('c-footer')[0].innerText;
+                if (tags_are_checked(checkboxes,tags)) {
+                    resource.style.display = "";
+                } else {
+                    resource.style.display = "none";
+                }
             }
         }
     }
 }
 </script>
-
