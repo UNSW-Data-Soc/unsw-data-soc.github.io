@@ -66,7 +66,7 @@ colour: is-warning
                             <p>Tags:</p>
                             <div class='c-footer'>
                                 {% for r in resource.tags %}
-                                    <button class='button is-small' style='margin: 1%;'>{{ r }}</button>
+                                    <button class="button is-small" style="margin: 1%; cursor: default">{{ r }}</button>
                                 {% endfor %}
                                 <!--{{ resource.tags }}-->
                             </div>
