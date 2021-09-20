@@ -23,6 +23,9 @@ img {
 
 .sponsor-figure {
     padding: 1.25rem 0.625rem;
+    flex: 1 0 180px;
+    margin: 2% 4rem;
+    max-width: 25%;
 }
 
 .sponsor_info {
@@ -30,12 +33,16 @@ img {
 }
 
 .separator {
-    margin: 150px;
+    /* margin: 150px; */
+    padding: 80px;
+    /* postion:relative; */
 }
 
 .columns-is-vcentered-sponsor-figure-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 </style>
