@@ -14,53 +14,44 @@ subtitle: |
 ---
 
 <style>
-
-img {
-    width:  200px;
-    height: 100px;
-    object-fit: scale-down;
+.sponsor-figure-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .sponsor-figure {
+    flex: 0 1 28%;
     padding: 1.25rem 0.625rem;
-    flex: 1 0 180px;
-    margin: 2% 4rem;
-    max-width: 25%;
+
+    /* Displaying logo figures */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sponsor_info {
     text-align: center;
 }
-
-.separator {
-    /* margin: 150px; */
-    padding: 80px;
-    /* postion:relative; */
-}
-
-.columns-is-vcentered-sponsor-figure-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
 </style>
 
 <div class="hero-body">
   <!--Sponsors -->
   {% for tier in site.data.sponsors %}
-    <div class="separator">
+    <div class="section">
         <div class="container">
         <div class="section-title-wrapper">
             <h2 class="title is-1 centered">{{ tier[0] }}</h2>
-            <div class="columns-is-vcentered-sponsor-figure-container">
+            <div class="columns is-vcentered sponsor-figure-container">
                 {% for sponsor in tier[1] %}
                     <div class="column sponsor-figure">
                         <div class="sponsor_icon">
-                            <a href="{{ sponsor.link }}" target="_blank">
+                            <a href="{{ sponsor.link }}">
                                 <img src="{{ sponsor.icon }}">
                             </a>
+                        </div>
+                        <div class="sponsor_info">
+                            {{ sponsor.description | newline_to_br}}
                         </div>
                     </div>
                 {% endfor %}
