@@ -21,35 +21,33 @@ img {
     object-fit: scale-down;
 }
 
-.sponsor-figure-container {
-    display: grid;
-    /** flex-flow: row wrap;
-    justify-content: space-around;**/
-}
-
 .sponsor-figure {
-    /**flex: 0 1 28%;*//
     padding: 1.25rem 0.625rem;
-
-    /* Displaying logo figures */
-    display: grid;
-    /**flex-direction: column;
-    justify-content: center;**/
 }
 
 .sponsor_info {
     text-align: center;
 }
+
+.separator {
+    margin: 150px;
+}
+
+.columns-is-vcentered-sponsor-figure-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 </style>
 
 <div class="hero-body">
   <!--Sponsors -->
   {% for tier in site.data.sponsors %}
-    <div class="section">
+    <div class="separator">
         <div class="container">
         <div class="section-title-wrapper">
             <h2 class="title is-1 centered">{{ tier[0] }}</h2>
-            <div class="columns is-vcentered sponsor-figure-container">
+            <div class="columns-is-vcentered-sponsor-figure-container">
                 {% for sponsor in tier[1] %}
                     <div class="column sponsor-figure">
                         <div class="sponsor_icon">
@@ -57,9 +55,6 @@ img {
                                 <img src="{{ sponsor.icon }}">
                             </a>
                         </div>
-                        <!-- <div class="sponsor_info">
-                            {{ sponsor.description | newline_to_br}}
-                        </div> -->
                     </div>
                 {% endfor %}
             </div>
