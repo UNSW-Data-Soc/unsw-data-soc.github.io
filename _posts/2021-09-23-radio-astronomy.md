@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Radio Waves: Signals from the Furtherest Celestial Objects"
+title:  "Radio Waves: Signals from Distant Celestial Objects"
 date:   2021-09-23
 tags: 
     - astronomy
@@ -9,7 +9,7 @@ image: /assets/images/blog/21-09-23/centaurus-a.jpg
 excerpt_separator: <!--more-->
 ---
 
-The world is a complicated place, and every day we see millions of different problems to solve. How can we use one of nature's secret strengths to power our technology?
+Observing distant intergalactic objects that are hundreds of millions of light years away is like trying to read a newspaper on the moon — from Earth. But radio astronomy makes it possible to capture invisible wavelengths of light, unveiling the most elusive corners of the observable universe.
 
 <!--more-->
 
