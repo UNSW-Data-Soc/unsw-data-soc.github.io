@@ -15,7 +15,7 @@ Observing distant intergalactic objects that are hundreds of millions of light y
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-Beyond our cosy neighbourhood of planets in the solar system, foreign celestial objects like stars and galaxies are separated from us by huge expanses of empty space. Most of the time, the only direct evidence we have for their existence is the faint beams of light emitted and propagated through space over millions of years to reach us. To collect and analyze these miniscule signals, astronomers over last century have developed lots of clever techniques and instruments to deduce much more information about celestial objects than what meets the eye. In this article we will take a look at how radio astronomers detect radiation from deep space and what this data reveals about distant celestial objects.
+Beyond our cosy neighbourhood of planets in the solar system, foreign celestial objects like stars and galaxies are separated from us by huge expanses of empty space. Most of the time, the only direct evidence we have for their existence is the faint beams of light emitted and propagated through space over millions of years to reach us. To collect and analyze these miniscule signals, astronomers over the last century have developed lots of clever techniques and instruments to deduce much more information about celestial objects than what meets the eye. In this article we will take a look at how radio astronomers detect radiation from deep space and what this data reveals about distant celestial objects.
 
 ## What are radio waves, and why observe them?
 
