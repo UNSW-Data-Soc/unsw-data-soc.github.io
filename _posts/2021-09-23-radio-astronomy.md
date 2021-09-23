@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Radio Astronomy: A Window to the Cosmos"
+title:  "Radio Waves: Signals from the Furtherest Celestial Objects"
 date:   2021-09-23
 tags: 
     - astronomy
 author: Gordon Huang
-image: /assets/images/blog/2021-09-23-cover-photo.jpg
+image: /assets/images/blog/21-09-23/centaurus-a.jpg
 excerpt_separator: <!--more-->
 ---
 
