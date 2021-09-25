@@ -1,4 +1,11 @@
 Events:
+ - name: "UNSW DataSoc Presents: Women in Tech, Let's Talk About It."
+   img: /assets/images/events/wit.jpg
+   start-date: 2021-09-29
+   end-date: 2021-09-29
+   description: Gender Wage Gap. Glass Ceiling. The Need to Assert Credibility. Are these really the realities that women encounter in the tech industry? Then why is it so difficult to have a candid discussion on these topics? It’s time to dive deeper and put it on the agenda.<br><br>
+   link: https://www.facebook.com/events/1263539257392512
+  
  - name: Peer Mentoring 2021
    img: /assets/images/events/peer_mentoring.png
    start-date: 2021-02-08
