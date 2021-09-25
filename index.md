@@ -77,7 +77,7 @@ title: Welcome to DataSoc
 <div class="notification">
 <button class="delete"></button>
 <p class="has-text-centered">
-    <span class="tag is-info">New</span> Check out our <a href = "/datathon" >Atlassian Datathon</a>!
+    <span class="tag is-info">New</span> Check out our <a href = "/caseComp" >Mirvac Case Competition</a>!
 </p>
 </div>
 
