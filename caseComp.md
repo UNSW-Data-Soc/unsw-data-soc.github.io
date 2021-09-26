@@ -67,7 +67,7 @@ ul {
             <div class="column is-three-quarters has-text-centered">
                 <h3 class="subtitle is-4">
                     <br>
-                    If you are looking to put your analytical and problem skills into practice, DataSoc is proud to present our Case competition in collaboration with Mirvac!
+                    If you are looking to put your analytical and problem skills into practice, DataSoc is proud to present our Case Competition in collaboration with Mirvac!
                     <br><br>This year, DataSoc has partnered up for the first time with Mirvac, and together we present to you an opportunity to experience what it is like to use the power of data to solve sustainability related problems in the housing industry. 
                     <br><br>
                     <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/4413474652066560/">Follow the Event on Facebook!</a>
@@ -240,7 +240,7 @@ ul {
                         How will we be judged?
                     </summary>     
                         <p>
-                        Find out at the Case Brief Kickoff which will be released on facebook soon!
+                        Find out at the Case Brief Kickoff which will be released on Facebook soon!
                         </p>
                     </details>
                     <details>
