@@ -1,7 +1,7 @@
 - name: Home
   link: /index
-- name: Atlassian Datathon
-  link: /datathon
+- name: Mirvac Case Competition
+  link: /caseComp
 - name: About Us
   link: /about
   dropdown:

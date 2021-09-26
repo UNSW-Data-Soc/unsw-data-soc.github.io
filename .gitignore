@@ -34,3 +34,6 @@ tmp/*
 # Python
 __pycache__/
 *.py
+
+# Mac users
+**/.DS_Store
