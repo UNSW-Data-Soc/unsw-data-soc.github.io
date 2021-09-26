@@ -615,10 +615,32 @@ Events:
    start-date: To be Confirmed
    end-date: To be Confirmed
    tag: planned
- - name: Mirvac Case Competition
+ - name: "UNSW DataSoc x Mirvac Present: Case Competition - Building a Better Future"
    start-date: 2021-10-04
-   end-date: 2021-10-11
-   tag: planned
+   end-date: 2021-10-29
+   img: /assets/images/events/mirvac.png
+   link: https://www.facebook.com/events/4413474652066560/
+   description: 
+    🥁🥁🥁FOR THE FIRST TIME, DataSoc is collaborating with Mirvac - an Australian property group who specialise in investment, development and retail services‼️
+    <br><br>
+    ♻️Sustainability is a critical consideration in all corporate strategy, 💭 and we need innovative thinkers to engineer our future of tomorrow. 
+    <br><br>
+    ---📢 What's involved 📢---
+    <br><br>
+    💡You will present a practical strategy to a sustainability related problem in the housing industry.  
+    <br><br>
+    🏠 You will be considering both qualitative and quantitative data.  
+    <br><br>
+    👩‍🎤 This is a STRATEGY focused comp and is open to ALL students of any background - No prior coding, modelling or case comp experience needed! 
+    <br><br>
+    👭 The competition will be in teams of 3-4, but feel free to register individually and we'll place you into a team. 
+    <br><br>
+    -----🏆 Prizes 🏆-----
+    <br><br>
+    🤑 $600 worth of Prizes up for grabs
+    <br><br>
+    ☕️ Coffee chats with key members of the Mirvac Data Science team
+
  - name: Games Night
    start-date: 2021-10-17
    end-date: 2021-10-17
