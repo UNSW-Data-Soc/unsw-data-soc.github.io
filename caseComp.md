@@ -29,20 +29,24 @@ ul {
     list-style-position: inside;
 }
 
+.title-container {
+    padding-top: 6em;
+}
+
 </style>
 
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-medium" style="background-image: url('/assets/images/datathon/datathonCP.png'); background-position: center; background-attachment: fixed; background-size: cover">
+<div class="hero is-bold is-medium" style="background-image: url('/assets/images/caseComp/caseCompCPDarker.png'); background-position: center; background-attachment: fixed; background-size: cover">
     <div class="hero-body">
         <div class="container" style="height:130px">
             <div class="has-text-centered">
                 <img src="/assets/images/caseComp/mirvac.png"
-                    style="max-width:20%">
+                    style="max-width:30%">
             </div>
         </div>
-        <div class="container">
+        <div class="title-container">
             <div class="column has-text-centered is-hero-title">
                 <h2 class="subtitle is-4 has-text-white">DataSoc Presents:</h2>
                 <h1 class="title is-1 is-bigger has-text-white">Mirvac Case Competition</h1> 
