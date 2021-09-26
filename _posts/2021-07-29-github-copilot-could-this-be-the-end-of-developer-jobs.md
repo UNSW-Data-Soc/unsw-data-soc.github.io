@@ -3,11 +3,9 @@ layout: post
 title:  "GitHub Copilot: Could This Be The End of Developer Jobs?"
 date:   2021-07-29
 tags: 
-    - artificial intelligence
-    - machine learning
-    - programming
-    - careers
-    - opinion
+    - Machine Learning, Deep Learning and Neural Networks
+    - Skills and Guidance
+    - Opinion
 author: William Feng
 image: /assets/images/blog/21-07-29.png
 excerpt_separator: <!--more-->

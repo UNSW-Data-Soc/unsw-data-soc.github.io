@@ -3,8 +3,8 @@ layout: post
 title:  "Data Visualisation: The Google Translate Between Business and Data Teams?"
 date:   2021-05-20
 tags:
-- data science
-- data visualisation
+- Data Science
+- Skills and Guidance
 author: Maggie Chan
 image: /assets/images/blog/21-05-20.jpg
 excerpt_separator: <!--more-->

@@ -3,8 +3,8 @@ layout: post
 title: "Why bother with Uni Societies?"
 date: 2020-07-18
 tags: 
-    - university
-    - opinion
+    - Skills and Guidance
+    - Opinion
 author: Victor Tsang
 image: /assets/images/blog/DataSoc%20at%20Atlassian.jpg
 excerpt_separator: <!--more-->

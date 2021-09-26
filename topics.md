@@ -1,8 +1,8 @@
 ---
 layout: landing-banner
 permalink: blog/topics
-title: Tags
-subtitle: Filter by topic
+title: Topics
+subtitle: Our blog directory, the place to find the next interesting article!
 colour: is-info
 ---
 
@@ -12,8 +12,8 @@ colour: is-info
       {% for tag in site.tags %}               
         <details>
         <summary>
-        {{ tag[0] }}<span>({{ tag[1].size }})</span>
-        </summary>                
+          <span style="font-size:20px">{{ tag[0] }} ({{ tag[1].size }})</span>
+        </summary>
             <p>
             {% for post in tag[1] %}
             <ul>

@@ -3,10 +3,9 @@ layout: post
 title:  "Biased Data and Faulty Models: How can we mitigate these?"
 date:   2021-04-08
 tags: 
-    - data science
-    - data analytics
-    - bias
-    - tutorial
+    - Data Science
+    - Statistics
+    - Skills and Guidance
 author: Kai Mashimo
 image: /assets/images/blog/data-bias-cover.jpg
 excerpt_separator: <!--more-->

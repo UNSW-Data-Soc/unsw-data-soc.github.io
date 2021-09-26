@@ -82,7 +82,7 @@ title: Welcome to DataSoc
 </div>
 
 <!-- PLEASE REMOVE THE MARGIN-TOP IN THE FOLLOWING LINE AFTER DATATHON IS COMPLETE -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); margin-top:-20px; background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="columns is-vcentered">

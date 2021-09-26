@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Blog
-subtitle: Stay up to date
+subtitle: Stay in the loop with our blog posts!
 colour: is-info
 ---
 
@@ -17,12 +17,12 @@ colour: is-info
         <div class = "level-item">
           <div class="field is-horizontal">
               <div class = "field-label is-normal">
-              <label class = "label" for="searchBox">Search</label>
+              <label class = "label" style="margin-left: 1000px;" for="searchBox">Search</label>
               </div>
               <div class = "field-body">
                 <div class = "field">
                   <p class = "control is-pulled-left">
-                    <input class="input" id="searchBox" type = "text" placeholder="Search terms...">
+                    <input class="input" id="searchBox" type = "text" placeholder="What are you looking for?" size="30">
                   </p>
                 </div>
               </div>
@@ -30,7 +30,8 @@ colour: is-info
         </div>
       </div>
     </nav>
-    <table class="table overflow myTable" style="background:#f0f2f5">
+    <div class = "body">
+    <table class="table overflow myTable">
         <tbody>
         {% for post in site.posts %}
         <tr>
@@ -38,10 +39,10 @@ colour: is-info
             <div class = "columns">
             <div class = "column">
             {% if post.title != 404 %}
-            <h2 class="title is-1 centered is-size-5-mobile"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
+            <h2 class="title is-2 centered is-size-6-mobile"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
             {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
             <br>
-            <p class = "is-size-3-mobile">{{ post.excerpt }}</p>
+            <p class = "is-size-5-mobile">{{ post.excerpt }}</p>
             <br>
             <p><a href="{{ post.url }}"> ... Read more</a></p>
             <br>
@@ -49,7 +50,7 @@ colour: is-info
             </div>
             {% if post.image %}
               <div class = "column">
-                <span><figure class="image"><img src="{{ post.image }}" alt="" /></figure></span>
+                <span><figure class="image"><img src="{{ post.image }}" alt=""/></figure></span>
               </div>
               <br><br>
             {% endif %}
@@ -59,6 +60,7 @@ colour: is-info
         {% endfor %}
         </tbody>
     </table>
+    </div>
   </div>
 </div>
 
@@ -66,7 +68,7 @@ colour: is-info
 <script>
 
   let options = {
-    numberPerPage: 10,
+    numberPerPage: 20,
     goBar:true, 
     pageCounter:true, 
   };
