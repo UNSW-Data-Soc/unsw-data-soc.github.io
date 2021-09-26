@@ -4631,6 +4631,10 @@ fieldset[disabled] .select select:hover {
 .card-content {
   background-color: transparent;
   padding: 1.5rem;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  flex:1;
 }
 
 .card-footer {
@@ -4851,6 +4855,7 @@ button.dropdown-item.is-active {
   align-items: flex-start;
   display: flex;
   text-align: inherit;
+  flex:1;
 }
 
 .media .content:not(:last-child) {

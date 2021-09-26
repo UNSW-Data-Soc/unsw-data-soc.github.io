@@ -3,8 +3,7 @@ layout: post
 title:  "Data Science and Data Analytics: What’s the Difference?"
 date:   2020-07-18
 tags: 
-    - data science
-    - data analytics
+    - Data Science
 author: Aileen Wang
 image: /assets/images/blog/Data Science Data Analysis.jpg
 excerpt_separator: <!--more-->

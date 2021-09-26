@@ -3,8 +3,8 @@ layout: post
 title:  "'Save the Bees' - with Data!"
 date:   2021-09-09
 tags: 
-    - data science
-    - environment
+    - Data Science
+    - Application of Data Science
 author: Maggie Chan
 image: /assets/images/blog/21-09-09.png
 excerpt_separator: <!--more-->

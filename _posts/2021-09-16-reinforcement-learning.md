@@ -3,9 +3,8 @@ layout: post
 title:  "Reinforcement Learning - a natural way to learn"
 date:   2021-09-16
 tags: 
-    - data science
-    - reinforcement learning
-    - bandit algorithms
+    - Data Science
+    - Machine Learning, Deep Learning and Neural Networks
 author: Kai Mashimo
 image: /assets/images/blog/dna-cover-photo.jpg
 excerpt_separator: <!--more-->

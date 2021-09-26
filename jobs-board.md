@@ -9,7 +9,7 @@ colour: is-warning
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body background-shade">
-    <h2 class="title is-1 centered">Upcoming Jobs</h2>
+    <!-- <h2 class="title is-1 centered">Upcoming Jobs</h2> -->
     <div class = "columns">
         <div class = "column is-2" style="margin-left:2%">
             <div class="field is-horizontal">

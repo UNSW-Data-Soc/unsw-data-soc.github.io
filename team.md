@@ -6,7 +6,12 @@ colour: is-info
 title-image: city2_left.png
 permalink: /about/team/
 ---
-
+<style>
+	.card{
+		display:flex;
+  		flex-direction:column;
+	}
+</style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body background-shade">
 	{% assign portfolios = "Executives, External, Internal, Subcommittee" | split: ", " %}
@@ -36,9 +41,9 @@ permalink: /about/team/
 			<div class="content">
 				{% assign remaining_people = portfolio.size %}
 					{% if portfolio.size == 6 %}
-						{%assign columns = 3 %}
+						{% assign columns = 3 %}
 					{% else %}
-						{%assign columns = 4 %}
+						{% assign columns = 4 %}
 					{% endif %}
 				{% for person in portfolio %}
 					{% assign value = forloop.index0 | modulo: columns %}

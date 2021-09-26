@@ -3,8 +3,8 @@ layout: post
 title: "The Laborious Process of Pinning Down Data Science: A Tragedy in Five Acts"
 date:   2020-07-18
 tags:
-    - data science
-    - opinion
+    - Data Science
+    - Opinion
 author: Aileen Wang
 image: /assets/images/blog/Blog01-07-2020.jpg
 excerpt_separator: <!--more-->
