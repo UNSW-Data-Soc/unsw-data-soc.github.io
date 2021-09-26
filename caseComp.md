@@ -70,7 +70,7 @@ ul {
                     If you are looking to put your analytical and problem skills into practice, DataSoc is proud to present our Case competition in collaboration with Mirvac!
                     <br><br>This year, DataSoc has partnered up for the first time with Mirvac, and together we present to you an opportunity to experience what it is like to use the power of data to solve sustainability related problems in the housing industry. 
                     <br><br>
-                    <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/217071130480380">Follow the Event on Facebook!</a>
+                    <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/4413474652066560/">Follow the Event on Facebook!</a>
                     <br><br>
                     You and your team will be given a real-world, strategy driven problem which you will have 2 weeks to work on a presentation-ready solution to pitch your ideas to the judges.
                     <br><br>
@@ -109,8 +109,8 @@ ul {
                         <div class="content">
                             <h4 class="has-text-centered">1st Place Prize </h4>
                             <ul>
-                                <li>$500 Cash</li>
-                                <li>Virtual coffee chat with Atlassian (can be from any division)</li>
+                                <li>$300 Cash</li>
+                                <li>Virtual coffee chat with a Mirvac representative</li>
                             </ul>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ ul {
                             <h4 class="has-text-centered">2nd Place Prize</h4>
                             <ul>
                                 <li>$200 Cash</li>
-                                <li>Chat with Atlassian recruiting representative</li>
+                                <li>Virtual coffee chat with a Mirvac representative</li>
                             </ul>
                         </div>
                     </div>
@@ -134,8 +134,8 @@ ul {
                     <div class="card-content">
                         <div class="content">
                             <h4 class="has-text-centered"> 3rd Place Prize </h4>
-                            <li>$200 Cash</li>
-                            <li>Chat with Atlassian recruiting representative</li>
+                            <li>$100 Cash</li>
+                            <li>Virtual coffee chat with a Mirvac representative</li>
                         </div>
                     </div>
                 </div>
@@ -232,7 +232,7 @@ ul {
                        Where can I find out more info about the event?
                     </summary>     
                         <p>
-                        For regular updates, make sure to click "Going" on the <a href="https://www.facebook.com/events/217071130480380">Facebook Event</a> and follow us on our socials!
+                        For regular updates, make sure to click "Going" on the <a href="https://www.facebook.com/events/4413474652066560/" target="_blank">Facebook Event</a> and follow us on our socials!
                         </p>
                     </details>
                     <details>
@@ -240,7 +240,7 @@ ul {
                         How will we be judged?
                     </summary>     
                         <p>
-                        Find out at the <a href="https://www.facebook.com/events/690557315235498">Case Brief Kickoff</a>!
+                        Find out at the Case Brief Kickoff which will be released on facebook soon!
                         </p>
                     </details>
                     <details>
