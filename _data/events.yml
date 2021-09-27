@@ -645,12 +645,24 @@ Events:
     ☕️ Coffee chats with key members of the Mirvac Data Science team
 
  - name: Games Night
-   start-date: 2021-10-17
-   end-date: 2021-10-17
-   tag: planned
+   start-date: 2021-09-17
+   end-date: 2021-09-17
+   img: /assets/images/events/games.jpg
  - name: "Happiest Hours: Side Bar (Part 2)"
    start-date: 2021-11-03
    end-date: 2021-11-03
+   tag: planned
+ - name: "International Flagship Datathon"
+   start-date: To be confirmed
+   end-date: To be confirmed
+   tag: planned
+ - name: "Postgrad Fireside Chat"
+   start-date: To be confirmed
+   end-date: To be confirmed
+   tag: planned
+ - name: "Networking Night"
+   start-date: To be confirmed
+   end-date: To be confirmed
    tag: planned
  - name: "DataSoc's Got Talent"
    start-date: 2021-10-08
