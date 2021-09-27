@@ -257,36 +257,3 @@ title: Welcome to DataSoc
 <!-- Background gradient -->
 <!-- background: linear-gradient(27deg, rgba(73, 193, 245, 0.3) 0%, rgba(159, 98, 162, 0.3) 25%, rgba(228, 91, 235, 0.3) 50%, rgba(250, 90, 103, 0.3) 75%, rgba(233, 109, 56, 0.3) 100%); -->
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-//delete notification
-(document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-    const $notification = $delete.parentNode;
-
-    $delete.addEventListener('click', () => {
-      $notification.parentNode.removeChild($notification);
-    });
-});
-// Get all "navbar-burger" elements
-const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-// Check if there are any navbar burgers
-if ($navbarBurgers.length > 0) {
-
-  // Add a click event on each of them
-  $navbarBurgers.forEach( el => {
-    el.addEventListener('click', () => {
-
-      // Get the target from the "data-target" attribute
-      const target = el.dataset.target;
-      const $target = document.getElementById(target);
-
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      el.classList.toggle('is-active');
-      $target.classList.toggle('is-active');
-    });
-  });
-}
-
-});
-</script>
