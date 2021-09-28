@@ -670,10 +670,30 @@ Events:
    start-date: 2021-10-08
    end-date: 2021-10-08
    tag: planned
- - name: Annual General Meeting (AGM)
+ - name: 2021 Annual General Meeting (AGM)
+   img: /assets/images/events/agm.jpeg
    start-date: 2021-10-07
    end-date: 2021-10-07
-   tag: planned
+   time: 7pm-8pm
+   location: Online (Zoom)
+   link: https://www.facebook.com/events/233385562139248
+   description: '
+   ------- HOW IT WORKS --------
+    <br>
+    1️⃣ Read through the role descriptions at https://bit.ly/datasoc-exec-2022
+    <br>
+    2️⃣ Self-nominate to be a 2022 Executive member between 5pm Monday 27th of September to 5pm Friday 1st of October
+    <br>
+    3️⃣ Enrol to vote between 5pm Monday 27th of September to 5pm Friday 1st of October
+    <br>
+    4️⃣ If you have self-nominated, optional slides to accompany your speech must be sent to hello@unswdata.com by 9am on Wednesday 6th of October
+    <br>
+    5️⃣ Get to know our nominees when introductions are released at 9am on Wednesday 6th of October
+    <br>
+    6️⃣ Attend AGM at 7pm Thursday 7th of October to elect the 2022 Executive Team
+    <br><br>
+    Note: you must have been a full member of UNSW DataSoc (SpArc + sign-up form) by 5pm on Monday the 27th of September to be eligible for voting or nominations.
+  '
  - name: "Atlassian Datathon"
    img: /assets/images/events/atlassian_datathon.jpg
    start-date: 2021-09-19
