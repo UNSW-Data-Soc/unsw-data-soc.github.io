@@ -659,9 +659,27 @@ Events:
    end-date: To be confirmed
    tag: planned
  - name: "Postgrad Fireside Chat"
-   start-date: To be confirmed
-   end-date: To be confirmed
-   tag: planned
+   start-date: 2021-10-13
+   end-date: 2021-10-13
+   location: Online
+   img: /assets/images/events/postgrad.jpg
+   link: https://fb.me/e/1mCHohvm8
+   description: 
+    🛣 Unsure about what your post-graduate pathway could lead to?
+    <br><br>
+    📖 Need some guidance in achieving your desired outcome from undertaking postgraduate studies?
+    <br><br>
+    👨‍🎓 Want to gain more insight into how others have navigated through their post-graduate studies?
+    <br><br>
+    We're here to help!
+    <br><br>
+    DataSoc's postgrad alumni fireside chats aim to spark 🔥✨ these discussions about post-graduate pathways and shed light on life after undertaking a postgraduate course.
+    <br><br>
+    Our special guests and key speaker, all of whom are post-graduate alumnis, will be there to answer your burning questions. Our first speaker is DataSoc Founding Member Shuning Zhao. ⭐️
+    <br><br>
+    Shuning has worked for many prestigious organisations such as Quantium and Servian and is currently the Vice President of the Data Science and AI Association. Come along to join the discussion and find out more about life after post-graduate studies.
+    <br><br>
+    [Sign up here](https://forms.gle/CERrKH6ehX6hp8VPA)
  - name: "Networking Night"
    start-date: To be confirmed
    end-date: To be confirmed
