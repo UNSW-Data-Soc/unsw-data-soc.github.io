@@ -28,20 +28,31 @@ img {
     max-width: 25%;
 }
 
+@media (max-width: 700px) {
+    .sponsor-figure {
+        flex: 1 0 180px;
+        margin: 5% 4rem;
+        max-width: 50%;
+
+        /* Displaying logo figures */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .sponsor_info {
     text-align: center;
 }
 
 .separator {
-    /* margin: 150px; */
-    padding: 80px;
-    /* postion:relative; */
+    padding: 4rem;
 }
 
 .columns-is-vcentered-sponsor-figure-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
