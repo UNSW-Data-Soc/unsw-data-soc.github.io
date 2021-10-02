@@ -661,7 +661,8 @@ Events:
  - name: "Postgrad Fireside Chat"
    start-date: 2021-10-13
    end-date: 2021-10-13
-   location: Online
+   time: 4pm - 4:45pm
+   location: Online (Zoom)
    img: /assets/images/events/postgrad.jpg
    link: https://fb.me/e/1mCHohvm8
    description: 
