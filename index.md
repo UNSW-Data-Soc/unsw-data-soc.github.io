@@ -108,7 +108,7 @@ title: Welcome to DataSoc
         <div class="container">
             <div class="quote-container">
                 <div class="column is-8 is-offset-2 has-text-centered">
-                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>unites students with their passion for data science, machine learning and artificial intelligence.</i></h4>
+                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>Uniting students with a passion for data science, machine learning and artificial intelligence.</i></h4>
                 </div>
             </div>
             <div class="columns">
