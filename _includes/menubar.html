@@ -27,7 +27,7 @@
                             {{ item.name }}
                           </a>
                           {% for page in item.dropdown %}
-                            {% if page.name == "Jobs Board" or page.name == "SpArc" or page.name == "Our Constitution" %}
+                            {% if page.name == "Jobs Board" or page.name == "SpArc" or page.name == "Our Constitution (8th edition)" or page.name == "Our Constitution (9th edition)" %}
                                 {% capture url %} {{ page.link }} {% endcapture %}
                                 <a href="{{ url }}" target="_blank" class="navbar-item">{{ page.name }}</a>
                             {% else %}
@@ -49,11 +49,11 @@
   </nav>
 </div>
 
-{% if page.url != "/datathon/" and page.url != "/" %}
+{% if page.url != "/caseComp/" and page.url != "/" %}
   <div class="notification">
     <button class="delete"></button>
     <p class="has-text-centered">
-      <span class="tag is-info">New</span> Check out our <a href = "/datathon" >Atlassian Datathon</a>!
+      <span class="tag is-info">New</span> Check out our <a href = "/caseComp" >Mirvac Case Competition</a>!
     </p>
   </div>
 {% endif %}

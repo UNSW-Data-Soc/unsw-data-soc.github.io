@@ -608,26 +608,110 @@ Events:
    start-date: To be Confirmed
    end-date: To be Confirmed
    tag: planned
- - name: Mirvac Case Competition
+ - name: "Case Competition - Building a Better Future"
    start-date: 2021-10-04
-   end-date: 2021-10-11
-   tag: planned
+   end-date: 2021-10-29
+   img: /assets/images/events/mirvac.png
+   link: https://www.facebook.com/events/4413474652066560/
+   description: 
+    🥁🥁🥁FOR THE FIRST TIME, DataSoc is collaborating with Mirvac - an Australian property group who specialise in investment, development and retail services‼️
+    <br><br>
+    ♻️Sustainability is a critical consideration in all corporate strategy, 💭 and we need innovative thinkers to engineer our future of tomorrow. 
+    <br><br>
+    ---📢 What's involved 📢---
+    <br><br>
+    💡You will present a practical strategy to a sustainability related problem in the housing industry.  
+    <br><br>
+    🏠 You will be considering both qualitative and quantitative data.  
+    <br><br>
+    👩‍🎤 This is a STRATEGY focused comp and is open to ALL students of any background - No prior coding, modelling or case comp experience needed! 
+    <br><br>
+    👭 The competition will be in teams of 3-4, but feel free to register individually and we'll place you into a team. 
+    <br><br>
+    -----🏆 Prizes 🏆-----
+    <br><br>
+    🤑 $600 worth of Prizes up for grabs
+    <br><br>
+    ☕️ Coffee chats with key members of the Mirvac Data Science team
+    <br><br>
+    [Register Here!](https://forms.gle/Y9apwATbWZPCJ7YU7)
+
  - name: Games Night
-   start-date: 2021-10-17
-   end-date: 2021-10-17
-   tag: planned
+   start-date: 2021-09-17
+   end-date: 2021-09-17
+   img: /assets/images/events/games.jpg
  - name: "Happiest Hours: Side Bar (Part 2)"
    start-date: 2021-11-03
    end-date: 2021-11-03
+   tag: planned
+ - name: "International Flagship Datathon"
+   start-date: To be confirmed
+   end-date: To be confirmed
+   tag: planned
+ - name: "Women in Tech, Let's Talk About It."
+   img: /assets/images/events/wit.jpg
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
+   start-date: 2021-09-29
+   end-date: 2021-09-29
+   time: 5:30-6:30pm
+   description: 'Gender Wage Gap. Glass Ceiling. The Need to Assert Credibility. Are these really the realities that women encounter in the tech industry? Then why is it so difficult to have a candid discussion on these topics? It’s time to dive deeper and put it on the agenda.<br><br>
+   [REGISTER NOW!](https://forms.gle/WKjAn7owjBisgMT79)'
+   link: https://www.facebook.com/events/1263539257392512
+ - name: "Postgrad Fireside Chat"
+   start-date: 2021-10-13
+   end-date: 2021-10-13
+   time: 4pm - 4:45pm
+   location: Online (Zoom)
+   img: /assets/images/events/postgrad.jpg
+   link: https://fb.me/e/1mCHohvm8
+   description: 
+    🛣 Unsure about what your post-graduate pathway could lead to?
+    <br><br>
+    📖 Need some guidance in achieving your desired outcome from undertaking postgraduate studies?
+    <br><br>
+    👨‍🎓 Want to gain more insight into how others have navigated through their post-graduate studies?
+    <br><br>
+    We're here to help!
+    <br><br>
+    DataSoc's postgrad alumni fireside chats aim to spark 🔥✨ these discussions about post-graduate pathways and shed light on life after undertaking a postgraduate course.
+    <br><br>
+    Our special guests and key speaker, all of whom are post-graduate alumnis, will be there to answer your burning questions. Our first speaker is DataSoc Founding Member Shuning Zhao. ⭐️
+    <br><br>
+    Shuning has worked for many prestigious organisations such as Quantium and Servian and is currently the Vice President of the Data Science and AI Association. Come along to join the discussion and find out more about life after post-graduate studies.
+    <br><br>
+    [Register here](https://forms.gle/CERrKH6ehX6hp8VPA)
+ - name: "Networking Night"
+   start-date: To be confirmed
+   end-date: To be confirmed
    tag: planned
  - name: "DataSoc's Got Talent"
    start-date: 2021-10-08
    end-date: 2021-10-08
    tag: planned
- - name: Annual General Meeting (AGM)
+ - name: 2021 Annual General Meeting (AGM)
+   img: /assets/images/events/agm.jpeg
    start-date: 2021-10-07
    end-date: 2021-10-07
-   tag: planned
+   time: 7pm-8pm
+   location: Online (Zoom)
+   link: https://www.facebook.com/events/233385562139248
+   description: '
+   ------- HOW IT WORKS --------
+    <br>
+    1️⃣ Read through the role descriptions at https://bit.ly/datasoc-exec-2022
+    <br>
+    2️⃣ Self-nominate to be a 2022 Executive member between 5pm Monday 27th of September to 5pm Friday 1st of October
+    <br>
+    3️⃣ Enrol to vote between 5pm Monday 27th of September to 5pm Friday 1st of October
+    <br>
+    4️⃣ If you have self-nominated, optional slides to accompany your speech must be sent to hello@unswdata.com by 9am on Wednesday 6th of October
+    <br>
+    5️⃣ Get to know our nominees when introductions are released at 9am on Wednesday 6th of October
+    <br>
+    6️⃣ Attend AGM at 7pm Thursday 7th of October to elect the 2022 Executive Team
+    <br><br>
+    Note: you must have been a full member of UNSW DataSoc (SpArc + sign-up form) by 5pm on Monday the 27th of September to be eligible for voting or nominations.
+  '
  - name: "Atlassian Datathon"
    img: /assets/images/events/atlassian_datathon.jpg
    start-date: 2021-09-19

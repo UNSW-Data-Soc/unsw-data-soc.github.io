@@ -170,4 +170,3 @@ for (let checkbox of checkboxes) {
     }
 }
 </script>
-

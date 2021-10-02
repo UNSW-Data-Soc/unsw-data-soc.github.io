@@ -1,16 +1,18 @@
 - name: Home
   link: /index
-- name: Atlassian Datathon
-  link: /datathon
+- name: Mirvac Case Competition
+  link: /caseComp
 - name: About Us
   link: /about
   dropdown:
     - name: Our Team
       link: /team
+    - name: Our Constitution (8th edition)  
+      link: https://docs.google.com/document/d/1iwS5coS_TKDLLZlhIbN2CNLPuzeg7crnkZ-la_QYFSg/edit
+    - name: Our Constitution (9th edition)
+      link: https://docs.google.com/document/d/1N_UKxfvI8Zegw5uyRKNnx25ivJQwElCJggkkFV2pWPo/edit
     - name: SpArc
       link: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016f0000371vxdqau
-    - name: Our Constitution  
-      link: https://docs.google.com/document/d/1iwS5coS_TKDLLZlhIbN2CNLPuzeg7crnkZ-la_QYFSg/edit?usp=sharing
 - name: Our Sponsors
   link: /sponsors
 - name: Our Events

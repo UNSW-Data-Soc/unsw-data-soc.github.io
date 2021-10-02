@@ -77,12 +77,12 @@ title: Welcome to DataSoc
 <div class="notification">
 <button class="delete"></button>
 <p class="has-text-centered">
-    <span class="tag is-info">New</span> Check out our <a href = "/datathon" >Atlassian Datathon</a>!
+    <span class="tag is-info">New</span> Check out our <a href = "/caseComp" >Mirvac Case Competition</a>!
 </p>
 </div>
 
 <!-- PLEASE REMOVE THE MARGIN-TOP IN THE FOLLOWING LINE AFTER DATATHON IS COMPLETE -->
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); margin-top:-20px; background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="columns is-vcentered">
@@ -108,7 +108,7 @@ title: Welcome to DataSoc
         <div class="container">
             <div class="quote-container">
                 <div class="column is-8 is-offset-2 has-text-centered">
-                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>unites students with their passion for data science, machine learning and artificial intelligence.</i></h4>
+                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>Uniting students with a passion for data science, machine learning and artificial intelligence.</i></h4>
                 </div>
             </div>
             <div class="columns">
@@ -257,36 +257,3 @@ title: Welcome to DataSoc
 <!-- Background gradient -->
 <!-- background: linear-gradient(27deg, rgba(73, 193, 245, 0.3) 0%, rgba(159, 98, 162, 0.3) 25%, rgba(228, 91, 235, 0.3) 50%, rgba(250, 90, 103, 0.3) 75%, rgba(233, 109, 56, 0.3) 100%); -->
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-//delete notification
-(document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-    const $notification = $delete.parentNode;
-
-    $delete.addEventListener('click', () => {
-      $notification.parentNode.removeChild($notification);
-    });
-});
-// Get all "navbar-burger" elements
-const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-// Check if there are any navbar burgers
-if ($navbarBurgers.length > 0) {
-
-  // Add a click event on each of them
-  $navbarBurgers.forEach( el => {
-    el.addEventListener('click', () => {
-
-      // Get the target from the "data-target" attribute
-      const target = el.dataset.target;
-      const $target = document.getElementById(target);
-
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      el.classList.toggle('is-active');
-      $target.classList.toggle('is-active');
-    });
-  });
-}
-
-});
-</script>
