@@ -259,7 +259,7 @@ introduction: |
                 <a><img class="partner-logo" src="/assets/images/logos/custom/unswmaths.png"></a>
             </div>
             <div class="column is-5 is-offset-1">
-                <p>Uniting mathematicians, econometricians and computer scientists, UNSW Datasoc seeks to empower our members with knowledge and skills of data science, machine learning and artificial intelligence.</p>
+                <p>Uniting mathematicians, econometricians and computer scientists, UNSW DataSoc seeks to empower our members with knowledge and skills of data science, machine learning and artificial intelligence.</p>
             </div>
         </div>
     </div>
