@@ -31,8 +31,8 @@ img {
 @media (max-width: 700px) {
     .sponsor-figure {
         flex: 1 0 180px;
-        margin: 5% 4rem;
-        max-width: 50%;
+        margin: 0% 4rem;
+        max-width: 60%;
 
         /* Displaying logo figures */
         display: flex;
