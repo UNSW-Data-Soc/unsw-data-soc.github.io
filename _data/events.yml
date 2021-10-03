@@ -1,14 +1,4 @@
 Events:
- - name: "Women in Tech, Let's Talk About It."
-   img: /assets/images/events/wit.jpg
-   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
-   start-date: 2021-09-29
-   end-date: 2021-09-29
-   time: 5:30-6:30pm
-   description: 'Gender Wage Gap. Glass Ceiling. The Need to Assert Credibility. Are these really the realities that women encounter in the tech industry? Then why is it so difficult to have a candid discussion on these topics? It’s time to dive deeper and put it on the agenda.<br><br>
-   [REGISTER NOW!](https://forms.gle/WKjAn7owjBisgMT79)'
-   link: https://www.facebook.com/events/1263539257392512
-  
  - name: Peer Mentoring 2021
    img: /assets/images/events/peer_mentoring.png
    start-date: 2021-02-08
@@ -658,6 +648,15 @@ Events:
    start-date: To be confirmed
    end-date: To be confirmed
    tag: planned
+ - name: "Women in Tech, Let's Talk About It."
+   img: /assets/images/events/wit.jpg
+   location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
+   start-date: 2021-09-29
+   end-date: 2021-09-29
+   time: 5:30-6:30pm
+   description: 'Gender Wage Gap. Glass Ceiling. The Need to Assert Credibility. Are these really the realities that women encounter in the tech industry? Then why is it so difficult to have a candid discussion on these topics? It’s time to dive deeper and put it on the agenda.<br><br>
+   [REGISTER NOW!](https://forms.gle/WKjAn7owjBisgMT79)'
+   link: https://www.facebook.com/events/1263539257392512
  - name: "Postgrad Fireside Chat"
    start-date: 2021-10-13
    end-date: 2021-10-13
@@ -680,7 +679,7 @@ Events:
     <br><br>
     Shuning has worked for many prestigious organisations such as Quantium and Servian and is currently the Vice President of the Data Science and AI Association. Come along to join the discussion and find out more about life after post-graduate studies.
     <br><br>
-    [Sign up here](https://forms.gle/CERrKH6ehX6hp8VPA)
+    [Register here](https://forms.gle/CERrKH6ehX6hp8VPA)
  - name: "Networking Night"
    start-date: To be confirmed
    end-date: To be confirmed

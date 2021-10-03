@@ -62,6 +62,19 @@ title: Welcome to DataSoc
     }
 }
 
+@media (max-width: 400px) {
+    .sponsor-figure {
+        flex: 1 0 180px;
+        margin: 10% 4rem;
+        max-width: 60%;
+
+        /* Displaying logo figures */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .quote-container {
     margin-bottom: 4rem;
 }
@@ -108,7 +121,7 @@ title: Welcome to DataSoc
         <div class="container">
             <div class="quote-container">
                 <div class="column is-8 is-offset-2 has-text-centered">
-                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>unites students with their passion for data science, machine learning and artificial intelligence.</i></h4>
+                    <h4 class="subtitle is-3 has-text-black"><i>UNSW DataSoc<br>Uniting students with a passion for data science, machine learning and artificial intelligence.</i></h4>
                 </div>
             </div>
             <div class="columns">
