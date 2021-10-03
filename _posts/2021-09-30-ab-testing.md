@@ -10,7 +10,7 @@ image: /assets/images/blog/21-09-30/change.jpg
 excerpt_separator: <!--more-->
 ---
 
-Have you ever wondered how Google, YouTube, Facebook, or Netflix decided to make small changes to their website now and then, especially after a short trial period? What are their motivations and why are they doing these trials? In this article, we will look into how data analytics and statistics have fuelled the decisions to these changes.
+Have you ever wondered how Google, YouTube, Facebook, or Netflix decide to make small changes to their website now and then, especially after a short trial period? What are their motivations and why are they doing these trials? In this article, we will look into how data analytics and statistics have fuelled the decisions surrounding these changes.
 
 <!--more-->
 
@@ -29,15 +29,16 @@ The incentive of the experiment is to test whether the original design of our we
 ## Why the name A/B Testing?
 
 Let’s continue with the clothing e-commerce example above. A customer browses the website, adds the pieces they want into the cart and checks out. On the shopping cart page, we currently have a button with the text *“Check Out”* and our competitors’ button saying, *“Send Me These Cuties”*. We think to ourselves, their button seems interesting, it might result in more checkouts than ours. This is our hypothesis and the test we are conducting is a hypothesis test.
+
 The term A/B Testing refers to the two groups involves in the test. Group A or the control group is the current version we have on the website. Group B or the variation group is the version that reflects our hypothesis.
 
 ![](/assets/images/blog/21-09-30/control-variant.png)
 
-## How to proceeds and pitfalls
+## How to proceed and pitfalls
 
 Just as any hypothesis test, we need to first state our hypothesis and our two experiment groups.
 
-However, a hypothesis such as *“The variant will perform better or results in more checkouts than the control group”* is not enough. We need to quantify how better the variant should be. A good hypothesis for AB Testing would be *“The variant group will increase our checkout rate from 30% to 35% (16.6% relative change)”*. 30% here is referred to as the base rate and 16.6% is our minimum detectable effect of the change.
+However, a hypothesis such as *“The variant will perform better or result in more checkouts than the control group”* is not enough. We need to quantify how much better the variant should be. A good hypothesis for AB Testing would be *“The variant group will increase our checkout rate from 30% to 35% (16.6% relative change)”*. 30% here is referred to as the base rate and 16.6% is our minimum detectable effect of the change.
 
 Next, we need to gather enough data to conduct our test. Plugging the number into Evan Miller’s A/B Sample Size calculator would indicate that we need 1,346 samples per variation (or a total of 2,692) to detect an effect of at least 16.6%. 100 customers land on our shopping cart page every day, so it will take around 27 days to complete the test.
 
@@ -45,12 +46,12 @@ These numbers could change depends on how certain you would like to be with the 
 
 There are four outcomes to the test and the good ones are
 -   Detecting a 16.6% difference when it actually exists.
--   And does not detect such difference when it does not exist.
+-   Not detecting such a difference when it does not exist.
 
 
-The bad ones, as you could predict, are:
--   The difference actually does not exist at all while our test thinks it is (**This is real bad!**)
--   And does not detect such difference when it actually does exist (**Missed opportunity!**)
+The bad ones, as you can predict, are:
+-   The difference actually does not exist at all while our test thinks it does (**This is really bad!**)
+-   Our test does not detect such a difference when it actually does exist (**Missed opportunity!**)
 
 ![](/assets/images/blog/21-09-30/power-alpha.png)
 
@@ -63,9 +64,9 @@ So, that is the basics of AB Testing. In order to properly conduct the experimen
 
 ## Conclusion
 
-Hypothesis testing is at least 100 years old but has only transformed or disguised as AB Testing since the 1990s. It has been more eminent than ever with the internet and the availability of big data hence easier for companies to conduct tests and make data-driven decisions to improve business metrics and user experience.
+Hypothesis testing is at least 100 years old but has only been rebranded as AB Testing since the 1990s. It has been more eminent than ever with the internet and the availability of big data, hence making it easier for companies to conduct tests and make data-driven decisions to improve business metrics and user experience.
 
-As data analysts, we aim to understand the driving factors behind the test and be aware of statistics to validate the test result and prove its statistical significance.
+As data analysts, we aim to understand the driving factors behind the test and to be aware of statistics such as to validate the test result and prove its statistical significance.
 
 ## References
 
