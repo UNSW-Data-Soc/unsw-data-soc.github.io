@@ -14,12 +14,12 @@ Suppose I get out of bed one morning and the sky is cloudy. I have a date with a
 
 <!--more-->
 
-But first I need to contextualise. Why should I need to make a choice about bringing an umbrella? The sky is cloudy and it might rain. If I had an umbrella when I rained, I wouldn’t get wet - but I don’t have a bag or anywhere to put it, meaning it would be dead weight I’d carry around for the whole day if it happened not to rain. If it did rain without an umbrella, though, I’d probably catch a cold and be soaked for the entire day, which is definitely worse. But wouldn’t it be nice if it didn’t rain and I didn’t carry an umbrella? Then I wouldn’t have to bring an extra load with me at all.
+But first I need to contextualise. Why should I need to make a choice about bringing an umbrella? The sky is cloudy and it might rain. If I had an umbrella when it rained, I wouldn’t get wet - but I don’t have a bag or anywhere to put it, meaning it would be dead weight I’d carry around for the whole day if it happened *not* to rain. If it did rain without an umbrella, though, I’d probably catch a cold and be soaked for the entire day, which is definitely worse. But wouldn’t it be nice if it didn’t rain and I didn’t carry an umbrella? Then I wouldn’t have to bring an extra load with me at all.
 
 Based off this, I’ve established four scenarios. Two of them are optimal, the other two are certainly not.
 
 1.	It rains and I have an umbrella – Good!
-2.	It rains and I don’t have an umbrella – Bad!
+2.	It rains and I *don’t* have an umbrella – Bad!
 3.	It doesn’t rain and I have an umbrella – Bad, but perhaps not as bad as scenario two?
 4.	It doesn’t rain and I don’t have an umbrella – The best!
 
@@ -27,7 +27,7 @@ Now I go on to making my decision. I’m missing something here. What’s the pr
 
 70%! I pick up my umbrella staunchly and set out to meet my friend. Halfway down the road it starts sprinkling, and by the time I get to the café it’s a torrential downpour. I congratulate myself on my foresight as I duck under the awning with only my boots wet.
 
-This somewhat mundane scenario leads us through a basic application of decision theory. A relatively new field, [decision theory](https://plato.stanford.edu/entries/decision-theory/#ChaEUThe) is fairly self-explanatory as the study of how we make decisions. [Perhaps more importantly, it also the study of how we should make decisions](https://personal.lse.ac.uk/bradleyr/pdf/Handbook%20-%20Decision%20theory%20(revised).pdf).
+This somewhat mundane scenario leads us through a basic application of decision theory. A relatively new field, [decision theory](https://plato.stanford.edu/entries/decision-theory/#ChaEUThe) is fairly self-explanatory as the study of how we make decisions. [Perhaps more importantly, it also the study of how we _should_ make decisions](https://personal.lse.ac.uk/bradleyr/pdf/Handbook%20-%20Decision%20theory%20(revised).pdf).
 
 Decision theory analyses what option a rational agent would choose for an optimal outcome. That is, in situations of uncertainty, taking the action that produces the best expected outcome. Expectation naturally implies an element of probability, or risk, to be considered in conjunction with the outcome itself. Consider the umbrella situation above. The most preferred outcome would have been no rain and no umbrella, but that would not have been the expected outcome to occur if I had, indeed, forgone the umbrella. I would much more likely have ended up drenched and regretting not bringing one.
 
@@ -41,4 +41,4 @@ However, I have failed to consider an outcome. My papaya tree attracts fruit fli
 
 The final issue is a very human one. Humans do not always act rationally. We take actions with almost no benefit to ourselves for strange, inconsistent reasons, are driven by impulse and emotion, act without thinking and think without acting. The human condition renders one of the underlying precepts of decision theory false – that we are rational agents, capable of acting with consistent rationality in every situation.
 
-It’s for this reason that decision theory is more the theory of how agents should act rather than a model of how they do act. As an interdisciplinary field that straddles philosophy, mathematics and oftentimes economics, it offers interesting insights into the human psyche, and how it fails or does not fail to conform to the logic that we seek to apply to it. How do we make the thousands of micro-decisions a day that life presses into our hands? Perhaps the next time you step out of your house, take a moment to think about why you do or don’t bring your umbrella.
+It’s for this reason that decision theory is more the theory of how agents _should_ act rather than a model of how they _do_ act. As an interdisciplinary field that straddles philosophy, mathematics and oftentimes economics, it offers interesting insights into the human psyche, and how it fails or does not fail to conform to the logic that we seek to apply to it. How do we make the thousands of micro-decisions a day that life presses into our hands? Perhaps the next time you step out of your house, take a moment to think about why you do or don’t bring your umbrella.
