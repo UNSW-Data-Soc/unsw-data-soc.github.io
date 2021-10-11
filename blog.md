@@ -17,7 +17,7 @@ colour: is-info
         <div class = "level-item">
           <div class="field is-horizontal">
               <div class = "field-label is-normal">
-              <label class = "label" style="margin-left: 1000px;" for="searchBox">Search</label>
+              <label class = "label" style="margin-left: 1rem;" for="searchBox">Search</label>
               </div>
               <div class = "field-body">
                 <div class = "field">
@@ -37,12 +37,12 @@ colour: is-info
         <tr>
           <td>
             <div class = "columns">
-            <div class = "column">
+            <div class = "column is-three-fifths">
             {% if post.title != 404 %}
-            <h2 class="title is-2 centered is-size-6-mobile"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
+            <h2 class="title is-2 centered 2rem"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
             {% if post.date %}<p> <i>Published {{ post.date | date_to_string }}</i></p>{% endif %}
             <br>
-            <p class = "is-size-5-mobile">{{ post.excerpt }}</p>
+            <p class = "1.25rem">{{ post.excerpt }}</p>
             <br>
             <p><a href="{{ post.url }}"> ... Read more</a></p>
             <br>
