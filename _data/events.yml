@@ -608,6 +608,30 @@ Events:
    start-date: To be Confirmed
    end-date: To be Confirmed
    tag: planned
+ - name: "Networking Night"
+   start-date: 2021-10-21
+   end-date: 2021-10-21
+   time: 5:30pm - 7:30pm
+   location: Online
+   img: /assets/images/events/networking-night.jpg
+   link: https://fb.me/e/115aIVxgL
+   description: '🤖“You have been assigned to Breakout Room 1… Return to main room” 🤖.
+   <br>
+    It’s time to break this endless Zoom cycle. To give YOU the chance to interact at your own pace, an event conditional on YOUR interests, where the challenge of learning and asking questions is not daunting.
+    <br>
+    With the help of wonder.me, UNSW DataSoc will be running a ‼️ limited capacity ‼️ networking night for all students to meet professionals in a comfortable, friendly setting. Wander from industry to industry, move in and out of discussions and rest up in the waiting area if you want!
+    <br><br>
+    But WHY network in the first place? Networking can be a goldmine 💎 of knowledge, experience and potential jobs and here’s how:
+    <br>
+    ✅ Understand what allows people to succeed in data science
+    <br>
+    🕵️‍♀️ Identify what environment you want to work in
+    <br>
+    📝 Work out gameplans to handle the recruitment season
+    <br>
+    Come to discover your career paths in an engaging, fun and inclusive way!
+    <br><br>
+    [Register here!](https://forms.gle/Kvd3j7v4eh5711ti9)'
  - name: "Case Competition - Building a Better Future"
    start-date: 2021-10-04
    end-date: 2021-10-29
@@ -645,9 +669,32 @@ Events:
    end-date: 2021-11-03
    tag: planned
  - name: "International Flagship Datathon"
-   start-date: To be confirmed
-   end-date: To be confirmed
-   tag: planned
+   start-date: 2021-10-30
+   end-date: 2021-10-31
+   img: /assets/images/events/flagship-datathon-2021.jpg
+   link: https://fb.me/e/1irROZX5A
+   description:
+      'Want to participate in one of the BIGGEST International Datathons? 😱
+      <br>
+      Want to show your potential to the world? 💪🧠
+      <br>
+      Look no further than ✨ DataSoc’s Flagship International Datathon ✨
+      <br>
+      Compete with students from across the globe 🌎! With students from the likes of University of Sydney, University of Queensland, Queensland University of Technology, Monash University, Peking University & Tsinghua University - this is the EVENT 📐 where you show the world your Data Science prowess. 🦁📊
+      <br><br>
+      -----📅 Key Dates 📅-----
+      <br>
+      Don’t miss out!😤
+      <br>
+      📆 Wednesday 27th October - Registrations close!!
+      <br>
+      📆 Thursday 28th October - How to tackle a datathon workshop
+      <br>
+      📆 Saturday 30th to Sunday 31st October - Local Heats Round
+      <br>
+      📆 Friday 10th to Sunday 12 December - International Round
+      <br><br>
+      [Register here!](https://forms.gle/MRxADcMPTBf6c6Zr7)'
  - name: "Women in Tech, Let's Talk About It."
    img: /assets/images/events/wit.jpg
    location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
@@ -657,6 +704,26 @@ Events:
    description: 'Gender Wage Gap. Glass Ceiling. The Need to Assert Credibility. Are these really the realities that women encounter in the tech industry? Then why is it so difficult to have a candid discussion on these topics? It’s time to dive deeper and put it on the agenda.<br><br>
    [REGISTER NOW!](https://forms.gle/WKjAn7owjBisgMT79)'
    link: https://www.facebook.com/events/1263539257392512
+ - name: "Cracking the Cold Case - Data Visualisation Workshop"
+   start-date: 2021-10-18
+   end-date: 2021-10-18
+   time: 4:00pm - 5:30pm
+   location: Online (Zoom)
+   img: /assets/images/events/cracking-the-cold-case.jpg
+   link: https://fb.me/e/1dRfs6QOM
+   description: "Come join this Data Visualisation workshop to build a dashboard with elements that anybody could understand. Fundamental to any good data scientist is the ability to present data cleanly, in a simple format and with a story that supports your analysis.
+    <br><br>
+    Take your time to review the case and this is what you’ll learn:
+    <br>
+    - The tools that Quantium uses and suggests 📝
+    <br>
+    - Where to look first when building a dashboard? 👀
+    <br>
+    - How to share the insights the way you want to? 😤
+    <br><br>
+    But that's not all. The best visualisations will get some big prizes. An opportunity for two special winners to have a ✨Resume Review✨ or a Coffee Chat ☕️ with a Quantium Rep! You DON’T want to miss out…
+    <br><br>
+    [Register here!](https://forms.gle/Co9ek7Hxvb36XSXD9)"
  - name: "Postgrad Fireside Chat"
    start-date: 2021-10-13
    end-date: 2021-10-13
@@ -680,13 +747,51 @@ Events:
     Shuning has worked for many prestigious organisations such as Quantium and Servian and is currently the Vice President of the Data Science and AI Association. Come along to join the discussion and find out more about life after post-graduate studies.
     <br><br>
     [Register here](https://forms.gle/CERrKH6ehX6hp8VPA)
- - name: "Networking Night"
+ - name: "2022 Director Recruitment"
+   start-date: 2021-10-11
+   end-date: 2021-10-24
+   img: /assets/images/events/director-recruitment-2022.jpg
+   link: https://fb.me/e/1H1YTGNde
+   description: 'Do you want to get leadership experience by leading an enthusiastic team? Gain more experience in working in Data Science? Bond with other like-minded, driven people?
+    <br>
+    This coming year, DataSoc is offering more directorships than ever before! Now’s your chance to get involved in a growing society with huge opportunities down the track.
+    <br>
+    At DataSoc, we aim to learn continuously and effectively, have a good time, be the best at what we do and take ownership of our work while maintaining transparency. As a director, you will embody these core values while building connections to last a lifetime.
+    <br>
+    This year, we have the following roles available:
+    <br><br>
+    ACTIVITIES
+    <br>
+    2x Social Directors
+    <br>
+    1-2x HR Directors
+    <br><br>
+    DEVELOPMENT
+    <br>
+    2x Education Directors
+    <br>
+    2x Philanthropy and Projects Directors (NEW)
+    <br><br>
+    EXTERNAL
+    <br>
+    2x Careers Directors
+    <br>
+    2x Sponsorships Directors
+    <br><br>
+    OPERATIONS
+    <br>
+    1-2x Media Directors (NEW)
+    <br>
+    1-2x IT Directors
+    <br>
+    2x Marketing Directors
+    <br><br>
+    For more information about each role, read the DataSoc Director Roles Handbook here: https://drive.google.com/.../1MsydJrL-4mIg6WmHL6riug.../view
+    <br><br>
+    [Apply here!](https://forms.gle/9HbqyCvnLW36onMPA)'
+ - name: "DataSoc's Got Talent"
    start-date: To be confirmed
    end-date: To be confirmed
-   tag: planned
- - name: "DataSoc's Got Talent"
-   start-date: 2021-10-08
-   end-date: 2021-10-08
    tag: planned
  - name: 2021 Annual General Meeting (AGM)
    img: /assets/images/events/agm.jpeg
@@ -712,6 +817,21 @@ Events:
     <br><br>
     Note: you must have been a full member of UNSW DataSoc (SpArc + sign-up form) by 5pm on Monday the 27th of September to be eligible for voting or nominations.
   '
+ - name: "Shirts 2021!"
+   start-date: 2021-10-06
+   end-date: 2021-10-20
+   img: /assets/images/events/shirts-2021.jpg
+   link: https://fb.me/e/Sn9w3QM0
+   description: '🚨 NO NEED TO FEAR, DataSoc’s 2021 shirt collection is HERE!! 🚨
+    <br>
+    With summer soon approaching, what better way to sit back and soak in the sun than by wearing our NEW LINE OF T-SHIRTS! 🤩👕 We have TWO unPEAlievable designs available for you to choose from (or cop both if you just cant resist 😉)!
+    <br>
+    ⭐️ DESIGN 1: Inspired by the much too important p-value in statistics 📈, our PEA-VALUE shirts are guaranteed to make you as hapPEA 😁 as can be this summer! ⛱
+    <br>
+    ⭐️ DESIGN 2: All too familiar with every student’s saving grace i.e. Stack Overflow? Be the coolest kid 😎 on the block and cop a CLEAN, FRESH Stack Overflow shirt!
+    <br><br>
+    [Order here!](https://forms.gle/4XKMPhZp85bnGzEP6)
+    '
  - name: "Atlassian Datathon"
    img: /assets/images/events/atlassian_datathon.jpg
    start-date: 2021-09-19
