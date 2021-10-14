@@ -16,9 +16,9 @@ subtitle: |
 <style>
 
 img {
-    width:  200px;
-    height: 100px;
-    object-fit: scale-down;
+    /* width:  200px; */
+    /* height: 100px; */
+    /* object-fit: scale-down; */
 }
 
 .sponsor-figure {
