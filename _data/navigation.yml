@@ -2,6 +2,8 @@
   link: /index
 - name: Mirvac Case Competition
   link: /caseComp
+- name: International Flagship Datathon
+  link: /flagshipDatathon
 - name: About Us
   link: /about
   dropdown:
