@@ -30,29 +30,36 @@ ul {
 }
 
 .title-container {
-    padding-top: 6em;
+    padding-top: 8%;
 }
 
+.hero.is-bold.is-medium {
+    background-image: url('/assets/images/datathon/flagshipDatathon.png');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
 </style>
 
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>        
 <!-- Hero and Navbar -->
-<div class="hero is-bold is-medium" style="background-image: url('https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.6435-9/p180x540/243417528_270240141773018_3174418300034659547_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=340051&_nc_ohc=Lqt2lDGcoa0AX-5kvg2&_nc_ht=scontent.fsyd4-1.fna&oh=7e2b14bc016c70a9207b559bd719c2c0&oe=618E14EE'); background-position: center; background-attachment: fixed; background-size: cover">
+<div class="hero is-bold is-medium">
     <div class="hero-body">
-        <div class="container" style="height:130px">
+        <div class="container" style="height:1em">
             <div class="has-text-centered">
-                <img src="/assets/images/casecomp/mirvac.png"
-                    style="max-width:30%">
+                <img src="/assets/images/datathon/flagshipDatathonSchools.png"
+                    style="max-width:100%">
             </div>
         </div>
         <div class="title-container">
             <div class="column has-text-centered is-hero-title">
-                <h2 class="subtitle is-4 has-text-white">datasoc presents:</h2>
-                <h1 class="title is-1 is-bigger has-text-white">international flagship datathon</h1> 
+                <h2 class="subtitle is-4 has-text-white">Datasoc presents:</h2>
+                <h1 class="title is-1 is-bigger has-text-white">International Flagship Datathon</h1>
             </div>
             <p class="subtitle has-text-white has-text-centered">
-                thursday october 27 &mdash; friday december 10
+                Thursday October 27 &mdash; Friday December 10
                 <br>
                 zoom and slack
             </p>
