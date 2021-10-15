@@ -55,13 +55,13 @@ ul {
         </div>
         <div class="title-container">
             <div class="column has-text-centered is-hero-title">
-                <h2 class="subtitle is-4 has-text-white">Datasoc presents:</h2>
+                <h2 class="subtitle is-4 has-text-white">Datasoc Presents:</h2>
                 <h1 class="title is-1 is-bigger has-text-white">International Flagship Datathon</h1>
             </div>
             <p class="subtitle has-text-white has-text-centered">
-                Thursday October 27 &mdash; Friday December 10
+                Thursday October 27 &mdash; Sunday October 31
                 <br>
-                zoom and slack
+                Zoom and Slack
             </p>
         </div>
     </div>
@@ -78,13 +78,13 @@ ul {
                     <br><br>
                     <a class="button is-rounded is-medium is-outlined is-info is-bold" target="_blank" href="https://www.facebook.com/events/915899442611973/?ref=newsfeed">Follow the Event on Facebook!</a>
                     <br><br>
-                    Make a team of 3 - 4 students, or sign up as an individual. (There must be at least 1 non-cis male in each team)
+                    Make a team of 3 - 4 students, or sign up as an individual (there must be at least 1 non-cis male in each team).
                     <br><br>
                     There are 2 stages to the event: <br>
                     The Local Round: the 24-hour initial round where UNSW goes head-to-head with USYD. The top 3 teams from each university progress to the international round.<br>
                     The International Round: the 48-hour final round where you face off against the best universities in the world and show them your data abilities. 
                     <br><br>
-                    Also, since this is an international dataton, there will be both local and international rounds (each offering individual prizes). The local heats will take place on Saturday the 30th to Sunday the 31st of October against the University of Sydney. The international round will take place on Friday the 10th to Sunday the 12th of December.
+                    Also, since this is an international datathon, there will be both local and international rounds (each offering individual prizes). The local heats will take place on Saturday the 30th to Sunday the 31st of October against the University of Sydney. The international round will take place on Friday the 10th to Sunday the 12th of December.
                     <br><br>
                 </h3>
                 <div class="columns">
@@ -197,7 +197,7 @@ ul {
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column is-three-fifths is-offset-one-fifth">
-                    <details>
+                    <!-- <details>
                     <summary>
                         What can I expect?
                     </summary>     
@@ -205,7 +205,7 @@ ul {
                         TODO:
                         obviously it's going to be hard but what else?
                         </p>
-                    </details>
+                    </details> -->
                     <details>
                     <summary>
                         Can I enter alone/less than a full team?
@@ -235,7 +235,7 @@ ul {
                         I've never done this before?! Can I still participate?
                     </summary>     
                         <p>
-                        This datathon is open to all interested students, in fact, we offer a "How to tackle a Datathon" workshop on Wednesday 28th of October.
+                        This datathon is open to all interested students - in fact, we offer a "How to tackle a Datathon" workshop on Wednesday 28th of October.
                         </p>
                     </details>
                     <details>
@@ -246,14 +246,14 @@ ul {
                         For regular updates, make sure to click "Going" on the <a href="https://www.facebook.com/events/915899442611973/" target="_blank">Facebook Event</a> and follow us on our socials!
                         </p>
                     </details>
-                    <details>
+                    <!-- <details>
                     <summary>
                         How will we be judged?
                     </summary>     
                         <p>
                             TODO
                         </p>
-                    </details>
+                    </details> -->
                     <details>
                     <summary>
                         Why haven't I received any emails even though I've registered for the Datathon?
