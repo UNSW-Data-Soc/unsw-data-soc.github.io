@@ -19,9 +19,9 @@ excerpt_separator: <!--more-->
         display: block;
         margin: 0 auto;
     }
-    video {
-    display: block;
-    margin: 0 auto;
+    iframe {
+        display: block;
+        margin: 0 auto;
     }
 </style>
 
@@ -55,10 +55,7 @@ The next step is pretty straight forward, the second program running Spark proce
 # Results
 Now, for the actual results, the video below provides a short demo on the programs actually running and processing Tweets in real time (excluding the last program that combines the csv's together).
 <br>
-<video controls muted="true">
-    <source src="/assets/images/blog/21-10-21/sparkDemo.mp4" type="video/mp4">
- Sorry, your browser doesn't support embedded videos.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2lQ3aX5egug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center><i>Left terminal: Spark Analysing the Twitter Stream in real time. Right Terminal: Python program that gets streams from the Twitter API which is then sent to Spark.</i></center>
 <br>
 
