@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Our Team
-subtitle: Meet the team behind the magic.
+subtitle: Meet the DataSoc team working to create new opportunities for students to feel supported, connect and grow.
 colour: is-info
 title-image: city2_left.png
 permalink: /about/team/

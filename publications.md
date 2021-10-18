@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Publications
-subtitle: You can find all of our publications here!
+subtitle: Stay in the loop with our blog posts! From educational blogs to video blogs, they're here for you!
 colour: is-light
 ---
   <nav class="navbar is-white">

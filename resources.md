@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Resources
-subtitle: Browse through all of our learning resources from previous events!
+subtitle: Missed out on one of our workshops? Want to brush up on some new skills? Well, browse through all of our learning resources from previous events here!
 colour: is-warning
 ---
 

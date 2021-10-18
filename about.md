@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: About Us
-subtitle: What we really do.
+subtitle: What we really do. Learn about the society that continually seeks the best for students.
 colour: is-warning
 introduction: |
   At DataSoc, our goal is to discover how data shapes the world around us. 
