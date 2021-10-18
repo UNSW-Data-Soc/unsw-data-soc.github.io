@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A/B Testing: The basics"
-date:   2021-09-27
+date:   2021-09-30
 tags: 
     - Data Science
     - Application of Data Science

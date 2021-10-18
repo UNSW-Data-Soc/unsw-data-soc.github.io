@@ -3,8 +3,8 @@ layout: post
 title:  "The Choices We Make"
 date:   2021-10-07
 tags: 
-    - data science
-    - decision theory
+    - Data Science
+    - Application of Data Science
 author: Aileen Wang
 image: /assets/images/blog/21-10-07-banner.jpg
 excerpt_separator: <!--more-->
