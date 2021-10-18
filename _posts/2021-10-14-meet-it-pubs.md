@@ -9,11 +9,33 @@ image: /assets/images/blog/21-10-14.png
 excerpt_separator: <!--more-->
 ---
 
+<style>
+
+.video-container {
+    position: relative;
+    text-align: center;
+    padding-bottom: 57.14%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+
 Check out our first video blog ever - introducing the 2021 DataSoc IT/Pubs portfolios and their near death experiences...
 
 <!--more-->
 
 <br>
-<div style="text-align:center">
-    <iframe src="https://drive.google.com/file/d/1MQhKfOFdGMvg_eo0nVon4eroyKCgwwRr/preview" width="880" height="660" allow="autoplay" allowfullscreen></iframe>
-</div>
+<div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1MQhKfOFdGMvg_eo0nVon4eroyKCgwwRr/preview" allow="autoplay" allowfullscreen></iframe>
+</div> 
