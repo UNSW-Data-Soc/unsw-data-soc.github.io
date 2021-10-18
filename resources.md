@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Resources
-subtitle: From workshop slides to python guides
+subtitle: Browse through all of our learning resources from previous events!
 colour: is-warning
 ---
 

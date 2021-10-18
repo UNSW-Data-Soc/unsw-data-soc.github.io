@@ -8,8 +8,6 @@ permalink: /about/team/
 ---
 <style>
 	.card{
-		display:flex;
-  		flex-direction:column;
 	}
 </style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
