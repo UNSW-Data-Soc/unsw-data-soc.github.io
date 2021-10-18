@@ -31,7 +31,7 @@ excerpt_separator: <!--more-->
 </style>
 
 
-Check out our first video blog ever - introducing the 2021 DataSoc IT/Pubs portfolios and their near death experiences...
+Check out our first video blog ever - introducing the &#129302; 2021 DataSoc IT/Pubs portfolio &#129302; and their near death experiences... &#128701; &#128064; &#128128;
 
 <!--more-->
 
@@ -39,3 +39,6 @@ Check out our first video blog ever - introducing the 2021 DataSoc IT/Pubs portf
 <div class="video-container">
     <iframe src="https://drive.google.com/file/d/1MQhKfOFdGMvg_eo0nVon4eroyKCgwwRr/preview" allow="autoplay" allowfullscreen></iframe>
 </div> 
+<br>
+
+*If you have any problems viewing the above video, please access this link [here](https://drive.google.com/file/d/1MQhKfOFdGMvg_eo0nVon4eroyKCgwwRr/preview).*
