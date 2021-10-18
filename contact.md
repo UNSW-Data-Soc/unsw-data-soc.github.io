@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Contact Us
-subtitle: Reach out to us here
+subtitle: Feel free to reach out to us here if you have any questions or queries!
 colour: is-link
 ---
 

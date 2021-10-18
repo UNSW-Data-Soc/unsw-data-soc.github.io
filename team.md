@@ -1,15 +1,13 @@
 ---
 layout: landing-banner
 title: Our Team
-subtitle: Meet the team behind the magic.
+subtitle: Meet the DataSoc team working to create new opportunities for students to connect, grow and feel supported.
 colour: is-info
 title-image: city2_left.png
 permalink: /about/team/
 ---
 <style>
 	.card{
-		display:flex;
-  		flex-direction:column;
 	}
 </style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />

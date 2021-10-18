@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Events
-subtitle: From social events to workshops to networking opportunities
+subtitle: From social events to workshops to networking opportunities, stay updated to make sure you don't miss out!
 colour: is-link
 ---
 <style>
