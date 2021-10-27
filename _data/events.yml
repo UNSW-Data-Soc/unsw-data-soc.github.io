@@ -604,10 +604,32 @@ Events:
     [Register Here!](https://forms.gle/W62mRgeHAsyYS7Wq5)
    "
    link: https://fb.me/e/1wHKwffhq
- - name: Machine Learning Workshop
-   start-date: To be Confirmed
-   end-date: To be Confirmed
-   tag: planned
+ - name: Machine Learning In Pictures
+   start-date: 2021-10-28
+   end-date: 2021-10-28
+   time: 11:00am - 12:30pm
+   location: Online <a href="https://unsw.zoom.us/j/84331324702">(Zoom)</a>
+   img: /assets/images/events/machine-learning-in-pictures.jpeg
+   link: https://www.facebook.com/events/565410924724036
+   description: "
+    Bringing the future 🚀 closer to the now, machine learning is taking our modern world by storm 🌪️. With AI evolving on image recognition, statistical arbitrage to self-driving cars 🚗 it's obvious why this is such a hot 🔥 topic.
+    <br><br>
+    Want to know more? 🤔 Bring your understanding of machine learning up to scratch with our 1 hour and 30min visualisation workshop 📈 on the fundamental concepts of:
+    <br><br>
+    1. Supervised machine learning including classification and regression algorithms
+    <br>
+    2. The bias variance trade off
+    <br>
+    3. Train test split
+    <br>
+    4. Tuning hyper-parameters using the scikit-learn library
+    <br>
+    5. Bagging and Boosting methods
+    <br>
+    And so much more! See how far machine learning could take you! 🤩
+    <br><br>
+    [Register Here!](https://forms.gle/a5mmPXmaqgC9gmEs8)
+   "
  - name: "Networking Night"
    start-date: 2021-10-21
    end-date: 2021-10-21
@@ -789,10 +811,6 @@ Events:
     For more information about each role, read the DataSoc Director Roles Handbook here: https://drive.google.com/.../1MsydJrL-4mIg6WmHL6riug.../view
     <br><br>
     [Apply here!](https://forms.gle/9HbqyCvnLW36onMPA)'
- - name: "DataSoc's Got Talent"
-   start-date: To be confirmed
-   end-date: To be confirmed
-   tag: planned
  - name: 2021 Annual General Meeting (AGM)
    img: /assets/images/events/agm.jpeg
    start-date: 2021-10-07
