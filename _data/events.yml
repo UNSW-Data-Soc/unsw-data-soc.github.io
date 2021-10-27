@@ -681,15 +681,10 @@ Events:
     ☕️ Coffee chats with key members of the Mirvac Data Science team
     <br><br>
     [Register Here!](https://forms.gle/Y9apwATbWZPCJ7YU7)
-
  - name: Games Night
    start-date: 2021-09-17
    end-date: 2021-09-17
    img: /assets/images/events/games.jpg
- - name: "Happiest Hours: Side Bar (Part 2)"
-   start-date: 2021-11-03
-   end-date: 2021-11-03
-   tag: planned
  - name: "International Flagship Datathon"
    start-date: 2021-10-30
    end-date: 2021-10-31
@@ -886,7 +881,15 @@ Events:
    "
    location: Lifeblood Sydney Town Hall Donor Centre - St Andrew House, 483 George St, Sydney NSW 2000
    link: https://www.facebook.com/events/1124820328047208
-
+ - name: "Happiest Hours: Side Bar (Part 2)"
+   start-date: 2021-12-08
+   end-date: 2021-12-08
+   tag: planned
+ - name: "Data Science Survival Guide"
+   start-date: 2021-11-09
+   end-date: 2021-11-09
+   time: 12:00pm - 13:00pm
+   location: Online
 
 
 
