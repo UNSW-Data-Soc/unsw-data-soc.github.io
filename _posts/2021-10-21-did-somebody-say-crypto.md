@@ -3,12 +3,9 @@ layout: post
 title:  "Did Somebody Say Crypto?"
 date:   2021-10-21
 tags: 
-    - Spark streaming
     - Crypto Currency
-    - Twitter
-    - Sentiment Analysis
-    - NLP
-    - Quantitative Analysis
+    - Skills and Guidance
+    - Applications of Data Science
 author: Julian Garratt
 image: /assets/images/blog/21-10-21/crypto-cover.jpg
 excerpt_separator: <!--more-->
