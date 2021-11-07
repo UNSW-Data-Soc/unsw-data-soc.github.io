@@ -1,7 +1,5 @@
 - name: Home
   link: /index
-- name: International Flagship Datathon
-  link: /flagshipDatathon
 - name: About Us
   link: /about
   dropdown:
