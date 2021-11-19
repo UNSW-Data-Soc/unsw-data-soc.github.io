@@ -12,7 +12,9 @@ In the first of a series of video blogs by DataSoc, we chat with Professor Jake 
 <br><br>
 <!--more-->
 
+<div style="display:flex; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CXTC1W8O1sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Interview transcript
 
