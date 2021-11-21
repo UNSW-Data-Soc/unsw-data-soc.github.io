@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Interview with Professor Jake Olivier"
-date:   2021-11-19
+date:   2021-11-18
 tags: 
     - Data Science
+    - Video
 author: Julian Garrett and Gordon Huang
 image: /assets/images/blog/21-11-19-olivier-interview.png
 excerpt_separator: <!--more-->
@@ -127,4 +128,4 @@ In the first of a series of video blogs by DataSoc, we chat with Professor Jake 
 
 <br/>
 
-<em>Stay tuned for more upcoming video blogs with professors from the UNSW School of Mathematics and Statistics!</em>
+Stay tuned for more upcoming video blogs with professors from the UNSW School of Mathematics and Statistics!
