@@ -91,7 +91,7 @@ colour: is-link
     {% if mod != 2 %}
         </div>
     {% endif %}
-    <br>
+    <!-- <br>
     <br>
     <h2 class="title is-1 centered">Planned Events</h2>
     {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
@@ -124,10 +124,10 @@ colour: is-link
                     <br>
                     <div class='media-content'>
                         <p class='title is-4 has-text-centered is-uppercase'>{{event.name}}</p>
-                        <!-- {% if event.description %}
-                            <p class='is-size-8 has-text-centered has-text-weight-light'>{{event.description}}</p>
-                            <br>
-                        {% endif %} -->
+                        //{% if event.description %}
+                            //<p class='is-size-8 has-text-centered has-text-weight-light'>{{event.description}}</p>
+                            //<br>
+                        //{% endif %}
                         {% if event.start-date != event.end-date %}
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }} - {{event.end-date | date:"%B %d, %Y" }}</p>
                         {% else %}
@@ -145,7 +145,7 @@ colour: is-link
     {% endfor %}
     {% if mod != 5 %}
         </div>
-    {% endif %}
+    {% endif %} -->
     <br>
     <br>
     <h2 class="title is-1 centered">Previous Events</h2>
