@@ -886,6 +886,7 @@ Events:
    end-date: 2021-12-08
    tag: planned
  - name: "Data Science Survival Guide"
+   img: /assets/images/events/data-science-survival-guide.jpeg
    start-date: 2021-11-09
    end-date: 2021-11-09
    time: 12:00pm - 13:00pm
