@@ -19,28 +19,30 @@ This is the official website for UNSW Data Science Society. The structure of our
 
 ### Software Dependencies
 
-* [Jekyll (and by extension, Ruby)](https://jekyllrb.com/) - static site generator used
+* [Jekyll (and Ruby)](https://jekyllrb.com/) - Static site generator
 * [Bulma CSS](https://bulma.io/) - CSS framework
 * [Bootstrap](https://getbootstrap.com/) - CSS framework
 * [Github Pages](https://pages.github.com/) - Website hosting
 * [Namecheap](https://www.namecheap.com/) - Custom domain
+* [Google Analytics](https://analytics.google.com/) - Website traffic tracker
 
-*For instructions to this project running on your local machine, or for references to our style guide, please visit [setup.md](setup.md)*
+*For instructions to this project running on your local machine, or for references to our style guide, please visit [setup.md](setup.md).*
 
 ## Authors
 
-**2020 DataSoc IT/Publications Portfolio**
+#### 2020 DataSoc IT/Publications Portfolio 
 * Directors: Victor Tsang, Bernardo Croll
 * Subcommittee: Aileen Wang, Cindy Sun, Nathan Cao, Norton Wu, William Feng
 
-**2021 DataSoc IT/Publications Portfolio**
+#### 2021 DataSoc IT/Publications Portfolio
 * Directors: William Feng, Aileen Wang
 * Subcommittee: Amber Dang, Gordon Huang, Julian Garratt, Maggie Chan
 
-**2022 DataSoc IT Portfolio**
+#### 2022 DataSoc IT Portfolio
 * Directors: William Feng, Maggie Chan
 
-See the full list of [contributors](https://github.com/UNSW-Data-Soc/unsw-data-soc.github.io/graphs/contributors) who participated in this project.
+*See the full list of [contributors](https://github.com/UNSW-Data-Soc/unsw-data-soc.github.io/graphs/contributors) who participated in this project.*
+<br>
 
 ### Acknowledgments
 
