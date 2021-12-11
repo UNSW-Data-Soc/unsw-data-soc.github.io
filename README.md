@@ -26,7 +26,7 @@ This is the official website for UNSW Data Science Society. The structure of our
 * [Namecheap](https://www.namecheap.com/) - Custom domain
 * [Google Analytics](https://analytics.google.com/) - Website traffic tracker
 
-*For instructions to this project running on your local machine, or for references to our style guide, please visit [setup.md](setup.md).*
+*For instructions to this project running on your local machine, or for references to our style guide, please visit [_setup.md](_setup.md).*
 
 ## Authors
 
