@@ -1,6 +1,6 @@
 # Mainpage
 
-Website for UNSW DataSoc. This website is the face of the society and has a breakdown of our:
+This is the official website for UNSW DataSoc. It has a breakdown of our:
 
 * Mission Statement
 * Team
@@ -9,7 +9,6 @@ Website for UNSW DataSoc. This website is the face of the society and has a brea
 * Events
 * Blogs, Publications
 * Contact details
-* Joining details
 
 ## Getting Started
 
@@ -55,12 +54,13 @@ Github Pages builds and deploys our website automatically from master. We will n
 
 ## Authors
 
-* **Victor Tsang** - *Initial work* - [victorwctsang](https://github.com/victorwctsang)
-* **Victor Tsang, Bernardo Croll, Cindy Sun, Norton Wu, Nathan Cao, Aileen Wang, William Feng** - *Major Revamp as the 2020 DataSoc IT/Pubs Subcommittee*
-* **William Feng, Aileen Wang** - *Directors of the 2021 DataSoc IT/Publications Portfolio*
+* **Victor Tsang, Bernardo Croll, Cindy Sun, Norton Wu, Nathan Cao, Aileen Wang, William Feng** - *2020 DataSoc IT/Publications Portfolio*
+* **William Feng, Aileen Wang, Julian Garratt, Gordon Huang, Maggie Chan, Amber Dang** - *2021 DataSoc IT/Publications Portfolio*
+* **William Feng, Maggie Chan** - *Directors of the 2022 DataSoc IT Portfolio*
 
 See the full list of [contributors](https://github.com/UNSW-Data-Soc/unsw-data-soc.github.io/graphs/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* Special thanks to the first and second generation datasoc leads, for laying down the groundwork. Thanks @Jacky, @Chris, @Claire, @Dean.
+* Special thanks to the first and second generation DataSoc leads, for laying down the groundwork. Thanks @Jacky, @Chris, @Claire, @Dean.
+* A big shoutout to **Victor Tsang** for restructing the overall theme of the website - [victorwctsang](https://github.com/victorwctsang)
