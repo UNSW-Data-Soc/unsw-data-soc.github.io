@@ -5,7 +5,7 @@ date:   2021-04-15
 tags: 
     - Machine Learning, Deep Learning and Neural Networks
     - Skills and Guidance
-    - Application of Data Science
+    - Applications of Data Science
 author: Julian Garratt
 image: /assets/images/blog/21-04-15-banner.jpg
 excerpt_separator: <!--more-->

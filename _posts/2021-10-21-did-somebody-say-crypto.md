@@ -3,7 +3,6 @@ layout: post
 title:  "Did Somebody Say Crypto?"
 date:   2021-10-21
 tags: 
-    - Crypto Currency
     - Skills and Guidance
     - Applications of Data Science
 author: Julian Garratt

@@ -3,7 +3,7 @@ layout: post
 title:  "Radio Waves: Signals from Distant Celestial Objects"
 date:   2021-09-23
 tags: 
-    - Application of Data Science
+    - Applications of Data Science
 author: Gordon Huang
 image: /assets/images/blog/21-09-23/centaurus-a.jpg
 excerpt_separator: <!--more-->

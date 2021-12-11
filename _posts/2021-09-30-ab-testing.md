@@ -4,7 +4,7 @@ title:  "A/B Testing: The basics"
 date:   2021-09-30
 tags: 
     - Data Science
-    - Application of Data Science
+    - Applications of Data Science
 author: Amber Dang
 image: /assets/images/blog/21-09-30/change.jpg
 excerpt_separator: <!--more-->

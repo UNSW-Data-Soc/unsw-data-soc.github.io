@@ -5,7 +5,7 @@ date:   2021-02-15
 tags: 
     - Data Science
     - Machine Learning, Deep Learning and Neural Networks
-    - Application of Data Science
+    - Applications of Data Science
 author: Aileen Wang
 image: /assets/images/blog/21-02-15.jpg
 excerpt_separator: <!--more-->

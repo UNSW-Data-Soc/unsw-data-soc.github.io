@@ -4,7 +4,7 @@ title:  "The Social Media Echo Chamber: Man or Machine?"
 date:   2021-04-29
 tags: 
     - Opinion
-    - Application of Data Science
+    - Applications of Data Science
 author: Aileen Wang
 image: \assets\images\blog\21-04-29.jpg
 excerpt_separator: <!--more-->

@@ -3,7 +3,7 @@ layout: post
 title:  "Low Fertility Among Female Graduates"
 date:   2021-08-26
 tags: 
-    - Application of Data Science
+    - Applications of Data Science
 author: James Franklin and Sarah Chee Tueno
 image: /assets/images/blog/21-08-26.jpeg
 excerpt_separator: <!--more-->

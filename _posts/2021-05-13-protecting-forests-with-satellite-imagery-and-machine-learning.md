@@ -5,7 +5,7 @@ date:   2021-05-13
 tags: 
     - Data Science
     - Machine Learning, Deep Learning and Neural Networks
-    - Application of Data Science
+    - Applications of Data Science
 author: Gordon Huang
 image: /assets/images/blog/21-05-13-banner.jpg
 excerpt_separator: <!--more-->
