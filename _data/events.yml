@@ -888,6 +888,7 @@ Events:
    time: 12:00pm - 13:00pm
    location: Online
  - name: "Christmas Cheers"
+   img: /assets/images/events/christmas-cheers.jpeg
    start-date: 2021-12-13
    end-date: 2021-12-13
    time: 6:30pm - 10:30pm
