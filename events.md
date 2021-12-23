@@ -22,7 +22,8 @@ colour: is-link
     {% assign e = site.data.events.Events | sort_natural: "end-date" %}
     {% assign last_element = e.last.end-date | date: "%s" %}
     {% if e == None or last_element < curr_time %}
-        <h2> We will have more events coming soon, stay tuned! </h2>
+        <p style="font-size:24px"> We will have more events coming soon, stay tuned! </p>
+        <br>
     {% else %}
         <div class='columns'>
     {% endif %}
@@ -98,7 +99,7 @@ colour: is-link
     {% assign e = site.data.events.Events | sort_natural: "end-date" %}
     {% assign last_element = e.last.end-date | date: "%s" %}
     {% if e == None or last_element < curr_time %}
-        <h2> We are in the process of planning events, check back soon! </h2>
+        <p style="font-size:24px"> We are in the process of planning events, check back soon! </p>
     {% else %}
         <div class='columns'>
     {% endif %}
