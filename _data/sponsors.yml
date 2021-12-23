@@ -20,6 +20,12 @@ Major Sponsors:
   - name: KPMG
     icon: /assets/images/logos/custom/kpmg.png
     link: https://home.kpmg/au/en/home.html
+  - name: Canva
+    icon: /assets/images/logos/custom/canva.png
+    link: https://www.canva.com/en_au/
+  - name: Optus
+    icon: /assets/images/logos/custom/optus.png
+    link: https://www.optus.com.au/
 Partners:
   - name: Akuna Capital 
     icon: /assets/images/logos/custom/akuna.png
@@ -39,6 +45,13 @@ Partners:
   - name: Autumn Compass
     icon: /assets/images/logos/custom/autumn_compass.png
     link: https://www.autumncompass.com/home
+  - name: IMC
+    icon: /assets/images/logos/custom/imc.png
+    link: https://www.imc.com/ap/
+  - name: Citadel
+    icon: /assets/images/logos/custom/citadel.png
+    link: https://www.citadel.com/
+    
 Social Sponsors:
   - name: Mad Mex
     icon: /assets/images/logos/custom/madmex.png
