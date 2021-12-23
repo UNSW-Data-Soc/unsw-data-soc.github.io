@@ -51,6 +51,7 @@ colour: is-light
               </article>
             </div>
           </div>
+          <!-- Below is the code for including newsletters
           <hr>
           <div class="columns is-multiline">
             {% for news in site.data.newsletters.News limit:2 %}
@@ -89,7 +90,7 @@ colour: is-light
               </article>
             </div>
             {% endfor %}
-          </div>
+          </div> -->
         </div>
       </div>
   </div>
