@@ -29,7 +29,7 @@ colour: is-link
                 UNSW Data Science Society<br>
                 Level 2 Basser College (Entrance through Gate 5 on High St.)<br>
                 University of New South Wales<br>
-                Kensington NSW 2056<br>
+                Kensington NSW 2052<br>
                 <br>
             </div>
             <div class="social media">
