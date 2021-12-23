@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Blog
-subtitle: Stay in the loop with our blog posts!
+subtitle: Stay in the loop with our blog posts! From educational blogs to video blogs, they're here for you!
 colour: is-info
 ---
 
