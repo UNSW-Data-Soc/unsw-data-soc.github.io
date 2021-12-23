@@ -52,6 +52,7 @@ colour: is-link
                     </div>
                     <br>
                     <div class='card-content'>
+                        <!-- Placeholder in case we get an event that doesn't need to be prefixed with 'DataSoc Presents' -->
                         {% if event.name == 'Commbank Connect' %}
                             <p class='title is-4 has-text-centered is-uppercase'>{{event.name}}</p>
                         {% else %}
@@ -152,7 +153,8 @@ colour: is-link
     <h2 class="title is-1 centered">Previous Events</h2>
     {% assign first_element = e.first.end-date | date: "%s" %}
     {% if e == None or first_element > curr_time %}
-        <h2> We will have more events coming soon </h2>
+        <p style="font-size:24px"> There are currently no previous events to be displayed. </p>
+        <br>
     {% else %}
         <div class='columns'>
     {% endif %}
@@ -161,18 +163,18 @@ colour: is-link
     {% for event in e %}
         {% capture event_date %}{{event.end-date | date: '%s'}}{% endcapture %}
         {% if curr_time > event_date %}
-            {% assign mod = index | modulo: 3 %}
+            {% assign mod = index | modulo: 6 %}
             {% if mod == 0 and index != 0 %}
                 <div class='columns'>
             {% endif %}
-            <div class='column is-4'>
+            <div class='column is-2'>
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-3by3">
                         <img src="{{event.img}}" alt="Placeholder image">
                         </figure>
                     </div>
-                    <br>
+                    <!-- <br>
                     <div class='media-content'>
                         <p class='title is-5 has-text-centered is-uppercase'> {{event.name}}</p>
                         {% if event.start-date != event.end-date %}
@@ -181,11 +183,11 @@ colour: is-link
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }}</p>
                         {% endif %}
                         <br>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             {% assign index = index | plus: 1 %}
-            {% if mod == 2 %}
+            {% if mod == 5 %}
                 </div>
             {% endif %}
         {% endif %}
