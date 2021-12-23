@@ -4,28 +4,30 @@ title: Publications
 subtitle: You can find all of our publications here, including our newsletters and guides!
 colour: is-light
 ---
-  <nav class="navbar is-white">
-      <div class="container">
-          <div id="navMenu" class="navbar-menu">
-              <div class="navbar-start">
-                  <a class="navbar-item" href="/contact">
-                    Newsletter Signup
-                  </a>
-                  <a class="navbar-item" href="https://us19.campaign-archive.com/home/?u=8dc568d0db37b26ed75ba4d94&id=01f8128da2" target="_blank"> 
-                    Newsletter Archive
-                  </a>
-              </div>
-          </div>
-      </div>
-  </nav>
 <div class="hero-body background-shade">
   <div class="container">
       <div class="columns">
         <div class="column is-10 is-offset-1">
           <div class="columns featured-post is-multiline">
+            <div class="column is-12 post" style="padding-bottom: 5%">
+              <article class="columns featured">
+                <div class="column is-3 featured-content va centered">
+                  <a href="/contact" class="button is-warning is-large is-fullwidth">Newsletter Signup</a>
+                </div>
+                <div class="column is-3 featured-content va centered">
+                  <a href="https://us19.campaign-archive.com/home/?u=8dc568d0db37b26ed75ba4d94&id=01f8128da2" target="_blank" class="button is-warning is-large is-fullwidth">Newsletter Archive</a>
+                </div>
+                <div class="column is-3 featured-content va centered">
+                  <a href="/blog" class="button is-warning is-large is-fullwidth">Blog Posts</a>
+                </div>
+                <div class="column is-3 featured-content va centered">
+                  <a href="/blog/topics" class="button is-warning is-large is-fullwidth">Blog Topics</a>
+                </div>
+              </article>
+            </div>
             <div class="column is-12 post">
               <article class="columns featured">
-                <div class="column is-6 featured-content va centered"> 
+                <div class="column is-6 featured-content va centered">
                   <h1 class="title post-title">2021 Careers Guide</h1>
                     <p class="post-excerpt">
                     Data Science can be difficult to navigate career-wise. 
