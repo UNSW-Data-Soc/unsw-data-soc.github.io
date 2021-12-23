@@ -88,7 +88,7 @@ colour: is-link
             {% endif %}
         {% endif %}
     {% endfor %}
-    {% if mod != 2 %}
+    {% if mod != 2 and e != None and last_element >= curr_time %}
         </div>
     {% endif %}
     <!-- <br>
