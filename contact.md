@@ -2,7 +2,6 @@
 layout: landing-banner
 title: Contact Us
 subtitle: Feel free to reach out to us here if you have any questions or queries!
-colour: is-link
 ---
 
 <div class="hero-body background-shade has-text-black">

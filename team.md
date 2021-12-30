@@ -1,10 +1,8 @@
 ---
 layout: landing-banner
 title: Our Team
-subtitle: Meet the DataSoc team working to create new opportunities for students to connect, grow and feel supported.
-colour: is-info
-title-image: city2_left.png
 permalink: /about/team/
+subtitle: Meet the DataSoc team working to create new opportunities for students to connect, grow and feel supported.
 ---
 <style>
 	.card{

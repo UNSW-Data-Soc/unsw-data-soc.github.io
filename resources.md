@@ -2,7 +2,6 @@
 layout: landing-banner
 title: Resources
 subtitle: Missed out on one of our workshops? Want to brush up on some new skills? Well, browse through all of our learning resources from previous events here!
-colour: is-warning
 ---
 
 <div class="hero-body background-shade">

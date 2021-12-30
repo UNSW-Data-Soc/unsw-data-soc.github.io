@@ -1,9 +1,8 @@
 ---
 layout: landing-banner
-permalink: blog/topics
 title: Topics
+permalink: blog/topics
 subtitle: Our blog directory, the place to find the next interesting article!
-colour: is-info
 ---
 
 <link rel="stylesheet" href="/assets/css/tags.css">

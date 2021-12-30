@@ -2,13 +2,6 @@
 layout: landing-banner
 title: About Us
 subtitle: What we really do. Learn about the society that continually seeks the best for students.
-colour: is-warning
-introduction: |
-  At DataSoc, our goal is to discover how data shapes the world around us. 
-  <br><br> 
-  As the official student body for the Data Science and Decisions program at UNSW, we are one of UNSW's fastest growing societies in one of the world's fastest growing industries.
-  <br><br>
-  We aspire to connect, educate and support our members by running social and career events alongside industry partnered educational workshops.
 ---
 
 <style>

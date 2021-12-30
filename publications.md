@@ -2,7 +2,6 @@
 layout: landing-banner
 title: Publications
 subtitle: You can find all of our publications here, including our newsletters and guides!
-colour: is-light
 ---
 <div class="hero-body background-shade">
   <div class="container">
