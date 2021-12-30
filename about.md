@@ -266,9 +266,8 @@ introduction: |
 </div>
 
 <div class="hero-body background-shade">
-    <div class="container">
         <div class="columns is-vcentered">
-            <div class="column is-7 is-offset-3">
+            <div class="column is-6 is-offset-3">
                 <h2 class="title is-1 centered">Our Goals</h2>
                 <ul class="no_bullet">
                     <li class="lightbulb">
@@ -288,7 +287,7 @@ introduction: |
                         <br><br>
                     </li>
                     <p>
-                    With this, DataSoc aims to make your university experience even more fun and fulfilling, whilst maximizing your employment opportunity and career progression in data science.
+                    <b>With this, DataSoc aims to make your university experience even more fun and fulfilling, whilst maximizing your employment opportunity and career progression in data science.</b>
                     </p>     
                 </ul>
                 <div style="margin: 4rem 0 5rem">
@@ -298,12 +297,10 @@ introduction: |
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
         <div class="columns is-vcentered">
-            <div class="column is-7 is-offset-3">
+            <div class="column is-6 is-offset-3">
             <h2 class="title is-1 centered">Our Values</h2>
-                Our successes to date could not have be achieved without our thriving subcommittee teams year after year. Here are our core values that persists amongst all portfolios. <br><br>
+                Our successes to date could not have be achieved without our thriving subcommittee teams year after year. Here are our core values that persists amongst all portfolios: <br><br>
                 <ul class="no_bullet">
                     <li class="book">
                         <p><strong>Learn continuously and effectively</strong></p>
@@ -328,12 +325,10 @@ introduction: |
                 </ul>
             </div>
         </div>
-    </div>
 </div>
 
 <div class="hero-body background-shade">
-    <br><br>
-      <div class="column is-8 is-offset-2">
+      <div class="column is-6 is-offset-3">
       <h2 class="title is-1 centered">Our History</h2>
           <div class="row example-centered">
               <ul class="timeline timeline-centered">
@@ -371,7 +366,7 @@ introduction: |
                       <div class="timeline-marker"></div>
                       <div class="timeline-content">
                           <h3 class="title is-4">September, 2019</h3>
-                          <p>In this month, as DataSoc celebrated its 2000 likes on Facebook, DataSoc hosted its first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
+                          <p>As we celebrate 2000 likes on Facebook, we hosted our first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
                           </p>
                       </div>
                   </li>
@@ -385,6 +380,6 @@ introduction: |
                   </li>
               </ul>
           </div>
-      </div>
+    </div>
   </div>
 
