@@ -350,21 +350,14 @@ introduction: |
                           <h3 class="title is-4">May, 2017</h3>
                           <p>DataSoc announces and hosts its first ever event: 
                           <br>
-                          Meet the representatives of Tableau Software, and get to know the power of Tableau in AI and modern data science. </p>
+                          <em>Meet the representatives of Tableau Software, and get to know the power of Tableau in AI and modern data science.</em></p>
                       </div>
                   </li>
                   <li class="timeline-item">
                       <div class="timeline-marker"></div>
                       <div class="timeline-content">
                           <h3 class="title is-4">June, 2017</h3>
-                          <p>DataSoc hosts its first ever hackathon, and its first ever networking night with Alibaba, Suncorp, Bupa, and many more. </p>
-                      </div>
-                  </li>
-                  <li class="timeline-item">
-                      <div class="timeline-marker"></div>
-                      <div class="timeline-content">
-                          <h3 class="title is-4">August, 2017</h3>
-                          <p>Official DataSoc youtube announced. Since then, many videos covering the topics of AI and machine learning has been uploaded!</p>
+                          <p>DataSoc hosts its first ever networking night with Alibaba, Suncorp, Bupa, and many more. </p>
                       </div>
                   </li>
                   <li class="timeline-item">
@@ -377,23 +370,16 @@ introduction: |
                   <li class="timeline-item">
                       <div class="timeline-marker"></div>
                       <div class="timeline-content">
-                          <h3 class="title is-4">September, 2018</h3>
-                          <p> Welcomed SKYnet, DataSoc's friendly chatbot helper, ready to answer questions on DataSoc's behalf.</p>
-                      </div>
-                  </li>
-                  <li class="timeline-item">
-                      <div class="timeline-marker"></div>
-                      <div class="timeline-content">
-                          <h3 class="title is-4">March, 2019</h3>
-                          <p>DataSoc's website undergoes a modern transformation as we welcome new members and a doubled subcommitee team alike.
+                          <h3 class="title is-4">September, 2019</h3>
+                          <p>In this month, as DataSoc celebrated its 2000 likes on Facebook, DataSoc hosted its first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
                           </p>
                       </div>
                   </li>
                   <li class="timeline-item">
                       <div class="timeline-marker"></div>
                       <div class="timeline-content">
-                          <h3 class="title is-4">September, 2019</h3>
-                          <p>In this month, as DataSoc celebrated its 2000 likes on Facebook, DataSoc hosted its first ever international datathon in conjunction with Tsinghua University's Institute of Data Science!
+                          <h3 class="title is-4">March, 2020</h3>
+                          <p>DataSoc's website undergoes a modern transformation as we double our subcommitee team.
                           </p>
                       </div>
                   </li>
