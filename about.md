@@ -246,16 +246,11 @@ subtitle: What we really do. Learn about the society that continually seeks the 
 </style>
 
 <div class="hero-body background-shade">
-  <div class="container">
     <div class="columns is-vcentered">
-      <div class="column is-6">
-        <a><img class="partner-logo" src="/assets/images/logos/custom/unswmaths.png"></a>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <p>Uniting mathematicians, econometricians and computer scientists, UNSW DataSoc seeks to empower our members with knowledge and skills of data science, machine learning and artificial intelligence.</p>
+      <div class="column is-6 is-offset-3">
+        <h2 class="title is-5 centered">Uniting mathematicians, econometricians and computer scientists, UNSW DataSoc seeks to empower our members with knowledge and skills of data science, machine learning and artificial intelligence.</h2>
       </div>
     </div>
-  </div>
 </div>
 
 <div class="hero-body background-shade">
