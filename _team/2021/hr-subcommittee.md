@@ -1,9 +1,9 @@
 ---
-position: 
-portfolio: Subcommittee
+position:
+portfolio: 2021 Team
 order: 20
 name: HR
-degree: 
+degree:
 image: hr.jpg
 one_line:
 ---

@@ -1,6 +1,6 @@
 ---
 position: HR Director
-portfolio: External
+portfolio: 2021 Team
 order: 7
 name: Winston Sun
 degree: Bachelor of Data Science and Decisions

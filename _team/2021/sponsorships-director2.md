@@ -1,20 +1,20 @@
 ---
 position: Sponsorships Director
-portfolio: External
-order: 12
-name: Shubh Patel
+portfolio: 2021 Team
+order: 13
+name: Celine Choo
 degree: Bachelor of Data Science and Decisions
-image: shubh-patel.jpg
+image: celine-choo.jpg
 one_line:
 ---
 *Next country you want to travel to?*
 <br>
-Iceland
+Singapore
 <br><br>
-*Something on your bucket list?*
+*Food you could never live without?*
 <br>
-Sky Diving
+Cheese
 <br><br>
-*Does pineapple belong on pizza?*
+*Go to place for food?*
 <br>
-YES!
+Seabay

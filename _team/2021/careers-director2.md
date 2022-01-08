@@ -1,6 +1,6 @@
 ---
 position: Careers Director
-portfolio: External
+portfolio: 2021 Team
 order: 11
 name: Norton Wu
 degree: Bachelor of Data Science and Decisions

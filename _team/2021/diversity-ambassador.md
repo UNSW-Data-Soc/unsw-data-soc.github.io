@@ -1,6 +1,6 @@
 ---
 position: Diversity Ambassador
-portfolio: Executives
+portfolio: 2021 Team
 order: 6
 name: Roshan Abraham
 degree: Bachelor of Data Science and Decisions

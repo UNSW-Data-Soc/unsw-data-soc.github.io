@@ -1,6 +1,6 @@
 ---
 position: Social Director
-portfolio: External
+portfolio: 2021 Team
 order: 8
 name: Farrah Li
 degree: Bachelor of Data Science and Decisions

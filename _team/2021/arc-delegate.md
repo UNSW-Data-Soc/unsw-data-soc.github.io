@@ -1,6 +1,6 @@
 ---
 position: Arc Delegate
-portfolio: Executives
+portfolio: 2021 Team
 order: 4
 name: Kai Mashimo
 degree: Bachelor of Data Science and Decisions

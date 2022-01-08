@@ -1,6 +1,6 @@
 ---
 position: 
-portfolio: Subcommittee
+portfolio: 2021 Team
 order: 23
 name: Education
 degree: 

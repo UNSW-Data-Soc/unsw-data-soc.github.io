@@ -1,6 +1,6 @@
 ---
 position: Social Director
-portfolio: External
+portfolio: 2021 Team
 order: 9
 name: Alexander Swan
 degree: Bachelor of Data Science and Decisions

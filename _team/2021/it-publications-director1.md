@@ -1,6 +1,6 @@
 ---
 position: IT/Publications Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 16
 name: William Feng
 degree: Bachelor of Advanced Mathematics/Computer Science

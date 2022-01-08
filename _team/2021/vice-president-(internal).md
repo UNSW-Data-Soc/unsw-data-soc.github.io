@@ -1,6 +1,6 @@
 ---
 position: Vice President (Internal)
-portfolio: Executives
+portfolio: 2021 Team
 order: 3
 name: Ivan Hou
 degree: Bachelor of Actuarial Studies

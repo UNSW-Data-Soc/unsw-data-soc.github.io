@@ -1,6 +1,6 @@
 ---
 position: Marketing Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 18
 name: Erica Soenarjo
 degree: Bachelor of Actuarial Studies/Commerce

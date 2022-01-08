@@ -1,6 +1,6 @@
 ---
 position: President
-portfolio: Executives
+portfolio: 2021 Team
 order: 0
 name: Laurel Lu
 degree: Bachelor of Data Science and Decisions

@@ -1,6 +1,6 @@
 ---
 position: Education Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 14
 name: Daniel Ho
 degree: Bachelor of Actuarial Studies/Commerce

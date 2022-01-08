@@ -1,6 +1,6 @@
 ---
 position: Education Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 15
 name: Kevin Luo
 degree: Bachelor of Data Science and Decisions
