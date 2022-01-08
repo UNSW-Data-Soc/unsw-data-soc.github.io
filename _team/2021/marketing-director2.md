@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 19
 name: Samraggi Pant
 degree: Bachelor of Data Science and Decisions
-image: samraggi-pant.jpg
+image: 2021/samraggi-pant.jpg
 one_line:
 ---
 *Favourite movie/tv show?*

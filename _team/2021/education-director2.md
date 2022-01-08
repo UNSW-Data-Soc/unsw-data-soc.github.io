@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 15
 name: Kevin Luo
 degree: Bachelor of Data Science and Decisions
-image: kevin-luo.jpg
+image: 2021/kevin-luo.jpg
 one_line:
 ---
 *Does pineapple belong on pizza?*

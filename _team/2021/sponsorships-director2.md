@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 13
 name: Celine Choo
 degree: Bachelor of Data Science and Decisions
-image: celine-choo.jpg
+image: 2021/celine-choo.jpg
 one_line:
 ---
 *Next country you want to travel to?*

@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 10
 name: Aarthi Kumararaja
 degree: Bachelor of Data Science and Decisions
-image: aarthi-kumararaja.jpg
+image: 2021/aarthi-kumararaja.jpg
 one_line:
 ---
 *Current phone lockscreen?*

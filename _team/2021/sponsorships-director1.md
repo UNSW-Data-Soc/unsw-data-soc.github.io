@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 12
 name: Shubh Patel
 degree: Bachelor of Data Science and Decisions
-image: shubh-patel.jpg
+image: 2021/shubh-patel.jpg
 one_line:
 ---
 *Next country you want to travel to?*

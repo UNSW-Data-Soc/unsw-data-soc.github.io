@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 21
 name: Social
 degree: 
-image: social.jpg
+image: 2021/social.jpg
 one_line:
 ---
 The social team is pivotal in enabling student engagement with our society. This requires a passionate and welcoming team to

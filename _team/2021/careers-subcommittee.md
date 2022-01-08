@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 22
 name: Careers
 degree: 
-image: careers.jpg
+image: 2021/careers.jpg
 one_line:
 ---
 DataSoc’s strongest contribution to the student community lies in our commitment to bridge the gap between university and industry.

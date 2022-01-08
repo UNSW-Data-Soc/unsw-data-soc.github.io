@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 0
 name: Laurel Lu
 degree: Bachelor of Data Science and Decisions
-image: laurel-lu.jpg
+image: 2021/laurel-lu.jpg
 one_line:
 ---
 *Favourite spot on campus?*

@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 1
 name: Chantelle Liu
 degree: Bachelor of Commerce/Science
-image: chantelle-liu.jpg
+image: 2021/chantelle-liu.jpg
 one_line:
 ---
 *Does pineapple belong on pizza?*

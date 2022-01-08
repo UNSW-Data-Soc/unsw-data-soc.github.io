@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 23
 name: Education
 degree: 
-image: education.jpg
+image: 2021/education.jpg
 one_line:
 ---
 The Education portfolio is responsible for facilitating and hosting workshops, competitions and revision sessions throughout the

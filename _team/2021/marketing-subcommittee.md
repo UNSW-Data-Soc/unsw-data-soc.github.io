@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 25
 name: Marketing
 degree: 
-image: marketing.jpg
+image: 2021/marketing.jpg
 one_line:
 ---
 The Marketing Portfolio has the important role of communicating to the larger data science community on behalf of DataSoc. It

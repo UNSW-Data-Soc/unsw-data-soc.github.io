@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 4
 name: Kai Mashimo
 degree: Bachelor of Data Science and Decisions
-image: kai-mashimo.jpg
+image: 2021/kai-mashimo.jpg
 one_line:
 ---
 *Something on your bucket list?*

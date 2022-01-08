@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 7
 name: Winston Sun
 degree: Bachelor of Data Science and Decisions
-image: winston-sun.jpg
+image: 2021/winston-sun.jpg
 one_line:
 ---
 *Favourite music artist?*

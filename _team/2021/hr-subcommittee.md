@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 20
 name: HR
 degree:
-image: hr.jpg
+image: 2021/hr.jpg
 one_line:
 ---
 The Human Resources (Diversity) Subcommittee is responsible for fostering the culture of DataSoc. From running internal, team

@@ -4,7 +4,7 @@ portfolio: 2021 Team
 order: 24
 name: IT/Publications
 degree: 
-image: it_pubs.jpg
+image: 2021/it_pubs.jpg
 one_line:
 ---
 IT/Publications is the bridge between DataSoc and UNSW students! This means maintaining the DataSoc website, publishing newsletters and
