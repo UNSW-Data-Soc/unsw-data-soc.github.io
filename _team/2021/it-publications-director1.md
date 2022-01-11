@@ -1,10 +1,10 @@
 ---
 position: IT/Publications Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 16
 name: William Feng
 degree: Bachelor of Advanced Mathematics/Computer Science
-image: william-feng.jpg
+image: 2021/william-feng.jpg
 one_line:
 ---
 *Next country you want to travel to?*

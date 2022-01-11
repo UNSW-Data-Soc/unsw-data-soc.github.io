@@ -4,13 +4,9 @@ title: Our Team
 permalink: /about/team/
 subtitle: Meet the DataSoc team working to create new opportunities for students to connect, grow and feel supported.
 ---
-<style>
-	.card{
-	}
-</style>
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body background-shade">
-	{% assign portfolios = "Executives, External, Internal, Subcommittee" | split: ", " %}
+	{% assign portfolios = "Executives, External, Internal, 2021 Team" | split: ", " %}
 	<div class="tabs is-boxed is-centered main-menu is-large" id="nav">
 		<ul>
 			{% for i in (0..3) %}
@@ -48,14 +44,11 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
 							</div>
 						{% endif %}
 						<div class="columns">
-						{% if remaining_people == 6 %}
-							<div class="column is-2">
+						{% if remaining_people == 1 %}
+							<div class="column is-4">
 							</div>
 						{% elsif remaining_people == 2 %}
 							<div class="column is-3">
-							</div>
-						{% elsif remaining_people == 1 %}
-							<div class="column is-4">
 							</div>
 						{% elsif remaining_people == 3 %}
 							<div class="column is-2">

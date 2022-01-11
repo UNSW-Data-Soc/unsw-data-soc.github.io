@@ -1,10 +1,10 @@
 ---
 position: Education Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 14
 name: Daniel Ho
 degree: Bachelor of Actuarial Studies/Commerce
-image: daniel-ho.jpg
+image: 2021/daniel-ho.jpg
 one_line:
 ---
 *Next country you want to travel to?*

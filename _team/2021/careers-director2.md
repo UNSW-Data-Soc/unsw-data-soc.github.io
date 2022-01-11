@@ -1,10 +1,10 @@
 ---
 position: Careers Director
-portfolio: External
+portfolio: 2021 Team
 order: 11
 name: Norton Wu
 degree: Bachelor of Data Science and Decisions
-image: norton-wu.jpg
+image: 2021/norton-wu.jpg
 one_line:
 ---
 *Next country you want to travel to?*

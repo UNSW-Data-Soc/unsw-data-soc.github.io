@@ -1,10 +1,10 @@
 ---
 position: Treasurer
-portfolio: Executives
+portfolio: 2021 Team
 order: 5
 name: Ashleigh Feng
 degree: Bachelor of Data Science and Decisions
-image: ashleigh-feng.jpg
+image: 2021/ashleigh-feng.jpg
 one_line:
 ---
 *Favourite YouTube channel?*

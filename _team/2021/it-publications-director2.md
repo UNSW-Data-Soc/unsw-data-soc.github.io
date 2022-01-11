@@ -1,10 +1,10 @@
 ---
 position: IT/Publications Director
-portfolio: Internal
+portfolio: 2021 Team
 order: 17
 name: Aileen Wang
 degree: Bachelor of Data Science and Decisions
-image: aileen-wang.jpg
+image: 2021/aileen-wang.jpg
 one_line:
 ---
 *Sweet or savoury?*

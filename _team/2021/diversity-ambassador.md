@@ -1,10 +1,10 @@
 ---
 position: Diversity Ambassador
-portfolio: Executives
+portfolio: 2021 Team
 order: 6
 name: Roshan Abraham
 degree: Bachelor of Data Science and Decisions
-image: roshan-abraham.jpg
+image: 2021/roshan-abraham.jpg
 one_line:
 ---
 *Something on your bucket list?*

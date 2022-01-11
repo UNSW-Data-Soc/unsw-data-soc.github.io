@@ -1,10 +1,10 @@
 ---
 position: Social Director
-portfolio: External
+portfolio: 2021 Team
 order: 9
 name: Alexander Swan
 degree: Bachelor of Data Science and Decisions
-image: alexander-swan.jpg
+image: 2021/alexander-swan.jpg
 one_line:
 ---
 *Does pineapple belong on pizza?*

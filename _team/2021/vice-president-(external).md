@@ -1,10 +1,10 @@
 ---
 position: Vice President (External)
-portfolio: Executives
+portfolio: 2021 Team
 order: 2
 name: Vincent Chen
 degree: Bachelor of Data Science and Decisions
-image: vincent-chen.jpg
+image: 2021/vincent-chen.jpg
 one_line:
 ---
 *Something on your bucket list?*

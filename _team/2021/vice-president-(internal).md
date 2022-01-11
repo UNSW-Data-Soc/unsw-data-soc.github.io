@@ -1,10 +1,10 @@
 ---
 position: Vice President (Internal)
-portfolio: Executives
+portfolio: 2021 Team
 order: 3
 name: Ivan Hou
 degree: Bachelor of Actuarial Studies
-image: ivan-hou.jpg
+image: 2021/ivan-hou.jpg
 one_line:
 ---
 *Go to place for food?*
