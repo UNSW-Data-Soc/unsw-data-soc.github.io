@@ -23,7 +23,7 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
 	</div>
 	<div class="tab-content" style="background:#f0f2f5">
 	{% for i in (0..3) %}
-		{% assign portfolio = site.team | where:"portfolio",portfolios[i] %}
+		{% assign portfolio = site.team | where:"portfolio",portfolios[i] | sort: "order" %}
 		{% if forloop.first == true %}
 			{% assign active_status = "is-active" %}
 		{% else %}
