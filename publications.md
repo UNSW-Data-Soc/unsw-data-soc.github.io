@@ -17,10 +17,10 @@ subtitle: You can find all of our publications here, including our newsletters a
                   <a href="https://us19.campaign-archive.com/home/?u=8dc568d0db37b26ed75ba4d94&id=01f8128da2" target="_blank" class="button is-warning is-large is-fullwidth">Newsletter Archive</a>
                 </div>
                 <div class="column is-3 featured-content va centered">
-                  <a href="/blog" class="button is-warning is-large is-fullwidth">Blog Posts</a>
+                  <a href="/blog" class="button is-large is-fullwidth" style="background-color: #ffa64d">Blog Posts</a>
                 </div>
                 <div class="column is-3 featured-content va centered">
-                  <a href="/blog/topics" class="button is-warning is-large is-fullwidth">Blog Topics</a>
+                  <a href="/blog/topics" class="button is-large is-fullwidth" style="background-color: #ffa64d">Blog Topics</a>
                 </div>
               </article>
             </div>
