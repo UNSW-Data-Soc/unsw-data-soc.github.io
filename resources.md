@@ -45,7 +45,7 @@ subtitle: Missed out on one of our workshops? Want to brush up on some new skill
                             <!--resources button-->
                             {% if resource.resources %}
                                 <a href="{{ resource.resources }}" target="_blank">
-                                <button  class="button is-info">
+                                <button  class="button is-primary">
                                     <span>View Resources</span>
                                 </button></a>
                             {% else %}
