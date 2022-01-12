@@ -35,9 +35,9 @@ subtitle: Missed out on one of our workshops? Want to brush up on some new skill
                 <div class='column is-4 search'>
                     <div class='card'>
                         <div class='card-content'>
-                            <a href="{{ resource.resources }}" target="_blank">
-                                <p class='title is-5'>{{ resource.title }}</p>
-                            </a>
+                            <p class="title is-5">
+                                <a href="{{ resource.resources }}" class="has-text-info" target="_blank">{{ resource.title }}</a>
+                            </p>
                             <p class='subtitle is-6'>{{ resource.date }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
@@ -45,7 +45,7 @@ subtitle: Missed out on one of our workshops? Want to brush up on some new skill
                             <!--resources button-->
                             {% if resource.resources %}
                                 <a href="{{ resource.resources }}" target="_blank">
-                                <button  class="button is-primary">
+                                <button class="button is-primary">
                                     <span>View Resources</span>
                                 </button></a>
                             {% else %}
