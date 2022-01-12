@@ -35,10 +35,10 @@ subtitle: Missed out on one of our workshops? Want to brush up on some new skill
                 <div class='column is-4 search'>
                     <div class='card'>
                         <div class='card-content'>
-                            <p class="title is-5">
+                            <p class="title is-4">
                                 <a href="{{ resource.resources }}" class="has-text-info" target="_blank">{{ resource.title }}</a>
                             </p>
-                            <p class='subtitle is-6'>{{ resource.date }}</p>
+                            <p class='subtitle is-6 is-italic'>{{ resource.date }}</p>
                             <div class='content'>
                                 <p>{{ resource.description }}</p>
                             </div>
