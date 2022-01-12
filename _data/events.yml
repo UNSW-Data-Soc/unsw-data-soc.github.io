@@ -24,7 +24,7 @@ Events:
 ###############
 
   - name: Peer Mentoring 2021
-    img: /assets/images/events/peer_mentoring.png
+    img: /assets/images/events/2021/peer_mentoring.png
     start-date: 2021-02-08
     end-date: 2021-02-19
     description: A big welcome to everyone that joined UNSW in 2021, and an even bigger thank you to those who joined DataSoc! DataSoc is holding its annual 🌟 Peer Mentoring Program 🌟to help you settle into your new uni life.
@@ -33,7 +33,7 @@ Events:
       So sign up now, and start off your time at uni right!
     link: https://www.facebook.com/events/407905556976265/
   - name: O-Week
-    img: /assets/images/events/o_week.png
+    img: /assets/images/events/2021/o_week.png
     start-date: 2021-02-09
     end-date: 2021-02-11
     description: WELCOME TO DATASOC!! We’re kicking off 2021 at UNSW O-Week!!
@@ -41,21 +41,21 @@ Events:
     location: Alumni West
     link: https://www.facebook.com/events/455842289116011
   - name: Welcome to 2021
-    img: /assets/images/events/welcome_to_2021.png
+    img: /assets/images/events/2021/welcome_to_2021.png
     start-date: 2021-02-16
     end-date: 2021-02-16
     time: 8pm-9pm
     location: Online <a href="https://discord.gg/7knVqwvr">(Discord)</a>
     link: https://www.facebook.com/events/144679580832706
   - name: Demystifying Data Science with Atlassian
-    img: /assets/images/events/demystifying_data_science.png
+    img: /assets/images/events/2021/demystifying_data_science.png
     start-date: 2021-02-17
     end-date: 2021-02-17
     time: 2pm-4pm
     location: Online <a href="http://unsw.zoom.us/j/88530292472">(Zoom)</a>
     link: https://www.facebook.com/events/878231583006404/
   - name: 2021 Subcommittee Recruitment
-    img: /assets/images/events/subcommittee_recruitment.jpg
+    img: /assets/images/events/2021/subcommittee_recruitment.jpg
     start-date: 2021-02-15
     end-date: 2021-03-05
     description: "Hi there!
@@ -92,14 +92,14 @@ Events:
       [APPLY HERE!](https://forms.gle/r7V7JSYxKNbZ6ut26)"
     link: https://www.facebook.com/events/426683498616566/
   - name: UNSW Combined Science Trivia Night
-    img: /assets/images/events/combined_science_trivia_night.jpg
+    img: /assets/images/events/2021/combined_science_trivia_night.jpg
     start-date: 2021-02-24
     end-date: 2021-02-24
     time: 8pm-10pm
     location: Online
     link: https://www.facebook.com/events/3640342139419216/
   - name: Camp
-    img: /assets/images/events/camp.png
+    img: /assets/images/events/2021/camp.png
     start-date: 2021-05-28
     end-date: 2021-05-30
     location: The Tops Conference Centre
@@ -113,7 +113,7 @@ Events:
       <br><br>
       [General Admission Tickets selling NOW](https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FC71xYy9AUJri7Pta9%3Ffbclid%3DIwAR1NlDNkr_YFSqSo06_RseCf47czzlObfnJafjXqvI0YDcdiLayqCilWgOM&h=AT16AFG8os70Y5dAEDvhcgKXgseooEbKubaQV2URgEgGVTIEC0hkEL5VzQssll-VMSZGcF-q8nWmd83yJMRjnRzNU8j6naWQSEdWXd7_zgSbrrMjfyF8z3IobYToUXF1QKPj&__tn__=-UK-R&c[0]=AT1FWh573TY-97AICGIOZWiXm-gWYtED1A2LL3Y7IxF0hJrAhtl5SPHL64lNx0Bd6bGrUBdYAFfSXQzmfhVlb3aOMCeq1T5kcEN90P8lpCLjNiBnoEndH4ZMM0pfpa9QOjbMSD7Z1IsoNUylje4EBYHqIKcuUlaOFU0fE5RBKev46Q)!
   - name: Python Essentials
-    img: /assets/images/events/python_essentials.png
+    img: /assets/images/events/2021/python_essentials.png
     start-date: 2021-03-01
     end-date: 2021-03-01
     description: 'answer = input("Interested in learning one of the most coveted and useful skills that will bolster your job applications? Y/N")
@@ -133,7 +133,7 @@ Events:
     location: Online <a href="http://unsw.zoom.us/j/89114689715">(Zoom)</a>
     link: https://www.facebook.com/events/1864386547063836
   - name: Python in Practice
-    img: /assets/images/events/python_in_practice.png
+    img: /assets/images/events/2021/python_in_practice.png
     start-date: 2021-03-04
     end-date: 2021-03-04
     description: "Have you ever wondered how Python 🐍 could be relevant to Data Science 📈?
@@ -149,7 +149,7 @@ Events:
     location: Online <a href="http://unsw.zoom.us/j/82937871050">(Zoom)</a>
     link: https://www.facebook.com/events/465355151165024/
   - name: Disaster at the Joadia Islands Gameathon
-    img:  /assets/images/events/gameathon_dsai.jpg
+    img:  /assets/images/events/2021/gameathon_dsai.jpg
     start-date: 2021-03-15
     end-date: 2021-04-11
     description: "If you’ve got great ideas then our friends at DSAi (Data Science and AI Association of Australia) want to hear from you! Imagine a hackathon where you don’t need to code. That’s right NO CODE! Simply share your GREAT IDEAS!
@@ -163,7 +163,7 @@ Events:
     Also check out the [event page](http://joadia.dsai.org.au/) where you can register interest!"
     link: https://www.facebook.com/DataSoc/posts/2640476976255212
   - name: Happiest Hours
-    img: /assets/images/events/happiest_hours.jpg
+    img: /assets/images/events/2021/happiest_hours.jpg
     start-date: 2021-03-18
     end-date: 2021-03-18
     time: 6:45pm-11pm
@@ -178,7 +178,7 @@ Events:
       [REGISTER HERE!](https://forms.gle/GxupsEHusJ93oy1k6)"
     link: https://www.facebook.com/events/262493815459591/
   - name: "Intro to Alooba: Acing Online Assessments"
-    img: /assets/images/events/intro_to_alooba.png
+    img: /assets/images/events/2021/intro_to_alooba.png
     start-date: 2021-03-23
     end-date: 2021-03-23
     time: 5pm-6pm
@@ -199,7 +199,7 @@ Events:
     [REGISTER NOW!](https://forms.gle/VMAu4DwAACnDJCJu6)"
     link: https://www.facebook.com/events/431889234734681/
   - name: Intro to R
-    img: /assets/images/events/intro_to_r.jpeg
+    img: /assets/images/events/2021/intro_to_r.jpeg
     start-date: 2021-04-06
     end-date: 2021-04-06
     time: 12pm-1:30pm
@@ -226,12 +226,12 @@ Events:
       [REGISTER NOW!](https://forms.gle/hY8PtBFtWBHZLmQr9)"
     link: https://www.facebook.com/events/443973773601289/
   - name: "UNSW DataSoc Presents: No More Queries - A Guide To SQL"
-    img: \assets\images\events\guide-to-sql.jpg
+    img: /assets/images/events/2021/guide-to-sql.jpg
     start-date: 2021-06-16
     end-date: 2021-06-16
     location: Online
   - name: Starter-thon
-    img: \assets\images\events\starter-thon.jpg
+    img: /assets/images/events/2021/starter-thon.jpg
     start-date: 2021-04-10
     end-date: 2021-04-10
     time: 9am-6pm
@@ -269,7 +269,7 @@ Events:
       <br><br>
       [REGISTER NOW!](https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FBimcoz75Bjb6Mv3y5%3Ffbclid%3DIwAR3JqCbhjuIqQKOpxmWIUc4J7X9jMT80akMEQ2zl4mpezbHXqbRGiAnIRq8&h=AT3znApyfutXHBbgPmT-cQfCkypAFWva844GfWX2d0cow1LKfGlKS8IqdExWrX3Vu1JokB6v-W-STlNOM1XZmUvILM2hD24I_gEW858xcb9apsBkHFOLP2Mn1oUNNJWVnSTQ&__tn__=q&c[0]=AT1VtLh64l_wtQMakfBrrbVKR6Bd5v7EmuLiKO5aJXqLJuDsIkh6p5gki4S447j87SpFT2l_UbHdoJKIYZ5jVnjDxojvXZmXTRoi2cb_xL-_AVolR6nKgQkrvYyQkFxLKTwpHxf4OiHzQ2_TH09ZDRLm)
   - name: First Year Speed-Friending
-    img: \assets\images\events\speed-friending.jpg
+    img: /assets/images/events/2021/speed-friending.jpg
     start-date: 2021-03-31
     end-date: 2021-03-31
     time: 1pm-3pm
@@ -288,7 +288,7 @@ Events:
       Register [here](https://forms.gle/wR2qqtMR7uf7Em92A) so you don't miss out!!
     link: https://www.facebook.com/events/785383262409069/
   - name: Into the Dataverse - Telco and Utilities
-    img: \assets\images\events\telco-and-utilities.jpg
+    img: /assets/images/events/2021/telco-and-utilities.jpg
     start-date: 2021-06-08
     end-date: 2021-06-08
     time: 4:30pm - 6:00pm
@@ -317,7 +317,7 @@ Events:
     location: Online
     link: https://www.facebook.com/events/160312812728870/
   - name: Beginner’s Guide To Exploratory Data Analysis
-    img: /assets/images/events/exploratory_data_analysis.jpeg
+    img: /assets/images/events/2021/exploratory_data_analysis.jpeg
     start-date: 2021-07-16
     end-date: 2021-07-16
     time: 11am - 12pm
@@ -339,7 +339,7 @@ Events:
     "
     link: https://www.facebook.com/events/999684667434321
   - name: DataSoc's End of T1 Beach BBQ
-    img: \assets\images\events\end-of-term-bbq.jpg
+    img: /assets/images/events/2021/end-of-term-bbq.jpg
     start-date: 2021-05-16
     end-date: 2021-05-16
     location: Coogee Beach
@@ -364,7 +364,7 @@ Events:
       [Register here!](https://forms.gle/S3VuLzanL426BfPW6)
     link: https://www.facebook.com/events/231241818799325
   - name: Case Closed
-    img: /assets/images/events/quantium_panel_session.png
+    img: /assets/images/events/2021/quantium_panel_session.png
     time: 5:30pm - 7:30pm
     start-date: 2021-06-01
     end-date: 2021-06-01
@@ -391,7 +391,7 @@ Events:
       [Register here!](https://forms.gle/3ZitxG6MgBhPqXxw7)"
     location: UNSW
   - name: Industry Mentoring
-    img: /assets/images/events/industry-mentoring.jpeg
+    img: /assets/images/events/2021/industry-mentoring.jpeg
     start-date: 2021-06-31
     end-date: 2021-08-31
     location: Online
@@ -415,7 +415,7 @@ Events:
       *Registrations have closed*'
     link: https://www.facebook.com/events/1404358259922359
   - name: Advance to GO
-    img: \assets\images\events\Advance to GO.png
+    img: /assets/images/events/2021/Advance to GO.png
     start-date: 2021-06-13
     end-date: 2021-06-13
     time: 1pm - 4pm
@@ -447,7 +447,7 @@ Events:
     time: 5:30pm - 7:00pm
     location: Online
     link: https://fb.me/e/4fEiMhpTT
-    img: \assets\images\events\healthcare_deepdive.jpg
+    img: /assets/images/events/2021/healthcare_deepdive.jpg
     description: "
     *In partnership with BINFSOC and BESS...*
     <br><br>
@@ -474,7 +474,7 @@ Events:
     time: 11am - 12pm
     location: UNSW and Online
     link: https://fb.me/e/29AgG6CXf
-    img: \assets\images\events\data-cleaning-python.jpg
+    img: /assets/images/events/2021/data-cleaning-python.jpg
     description: "
       *In partnership with FinTech Soc...*
       <br><br>
@@ -496,7 +496,7 @@ Events:
       <br><br>
     [Register here!](https://forms.gle/FfMsxCNuwqVaEnWG8)"
   - name: DATA1001 Revision - Key to Better Decisions
-    img: /assets/images/events/data1001_revision.jpeg
+    img: /assets/images/events/2021/data1001_revision.jpeg
     start-date: 2021-08-09
     end-date: 2021-08-09
     time: 2 - 4pm
@@ -514,7 +514,7 @@ Events:
     "
     link: https://www.facebook.com/events/320297019835205/
   - name: Data Cleaning & Visualisation Workshops
-    img: /assets/images/events/data_cleaning_and_visualisation.jpeg
+    img: /assets/images/events/2021/data_cleaning_and_visualisation.jpeg
     start-date: 2021-07-16
     end-date: 2021-07-23
     time: 7 - 8pm
@@ -544,7 +544,7 @@ Events:
     "
     link: https://www.facebook.com/events/1230273464092887
   - name: Intro the Dataverse - Banks & Financial Services
-    img: /assets/images/events/banks_and_financial_services.jpeg
+    img: /assets/images/events/2021/banks_and_financial_services.jpeg
     start-date: 2021-07-13
     end-date: 2021-07-13
     time: 5:30 - 7pm
@@ -570,7 +570,7 @@ Events:
     "
     link: https://www.facebook.com/events/509001980348534
   - name: Commbank Connect
-    img: /assets/images/events/commbank_connect.png
+    img: /assets/images/events/2021/commbank_connect.png
     start-date: 2021-06-24
     end-date: 2021-07-15
     description: "
@@ -581,7 +581,7 @@ Events:
     "
     link: https://drive.google.com/file/d/16KJsdXbrSblkRC_JNrC7ZjHFJHDyy9Z-/view
   - name: Virtual Escape Room - Escaping the Matrix
-    img: /assets/images/events/escaping_the_matrix.jpeg
+    img: /assets/images/events/2021/escaping_the_matrix.jpeg
     start-date: 2021-07-21
     end-date: 2021-07-21
     time: 8 - 9:30pm
@@ -605,7 +605,7 @@ Events:
     "
     link: https://www.facebook.com/events/241627334200548
   - name: Relevance AI - A Startup Success
-    img: /assets/images/events/relevance-ai-startup-success.jpg
+    img: /assets/images/events/2021/relevance-ai-startup-success.jpg
     start-date: 2021-07-27
     end-date: 2021-07-27
     time: 5:00 - 6:30pm
@@ -633,7 +633,7 @@ Events:
     end-date: 2021-10-28
     time: 11:00am - 12:30pm
     location: Online <a href="https://unsw.zoom.us/j/84331324702">(Zoom)</a>
-    img: /assets/images/events/machine-learning-in-pictures.jpeg
+    img: /assets/images/events/2021/machine-learning-in-pictures.jpeg
     link: https://www.facebook.com/events/565410924724036
     description: "
       Bringing the future 🚀 closer to the now, machine learning is taking our modern world by storm 🌪️. With AI evolving on image recognition, statistical arbitrage to self-driving cars 🚗 it's obvious why this is such a hot 🔥 topic.
@@ -659,7 +659,7 @@ Events:
     end-date: 2021-10-21
     time: 5:30pm - 7:30pm
     location: Online
-    img: /assets/images/events/networking-night.jpg
+    img: /assets/images/events/2021/networking-night.jpg
     link: https://fb.me/e/115aIVxgL
     description: '🤖“You have been assigned to Breakout Room 1… Return to main room” 🤖.
     <br>
@@ -681,7 +681,7 @@ Events:
   - name: "Case Competition - Building a Better Future"
     start-date: 2021-10-04
     end-date: 2021-10-29
-    img: /assets/images/events/mirvac.png
+    img: /assets/images/events/2021/mirvac.png
     link: https://www.facebook.com/events/4413474652066560/
     description: 
       🥁🥁🥁FOR THE FIRST TIME, DataSoc is collaborating with Mirvac - an Australian property group who specialise in investment, development and retail services‼️
@@ -708,11 +708,11 @@ Events:
   - name: Games Night
     start-date: 2021-09-17
     end-date: 2021-09-17
-    img: /assets/images/events/games.jpg
+    img: /assets/images/events/2021/games.jpg
   - name: "International Flagship Datathon"
     start-date: 2021-10-30
     end-date: 2021-10-31
-    img: /assets/images/events/flagship-datathon-2021.jpg
+    img: /assets/images/events/2021/flagship-datathon-2021.jpg
     link: https://fb.me/e/1irROZX5A
     description:
         'Want to participate in one of the BIGGEST International Datathons? 😱
@@ -737,7 +737,7 @@ Events:
         <br><br>
         [Register here!](https://forms.gle/MRxADcMPTBf6c6Zr7)'
   - name: "Women in Tech, Let's Talk About It."
-    img: /assets/images/events/wit.jpg
+    img: /assets/images/events/2021/wit.jpg
     location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
     start-date: 2021-09-29
     end-date: 2021-09-29
@@ -750,7 +750,7 @@ Events:
     end-date: 2021-10-18
     time: 4:00pm - 5:30pm
     location: Online (Zoom)
-    img: /assets/images/events/cracking-the-cold-case.jpg
+    img: /assets/images/events/2021/cracking-the-cold-case.jpg
     link: https://fb.me/e/1dRfs6QOM
     description: "Come join this Data Visualisation workshop to build a dashboard with elements that anybody could understand. Fundamental to any good data scientist is the ability to present data cleanly, in a simple format and with a story that supports your analysis.
       <br><br>
@@ -770,7 +770,7 @@ Events:
     end-date: 2021-10-13
     time: 4pm - 4:45pm
     location: Online (Zoom)
-    img: /assets/images/events/postgrad.jpg
+    img: /assets/images/events/2021/postgrad.jpg
     link: https://fb.me/e/1mCHohvm8
     description: 
       🛣 Unsure about what your post-graduate pathway could lead to?
@@ -791,7 +791,7 @@ Events:
   - name: "2022 Director Recruitment"
     start-date: 2021-10-11
     end-date: 2021-10-24
-    img: /assets/images/events/director-recruitment-2022.jpg
+    img: /assets/images/events/2021/director-recruitment-2022.jpg
     link: https://fb.me/e/1H1YTGNde
     description: 'Do you want to get leadership experience by leading an enthusiastic team? Gain more experience in working in Data Science? Bond with other like-minded, driven people?
       <br>
@@ -831,7 +831,7 @@ Events:
       <br><br>
       [Apply here!](https://forms.gle/9HbqyCvnLW36onMPA)'
   - name: 2021 Annual General Meeting (AGM)
-    img: /assets/images/events/agm.jpeg
+    img: /assets/images/events/2021/agm.jpeg
     start-date: 2021-10-07
     end-date: 2021-10-07
     time: 7pm-8pm
@@ -857,7 +857,7 @@ Events:
   - name: "Shirts 2021!"
     start-date: 2021-10-06
     end-date: 2021-10-20
-    img: /assets/images/events/shirts-2021.jpg
+    img: /assets/images/events/2021/shirts-2021.jpg
     link: https://fb.me/e/Sn9w3QM0
     description: '🚨 NO NEED TO FEAR, DataSoc’s 2021 shirt collection is HERE!! 🚨
       <br>
@@ -870,7 +870,7 @@ Events:
       [Order here!](https://forms.gle/4XKMPhZp85bnGzEP6)
       '
   - name: "Atlassian Datathon"
-    img: /assets/images/events/atlassian_datathon.jpg
+    img: /assets/images/events/2021/atlassian_datathon.jpg
     start-date: 2021-09-19
     end-date: 2021-09-25
     description: Ever wondered what it takes to solve a challenging, real-world problem with the power of data? 🤔 <br>
@@ -880,7 +880,7 @@ Events:
     location: Online <a href="https://unsw.zoom.us/j/8416508551">(Zoom)</a>
     link: https://www.facebook.com/events/217071130480380
   - name: "React for a Rescue"
-    img: /assets/images/events/react-for-a-rescue.jpg
+    img: /assets/images/events/2021/react-for-a-rescue.jpg
     start-date: 2021-09-04
     end-date: 2021-09-18
     description: 🚨 DataSoc and DogSoc are raising money for the RSPCA, and all you have to do is REACT! 🚨 <br>
@@ -889,7 +889,7 @@ Events:
     location: Online <a href="https://discord.gg/7wC22UzH">(Discord)</a>
     link: https://www.facebook.com/events/1204099226760085/
   - name: "A Bloody Good Cause"
-    img: /assets/images/events/a-bloody-good-cause.jpeg
+    img: /assets/images/events/2021/a-bloody-good-cause.jpeg
     start-date: 2021-10-24
     end-date: 2021-10-24
     description: "
@@ -906,13 +906,13 @@ Events:
     location: Lifeblood Sydney Town Hall Donor Centre - St Andrew House, 483 George St, Sydney NSW 2000
     link: https://www.facebook.com/events/1124820328047208
   - name: "Data Science Survival Guide"
-    img: /assets/images/events/data-science-survival-guide.jpeg
+    img: /assets/images/events/2021/data-science-survival-guide.jpeg
     start-date: 2021-11-09
     end-date: 2021-11-09
     time: 12:00pm - 13:00pm
     location: Online
   - name: "Christmas Cheers"
-    img: /assets/images/events/christmas-cheers.jpeg
+    img: /assets/images/events/2021/christmas-cheers.jpeg
     start-date: 2021-12-13
     end-date: 2021-12-13
     time: 6:30pm - 10:30pm
