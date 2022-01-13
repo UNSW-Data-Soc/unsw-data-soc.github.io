@@ -85,7 +85,7 @@ title: Welcome to DataSoc
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>
 
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/cover1.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/2021/datasoc-cover-photo.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="columns is-vcentered">
