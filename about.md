@@ -256,7 +256,7 @@ subtitle: What we really do. Learn about the society that continually seeks the 
 <div class="hero-body background-shade">
   <div class="columns is-vcentered">
     <div class="column is-6 is-offset-3">
-      <h2 class="title is-1 centered">Affiliated by</h2>
+      <h2 class="title is-1 centered">Affiliated with</h2>
       <a><img class="partner-logo" src="/assets/images/logos/custom/unswmaths.png"></a>
     </div>
   </div>
