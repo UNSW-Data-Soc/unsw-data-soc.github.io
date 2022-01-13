@@ -257,7 +257,14 @@ subtitle: What we really do. Learn about the society that continually seeks the 
   <div class="columns is-vcentered">
     <div class="column is-6 is-offset-3">
       <h2 class="title is-1 centered">Affiliated with</h2>
-      <a><img class="partner-logo" src="/assets/images/logos/custom/unswmaths.png"></a>
+      <div class="columns is-vcentered">
+        <div class="column is-10">
+          <a><img class="partner-logo" src="/assets/images/logos/custom/unswmaths.png"></a>
+        </div>
+        <div class="column is-2">
+          <a><img class="partner-logo" src="/assets/images/logos/custom/arc.png"></a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
