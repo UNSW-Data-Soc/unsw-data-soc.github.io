@@ -508,7 +508,7 @@ Jobs:
    img: /assets/images/jobs/Cluey-learning.png
    end-date: 2022-02-01
    tags: [internship]
-   link: mailto:twang@clueylearning.com
+   link: https://clueylearning.com.au/
    description: |-
     <b>Position Description</b>: Data Science Researcher Intern
     
