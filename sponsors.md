@@ -83,6 +83,9 @@ img {
                                 <img src="{{ sponsor.icon }}">
                             </a>
                         </div>
+                        <div class="sponsor_info">
+                            {{ sponsor.description | newline_to_br}}
+                        </div>
                     </div>
                 {% endfor %}
             </div>
