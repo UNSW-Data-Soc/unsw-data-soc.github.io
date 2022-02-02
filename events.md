@@ -50,11 +50,11 @@ subtitle: From social events to workshops to networking opportunities, stay upda
                     </div>
                     <br>
                     <div class='card-content'>
-                        <!-- Placeholder in case we get an event that doesn't need to be prefixed with 'DataSoc Presents' -->
-                        {% if event.name == 'Commbank Connect' %}
-                            <p class='title is-4 has-text-centered is-uppercase'>{{event.name}}</p>
-                        {% else %}
+                        <!-- Placeholder in case we get an event that needs to be prefixed with 'DataSoc Presents' -->
+                        {% if event.name == '[CHANGE] Prefix' %}
                             <p class='title is-4 has-text-centered is-uppercase'>DataSoc Presents: {{event.name}}</p>
+                        {% else %}
+                            <p class='title is-4 has-text-centered is-uppercase'>{{event.name}}</p>
                         {% endif %}
                         {% if event.start-date != event.end-date %}
                             <p class='subtitle is-6 has-text-centered'>{{event.start-date | date:"%B %d, %Y" }} - {{event.end-date | date:"%B %d, %Y" }}</p>
