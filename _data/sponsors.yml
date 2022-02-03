@@ -47,6 +47,7 @@ Major Sponsors:
     link: https://www.optus.com.au/
     description: |-
       Optus is an Australian leader in telecommunications, delivering cutting-edge communications and entertainment services.
+
 Partners:
   - name: Akuna Capital 
     icon: /assets/images/logos/custom/akuna.png
@@ -88,7 +89,7 @@ Partners:
     icon: /assets/images/logos/custom/citadel.png
     link: https://www.citadel.com/
     description: |-
-      Citadel brings together the art of investing with the science of finance to help capital partners achieve their financial goals
+      Citadel brings together the art of investing with the science of finance to help capital partners achieve their financial goals.
     
 Social Sponsors:
   - name: Mad Mex
@@ -96,3 +97,8 @@ Social Sponsors:
     link: https://www.madmex.com.au/
     description: |-
       Mad Mex is an Australian fast-food chain specialising in fresh and healthy Mexican cuisine.
+  - name: Side Bar Sydney
+    icon: /assets/images/logos/custom/side_bar.jpeg
+    link: https://sidebarsydney.com.au/
+    description: |-
+      Side Bar is one of Sydney's busiest late-night venues.
