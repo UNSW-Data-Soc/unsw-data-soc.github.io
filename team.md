@@ -6,7 +6,7 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
 ---
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body background-shade">
-	{% assign portfolios = "Executives, Activities, Development, External, Operations, 2021 Team" | split: ", " %}
+	{% assign portfolios = "Executives, Externals, Operations, Activities, Development, 2021 Team" | split: ", " %}
 	<div class="tabs is-boxed is-centered main-menu is-large" id="nav">
 		<ul>
 			{% for i in (0..5) %}

@@ -1,8 +1,8 @@
 ---
 position:
-portfolio: External
+portfolio: Activities
 order: 3
-name: External Directors TBA
+name: Activities Directors TBA
 degree:
 image: upcoming.png
 one_line: This will be updated soon!

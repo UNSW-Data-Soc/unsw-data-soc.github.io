@@ -1,8 +1,8 @@
 ---
 position:
-portfolio: Development
+portfolio: Operations
 order: 2
-name: Development Directors TBA
+name: Operations Directors TBA
 degree:
 image: upcoming.png
 one_line: This will be updated soon!
