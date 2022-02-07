@@ -94,7 +94,7 @@ title: Welcome to DataSoc
                     <h1 class="title is-1 is-bigger has-text-light">Data Science Society</h1> 
                     <h2 class="subtitle is-4 has-text-light">University of New South Wales</h2>
                     <p class="">
-                        <a href="https://forms.gle/8Gi2EiTbSsPvHE236" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Join Us!</a>
+                        <a href="https://forms.gle/8Gi2EiTbSsPvHE236" class="button button-cta is-bold btn-align secondary-btn raised" target="_blank">Join Us!</a>
                     </p>
                     <div class="social-links pt-5">
                         {% for item in site.data.contact.Media %}
