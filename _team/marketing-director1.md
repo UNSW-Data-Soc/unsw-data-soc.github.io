@@ -4,7 +4,7 @@ portfolio: Operations
 order: 13
 name: Phoebe Loh
 degree: Data Science and Decisions
-image: upcoming.png
+image: phoebe-loh.png
 one_line:
 ---
 *Favourite Karaoke Song?*

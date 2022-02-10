@@ -9,12 +9,12 @@ one_line:
 ---
 *Best joke or pickup line*
 <br>
-I'd rather not subject anyone to my bad sense of humour
+Message them at 11:11 so they think it's a sign from the universe.
 <br><br>
 *What was your childhood dream job?*
 <br>
-I always wanted to be a fighter pilot but that didn't last for very long
+Astronaut
 <br><br>
 *What is your ultimate goal?*
 <br>
-To try and not disappoint my younger self
+To save the children.

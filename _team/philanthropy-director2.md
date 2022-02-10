@@ -9,12 +9,12 @@ one_line:
 ---
 *Best joke or pickup line*
 <br>
-Message them at 11:11 so they think it's a sign from the universe.
+She said that I was really mean but I think I'm at least upper quartile range 😏 
 <br><br>
 *What was your childhood dream job?*
 <br>
-Astronaut
+Astronaut 🌌👨‍🚀🚀
 <br><br>
 *What is your ultimate goal?*
 <br>
-To save the children.
+To make a genuine impact on the world 😫
