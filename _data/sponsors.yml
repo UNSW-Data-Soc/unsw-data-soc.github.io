@@ -1,19 +1,30 @@
 Major Sponsors:
-  - name: Quantium
-    icon: /assets/images/logos/custom/quantium.png
-    link: https://www.quantium.com/
-    description: |-
-      Quantium delivers breakthrough solutions in data and technology.
+  # - name: Quantium
+  #   icon: /assets/images/logos/custom/quantium.png
+  #   link: https://www.quantium.com/
+  #   description: |-
+  #     Quantium delivers breakthrough solutions in data and technology.
   - name: Atlassian
     icon: /assets/images/logos/custom/atlassian.png
     link: https://www.atlassian.com/
     description: |-
       Atlassian develops world class products for software developers, project managers, and content management.
-  - name: Westpac
-    icon: /assets/images/logos/custom/westpac.png
-    link: https://www.westpac.com.au/
+  # - name: Westpac
+  #   icon: /assets/images/logos/custom/westpac.png
+  #   link: https://www.westpac.com.au/
+  #   description: |-
+  #     Westpac provides a broad range of consumer, business and institutional banking and wealth management services.
+  - name: Macquarie Bank
+    icon: /assets/images/logos/custom/macquarie.png
+    link: https://www.macquarie.com.au/
     description: |-
-      Westpac provides a broad range of consumer, business and institutional banking and wealth management services.
+      Macquarie is a global financial services group operating in 33 markets.
+  - name: Commonwealth Bank of Australia
+    icon: /assets/images/logos/custom/commbank.png
+    link: https://www.commbank.com.au/
+    description: |-
+      
+      Commonwealth Bank is Australia's leading provider of integrated financial services.
   - name: Alooba
     icon: /assets/images/logos/custom/alooba.png
     link: https://www.alooba.com/
@@ -54,27 +65,17 @@ Partners:
     link: https://akunacapital.com/
     description: |- 
       Akuna Capital is an innovative trading firm with a strong focus on collaboration, cutting-edge technology, data-driven solutions and automation.
-  - name: Macquarie Bank
-    icon: /assets/images/logos/custom/macquarie.png
-    link: https://www.macquarie.com.au/
-    description: |-
-      Macquarie is a global financial services group operating in 33 markets.
-  - name: Data Science and AI Association of Australia
-    icon: /assets/images/logos/custom/dsai.png
-    link: https://dsai.org.au/
-    description: |-
-      Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
-  - name: Commonwealth Bank of Australia
-    icon: /assets/images/logos/custom/commonwealth.png
-    link: https://www.commbank.com.au/
-    description: |-
-      
-      Commonwealth Bank is Australia's leading provider of integrated financial services.
-  - name: National Australia Bank
-    icon: /assets/images/logos/custom/nab.png
-    link: https://www.nab.com.au/
-    description: |-
-      National Australia Bank delivers sustainable outcomes for our customers, colleagues and community as Australia's largest business bank.
+  # - name: Data Science and AI Association of Australia
+  #   icon: /assets/images/logos/custom/dsai.png
+  #   link: https://dsai.org.au/
+  #   description: |-
+  #     Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
+
+  # - name: National Australia Bank
+  #   icon: /assets/images/logos/custom/nab.png
+  #   link: https://www.nab.com.au/
+  #   description: |-
+  #     National Australia Bank delivers sustainable outcomes for our customers, colleagues and community as Australia's largest business bank.
   - name: Autumn Compass
     icon: /assets/images/logos/custom/autumn_compass.png
     link: https://www.autumncompass.com/
