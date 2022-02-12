@@ -21,19 +21,77 @@ title: Welcome to DataSoc
     min-height: 100%;
 }
 
+.quote-container {
+    margin-bottom: 4rem;
+}
+
+.sponsor-figure-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2rem;
+    padding-left: 2rem;
+}
+
+.sponsor-figure {
+    max-width: 60%;
+    margin: 2% 2rem;
+}
+
+@media (max-width: 1215px) {
+    .sponsor-figure-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 2rem;
+        padding-left: 2rem;
+    }
+    .sponsor-figure {
+        margin: 2% 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .sponsor-figure-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 2rem;
+        padding-left: 2rem;
+    }
+    .sponsor-figure {
+        margin: 4% 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .sponsor-figure-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+    }
+    .sponsor-figure {
+        margin: 6% 2rem;
+    }
+}
+
+/* Old way of using flexbox
+
 .sponsor-figure-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
 }
-
 .sponsor-figure {
-    flex: 1 0 180px;
+    flex: 1 0 10%;
     margin: 2% 4rem;
     max-width: 25%;
-
-    /* Displaying logo figures */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,8 +102,6 @@ title: Welcome to DataSoc
         flex: 1 0 180px;
         margin: 5% 4rem;
         max-width: 50%;
-
-        /* Displaying logo figures */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -61,13 +117,8 @@ title: Welcome to DataSoc
         flex-direction: column;
         justify-content: center;
     }
-}
-
-.quote-container {
-    margin-bottom: 4rem;
-}
+} */
 </style>
-
 
 
 <div class="pageloader"></div>
