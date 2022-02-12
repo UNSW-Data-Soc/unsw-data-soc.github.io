@@ -11,14 +11,14 @@ subtitle: Feel free to reach out to us here if you have any questions or queries
                 <br>
                 Hi! Whether you've got questions about DataSoc or just want to know more, feel free to reach out to us via the email below.
                 <br><br>
-                Stay update to date with us by subscribing to our newletter using the form on this page. We send bi-weekly news on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
+                Stay update to date with us by subscribing to our newletter using the form on this page. We send fortnightly news on events, workshops, and datathons run by DataSoc, blog posts published by our team, as well as carefully curated news from the wider data science community.
                 <br><br>
                 Be sure to check out our social media links!
                 <br><br>
                 Ready to make things official? Become a member of DataSoc with the link below!
                 <br><br>
                 <a href="https://docs.google.com/forms/d/1MlSuVwCI6k0VoaKl1h89ywRsv1zMQAxN8XxZOofrzSk" target="_blank">
-                    <button class="button is-info is-bold">Join Us!</button></a>
+                    <button class="button is-large is-info is-bold">Join Us!</button></a>
                 <br><br><br>
             </p>
             <div>
@@ -55,8 +55,6 @@ subtitle: Feel free to reach out to us here if you have any questions or queries
             </div>
         </div>
         <div class="column is-5 is-offset-1 has-text-left" style="flex: 1 1 auto; padding-top:38px; margin-left:10px">
-            <!-- margin-left: 10px; overrides jekyll styling which makes a much larger, uglier left margin.
-                 Admittedly a hacky solution, but works for now.-->
             {% include subscription-form.html %}
         </div>
     </div>
