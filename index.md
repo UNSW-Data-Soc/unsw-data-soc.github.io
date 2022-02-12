@@ -21,16 +21,6 @@ title: Welcome to DataSoc
     min-height: 100%;
 }
 
-#contact-container {
-    /* max-width: 500px; */
-    /* flex: 1 1 auto; */
-}
-
-#sponsors-container {
-    /* flex: 2 1 auto; */
-
-}
-
 .sponsor-figure-container {
     display: flex;
     flex-flow: row wrap;
@@ -67,8 +57,6 @@ title: Welcome to DataSoc
         flex: 1 0 180px;
         margin: 10% 4rem;
         max-width: 60%;
-
-        /* Displaying logo figures */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -183,7 +171,7 @@ title: Welcome to DataSoc
     <div class="hero-body" style="background: linear-gradient(27deg, rgba(12, 107, 147, 1) 0%, rgba(43, 184, 244, 1) 100%, rgba(159, 98, 162, 0.3) 25%, rgba(228, 91, 235, 0.3) 50%, rgba(250, 90, 103, 0.3) 75%, rgba(233, 109, 56, 0.3) 100%); box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="level" styles="display: flex;">
-                <div class="column is-6 is-hero-title" id="contact-container">
+                <div class="column is-8 is-offset-2 has-text-centered">
                     <h2 class="subtitle is-4 has-text-white">Curated content, straight to your mailbox.</h2>
                     <a href="https://unswdata.us19.list-manage.com/subscribe/post?u=8dc568d0db37b26ed75ba4d94&amp;id=01f8128da2" class="button button-cta is-bold btn-align secondary-btn raised" target="blank">Subscribe to our newsletter</a>
                     <br><br>
@@ -239,7 +227,7 @@ title: Welcome to DataSoc
     <div class="hero-body">
         <div class="container">
             <div class="level">
-                <div class="column" id="sponsors-container">
+                <div class="column">
                     <h2 class="subtitle is-4">Proudly sponsored by:</h2>
                     <div class="sponsor-figure-container">
                         {% for tier in site.data.sponsors %}
