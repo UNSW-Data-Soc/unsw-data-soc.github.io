@@ -3,7 +3,7 @@ position: Vice President (Operations)
 portfolio: Executives
 order: 2
 name: Erica Soenarjo
-degree: Actuarial Studies/Commerce
+degree: 4th-Year Actuarial Studies/Commerce
 image: erica-soenarjo.png
 one_line:
 ---

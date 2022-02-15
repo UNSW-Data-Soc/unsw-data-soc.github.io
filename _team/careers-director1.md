@@ -3,7 +3,7 @@ position: Careers Director
 portfolio: Externals
 order: 8
 name: John Wei
-degree: Data Science and Decisions
+degree: 4th-Year Data Science and Decisions
 image: john-wei.png
 one_line:
 ---

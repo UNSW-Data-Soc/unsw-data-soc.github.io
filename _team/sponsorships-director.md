@@ -3,7 +3,7 @@ position: Sponsorships Director
 portfolio: Externals
 order: 10
 name: Kento Seki
-degree: Data Science and Decisions
+degree: 2nd-Year Data Science and Decisions
 image: kento-seki.png
 one_line:
 ---

@@ -3,7 +3,7 @@ position: Vice President (Activites)
 portfolio: Executives
 order: 3
 name: Farrah Li
-degree: Data Science and Decisions
+degree: 3rd-Year Data Science and Decisions
 image: farrah-li.png
 one_line:
 ---

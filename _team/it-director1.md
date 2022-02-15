@@ -3,7 +3,7 @@ position: IT Director
 portfolio: Operations
 order: 11
 name: Maggie Chan
-degree: Information Systems
+degree: 3rd-Year Information Systems
 image: maggie-chan.png
 one_line:
 ---

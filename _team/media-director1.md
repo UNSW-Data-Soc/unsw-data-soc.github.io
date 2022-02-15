@@ -3,7 +3,7 @@ position: Media Director
 portfolio: Operations
 order: 15
 name: Srikar Danthurty
-degree: Data Science and Decisions
+degree: 2nd-Year Data Science and Decisions
 image: srikar-danthurty.png
 one_line:
 ---

@@ -3,7 +3,7 @@ position: Marketing Director
 portfolio: Operations
 order: 14
 name: Tiarne Lo
-degree: Data Science and Decisions
+degree: 4th-Year Data Science and Decisions
 image: tiarne-lo.png
 one_line:
 ---

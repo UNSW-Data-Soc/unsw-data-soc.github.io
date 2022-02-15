@@ -3,7 +3,7 @@ position: HR Director
 portfolio: Activities
 order: 18
 name: Usmaan Mohideen
-degree: Commerce/Computer Science
+degree: 3rd-Year Commerce/Computer Science
 image: usmaan-mohideen.png
 one_line:
 ---

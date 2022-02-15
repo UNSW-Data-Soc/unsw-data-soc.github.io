@@ -3,7 +3,7 @@ position: Secretary
 portfolio: Executives
 order: 5
 name: Samraggi Pant
-degree: Data Science and Decisions
+degree: 4th-Year Data Science and Decisions
 image: samraggi-pant.png
 one_line:
 ---

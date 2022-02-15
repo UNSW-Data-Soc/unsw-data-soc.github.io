@@ -3,7 +3,7 @@ position: President
 portfolio: Executives
 order: 0
 name: Kai Mashimo
-degree: Data Science and Decisions
+degree: 3rd-Year Data Science and Decisions
 image: kai-mashimo.png
 one_line:
 ---

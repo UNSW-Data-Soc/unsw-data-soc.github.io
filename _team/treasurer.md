@@ -3,7 +3,7 @@ position: Treasurer
 portfolio: Executives
 order: 6
 name: Shubh Patel
-degree: Data Science and Decisions
+degree: 3rd-Year Data Science and Decisions
 image: shubh-patel.png
 one_line:
 ---

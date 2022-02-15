@@ -3,7 +3,7 @@ position: Social Director
 portfolio: Activities
 order: 19
 name: Andrew Zhao
-degree: Commerce/Computer Science
+degree: 3rd-Year Commerce/Computer Science
 image: andrew-zhao.png
 one_line:
 ---

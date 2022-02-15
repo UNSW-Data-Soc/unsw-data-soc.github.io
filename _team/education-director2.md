@@ -3,7 +3,7 @@ position: Education Director
 portfolio: Development
 order: 22
 name: Noah Rubin
-degree: Data Science and Decisions
+degree: 2nd-Year Data Science and Decisions
 image: noah-rubin.png
 one_line:
 ---

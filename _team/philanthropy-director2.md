@@ -3,7 +3,7 @@ position: Philanthropy & Projects Director
 portfolio: Development
 order: 24
 name: Winston Sun
-degree: Data Science and Decisions
+degree: 4th-Year Data Science and Decisions
 image: winston-sun.png
 one_line:
 ---

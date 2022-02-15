@@ -3,7 +3,7 @@ position: Diversity Ambassador
 portfolio: Executives
 order: 7
 name: Claire Xue
-degree: Advanced Mathematics (Honours)
+degree: 3rd-Year Advanced Mathematics (Honours)
 image: claire-xue.png
 one_line:
 ---

@@ -3,7 +3,7 @@ position: Social Director
 portfolio: Activities
 order: 20
 name: Annie Xue
-degree: Actuarial Studies/Computer Science
+degree: 3rd-Year Actuarial Studies/Computer Science
 image: annie-xue.png
 one_line:
 ---

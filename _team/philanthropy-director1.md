@@ -3,7 +3,7 @@ position: Philanthropy & Projects Director
 portfolio: Development
 order: 23
 name: Abhijot Singh
-degree: Data Science and Decisions
+degree: 4th-Year Data Science and Decisions
 image: abhijot-singh.png
 one_line:
 ---

@@ -3,7 +3,7 @@ position: Marketing Director
 portfolio: Operations
 order: 13
 name: Phoebe Loh
-degree: Data Science and Decisions
+degree: 2nd-Year Data Science and Decisions
 image: phoebe-loh.png
 one_line:
 ---

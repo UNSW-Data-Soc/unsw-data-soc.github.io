@@ -3,7 +3,7 @@ position: Education Director
 portfolio: Development
 order: 21
 name: Julian Garratt
-degree: Data Science and Decisions
+degree: 3rd-Year Data Science and Decisions
 image: julian-garratt.png
 one_line:
 ---

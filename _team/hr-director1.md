@@ -3,7 +3,7 @@ position: HR Director
 portfolio: Activities
 order: 17
 name: Quincy Zhou
-degree: Data Science and Decisions
+degree: 2nd-Year Data Science and Decisions
 image: quincy-zhou.png
 one_line:
 ---

@@ -3,7 +3,7 @@ position: IT Director
 portfolio: Operations
 order: 12
 name: William Feng
-degree: Computer Science/Statistics
+degree: 3rd-Year Computer Science/Statistics
 image: william-feng.png
 one_line:
 ---

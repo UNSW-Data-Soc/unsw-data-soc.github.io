@@ -3,7 +3,7 @@ position: Vice President (Development)
 portfolio: Executives
 order: 4
 name: Aarthi Kumararaja
-degree: Data Science and Decisions
+degree: 3rd-Year Data Science and Decisions
 image: aarthi-kumararaja.png
 one_line:
 ---

@@ -3,7 +3,7 @@ position: Media Director
 portfolio: Operations
 order: 16
 name: William Dang
-degree: Data Science and Decisions
+degree: 2nd-Year Data Science and Decisions
 image: william-dang.png
 one_line:
 ---

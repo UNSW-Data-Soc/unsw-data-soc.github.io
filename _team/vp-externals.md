@@ -3,7 +3,7 @@ position: Vice President (Externals)
 portfolio: Executives
 order: 1
 name: Celine Choo
-degree: Data Science and Decisions
+degree: 4th-Year Data Science and Decisions
 image: celine-choo.png
 one_line:
 ---
