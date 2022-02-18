@@ -1,9 +1,9 @@
 Major Sponsors:
-  # - name: Quantium
-  #   icon: /assets/images/logos/custom/quantium.png
-  #   link: https://www.quantium.com/
-  #   description: |-
-  #     Quantium delivers breakthrough solutions in data and technology.
+  - name: Quantium
+    icon: /assets/images/logos/custom/quantium.png
+    link: https://www.quantium.com/
+    description: |-
+      Quantium delivers breakthrough solutions in data and technology.
   - name: Atlassian
     icon: /assets/images/logos/custom/atlassian.png
     link: https://www.atlassian.com/
