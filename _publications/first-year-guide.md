@@ -8,6 +8,6 @@ subtitle: |
   Look inside for our top tips for wandering the campus, maximising your social skills, raising your WAM and padding your resum&eacute;!
   <br><br>
   If you are interested, you can view our <a href="https://drive.google.com/file/d/1Fdf56Csia7Ea3HNPSttzRIb5Cfg6z7H5/preview" style="text-decoration: underline dotted">2021 First Year Guide here</a>.
-document: https://drive.google.com/file/d/1i_mORqxV8D2vAh6WniThVRnQ_yxdLAgy/preview
+document: https://drive.google.com/file/d/1tfqWGa1CUkUhNagho0dYeYMGXQscnke0/preview
 ---
 
