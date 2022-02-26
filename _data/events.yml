@@ -132,9 +132,9 @@ Events:
     time: 2pm
     description: '
       💞 FRIENDS: meet up with your group of mentors and mentees each week
-      <br><br>
+      <br>
       😲 FACTS: get all your uni related questions and concerns answered by our super knowledgeable mentors
-      <br><br>
+      <br>
       🥳 FUN: complete our CHALLENGES, get your outings subsidised by DataSoc, and win PRIZES!!
       <br><br>
       So grab your friends and sign up!!
@@ -144,6 +144,19 @@ Events:
       [APPLY HERE!](https://forms.gle/uRz2xt3P4Kqwkh3ZA)'
     link: https://www.facebook.com/events/685350992824474/
 
+  - name: "Let’s talk about it: Tech Resumes"
+    img: /assets/images/events/tech-resumes.jpeg
+    start-date: 2022-03-08
+    end-date: 2022-03-08
+    location: Online
+    time: 5:30pm-6:45pm
+    description: '
+      You won’t want to miss out on this amazing opportunity! 🥳🤯 Come join us as Macquarie delivers an insightful crash course into the latest technologies 💬 and technological trends AND a workshop on creating the BEST resume for yourself to land THAT tech role. 📝
+      <br><br>
+      BUT WAIT THERE’S MORE. Not only will you get a deeper dive into technology at Macquarie, you will also get the opportunity to get REAL-TIME feedback 🗨️ from Macquarie representatives on your resumes and cover letters. ✍️👥
+      <br><br>
+      [APPLY HERE!](https://forms.gle/bsigWwUA1EDf3fev8)'
+    link: https://www.facebook.com/events/1116867522458459/
 
 
 
