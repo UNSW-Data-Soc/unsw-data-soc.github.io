@@ -7,14 +7,14 @@ degree: 2nd-Year Data Science and Decisions
 image: krystal-duan.png
 one_line:
 ---
-*What is the best dish that you can cook?*
+**What is the best dish that you can cook?**
 <br>
 Eggs and Tomato with Rice
 <br><br>
-*Favourite music artist?*
+**Favourite music artist?**
 <br>
 Taylor Swift
 <br><br>
-*Where do you see yourself in ten years?*
+**Where do you see yourself in ten years?**
 <br>
 Wherever future me decides to take me 

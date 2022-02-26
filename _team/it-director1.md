@@ -7,14 +7,14 @@ degree: 3rd-Year Information Systems
 image: maggie-chan.png
 one_line:
 ---
-*Favourite Karaoke Song?*
+**Favourite Karaoke Song?**
 <br>
 Love Story by Taylor Swift
 <br><br>
-*What food can you not live without?*
+**What food can you not live without?**
 <br>
 Fried Chicken!!
 <br><br>
-*What is your life motto?*
+**What is your life motto?**
 <br>
 Smile :)
