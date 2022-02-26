@@ -32,13 +32,8 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
 		<div class="tab-pane {{ active_status }}" id="pane-{{ i | plus: 1}}" style="background:#f0f2f5">
 			<div class="content">
 				{% assign remaining_people = portfolio.size %}
-					{% if portfolio.size == 6 %}
-						{% assign columns = 3 %}
-					{% else %}
-						{% assign columns = 4 %}
-					{% endif %}
 				{% for person in portfolio %}
-					{% assign value = forloop.index0 | modulo: columns %}
+					{% assign value = forloop.index0 | modulo: 4 %}
 					{% if value == 0 %}
 						{% if forloop.index0 != 0 %}
 							</div>
