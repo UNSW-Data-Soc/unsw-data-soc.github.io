@@ -2,7 +2,7 @@ Events:
 
 # === Template ===
 #  - name: 
-#    img: 
+#    img: /assets/images/events/
 #    start-date: 
 #    end-date: 
 #    location: 
@@ -180,10 +180,59 @@ Events:
       <br><br>
       [APPLY HERE!](https://forms.gle/2qGPZb6dbEeNThQy9)'
     link: https://www.facebook.com/events/1579465375720393/
+    
+  - name: "2022 Macquarie STEM Pathways"
+    img: /assets/images/events/macq-stem-pathways.jpg
+    start-date: 2022-03-15
+    end-date: 2022-03-15
+    location: Online (Zoom)
+    time: 6-8pm
+    description: '
+      2022 Macquarie STEM Pathways (Virtual)
+      <br><br>
 
+      Date: Tuesday, 15th of March 2022
+      <br><br>
 
+      Location: Zoom (link tbc)
+      <br><br>
 
+      You will need to attach your CV and academic transcript to apply for this event.
+      <br><br>
 
+      Applications are now open and close midday Monday, 14th of March, 2022.
+      <br><br>
+
+      Registration link: https://careers.macquarie.com/en/job/963231/macquarie-onsite-2022-stem-pathways
+    '
+    link: https://careers.macquarie.com/en/job/963231/macquarie-onsite-2022-stem-pathways
+
+  - name: "Women @ Quantium Panel Event"
+    img: /assets/images/events/quantium.png
+    start-date: 14/03/2022
+    end-date: 14/03/2022
+    location: Online (Link will be emailed)
+    time:  4.30pm – 6pm
+    description: '
+      Quantium will be hosting a virtual Women @ Quantium Panel event to allow you to hear first hand about the amazing opportunities we have at Quantium and how we are leading our approach to gender diversity in our industry.
+      <br><br>
+      <b>How is this different to other events?</b>
+      <br><br>
+      Great question! We appreciate that you might be invited to a number of similar events from similar employers, and we encourage you to attend those to gain a better understanding of opportunities in our industry.
+      <br><br>
+      What will make this opportunity unique is that you will be able to hear directly from previous interns, current grads and experienced professionals about what it’s like to work at Quantium, understand our approach to Diversity & Inclusion and hear first hand from our Graduate Academy team on how to make your application for our (2023 Graduate Program) [https://au.gradconnection.com/employers/quantium/] really stand out.
+      <br><br>
+      <b>What will you get out of attending?</b>
+      <br><br>
+      So much! You will get to hear about the experiences of several women working at Quantium, as well as getting to ask direct questions about their experiences.  You will get to meet our Graduate Academy team and hear from them on how to submit the best application – you don’t want to miss that!
+      <br><br>
+      <b>Any other questions?</b>
+      <br><br>
+      If you want to find out more about our Graduate Academy Program, please (visit our website) [https://quantium.com/graduate-academy/] or (email us directly) [gradsinterns@quantium.com.au]. 
+      <br><br>
+      Don’t forget: fill out the survey to register your attendance!
+    '
+    link: https://forms.office.com/Pages/ResponsePage.aspx?id=Ydz2bOyqYE2N0CAH7JWwXsuojpqqSKZPibGJOxkDfcNUMVBKUzlPQlY4VEhYRDJCOFBDOFdaRjNQQy4u
 
 
 
