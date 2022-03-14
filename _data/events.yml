@@ -203,8 +203,7 @@ Events:
       Applications are now open and close midday Monday, 14th of March, 2022.
       <br><br>
 
-      Registration link: https://careers.macquarie.com/en/job/963231/macquarie-onsite-2022-stem-pathways
-    '
+      [Registration link](https://careers.macquarie.com/en/job/963231/macquarie-onsite-2022-stem-pathways)'
     link: https://careers.macquarie.com/en/job/963231/macquarie-onsite-2022-stem-pathways
 
   - name: "Women @ Quantium Panel Event"
@@ -663,7 +662,7 @@ Events:
     location: Online
     link: https://fb.me/e/4fEiMhpTT
     img: /assets/images/events/2021/healthcare_deepdive.jpg
-    description: "
+    description: '
     *In partnership with BINFSOC and BESS...*
     <br><br>
     🚑 We’ve hit the next stop on our series Into the Dataverse with Healthcare 🚑.
@@ -682,7 +681,7 @@ Events:
       <br><br>
       With some brilliant representatives 👩‍🏫, an open panel for you to ask questions ❓ and two rounds of networking 🗣, this is the PERFECT opportunity to deepdive into the unique world of healthcare!
     <br><br>
-    [Register here!](https://forms.gle/4CPHrTvRrWXvRvnY7)"
+    [Register here!](https://forms.gle/4CPHrTvRrWXvRvnY7)'
   - name: Data Cleaning in Python
     start-date: 2021-06-24
     end-date: 2021-06-24
