@@ -2,19 +2,19 @@
 position: Philanthropy & Projects Director
 portfolio: Development
 order: 23
-name: Abhijot Singh
+name: Norton Wu
 degree: 4th-Year Data Science and Decisions
-image: abhijot-singh.png
+image: norton-wu.png
 one_line:
 ---
 **Best joke or pickup line**
 <br>
-Message them at 11:11 so they think it's a sign from the universe.
+Just get a haircut :)
 <br><br>
 **What was your childhood dream job?**
 <br>
-Astronaut
+Pilot
 <br><br>
 **What is your ultimate goal?**
 <br>
-To save the children.
+To make enough money so I can buy things without having to look at my bank account

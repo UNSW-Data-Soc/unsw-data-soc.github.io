@@ -3,7 +3,7 @@ position: Careers Director
 portfolio: Externals
 order: 9
 name: Krystal Duan
-degree: 2nd-Year Data Science and Decisions
+degree: 2nd-Year Commerce/Computer Science
 image: krystal-duan.png
 one_line:
 ---
