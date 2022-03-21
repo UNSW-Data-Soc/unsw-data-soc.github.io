@@ -65,22 +65,11 @@ Partners:
     link: https://akunacapital.com/
     description: |- 
       Akuna Capital is an innovative trading firm with a strong focus on collaboration, cutting-edge technology, data-driven solutions and automation.
-  # - name: Data Science and AI Association of Australia
-  #   icon: /assets/images/logos/custom/dsai.png
-  #   link: https://dsai.org.au/
-  #   description: |-
-  #     Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
-
-  # - name: National Australia Bank
-  #   icon: /assets/images/logos/custom/nab.png
-  #   link: https://www.nab.com.au/
-  #   description: |-
-  #     National Australia Bank delivers sustainable outcomes for our customers, colleagues and community as Australia's largest business bank.
-  - name: Autumn Compass
-    icon: /assets/images/logos/custom/autumn_compass.png
-    link: https://www.autumncompass.com/
+  - name: National Australia Bank
+    icon: /assets/images/logos/custom/nab.png
+    link: https://www.nab.com.au/
     description: |-
-      Autumn Compass is a proprietary trading firm developing clever algorithms to provide liquidity on financial markets across Asia-Pacific.
+      National Australia Bank delivers sustainable outcomes for our customers, colleagues and community as Australia's largest business bank.
   - name: IMC
     icon: /assets/images/logos/custom/imc.png
     link: https://www.imc.com/ap/
@@ -91,7 +80,24 @@ Partners:
     link: https://www.citadel.com/
     description: |-
       Citadel brings together the art of investing with the science of finance to help capital partners achieve their financial goals.
-    
+  - name: Autumn Compass
+    icon: /assets/images/logos/custom/autumn_compass.png
+    link: https://www.autumncompass.com/
+    description: |-
+      Autumn Compass is a proprietary trading firm developing clever algorithms to provide liquidity on financial markets across Asia-Pacific.
+  - name: Synogize
+    icon: /assets/images/logos/custom/synogize.webp
+    link: https://www.synogize.io/
+    description: |-
+      Synogize provides an exceptional experience, value and bridges the gap betwen people, process & technologies with data and analytics.
+
+  # - name: Data Science and AI Association of Australia
+  #   icon: /assets/images/logos/custom/dsai.png
+  #   link: https://dsai.org.au/
+  #   description: |-
+  #     Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
+
+
 Social Sponsors:
   - name: Mad Mex
     icon: /assets/images/logos/custom/madmex.png
