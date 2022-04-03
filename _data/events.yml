@@ -7,7 +7,7 @@ Events:
 #    end-date: 
 #    location: 
 #    time: 
-#    description: 
+#    description: (wrap in double quotes - if it fails, try single quotes)
 #    link: 
 
   - name: 2022 Peer Mentor Recruitment
@@ -236,6 +236,47 @@ Events:
       <br><br>
       [REGISTER HERE!](https://forms.gle/FdGuJjVsoE4UHxBw9)'
     link: https://www.facebook.com/events/674673953852114/s
+
+  - name: "UNSW MathSoc x DataSoc Camp: Game On!"
+    img: /assets/images/events/camp.jpeg
+    start-date: 2022-06-03
+    end-date: 2022-06-05
+    location: Waterslea, Shoalhaven
+    description: "
+      Come down to Shoalhaven Campsite 🏖️ for one of the best times of your life. You get to smash coins 💰 and get smashed 😉 or take your gambles against our best games. 👾
+      <br>
+      Over 3 days, you will make some vivid memories 🎆 through activities and partying 🎉 that'll bring upon exciting stories 📚 and brilliant friendships that'll last years to come . This is a camp NOT to be missed !!! 🔥🔥
+      <br><br>
+      [EXPRESSION OF INTEREST HERE!](https://forms.gle/mg6A4nHYK5HdWxWj8)"
+    link: https://www.facebook.com/events/385274863414986
+
+
+
+
+
+
+# === Template ===
+#  - name: 
+#    img: /assets/images/events/
+#    start-date: 
+#    end-date: 
+#    location: 
+#    time: 
+#    description: (wrap in double quotes - if it fails, try single quotes)
+#    link: 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
