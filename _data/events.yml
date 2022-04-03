@@ -7,7 +7,7 @@ Events:
 #    end-date: 
 #    location: 
 #    time: 
-#    description: 
+#    description: (wrap in double quotes - if it fails, try single quotes)
 #    link: 
 
   - name: 2022 Peer Mentor Recruitment
@@ -249,6 +249,36 @@ Events:
       <br><br>
       [EXPRESSION OF INTEREST HERE!](https://forms.gle/mg6A4nHYK5HdWxWj8)"
     link: https://www.facebook.com/events/385274863414986
+
+
+
+
+
+
+# === Template ===
+#  - name: 
+#    img: /assets/images/events/
+#    start-date: 
+#    end-date: 
+#    location: 
+#    time: 
+#    description: (wrap in double quotes - if it fails, try single quotes)
+#    link: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
