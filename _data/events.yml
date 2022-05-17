@@ -250,10 +250,38 @@ Events:
       [EXPRESSION OF INTEREST HERE!](https://forms.gle/mg6A4nHYK5HdWxWj8)"
     link: https://www.facebook.com/events/385274863414986
 
+  - name: "Sizzle n Mingle"
+    img: /assets/images/events/bbq.jpeg
+    start-date: 2022-05-15
+    end-date: 2022-05-15
+    location: Coogee Beach
+    time: 12-3:00pm
+    description: "
+      Bring your friends along to Coogee Beach for DataSoc’s final event of Term 1!!
+      <br>
+      This will be a great opportunity to meet new friends and celebrate surviving Term 1 with those you already know. 
+      <br>
+      Everyone is welcome 🤗"
+    link: https://www.facebook.com/events/726105562136279/
 
-
-
-
+  - name: "Industry Mentoring Program"
+    img: /assets/images/events/industry_mentoring.jpeg
+    start-date: 2022-05-10
+    end-date: 2022-05-20
+    location: Online
+    description: "
+      Our Industry Mentoring Program is the perfect opportunity for you to get ahead and build your network for when positions open up again, and for the rest of your career! 🦾💪
+      <br>
+      Our program
+      <br>
+      - Will match you to your ideal mentor based on your degree and career preferences
+      <br>
+      - Introduces you to experienced mentors from a myriad of industry giants including Canva, Google and EY
+      <br>
+      - Incorporates weekly one-on-ones with your mentor, skill building workshops and an exclusive cocktail night to help you facilitate and develop professional connections
+      <br><br>
+      [EXPRESSION OF INTEREST HERE!](https://forms.gle/dfwE5ufshWrjgJD8A)"
+    link: https://www.facebook.com/events/730205381442202/
 
 # === Template ===
 #  - name: 
