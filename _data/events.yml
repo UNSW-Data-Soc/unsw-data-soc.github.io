@@ -283,6 +283,29 @@ Events:
       [EXPRESSION OF INTEREST HERE!](https://forms.gle/dfwE5ufshWrjgJD8A)"
     link: https://www.facebook.com/events/730205381442202/
 
+  - name: "Intro to Big Data Analytics"
+    img: /assets/images/events/intro-to-big-data-analytics.jpeg
+    start-date: 2022-05-30
+    end-date: 2022-05-30
+    time: 5:30pm-6:30pm
+    location: Online
+    description: "
+      We’ll be going through the basics of
+      <br>
+      - Reading in a CSV 👀
+      <br>
+      - Filtering and sorting data 📈
+      <br>
+      - Modifying data sets 🔀
+      <br>
+      - Grouping data 📊
+      <br>
+      And a whole lot more!
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/jNuuyCmmQ6QyXpz3A)
+    "
+    link: https://www.facebook.com/events/2393899097575492/
+
 # === Template ===
 #  - name: 
 #    img: /assets/images/events/
