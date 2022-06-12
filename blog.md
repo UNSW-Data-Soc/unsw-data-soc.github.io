@@ -41,7 +41,11 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
 										<p><i>Published {{ post.date | date_to_string }}</i></p>
 									{% endif %}
 									<br>
-									<p class = "1.25rem">{{ post.excerpt }}</p>
+                                    {% if post.custom_excerpt %}
+										<p class = "1.25rem">{{ post.custom_excerpt }}</p>
+                                    {% else %}
+									    <p class = "1.25rem">{{ post.excerpt }}</p>
+									{% endif %}
 									<br>
 									<p><a href="{{ post.url }}"> ... Read more</a></p>
 									<br>
