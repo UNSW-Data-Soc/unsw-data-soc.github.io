@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Sscience in the NBA... and a review of Harry Styles' new album"
+title: "Data Science in the NBA... and a review of Harry Styles' new album"
 date: 2022-06-15
 tags:
   - Data Science
