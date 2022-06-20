@@ -4,6 +4,7 @@ title: Blog
 subtitle: Stay in the loop with our blog posts! From educational blogs to video blogs, they're here for you!
 ---
 <link rel="stylesheet" href="/assets/css/paginate.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
 
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
@@ -35,24 +36,33 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
                     <tr><td>
                         <div class = "columns">
                             <div class = "column is-three-fifths">
-                                {% if post.title != 404 %}
-									<h2 class="title is-2 centered 2rem"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
-									{% if post.date %}
-										<p><i>Published {{ post.date | date_to_string }}</i></p>
-									{% endif %}
-									<br>
-                                    {% if post.custom_excerpt %}
-										<p class = "1.25rem">{{ post.custom_excerpt }}</p>
-                                    {% else %}
-									    <p class = "1.25rem">{{ post.excerpt }}</p>
-									{% endif %}
-									<br>
-									<p><a href="{{ post.url }}"> ... Read more</a></p>
-									<br>
-                                {% endif %}
+                                <div class = "blog-container">
+                                    {% if post.title != 404 %}
+                                        <h2 class="title is-2 centered 2rem"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
+                                        {% if post.date %}
+                                            <p><i>Published {{ post.date | date_to_string }}</i></p>
+                                        {% endif %}
+                                        <br>
+                                        {% if post.custom_excerpt %}
+                                            <p class = "1.25rem">{{ post.custom_excerpt }}</p>
+                                        {% else %}
+                                            <p class = "1.25rem">{{ post.excerpt }}</p>
+                                        {% endif %}
+                                        <br>
+                                        <p><a href="{{ post.url }}"> ... Read more</a></p>
+                                        <br>
+                                        <div class = "tags-container">
+                                        Tags:
+                                        {% for tag in post.tags %}
+                                            <span class = "tag"><a href = "{{site.baseurl}}/blog/topics#{{tag}}"> {{tag}}</a></span>
+                                        {% endfor %}
+                                        </div>
+                                        <br>
+                                    {% endif %}
+                                </div>
                             </div>
                             {% if post.image %}
-                                <div class = "column">
+                                <div class = "column blog-image">
                                     <span><figure class="image"><img src="{{ post.image }}" alt=""/></figure></span>
                                 </div>
                                 <br><br>
