@@ -57,7 +57,6 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
                                             <span class = "tag"><a href = "{{site.baseurl}}/blog/topics#{{tag}}"> {{tag}}</a></span>
                                         {% endfor %}
                                         </div>
-                                        <br>
                                     {% endif %}
                                 </div>
                             </div>
