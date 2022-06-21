@@ -1,0 +1,15 @@
+.blog-container { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 0 0 1rem;
+}
+
+.blog-image {
+    margin: 1rem 1rem 1rem 0;
+}
+
+.tags-container {
+    padding: 0.5rem 0 0.5rem 0;
+}

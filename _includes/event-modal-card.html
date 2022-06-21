@@ -3,7 +3,11 @@
     <div class="modal-content">  
         <header class="modal-card-head">
             <div class="modal-card-title">
-                <p class="title">{{ include.name }}</p>
+                {% assign eventName = event.name | downcase %}
+                {% if event.name.size > 40 %}
+                    {% assign eventName = eventName | truncate: 40 %}
+                {% endif %}
+                <p class="title">{{ eventName }}</p>
             </div>
             <button class="modal-close is-large" aria-label="close"></button> 
         </header>
