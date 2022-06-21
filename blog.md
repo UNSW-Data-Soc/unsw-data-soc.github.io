@@ -3,6 +3,7 @@ layout: landing-banner
 title: Blog
 subtitle: Stay in the loop with our blog posts! From educational blogs to video blogs, they're here for you!
 ---
+
 <link rel="stylesheet" href="/assets/css/paginate.css">
 <link rel="stylesheet" href="/assets/css/styles.css">
 
@@ -52,7 +53,7 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
                                         <p><a href="{{ post.url }}"> ... Read more</a></p>
                                         <br>
                                         <div class = "tags-container">
-                                        Tags:
+                                        <i>Tags</i>:
                                         {% for tag in post.tags %}
                                             <span class = "tag"><a href = "{{site.baseurl}}/blog/topics#{{tag}}"> {{tag}}</a></span>
                                         {% endfor %}
@@ -74,7 +75,6 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
         </div>
     </div>
 </div>
-
 
 <script>
 
