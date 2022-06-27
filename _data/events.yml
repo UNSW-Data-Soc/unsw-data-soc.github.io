@@ -367,6 +367,23 @@ Events:
     "
     link: https://www.facebook.com/events/807769423538055/
 
+  - name: "Quantium Trivia and Pizza Night"
+    img: /assets/images/events/trivia-pizza.jpg
+    start-date: 2022-07-07
+    end-date: 2022-07-07
+    time: 4:00pm
+    location: Quantium Office. Bay, 12/2 Locomotive St, Eveleigh NSW 2015
+    description: "
+      We’re inviting students to join us at our Sydney HQ for a night of Trivia, Pizza and networking on Thursday, 7th July 4PM AEST
+      <br>
+      Our preference is penultimate students but feel free to share this to all students
+      <br>
+      To keep things fair, the registration link will open on Wednesday 22nd June at 9:00AM AEST for one week. 
+      <br><br>
+      [REGISTER HERE!](https://forms.office.com/Pages/ResponsePage.aspx?id=Ydz2bOyqYE2N0CAH7JWwXsuojpqqSKZPibGJOxkDfcNUNTdKRkcyNUxQSzg4OTAxWFMzMlBOOERRMi4u&fbclid=IwAR1he5P2T5YvRV7gll-pH5gsAF-ut9lkkySLGMnsbpluwUqyPlLoVN8nE3I)
+    "
+    link: https://drive.google.com/file/d/1osW8QnKH45VXmVD3JT-YT0-R0XgIEaW1/view
+
 # === Template ===
 #  - name: 
 #    img: /assets/images/events/
