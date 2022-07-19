@@ -1,6 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
-
-__d("CometArticleContextDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5561469050563804"}),null);
-__d("CometArticleContextDialogQuery$Parameters",["CometArticleContextDialogQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometArticleContextDialogQuery_facebookRelayOperation"),metadata:{},name:"CometArticleContextDialogQuery",operationKind:"query",text:null}};e.exports=a}),null);
-__d("CometArticleContextDialog.entrypoint",["CometArticleContextDialogQuery$Parameters","JSResourceForInteraction","WebPixelRatio"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){a=a.nodeID;return{queries:{queryReference:{parameters:c("CometArticleContextDialogQuery$Parameters"),variables:{nodeID:a,scale:d("WebPixelRatio").get()}}}}},root:c("JSResourceForInteraction")("CometArticleContextDialog.react").__setRef("CometArticleContextDialog.entrypoint")};g["default"]=a}),98);
-__d("hashString",[],(function(a,b,c,d,e,f){"use strict";function a(a){var b=0;for(var c=0;c<a.length;c++){var d=a.charCodeAt(c);b=(b<<5)-b+d;b|=0}return b}f["default"]=a}),66);
