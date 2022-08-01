@@ -462,6 +462,25 @@ Events:
     "
     link: https://www.facebook.com/events/573935251107275
 
+  - name: "Data1001 Workshop"
+    img: /assets/images/events/data1001-workshop.jpeg
+    start-date: 2022-08-10
+    end-date: 2022-08-10
+    time: 5:30pm-7:30pm
+    location: Online
+    description: "
+      Do YOU need a comprehensive crash course before your DATA1001 exam?
+      <br> 
+      DON’T FEAR, the DATA1001 Revision Workshop is coming up soon‼️
+      <br><br>
+      This 2 hour workshop covers sections from stats, compsci, business, and R programming (basically the whole course in 2 hours! 🤯)
+      <br><br>
+      The workshop is run by previous data science students 🤓 who’ve aced their exams 🧠 - so YOU will as well! Extra resources will also be provided!
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/NTvsmWxAYPjYZZhy8)
+    "
+    link: https://www.facebook.com/events/736002614122643/
+
 # === Template ===
 #  - name: 
 #    img: /assets/images/events/
