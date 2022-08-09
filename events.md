@@ -44,7 +44,7 @@ subtitle: From social events to workshops to networking opportunities, stay upda
                         {% elsif event.tag == 'planned' %}
                             <img src="/assets/images/events/planned_events.png" alt="Placeholder image">
                         {% else %}
-                        <img src="/assets/images/events/upcoming_events.png" alt="Placeholder image">
+                            <img src="/assets/images/events/upcoming_events.png" alt="Placeholder image">
                         {% endif %}
                         </figure>
                     </div>

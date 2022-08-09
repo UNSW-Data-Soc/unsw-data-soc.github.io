@@ -120,11 +120,10 @@ title: Welcome to DataSoc
 } */
 </style>
 
-
 <div class="pageloader"></div>
 <div class="infraloader is-active"></div>
 
-<div class="hero is-bold is-large" style="background-image: url('/assets/images/events/2021/datasoc-cover-photo.jpg'); background-position: center center; background-attachment: fixed; background-size: cover; overflowy: hidden;">
+<div class="hero is-bold is-large" style="background-image: url('/assets/images/datasoc-cover-photo.jpeg'); background-position: top center; background-attachment: fixed; background-size: cover; overflow: hidden;">
     <div class="hero-body" style=" background:rgba(0,0,0,0.4); height: 88vh;box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.18); z-index: 10;">
         <div class="container">
             <div class="columns is-vcentered">
@@ -233,47 +232,6 @@ title: Welcome to DataSoc
     </div>
 </div>
 
-<div class="hero is-medium">
-    <div class="hero-body background-shade">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-8 is-offset-2">
-                    <div class='preview-container box has-text-centered'>
-                        {% capture curr_time %}{{site.time | date: '%s'| minus: 86400}}{% endcapture %}
-                        {% assign jobsData = site.data.jobs.Jobs | sort_natural: "end-date" %}
-                        {% assign last_element = jobsData.last.end-date | date: "%s" %}
-                        {% if jobsData == None or last_element < curr_time %}
-                            <h3 class="title is-1 "> We will list more jobs soon! </h3>
-                        {% else %}
-                            <h3 class='title is-2'>Upcoming Jobs</h3>
-                        {% endif %}
-                        <hr>
-                        {% assign index = 0 %}
-                        {% assign jobsData = site.data.jobs.Jobs | sort_natural: "start-date" %}
-                        {% for job in jobsData %}
-                            {% capture job_due %}{{job.end-date | date: '%s'}}{% endcapture %}
-                            {% if curr_time < job_due %}
-                                <ol><h4 class='has-text-black'><b><i>{{job_due | date:"%B %d, %Y"}}</i></b></h4></ol>
-                                {% if job.link %}
-                                    <ol><h4 class='subtitle is-4 has-text-black' style="width: 70%; margin-left: 15%"><a href="{{event.link}}" title="Apply here!">{{job.name}}</a></h4></ol>
-                                {% else %}
-                                    <ol><h4 class='subtitle is-4 has-text-black'><a href="events/" title="Details coming soon!">{{job.name}}</a></h4></ol>
-                                {% endif %}
-                                <br>
-                                {% assign index = index | plus: 1 %}
-                                {% if index == 3 %}
-                                    {% break %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
-                        <a href="jobs-board/" class="button button-cta is-bold btn-align secondary-btn raised">See our jobs board</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="hero is-bold is-medium">
     <div class="hero-body">
         <div class="container">
@@ -299,4 +257,3 @@ title: Welcome to DataSoc
 
 <!-- Background gradient -->
 <!-- background: linear-gradient(27deg, rgba(73, 193, 245, 0.3) 0%, rgba(159, 98, 162, 0.3) 25%, rgba(228, 91, 235, 0.3) 50%, rgba(250, 90, 103, 0.3) 75%, rgba(233, 109, 56, 0.3) 100%); -->
-

@@ -7,7 +7,7 @@ Events:
 #    end-date: 
 #    location: 
 #    time: 
-#    description: 
+#    description: (wrap in double quotes - if it fails, try single quotes)
 #    link: 
 
   - name: 2022 Peer Mentor Recruitment
@@ -220,7 +220,7 @@ Events:
       <br>
       ✅ All members must be double vaxed
       <br><br>
-      Tickets will be released Sunday 27th Match at 12pm ($135 per team)'
+      [REGISTER HERE!](https://forms.gle/qzEavuJGxZxaWzMQ6)'
     link: https://www.facebook.com/events/305451835028153/
 
   - name: "Let’s talk about it: Interview | UNSW DataSoc x KPMG"
@@ -228,7 +228,7 @@ Events:
     start-date: 2022-04-07
     end-date: 2022-04-07
     location: Online <a href="https://zoom.us/j/4465958784?pwd=YlJjRnZnaVBsNnJDVGpKSHZ6OHJXZz09&fbclid=IwAR0lPzUxW7qzmiwZf-ag1WaZggjsJYG2UpPf6wcyjuXW2ZPEaOv2IFgfmmc">(Zoom)</a>
-    time: 5:30-7:00pm
+    time: 5-6:30pm
     description: '
       Interviews are a key part of any application process whether it is for a part time job ☕, internship opportunity 💼, graduate position 🎓 or anything in between and KPMG are here to help with their Interview Workshop 🥳 so you’ll ace your next interview! Not only are they going to be offering tips and tricks but you’ll have an opportunity to book a 1 on 1 mock interview from KPMG representatives giving you top quality ✨professional✨ advice 🤑.
       <br><br>
@@ -236,6 +236,273 @@ Events:
       <br><br>
       [REGISTER HERE!](https://forms.gle/FdGuJjVsoE4UHxBw9)'
     link: https://www.facebook.com/events/674673953852114/s
+
+  - name: "UNSW MathSoc x DataSoc Camp: Game On!"
+    img: /assets/images/events/camp.jpeg
+    start-date: 2022-06-03
+    end-date: 2022-06-05
+    location: Waterslea, Shoalhaven
+    description: "
+      Come down to Shoalhaven Campsite 🏖️ for one of the best times of your life. You get to smash coins 💰 and get smashed 😉 or take your gambles against our best games. 👾
+      <br>
+      Over 3 days, you will make some vivid memories 🎆 through activities and partying 🎉 that'll bring upon exciting stories 📚 and brilliant friendships that'll last years to come . This is a camp NOT to be missed !!! 🔥🔥
+      <br><br>
+      [WAITLIST FORM HERE!](https://forms.gle/seorDYrXzMPpNVjx6)"
+    link: https://www.facebook.com/events/385274863414986
+
+  - name: "Sizzle n Mingle"
+    img: /assets/images/events/bbq.jpeg
+    start-date: 2022-05-15
+    end-date: 2022-05-15
+    location: Coogee Beach
+    time: 12-3:00pm
+    description: "
+      Bring your friends along to Coogee Beach for DataSoc’s final event of Term 1!!
+      <br>
+      This will be a great opportunity to meet new friends and celebrate surviving Term 1 with those you already know. 
+      <br>
+      Everyone is welcome 🤗"
+    link: https://www.facebook.com/events/726105562136279/
+
+  - name: "Industry Mentoring Program"
+    img: /assets/images/events/industry_mentoring.jpeg
+    start-date: 2022-05-10
+    end-date: 2022-05-20
+    location: Online
+    description: "
+      Our Industry Mentoring Program is the perfect opportunity for you to get ahead and build your network for when positions open up again, and for the rest of your career! 🦾💪
+      <br>
+      Our program
+      <br>
+      - Will match you to your ideal mentor based on your degree and career preferences
+      <br>
+      - Introduces you to experienced mentors from a myriad of industry giants including Canva, Google and EY
+      <br>
+      - Incorporates weekly one-on-ones with your mentor, skill building workshops and an exclusive cocktail night to help you facilitate and develop professional connections
+      <br><br>
+      [EXPRESSION OF INTEREST HERE!](https://forms.gle/dfwE5ufshWrjgJD8A)"
+    link: https://www.facebook.com/events/730205381442202/
+
+  - name: "Intro to Big Data Analytics"
+    img: /assets/images/events/intro-to-big-data-analytics.jpeg
+    start-date: 2022-05-30
+    end-date: 2022-05-30
+    time: 5:30pm-6:30pm
+    location: Online
+    description: "
+      We’ll be going through the basics of
+      <br>
+      - Reading in a CSV 👀
+      <br>
+      - Filtering and sorting data 📈
+      <br>
+      - Modifying data sets 🔀
+      <br>
+      - Grouping data 📊
+      <br>
+      And a whole lot more!
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/jNuuyCmmQ6QyXpz3A)
+    "
+    link: https://www.facebook.com/events/2393899097575492/
+
+  - name: "Networking Night"
+    img: /assets/images/events/networking-night.jpg
+    start-date: 2022-06-30
+    end-date: 2022-06-30
+    time: 6:00pm-8:00pm
+    location: UNSW Roundhouse
+    description: "
+      Not only is it catered 😋 but you won’t want to miss out on this endless pool of knowledge and:
+      <br>
+      - The opportunity to get those 🔥burning🔥 questions that you have, answered
+      <br>
+      - Network with reps from different companies, like Commbank, KPMG and Quantium, reaching a wide range of industries 🤑
+      <br>
+      - AND with all your newly acquired Insider Info 🤫 stay one step ahead of everyone while nailing those interviews 👔 and build those soft skills that every recruiter is looking for.
+      <br><br>
+      📢There's limited spots so be sure to get in quick!📢
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/p7GXc6KeTamQ3T469)
+    "
+    link: https://www.facebook.com/events/1248705565660443/
+
+  - name: "The Human Race: DataSoc x QSIS x WIESoc Amazing Race"
+    img: /assets/images/events/amazing-race.jpg
+    start-date: 2022-07-09
+    end-date: 2022-07-09
+    time: 2:00pm-5:00pm
+    location: Sydney CBD
+    description: "
+      Life may not be amazing right now, but it will be if you come along to the ✨ UNSW DataSoc x WIESoc x QSIS Amazing Race! ✨
+      <br>
+      With this year’s theme centered around 💕🏳️‍🌈⭐️ DIVERSITY 🌏🌟🤝, come participate in a series of fun challenges whilst exploring the Sydney CBD and appreciate the diversity which surrounds us!
+      <br>
+      Did we also mention that there are 🎁 prizes 🎁 up for grabs if you’re one of the first to cross the finish line?
+      <br><br>
+      So grab your mates for a fun time in the city at the end of flexi before we plummet into assessment season - and learn about 🤩🤩 gender diversity 🤩🤩, the 🏳️‍🌈🏳️‍🌈 LGBTQ+ 🏳️‍🌈🏳️‍🌈 space, 🌏🌏 multiculturalism 🌏🌏 and ⬛🟡🟥 Indigenous culture ⬛🟡🟥!
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/qCwxUnWbx7aMWXLi6)
+    "
+    link: https://www.facebook.com/events/592237178893862/
+
+  - name: "WIT x DataSoc x Quantium Present: Diversity Drivers"
+    img: /assets/images/events/diversity-drivers.jpg
+    start-date: 2022-07-05
+    end-date: 2022-07-05
+    time: 3:00pm-5:00pm
+    location: Quantium Office. Bay, 12/2 Locomotive St, Eveleigh NSW 2015
+    description: "
+      By coming along to our IN-PERSON event at the Quantium HQ, you will:
+      <br> 
+      - Get the opportunity to meet and network with other like-minded students 😊.
+      <br> 
+      - Get involved in a panel discussion 🗣 with Quantium employees
+      <br> 
+      - Participate in group activities ⚽️ where it’s all about diversity!
+      <br><br>
+      If you’re interested in diversity and having a fun time, or a future career with Quantium, make sure you register for the event with the form below to secure your spot!
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/txhxozgxrptBzdAQ9)
+    "
+    link: https://www.facebook.com/events/807769423538055/
+
+  - name: "Quantium Trivia and Pizza Night"
+    img: /assets/images/events/trivia-pizza.jpg
+    start-date: 2022-07-07
+    end-date: 2022-07-07
+    time: 4:00pm
+    location: Quantium Office. Bay, 12/2 Locomotive St, Eveleigh NSW 2015
+    description: "
+      We’re inviting students to join us at our Sydney HQ for a night of Trivia, Pizza and networking on Thursday, 7th July 4PM AEST
+      <br>
+      Our preference is penultimate students but feel free to share this to all students
+      <br>
+      To keep things fair, the registration link will open on Wednesday 22nd June at 9:00AM AEST for one week. 
+      <br><br>
+      [REGISTER HERE!](https://forms.office.com/Pages/ResponsePage.aspx?id=Ydz2bOyqYE2N0CAH7JWwXsuojpqqSKZPibGJOxkDfcNUNTdKRkcyNUxQSzg4OTAxWFMzMlBOOERRMi4u&fbclid=IwAR1he5P2T5YvRV7gll-pH5gsAF-ut9lkkySLGMnsbpluwUqyPlLoVN8nE3I)
+    "
+    link: https://drive.google.com/file/d/1osW8QnKH45VXmVD3JT-YT0-R0XgIEaW1/view
+
+  - name: "BarbeCure"
+    img: /assets/images/events/barbecure.jpeg
+    start-date: 2022-07-13
+    end-date: 2022-07-13
+    time: 1:00pm-4:00pm
+    location: UNSW Library Lawn
+    description: "
+      Join us on Wednesday 13th July WEEK 7 for snag-friendly times and support our partner Cure Cancer to raise funds for cancer research!! 🏥
+      <br> 
+      All donations made from the event will be fundraised towards cancer research! 💰
+      <br> 
+      Cure Cancer Australia is a national non-profit organisation that works across every aspect of every cancer, from research to prevention and support.
+      <br><br>
+      A Gold coin donation that will be highly appreciated and will be going towards Cure Cancer Australia!
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/G7XrwFwtZVuV48si7)
+    "
+    link: https://www.facebook.com/events/452226796238839/
+
+  - name: "Hoodies 2022"
+    img: /assets/images/events/hoodies-2022.jpeg
+    start-date: 2022-07-18
+    end-date: 2022-07-29
+    description: "
+      Finding the cold unBEARable? 🥶 Cop one of our 2022 hoodies and you’ll be BAMBOOzled 🎋 by the warmth of DataSoc 😍
+      <br><br>
+      Get in quick because the stylish design available in black, white, dark green, sky blue and pink is sure to create a PANDA-monium! 🐼🫣
+      <br><br>
+      Purchase your hoodie by Sunday 24th July (11:59pm) and receive an early bird discount 🤑 All orders close on Thursday 28th July (11:59pm). Quantities are limited so order 🚨 ASAP! 🚨
+      <br><br>
+      🐔 EARLY BIRD 🐔
+      $40 (Arc Members)
+      $45 (Non-Arc Members)
+      <br>
+      💸 GENERAL SALE 💸
+      $45 (Arc Members)
+      $50 (Non-Arc Members)
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/s1CwTLD6x1PrCNvu9)
+    "
+    link: https://www.facebook.com/events/755828372234097/
+
+  - name: "Predicting Bitcoin with Neural Networks"
+    img: /assets/images/events/predicting-bitcoin.jpg
+    start-date: 2022-07-26
+    end-date: 2022-07-26
+    time: 5:30pm
+    location: Online
+    description: "
+      😱Suffered from the buy high sell low crypto syndrome?
+      <br> 
+      🤔Sick of pondering wheter to HODL or dump your coins?
+      <br><br>
+      Join this 1 hour workshop session where we will cover introductory concepts of neural networks, timeseries, and architecting the model using Tensorflow, a popular deep learning package in Python! 🧠
+      <br><br>
+      Don't miss out on this opportunity to learn new deep learning techniques to predict in the context of Cryptocurrency! 🪙✨
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/Ji45GsVDmMRHC7D87)
+    "
+    link: https://www.facebook.com/events/2022346321285816/
+
+  - name: "Wish Upon a Star"
+    img: /assets/images/events/wish-upon-a-star.jpg
+    start-date: 2022-07-28
+    end-date: 2022-07-28
+    time: 1:00pm-3:00pm
+    location: UNSW Library Walkway
+    description: "
+      Squid Game is back, but this time on campus! Do you have what it takes to complete the DALGONA challenge and win the PRIZES 🤑💰 that are up for grabs?
+      <br><br>
+      With exams nearing, sweeten up your week and buy some Dalgona (only $1)! Will yours be a circle? ⚪️ A triangle? 🔺️ A star? ⭐️ An umbrella?... ☂️
+      <br><br>
+      We’ll also have our Squid Game sponsor, Make a Wish Foundation, a charity dedicated to fulfilling the dreams and wishes of children with critical illnesses. All earnings will go towards charity 🌍
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/47VjqGegec9saKxs5)
+    "
+    link: https://www.facebook.com/events/573935251107275
+
+  - name: "Data1001 Workshop"
+    img: /assets/images/events/data1001-workshop.jpeg
+    start-date: 2022-08-10
+    end-date: 2022-08-10
+    time: 5:30pm-7:30pm
+    location: Online
+    description: "
+      Do YOU need a comprehensive crash course before your DATA1001 exam?
+      <br> 
+      DON’T FEAR, the DATA1001 Revision Workshop is coming up soon‼️
+      <br><br>
+      This 2 hour workshop covers sections from stats, compsci, business, and R programming (basically the whole course in 2 hours! 🤯)
+      <br><br>
+      The workshop is run by previous data science students 🤓 who’ve aced their exams 🧠 - so YOU will as well! Extra resources will also be provided!
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/NTvsmWxAYPjYZZhy8)
+    "
+    link: https://www.facebook.com/events/736002614122643/
+
+# === Template ===
+#  - name: 
+#    img: /assets/images/events/
+#    start-date: 
+#    end-date: 
+#    location: 
+#    time: 
+#    description: (wrap in double quotes - if it fails, try single quotes)
+#    link: 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
