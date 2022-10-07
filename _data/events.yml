@@ -481,6 +481,39 @@ Events:
     "
     link: https://www.facebook.com/events/736002614122643/
 
+  - name: "Starterthon"
+    img: /assets/images/events/starterthon.jpg
+    start-date: 2022-10-08
+    end-date: 2022-10-09
+    time: 9:00am-5:00pm
+    location: UNSW Campus
+    description: "
+      Register as a team of 2-4, or as an individual and we’ll link you up with some fantastic teammates and new friends! 😊
+      <br><br>
+      Absolutely ❌ no experience ❌ is required. We’ll be providing mentoring sessions with industry professionals and experienced data science students, as well as three workshops on data analysis, machine learning and how to code in Python.
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/rKy7UeLPDbk5Fb7V9)
+    "
+    link: https://www.facebook.com/events/1030583134265743/
+
+  - name: "CommInt x DataSoc x RealSoc: Cloud Nine at OPM"
+    img: /assets/images/events/cloud-nine-at-opm.jpg
+    start-date: 2022-10-14
+    end-date: 2022-10-14
+    time: 10:00pm
+    location: Marquee Sydney
+    description: "
+      Ever wondered what it feels like to touch a cloud ☁️
+      <br> 
+      Float to cloud nine with us at CommInt x DataSoc x Realsoc’s: Cloud Nine at OPM
+      <br><br>
+      ❄️ Each ticket is $20 and will guarantee entry before 11:30pm ❄️
+      <br>
+      Tickets now on sale so get in quick to secure your spot!
+      <br><br>
+    "
+    link: https://www.facebook.com/events/806108084177700/
+
 # === Template ===
 #  - name: 
 #    img: /assets/images/events/
