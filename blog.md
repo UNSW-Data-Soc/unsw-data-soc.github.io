@@ -9,72 +9,71 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
 
-<div class="hero-body background-shade">
-    <div class="container">
-        <nav class = "level">
-            <div class = "level-left">
-                <div class = "level-item">
-                    <div class="field is-horizontal">
-                        <div class = "field-label is-normal">
-                            <label class = "label" style="margin-left: 1rem;" for="searchBox">Search</label>
+<div class = "body">
+    <div class = "blog-grid-container">
+        {% for post in site.posts %}
+        {% if post.title != 404 %}
+            {% assign loopindex = forloop.index | modulo: 3 %}
+            {% if loopindex == 1 %}
+                <div class = "columns">
+                    <div class = "column is-one-third">
+                        <div class = "blog-module">
+                            <div class="blog-thumbnail"><img src="{{ post.image }}" alt=""/></div>
+                            <div class="blog-contents">
+                                <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                {% if post.date %}
+                                    <p class="blog-data">{{ post.date | date_to_string }} | {{ post.author }}</p>
+                                {% endif %}
+                            </div>
+                            <div class="blog-description">
+                                {% if post.custom_excerpt %}
+                                    <p class = "1.25rem">{{ post.custom_excerpt }}</p>
+                                {% else %}
+                                    <p class = "1.25rem">{{ post.excerpt }}</p>
+                                {% endif %}
+                            </div>
                         </div>
-                        <div class = "field-body">
-                            <div class = "field">
-                                <p class = "control is-pulled-left">
-                                    <input class="input" id="searchBox" type = "text" placeholder="What are you looking for?" size="30">
-                                </p>
+                    </div>
+            {% elsif loopindex == 2 %}
+                    <div class = "column is-one-third">
+                        <div class = "blog-module">
+                            <div class="blog-thumbnail"><img src="{{ post.image }}" alt=""/></div>
+                            <div class="blog-contents">
+                                <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                {% if post.date %}
+                                    <p class="blog-data">{{ post.date | date_to_string }} | {{ post.author }}</p>
+                                {% endif %}
+                            </div>
+                            <div class="blog-description">
+                                {% if post.custom_excerpt %}
+                                    <p class = "1.25rem">{{ post.custom_excerpt }}</p>
+                                {% else %}
+                                    <p class = "1.25rem">{{ post.excerpt }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+            {% else %}
+                    <div class = "column is-one-third">
+                        <div class = "blog-module">
+                            <div class="blog-thumbnail"><img src="{{ post.image }}" alt=""/></div>
+                            <div class="blog-contents">
+                                <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                {% if post.date %}
+                                    <p class="blog-data">{{ post.date | date_to_string }} | {{ post.author }}</p>
+                                {% endif %}
+                            </div>
+                            <div class="blog-description">
+                                <p>{{ post.excerpt | truncate: 8 }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <div class = "body">
-            <table class="table overflow myTable">
-                <tbody>
-                    {% for post in site.posts %}
-                    <tr><td>
-                        <div class = "columns">
-                            <div class = "column is-three-fifths">
-                                <div class = "blog-container">
-                                    {% if post.title != 404 %}
-                                        <h2 class="title is-2 centered 2rem"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
-                                        {% if post.date %}
-                                            <p><i>Published {{ post.date | date_to_string }}</i></p>
-                                        {% endif %}
-                                        <br>
-                                        {% if post.custom_excerpt %}
-                                            <p class = "1.25rem">{{ post.custom_excerpt }}</p>
-                                        {% else %}
-                                            <p class = "1.25rem">{{ post.excerpt }}</p>
-                                        {% endif %}
-                                        <br>
-                                        <p><a href="{{ post.url }}"> ... Read more</a></p>
-                                        <br>
-                                        <div class = "tags-container">
-                                        Tags:
-                                        {% for tag in post.tags %}
-                                            <span class = "tag"><a href = "{{site.baseurl}}/blog/topics#{{tag}}"> {{tag}}</a></span>
-                                        {% endfor %}
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            </div>
-                            {% if post.image %}
-                                <div class = "column blog-image">
-                                    <span><figure class="image"><img src="{{ post.image }}" alt=""/></figure></span>
-                                </div>
-                                <br><br>
-                            {% endif %}
-                        </div>
-                    </td></tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
-
 
 <script>
 
