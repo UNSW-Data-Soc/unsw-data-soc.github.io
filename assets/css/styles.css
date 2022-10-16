@@ -84,6 +84,13 @@
     color: #25313C;
 }
 
+.blog-description p {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .blog-contents {
     padding: 1rem;
     height: 8rem;
@@ -98,5 +105,12 @@
 }
 
 .blog-grid-container {
-    margin: 5rem 5% 0 5%;
+    margin: 5rem auto;
+    max-width: 90rem;
+}
+
+@media (max-width: 1500px) {
+    .blog-grid-container {
+        padding: 0 5rem;
+    }
 }

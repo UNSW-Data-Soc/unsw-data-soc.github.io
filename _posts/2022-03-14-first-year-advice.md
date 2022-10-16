@@ -10,9 +10,7 @@ image: /assets/images/blog/22-03-14.JPG
 excerpt_separator: <!--more-->
 ---
 
-Honestly, the first year of university can be intimidating. So if you’re feeling a little overwhelmed (just as I did last year) - we’ve got you covered! 
-
-Looking back on my first year, I'd like to think I had a pretty good experience. But, looking back on it, there were also many things I would do differently. So, I wanted to see if some people at DataSoc felt the same way, and asked them about the experiences they had in first year - both the good, and the bad. Here are the top 5 tips I was able to come up with!
+Honestly, the first year of university can be intimidating. So if you’re feeling a little overwhelmed (just as I did last year) - we’ve got you covered! Looking back on my first year, I'd like to think I had a pretty good experience. But, looking back on it, there were also many things I would do differently. So, I wanted to see if some people at DataSoc felt the same way, and asked them about the experiences they had in first year - both the good, and the bad. Here are the top 5 tips I was able to come up with!
 
 <!--more-->
 
