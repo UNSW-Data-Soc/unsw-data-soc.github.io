@@ -23,19 +23,19 @@ Major Sponsors:
     icon: /assets/images/logos/custom/commbank.png
     link: https://www.commbank.com.au/
     description: |-
-      
+
       Commonwealth Bank is Australia's leading provider of integrated financial services.
   - name: Alooba
     icon: /assets/images/logos/custom/alooba.png
     link: https://www.alooba.com/
     description: |-
-      
+
       Alooba is the world's only data & analytics skills assessment platform, embracing a new recruitment process.
   - name: Mirvac
     icon: /assets/images/logos/custom/mirvac.png
     link: https://www.mirvac.com/
     description: |-
-      
+
       Mirvac is an Australian property group with a clearly defined purpose to reimagine urban life.
   - name: Relevance AI
     icon: /assets/images/logos/custom/relevance_ai.png
@@ -46,7 +46,7 @@ Major Sponsors:
     icon: /assets/images/logos/custom/kpmg.png
     link: https://home.kpmg/au/en/home.html
     description: |-
-      
+
       KPMG is a global network of professional services firms providing Audit, Tax and Advisory services.
   - name: Canva
     icon: /assets/images/logos/custom/canva.png
@@ -60,16 +60,16 @@ Major Sponsors:
       Optus is an Australian leader in telecommunications, delivering cutting-edge communications and entertainment services.
 
 Partners:
-  - name: Akuna Capital 
+  - name: Akuna Capital
     icon: /assets/images/logos/custom/akuna.png
     link: https://akunacapital.com/
-    description: |- 
+    description: |-
       Akuna Capital is an innovative trading firm with a strong focus on collaboration, cutting-edge technology, data-driven solutions and automation.
   - name: National Australia Bank
     icon: /assets/images/logos/custom/nab.png
     link: https://www.nab.com.au/
     description: |-
-      National Australia Bank delivers sustainable outcomes for our customers, colleagues and community as Australia's largest business bank.
+      National Australia Bank delivers sustainable outcomes for customers, colleagues and community as Australia's largest business bank.
   - name: IMC
     icon: /assets/images/logos/custom/imc.png
     link: https://www.imc.com/ap/
@@ -90,13 +90,17 @@ Partners:
     link: https://www.synogize.io/
     description: |-
       Synogize provides an exceptional experience, value and bridges the gap betwen people, process & technologies with data and analytics.
+  - name: Alteryx
+    icon: /assets/images/logos/custom/alteryx.png
+    link: https://www.synogize.io/
+    description: |-
+      Alteryx enables everyone to deliver breakthrough outcomes with analytics automation.
 
   # - name: Data Science and AI Association of Australia
   #   icon: /assets/images/logos/custom/dsai.png
   #   link: https://dsai.org.au/
   #   description: |-
   #     Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
-
 
 Social Sponsors:
   - name: Mad Mex
