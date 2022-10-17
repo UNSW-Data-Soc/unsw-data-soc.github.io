@@ -24,11 +24,13 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
                         {% endif %}
                     </div>
                     <div class="blog-description">
-                        {% if post.custom_excerpt %}
-                            <p class = "1.25rem">{{ post.custom_excerpt }}</p>
-                        {% else %}
-                            <p class = "1.25rem">{{ post.excerpt }}</p>
-                        {% endif %}
+                        <div class="desc-text">
+                            {% if post.custom_excerpt %}
+                                <p class = "1.25rem">{{ post.custom_excerpt }}</p>
+                            {% else %}
+                                <p class = "1.25rem">{{ post.excerpt }}</p>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>

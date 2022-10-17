@@ -84,12 +84,15 @@
     color: #25313C;
 }
 
-.blog-description p {
+.desc-text {
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
+    -webkit-box-pack: end;
     overflow: hidden;
 }
+
+.desc-text p:after { content: ""; }
 
 .blog-contents {
     padding: 1rem;
