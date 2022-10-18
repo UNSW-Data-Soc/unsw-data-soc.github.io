@@ -1,6 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
-
-__d("CometSubscribersSettingsStrings",["fbt"],(function(a,b,c,d,e,f,g,h){"use strict";function a(){return h._("__JHASH__xQPd49AqHuI__JHASH__")}function b(){return h._("__JHASH__JQjyov3SC-T__JHASH__")}function c(){return h._("__JHASH__h4bFz6c-7hv__JHASH__")}function d(){return h._("__JHASH__HvrL3tLlW5o__JHASH__")}function e(){return h._("__JHASH__5Hn0gclZ8NR__JHASH__")}function f(){return h._("__JHASH__DIAZTTVgK5Y__JHASH__")}b={EVERYONE_COMMENT:b(),EVERYONE_NOTIFICATION:c(),FRIENDS:e(),FRIENDS_OF_FRIENDS:d(),NO_ONE:f()};function i(){return h._("__JHASH__786EdgB6CBo__JHASH__")}g.getSubscribersDialogTitle=a;g.SUBSCRIBERS_AUDIENCE_SELECTORS=b;g.getSettingsChangedToastString=i}),98);
-__d("BirthdayCometContentQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5520041808041732"}),null);
-__d("EventCometBirthdayMegaphoneRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5564396716939373"}),null);
-__d("FriendingCometBirthdayRootContentQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5174118499299580"}),null);
