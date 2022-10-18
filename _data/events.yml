@@ -422,11 +422,15 @@ Events:
       $45 (Arc Members)
       $50 (Non-Arc Members)
       <br><br>
-      [REGISTER HERE!](https://forms.gle/s1CwTLD6x1PrCNvu9)
+      [ORDER HERE!](https://forms.gle/s1CwTLD6x1PrCNvu9)
     "
     link: https://www.facebook.com/events/755828372234097/
 
+<<<<<<< HEAD
+     - name: "FintechSoc X DataSoc Presents: Predicting Bitcoin with Neural Networks"
+=======
   - name: "Predicting Bitcoin with Neural Networks"
+>>>>>>> f210b406614ea090b2151789e1499059b8051079
     img: /assets/images/events/predicting-bitcoin.jpg
     start-date: 2022-07-26
     end-date: 2022-07-26
@@ -436,14 +440,47 @@ Events:
       😱Suffered from the buy high sell low crypto syndrome?
       <br> 
       🤔Sick of pondering wheter to HODL or dump your coins?
+<<<<<<< HEAD
+      <br> 
+      Why not try something new - instead of following the crowd, try predicting bitcoin with Neural Networks!
+      <br>
+      Join this 1 hour workshop session where we will cover introductory concepts of neural networks, timeseries, and architecting the model using Tensorflow, a popular deep learning package in Python! 🧠
+      <br>
+=======
       <br><br>
       Join this 1 hour workshop session where we will cover introductory concepts of neural networks, timeseries, and architecting the model using Tensorflow, a popular deep learning package in Python! 🧠
       <br><br>
+>>>>>>> f210b406614ea090b2151789e1499059b8051079
       Don't miss out on this opportunity to learn new deep learning techniques to predict in the context of Cryptocurrency! 🪙✨
       <br><br> 
       [REGISTER HERE!](https://forms.gle/Ji45GsVDmMRHC7D87)
     "
     link: https://www.facebook.com/events/2022346321285816/
+<<<<<<< HEAD
+
+     - name: "Wish Upon a Star"
+    img: /assets/images/events/wish-upgit braon-a-star.jpg
+    start-date: 2022-07-28
+    end-date: 2022-07-28
+    time: 1:00pm-3:00pm
+    location: UNSW Library Walkway
+    description: "
+      Squid Game is back, but this time on campus! Do you have what it takes to complete the DALGONA challenge and win the PRIZES 🤑💰 that are up for grabs?
+      <br> 
+      With exams nearing, sweeten up your week and buy some Dalgona (only $1)! Will yours be a circle? ⚪️ A triangle? 🔺️ A star? ⭐️ An umbrella?... ☂️
+      <br> 
+      Climb the leaderboard to compete for the 1st place title and win the ultimate prize AND a chance to meet GONG-YOO 🤵‍♂️
+      <br>
+       We’ll also have our Squid Game sponsor, Make a Wish Foundation, a charity dedicated to fulfilling the dreams and wishes of children with critical illnesses. All earnings will go towards charity 🌍
+      <br><br> 
+      [REGISTER HERE!](https://forms.gle/47VjqGegec9saKxs5)
+    "
+    link: https://www.facebook.com/events/s/wish-upon-a-star-unsw-datasoc/1212111589523975/
+
+
+
+=======
+>>>>>>> f210b406614ea090b2151789e1499059b8051079
 
   - name: "Wish Upon a Star"
     img: /assets/images/events/wish-upon-a-star.jpg
@@ -513,6 +550,68 @@ Events:
       <br><br>
     "
     link: https://www.facebook.com/events/806108084177700/
+
+  - name: "AGM 2022"
+    img: /assets/images/events/agm-2022.jpg
+    start-date: 2022-09-29
+    end-date: 2022-09-29
+    time: 7:00pm - 8:00pm
+    location: Online
+    description: "
+      DataSoc will be holding our Annual General Meeting as a formal update on how we have been operating over the previous year.
+      <br> 
+      Any members of the DataSoc mailing list as of September 14th 11:59pm who have enrolled to vote are eligible to elect incoming executives.
+      <br>
+      Anyone can come, whether it's to learn about upcoming events, participate in the meeting via voting on proposed constitutional changes or know more about the inner workings of the club.
+      <br>
+      If you have any questions regarding aspects of AGM proceedings that are not detailed in this email or the Facebook event, please contact us at hello@unswdata.com.
+      <br><br>
+    "
+    link: https://www.facebook.com/events/614136390343006/
+
+  - name: "Pushing Past Uni"
+    img: /assets/images/events/pushing-past-uni.jpg
+    start-date: 2022-10-25
+    end-date: 2022-10-25
+    time: 5:00pm-6:00pm
+    location: Online
+    description: "
+      While you have been pushing through the ups and downs of uni, have you ever thought about pushing past it? 😅
+      <br>
+      Starting a degree in data science can be quite daunting at first as there are so many pathways and decisions have to be made by certain deadlines. 🤓
+      <br>
+      Well, we are here to help guide you PUSH PAST UNI!
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/nXmQkxyEkad1JxGK8)
+    "
+    link: https://www.facebook.com/events/821083345867956/
+
+   - name: "2023 Director Recruitment"
+    img: /assets/images/events/2023-director-recruitment.jpg
+    start-date: 2022-10-17
+    end-date: 2022-10-30
+    time: 9:30am-11:59pm
+    location: Online
+    description: "
+      In a world where leadership experiences are heavily sought after, there's no better place to gain some experience than as a DataSoc director!
+      <br>
+      DataSoc is bigger and better than ever and we would love to have you onboard!
+      <br>
+      Now’s your chance to get involved in a growing society with huge opportunities down the track.
+      <br>
+      At DataSoc, we aim to learn continuously and effectively, have a good time, be the best at what we do and take ownership of our work while maintaining transparency. As a director, you will embody these core values while building connections to last a lifetime.
+      <br><br>
+      [APPLY HERE!](https://forms.gle/jz3sSuQQVbbheBDJ8)
+    "
+    link: https://www.facebook.com/events/1337838027041161/
+
+
+  
+
+
+
+
+  
 
 # === Template ===
 #  - name: 
