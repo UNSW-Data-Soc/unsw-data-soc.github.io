@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The stats behind casino games and why you will always lose gambling."
-date:  13-10-22
-Tags:
+date:  2022-10-13
+tags:
     - Data Science
     - Statistics
     - Opinion
