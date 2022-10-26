@@ -1,7 +1,7 @@
 ---
 layout: landing-banner
 title: Blog
-subtitle: Stay in the loop with our blog posts! From educational blogs to video blogs, they're here for you!
+subtitle: Stay in the loop with our blog posts! From educational guides to opinion articles about data science in the real world, they're here for you!
 ---
 
 <link rel="stylesheet" href="/assets/css/paginate.css">
@@ -10,68 +10,33 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>
 
-<div class="hero-body background-shade">
-    <div class="container">
-        <nav class = "level">
-            <div class = "level-left">
-                <div class = "level-item">
-                    <div class="field is-horizontal">
-                        <div class = "field-label is-normal">
-                            <label class = "label" style="margin-left: 1rem;" for="searchBox">Search</label>
-                        </div>
-                        <div class = "field-body">
-                            <div class = "field">
-                                <p class = "control is-pulled-left">
-                                    <input class="input" id="searchBox" type = "text" placeholder="What are you looking for?" size="30">
-                                </p>
-                            </div>
+<div class = "body">
+    <div class = "blog-grid-container">
+        <div class = "columns is-multiline">
+        {% for post in site.posts %}
+        {% if post.title != 404 %}
+            <div class = "column is-4-desktop is-half-tablet">
+                <div class = "blog-module">
+                    <div class="blog-thumbnail"><a href="{{ post.url }}"><img src="{{ post.image }}" alt=""/></a></div>
+                    <div class="blog-contents">
+                        <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        {% if post.date %}
+                            <p class="blog-data">{{ post.date | date_to_string }} | {{ post.author }}</p>
+                        {% endif %}
+                    </div>
+                    <div class="blog-description">
+                        <div class="desc-text">
+                            {% if post.custom_excerpt %}
+                                <p class = "1.25rem">{{ post.custom_excerpt }}</p>
+                            {% else %}
+                                <p class = "1.25rem">{{ post.excerpt }}</p>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <div class = "body">
-            <table class="table overflow myTable">
-                <tbody>
-                    {% for post in site.posts %}
-                    <tr><td>
-                        <div class = "columns">
-                            <div class = "column is-three-fifths">
-                                <div class = "blog-container">
-                                    {% if post.title != 404 %}
-                                        <h2 class="title is-2 centered 2rem"><a href="{{ post.url }}" class = "has-text-info">{{ post.title }}</a></h2>
-                                        {% if post.date %}
-                                            <p><i>Published {{ post.date | date_to_string }}</i></p>
-                                        {% endif %}
-                                        <br>
-                                        {% if post.custom_excerpt %}
-                                            <p class = "1.25rem">{{ post.custom_excerpt }}</p>
-                                        {% else %}
-                                            <p class = "1.25rem">{{ post.excerpt }}</p>
-                                        {% endif %}
-                                        <br>
-                                        <p><a href="{{ post.url }}"> ... Read more</a></p>
-                                        <br>
-                                        <div class = "tags-container">
-                                        <i>Tags</i>:
-                                        {% for tag in post.tags %}
-                                            <span class = "tag"><a href = "{{site.baseurl}}/blog/topics#{{tag}}"> {{tag}}</a></span>
-                                        {% endfor %}
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            </div>
-                            {% if post.image %}
-                                <div class = "column blog-image">
-                                    <span><figure class="image"><img src="{{ post.image }}" alt=""/></figure></span>
-                                </div>
-                                <br><br>
-                            {% endif %}
-                        </div>
-                    </td></tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+        {% endif %}
+        {% endfor %}
         </div>
     </div>
 </div>
