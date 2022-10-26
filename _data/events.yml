@@ -553,7 +553,6 @@ Events:
     img: /assets/images/events/2023-director-recruitment.jpg
     start-date: 2022-10-17
     end-date: 2022-10-30
-    time: 9:30am-11:59pm
     location: Online
     description: "
       In a world where leadership experiences are heavily sought after, there's no better place to gain some experience than as a DataSoc director!
@@ -567,6 +566,33 @@ Events:
       [APPLY HERE!](https://forms.gle/jz3sSuQQVbbheBDJ8)
     "
     link: https://www.facebook.com/events/1337838027041161/
+    
+  - name: "Atlassian Datathon"
+    img: /assets/images/events/atlassian_datathon.jpeg
+    start-date: 2022-11-04
+    end-date: 2022-11-04
+    time: 9:00am - 4:00pm
+    location: Atlassian Office (6/341 George St, Sydney)
+    description: "
+      Have you ever wanted the chance to learn and solve a real-world problem involving the power of data but never had the time to commit yourself to it 🤔? Or ever wanted to visit one of the BIGGEST tech companies out there, let alone win some AMAZING prizes?!
+      <br><br>
+      Well look no further, get ready for DataSoc x Atlassian's ONE DAY 2022 Annual Datathon! 🎉
+      <br><br>
+      🏆Prizes will Include🏆
+      <br>
+      Cash Prize Pool of $400💰
+      <br>
+      Software Licenses 🔑
+      <br>
+      Atlassian Office Tour + Lunch🚀
+      <br>
+      Atlassian Merch🎁
+      <br><br>
+      🚨 Please note you may register as either a team of up to 4 or an individual. All members of a team must fill out this form! Sign up ASAP, so catering can be adjusted accordingly.🚨
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/nXmQkxyEkad1JxGK8)
+    "
+    link: https://www.facebook.com/events/3351963075087587
 
 
   
