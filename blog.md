@@ -17,7 +17,7 @@ subtitle: Stay in the loop with our blog posts! From educational blogs to video 
         {% if post.title != 404 %}
             <div class = "column is-4-desktop is-half-tablet">
                 <div class = "blog-module">
-                    <div class="blog-thumbnail"><img src="{{ post.image }}" alt=""/></div>
+                    <div class="blog-thumbnail"><a href="{{ post.url }}"><img src="{{ post.image }}" alt=""/></a></div>
                     <div class="blog-contents">
                         <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         {% if post.date %}
