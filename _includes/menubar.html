@@ -1,98 +1,94 @@
 <div class="hero is-default">
   <!-- Menubar -->
   <nav class="navbar navbar-wrapper is-transparent is-static">
-      <div class="container">
-          <!-- Left logo-->
-          <div class="navbar-brand">
-              <a class="navbar-item" href="/">
-                  <img src="/assets/images/logos/logo.png">
-              </a>
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="is-cloned">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-          </div>
-          <!-- Right elements -->
-          <div id="is-cloned" class="navbar-menu">
-              <div class="navbar-end">
-                  {% for item in site.data.navigation %}
-                    {% if item.size == 3 %}
-                      <div class="navbar-item is-slide is-centered-tablet has-dropdown is-hoverable">
-                        <a href="{{ item.link }}" class="navbar-link">
-                          {{ item.name }}
-                        </a>
-                        <div class="navbar-dropdown">
-                          <a href="{{ item.link }}" class="navbar-item">
-                            {{ item.name }}
-                          </a>
-                          {% for page in item.dropdown %}
-                            {% if page.name == "Jobs Board" or page.name == "SpArc" or page.name == "Our Constitution" %}
-                                {% capture url %} {{ page.link }} {% endcapture %}
-                                <a href="{{ url }}" target="_blank" class="navbar-item">{{ page.name }}</a>
-                            {% else %}
-                                {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
-                                <a href="{{ url }}" target="_self" class="navbar-item">{{ page.name }}</a>
-                            {% endif %}
-                          {% endfor %}                        
-                        </div>
-                      </div>
-                    {% else %}
-                      <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
-                          {{ item.name }}
-                      </a>
-                    {% endif %}
-                  {% endfor %}
-              </div>
-          </div>
+    <div class="container">
+      <!-- Left logo-->
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="/assets/images/logos/logo.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="is-cloned">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
+      <!-- Right elements -->
+      <div id="is-cloned" class="navbar-menu">
+        <div class="navbar-end">
+          {% for item in site.data.navigation %}
+          {% if item.size == 3 %}
+          <div class="navbar-item is-slide is-centered-tablet has-dropdown is-hoverable">
+            <a href="{{ item.link }}" class="navbar-link">
+              {{ item.name }}
+            </a>
+            <div class="navbar-dropdown">
+              <a href="{{ item.link }}" class="navbar-item">
+                {{ item.name }}
+              </a>
+              {% for page in item.dropdown %}
+              {% if page.name == "Jobs Board" or page.name == "SpArc" or page.name == "Our Constitution" %}
+              {% capture url %} {{ page.link }} {% endcapture %}
+              <a href="{{ url }}" target="_blank" class="navbar-item">{{ page.name }}</a>
+              {% else %}
+              {% capture url %} {{ item.link }}{{ page.link }} {% endcapture %}
+              <a href="{{ url }}" target="_self" class="navbar-item">{{ page.name }}</a>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          {% else %}
+          <a href="{{ item.link }}" class="navbar-item is-slide is-centered-tablet">
+            {{ item.name }}
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </nav>
 </div>
 
 <div class="notification">
   <button class="delete"></button>
   <p class="has-text-centered">
-    <!-- <span class="tag is-info">New</span>
+    <span class="tag is-info">New</span>
     Introducing <b><a href="https://forms.gle/S9hJgkxvMHfWsoD9A">DataSoc Connect</a></b>
     <br>
-    A platform for students to connect with the people they've always wanted to: from friends to professional networks!! -->
-    <span class="tag is-info">New</span>
-    <b><a href="https://www.facebook.com/events/3351963075087587/">2022 DataSoc x Atlassian Datathon</a></b> is here!!
-    <br>
-    <a href="https://forms.gle/DmQ1Q5PgPRovvUHb8">Register now!</a>
+    A platform for students to connect with the people they've always wanted to: from friends to professional networks!!
   </p>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-// Delete notification
-(document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-    const $notification = $delete.parentNode;
+    // Delete notification
+    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+      const $notification = $delete.parentNode;
 
-    $delete.addEventListener('click', () => {
-      $notification.parentNode.removeChild($notification);
+      $delete.addEventListener('click', () => {
+        $notification.parentNode.removeChild($notification);
+      });
     });
-});
-// Get all "navbar-burger" elements
-const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-// Check if there are any navbar burgers
-if ($navbarBurgers.length > 0) {
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
 
-  // Add a click event on each of them
-  $navbarBurgers.forEach( el => {
-    el.addEventListener('click', () => {
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
 
-      // Get the target from the "data-target" attribute
-      const target = el.dataset.target;
-      const $target = document.getElementById(target);
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
 
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      el.classList.toggle('is-active');
-      $target.classList.toggle('is-active');
-    });
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    }
+
   });
-}
-
-});
 </script>
