@@ -1,15 +1,16 @@
 ---
 position: Marketing Director
-portfolio: Operations
+portfolio: 2022 Team
 order: 14
 name: Tiarne Lo
 degree: 4th-Year Data Science and Decisions
-image: tiarne-lo.png
+image: 2022/tiarne-lo.png
 one_line:
 ---
+
 **Favourite Karaoke Song?**
 <br>
-I don't like karaoke, but my favourite song right now is Bad Habits by Ed Sheeran! 
+I don't like karaoke, but my favourite song right now is Bad Habits by Ed Sheeran!
 <br><br>
 **What food can you not live without?**
 <br>

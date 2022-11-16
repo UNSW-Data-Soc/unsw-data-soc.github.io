@@ -1,12 +1,13 @@
 ---
 position: Diversity Ambassador
-portfolio: Executives
+portfolio: 2022 Team
 order: 7
 name: Claire Xue
 degree: 3rd-Year Advanced Mathematics (Honours)
-image: claire-xue.png
+image: 2022/claire-xue.png
 one_line:
 ---
+
 **Who is your favourite TikToker?**
 <br>
 anyone who posts about good food spots, is Keenan Te, or has the 'emotional damage' dude at the end

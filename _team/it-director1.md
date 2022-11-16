@@ -1,12 +1,13 @@
 ---
 position: IT Director
-portfolio: Operations
+portfolio: 2022 Team
 order: 11
 name: Maggie Chan
 degree: 3rd-Year Information Systems
-image: maggie-chan.png
+image: 2022/maggie-chan.png
 one_line:
 ---
+
 **Favourite Karaoke Song?**
 <br>
 Love Story by Taylor Swift

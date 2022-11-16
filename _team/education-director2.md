@@ -1,12 +1,13 @@
 ---
 position: Education Director
-portfolio: Development
+portfolio: 2022 Team
 order: 22
 name: Noah Rubin
 degree: 2nd-Year Data Science and Decisions
-image: noah-rubin.png
+image: 2022/noah-rubin.png
 one_line:
 ---
+
 **Best joke or pickup line**
 <br>
 What do you get when you combine a rhetorical question and a joke? …

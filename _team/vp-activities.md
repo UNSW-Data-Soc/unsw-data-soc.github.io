@@ -1,15 +1,16 @@
 ---
-position: Vice President (Activites)
-portfolio: Executives
+position: Vice President (Activities)
+portfolio: 2022 Team
 order: 3
 name: Farrah Li
 degree: 3rd-Year Data Science and Decisions
-image: farrah-li.png
+image: 2022/farrah-li.png
 one_line:
 ---
+
 **Which Harry Potter house are you in?**
 <br>
-Slytherin 🐍 
+Slytherin 🐍
 <br><br>
 **What are three things you would want to have with you on a deserted island?**
 <br>

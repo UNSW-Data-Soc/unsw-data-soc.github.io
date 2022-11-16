@@ -1,12 +1,13 @@
 ---
 position: HR Director
-portfolio: Activities
+portfolio: 2022 Team
 order: 17
 name: Quincy Zhou
 degree: 2nd-Year Data Science and Decisions
-image: quincy-zhou.png
+image: 2022/quincy-zhou.png
 one_line:
 ---
+
 **Who is your celebrity crush?**
 <br>
 DPR IAN

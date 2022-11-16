@@ -1,12 +1,13 @@
 ---
 position: IT Director
-portfolio: Operations
+portfolio: 2022 Team
 order: 12
 name: William Feng
 degree: 3rd-Year Computer Science/Statistics
-image: william-feng.png
+image: 2022/william-feng.png
 one_line:
 ---
+
 **Favourite Karaoke Song?**
 <br>
 All of Me by John Legend

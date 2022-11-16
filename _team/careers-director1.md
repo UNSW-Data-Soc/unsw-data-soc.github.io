@@ -1,12 +1,13 @@
 ---
 position: Careers Director
-portfolio: Externals
+portfolio: 2022 Team
 order: 8
 name: John Wei
 degree: 4th-Year Data Science and Decisions
-image: john-wei.png
+image: 2022/john-wei.png
 one_line:
 ---
+
 **What is the best dish that you can cook?**
 <br>
 I can cook a well done steak well (jk, tomato and eggs)

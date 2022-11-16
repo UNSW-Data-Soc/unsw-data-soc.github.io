@@ -1,12 +1,13 @@
 ---
 position: Media Director
-portfolio: Operations
+portfolio: 2022 Team
 order: 16
 name: William Dang
 degree: 2nd-Year Data Science and Decisions
-image: william-dang.png
+image: 2022/william-dang.png
 one_line:
 ---
+
 **Favourite Karaoke Song?**
 <br>
 See You Again? Impossible to sing but super hype

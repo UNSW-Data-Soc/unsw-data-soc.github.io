@@ -1,12 +1,13 @@
 ---
 position: Education Director
-portfolio: Development
+portfolio: 2022 Team
 order: 21
 name: Julian Garratt
 degree: 3rd-Year Data Science and Decisions
-image: julian-garratt.png
+image: 2022/julian-garratt.png
 one_line:
 ---
+
 **Best joke or pickup line**
 <br>
 I'd rather not subject anyone to my bad sense of humour

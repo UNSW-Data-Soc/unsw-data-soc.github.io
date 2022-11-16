@@ -1,12 +1,13 @@
 ---
 position: Media Director
-portfolio: Operations
+portfolio: 2022 Team
 order: 15
 name: Srikar Danthurty
 degree: 2nd-Year Data Science and Decisions
-image: srikar-danthurty.png
+image: 2022/srikar-danthurty.png
 one_line:
 ---
+
 **Favourite Karaoke Song?**
 <br>
 T.G.I.F By Katy Perry

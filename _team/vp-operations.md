@@ -1,12 +1,13 @@
 ---
 position: Vice President (Operations)
-portfolio: Executives
+portfolio: 2022 Team
 order: 2
 name: Erica Soenarjo
 degree: 4th-Year Actuarial Studies/Commerce
-image: erica-soenarjo.png
+image: 2022/erica-soenarjo.png
 one_line:
 ---
+
 **Which Harry Potter house are you in?**
 <br>
 Hufflepuff <3

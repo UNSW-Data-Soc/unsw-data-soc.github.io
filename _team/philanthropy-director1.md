@@ -1,12 +1,13 @@
 ---
 position: Philanthropy & Projects Director
-portfolio: Development
+portfolio: 2022 Team
 order: 23
 name: Norton Wu
 degree: 4th-Year Data Science and Decisions
-image: norton-wu.png
+image: 2022/norton-wu.png
 one_line:
 ---
+
 **Best joke or pickup line**
 <br>
 Just get a haircut :)

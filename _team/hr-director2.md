@@ -1,12 +1,13 @@
 ---
 position: HR Director
-portfolio: Activities
+portfolio: 2022 Team
 order: 18
 name: Usmaan Mohideen
 degree: 3rd-Year Commerce/Computer Science
-image: usmaan-mohideen.png
+image: 2022/usmaan-mohideen.png
 one_line:
 ---
+
 **Who is your celebrity crush?**
 <br>
 Zendaya because she's drop dead gorgeous and her personality is viiiibeees man

@@ -1,12 +1,13 @@
 ---
 position: Marketing Director
-portfolio: Operations
+portfolio: 2022 Team
 order: 13
 name: Phoebe Loh
 degree: 2nd-Year Data Science and Decisions
-image: phoebe-loh.png
+image: 2022/phoebe-loh.png
 one_line:
 ---
+
 **Favourite Karaoke Song?**
 <br>
 Since you been gone

@@ -1,12 +1,13 @@
 ---
 position: Social Director
-portfolio: Activities
+portfolio: 2022 Team
 order: 19
 name: Andrew Zhao
 degree: 3rd-Year Commerce/Computer Science
-image: andrew-zhao.png
+image: 2022/andrew-zhao.png
 one_line:
 ---
+
 **Who is your celebrity crush?**
 <br>
 Courtney Cox because she's better than Jennifer Anniston in friends

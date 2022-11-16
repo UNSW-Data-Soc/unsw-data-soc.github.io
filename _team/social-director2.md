@@ -1,12 +1,13 @@
 ---
 position: Social Director
-portfolio: Activities
+portfolio: 2022 Team
 order: 20
 name: Annie Xue
 degree: 3rd-Year Actuarial Studies/Computer Science
-image: annie-xue.png
+image: 2022/annie-xue.png
 one_line:
 ---
+
 **Who is your celebrity crush?**
 <br>
 SKT T1 Faker because of my esports career

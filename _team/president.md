@@ -1,12 +1,13 @@
 ---
 position: President
-portfolio: Executives
+portfolio: 2022 Team
 order: 0
 name: Kai Mashimo
 degree: 3rd-Year Data Science and Decisions
-image: kai-mashimo.png
+image: 2022/kai-mashimo.png
 one_line:
 ---
+
 **Which Harry Potter house are you in?**
 <br>
 Ravenclaw

@@ -1,12 +1,13 @@
 ---
 position: Secretary
-portfolio: Executives
+portfolio: 2022 Team
 order: 5
 name: Samraggi Pant
 degree: 4th-Year Data Science and Decisions
-image: samraggi-pant.png
+image: 2022/samraggi-pant.png
 one_line:
 ---
+
 **Who is your favourite TikToker?**
 <br>
 nmillz1

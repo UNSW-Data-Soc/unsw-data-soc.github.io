@@ -1,15 +1,16 @@
 ---
 position: Treasurer
-portfolio: Executives
+portfolio: 2022 Team
 order: 6
 name: Shubh Patel
 degree: 3rd-Year Data Science and Decisions
-image: shubh-patel.png
+image: 2022/shubh-patel.png
 one_line:
 ---
+
 **Who is your favourite TikToker?**
 <br>
-I don't use Tik Tok unfortunately :( 
+I don't use Tik Tok unfortunately :(
 <br><br>
 **What is your favourite season and why?**
 <br>

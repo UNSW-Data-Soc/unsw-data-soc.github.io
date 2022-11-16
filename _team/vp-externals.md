@@ -1,12 +1,13 @@
 ---
 position: Vice President (Externals)
-portfolio: Executives
+portfolio: 2022 Team
 order: 1
 name: Celine Choo
 degree: 4th-Year Data Science and Decisions
-image: celine-choo.png
+image: 2022/celine-choo.png
 one_line:
 ---
+
 **Which Harry Potter house are you in?**
 <br>
 Gryffindor

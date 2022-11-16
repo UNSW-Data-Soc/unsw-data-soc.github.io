@@ -1,12 +1,13 @@
 ---
 position: Sponsorships Director
-portfolio: Externals
+portfolio: 2022 Team
 order: 10
 name: Kento Seki
 degree: 2nd-Year Data Science and Decisions
-image: kento-seki.png
+image: 2022/kento-seki.png
 one_line:
 ---
+
 **What is the best dish that you can cook?**
 <br>
 Scones
