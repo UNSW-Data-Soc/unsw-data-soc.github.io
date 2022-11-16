@@ -10,8 +10,14 @@ Events:
 #    description: (wrap in double quotes - if it fails, try single quotes)
 #    link: 
 
+
+
+###############
+# 2022 Events #
+###############
+
   - name: 2022 Peer Mentor Recruitment
-    img: /assets/images/events/peer-mentor-recruitment.jpeg
+    img: /assets/images/events/2022/peer-mentor-recruitment.jpeg
     start-date: 2022-01-11
     end-date: 2022-01-25
     description: '
@@ -23,7 +29,7 @@ Events:
     link: https://www.facebook.com/events/1069631247194390/
 
   - name: 2022 Subcommittee Recruitment
-    img: /assets/images/events/subcommittee-recruitment.jpeg
+    img: /assets/images/events/2022/subcommittee-recruitment.jpeg
     start-date: 2022-02-14
     end-date: 2022-03-01
     description: '
@@ -51,7 +57,7 @@ Events:
     link: https://www.facebook.com/events/313583824120800/
 
   - name: Decoding Data Science
-    img: /assets/images/events/decoding-data-science.jpeg
+    img: /assets/images/events/2022/decoding-data-science.jpeg
     start-date: 2022-02-17
     end-date: 2022-02-17
     location: Online
@@ -65,7 +71,7 @@ Events:
     link: https://www.facebook.com/events/678522003342187
 
   - name: Donuts, Donations and Data
-    img: /assets/images/events/donuts-donations-and-data.jpeg
+    img: /assets/images/events/2022/donuts-donations-and-data.jpeg
     start-date: 2022-02-25
     end-date: 2022-03-02
     location: Library Walkway, Online
@@ -86,7 +92,7 @@ Events:
     link: https://www.facebook.com/events/483784853122017
 
   - name: Phil Good Projects
-    img: /assets/images/events/phil-good-projects.jpeg
+    img: /assets/images/events/2022/phil-good-projects.jpeg
     start-date: 2022-02-19
     end-date: 2022-02-28
     description: "
@@ -108,7 +114,7 @@ Events:
     link: https://www.facebook.com/events/477227417142129
 
   - name: Peer Mentee Recruitment
-    img: /assets/images/events/peer-mentee-recruitment.jpeg
+    img: /assets/images/events/2022/peer-mentee-recruitment.jpeg
     start-date: 2022-02-26
     end-date: 2022-02-26
     location: Physics Lawn
@@ -128,7 +134,7 @@ Events:
     link: https://www.facebook.com/events/685350992824474/
 
   - name: "Let’s talk about it: Tech Resumes"
-    img: /assets/images/events/tech-resumes.jpeg
+    img: /assets/images/events/2022/tech-resumes.jpeg
     start-date: 2022-03-08
     end-date: 2022-03-08
     location: Online
@@ -142,7 +148,7 @@ Events:
     link: https://www.facebook.com/events/333626468545688/
 
   - name: "Neon Party"
-    img: /assets/images/events/neon-party.jpeg
+    img: /assets/images/events/2022/neon-party.jpeg
     start-date: 2022-03-03
     end-date: 2022-03-03
     location: Side Bar (509 Pitt St, Sydney)
@@ -162,7 +168,7 @@ Events:
     link: https://www.facebook.com/events/1116867522458459/
 
   - name: "Let’s talk about it: Assessment Centres"
-    img: /assets/images/events/assessment-centres.jpeg
+    img: /assets/images/events/2022/assessment-centres.jpeg
     start-date: 2022-03-15
     end-date: 2022-03-15
     location: Online
@@ -182,7 +188,7 @@ Events:
     link: https://www.facebook.com/events/1579465375720393/
     
   - name: "LinkedIn Photoshoot: Bubbly Shots"
-    img: /assets/images/events/linkedin-photoshoot.jpeg
+    img: /assets/images/events/2022/linkedin-photoshoot.jpeg
     start-date: 2022-03-17
     end-date: 2022-03-17
     location: UNSW Colombo LG01
@@ -200,7 +206,7 @@ Events:
     link: https://www.facebook.com/events/4463412300431529/
 
   - name: "Volleyball Tournament | ASOC x UNSW DataSoc"
-    img: /assets/images/events/volleyball-tournament.jpeg
+    img: /assets/images/events/2022/volleyball-tournament.jpeg
     start-date: 2022-04-10
     end-date: 2022-04-10
     location: Bankstown Bruins Basketball Court
@@ -224,7 +230,7 @@ Events:
     link: https://www.facebook.com/events/305451835028153/
 
   - name: "Let’s talk about it: Interview | UNSW DataSoc x KPMG"
-    img: /assets/images/events/interviews.jpeg
+    img: /assets/images/events/2022/interviews.jpeg
     start-date: 2022-04-07
     end-date: 2022-04-07
     location: Online <a href="https://zoom.us/j/4465958784?pwd=YlJjRnZnaVBsNnJDVGpKSHZ6OHJXZz09&fbclid=IwAR0lPzUxW7qzmiwZf-ag1WaZggjsJYG2UpPf6wcyjuXW2ZPEaOv2IFgfmmc">(Zoom)</a>
@@ -238,7 +244,7 @@ Events:
     link: https://www.facebook.com/events/674673953852114/s
 
   - name: "UNSW MathSoc x DataSoc Camp: Game On!"
-    img: /assets/images/events/camp.jpeg
+    img: /assets/images/events/2022/camp.jpeg
     start-date: 2022-06-03
     end-date: 2022-06-05
     location: Waterslea, Shoalhaven
@@ -251,7 +257,7 @@ Events:
     link: https://www.facebook.com/events/385274863414986
 
   - name: "Sizzle n Mingle"
-    img: /assets/images/events/bbq.jpeg
+    img: /assets/images/events/2022/bbq.jpeg
     start-date: 2022-05-15
     end-date: 2022-05-15
     location: Coogee Beach
@@ -265,7 +271,7 @@ Events:
     link: https://www.facebook.com/events/726105562136279/
 
   - name: "Industry Mentoring Program"
-    img: /assets/images/events/industry_mentoring.jpeg
+    img: /assets/images/events/2022/industry_mentoring.jpeg
     start-date: 2022-05-10
     end-date: 2022-05-20
     location: Online
@@ -284,7 +290,7 @@ Events:
     link: https://www.facebook.com/events/730205381442202/
 
   - name: "Intro to Big Data Analytics"
-    img: /assets/images/events/intro-to-big-data-analytics.jpeg
+    img: /assets/images/events/2022/intro-to-big-data-analytics.jpeg
     start-date: 2022-05-30
     end-date: 2022-05-30
     time: 5:30pm-6:30pm
@@ -307,7 +313,7 @@ Events:
     link: https://www.facebook.com/events/2393899097575492/
 
   - name: "Networking Night"
-    img: /assets/images/events/networking-night.jpg
+    img: /assets/images/events/2022/networking-night.jpg
     start-date: 2022-06-30
     end-date: 2022-06-30
     time: 6:00pm-8:00pm
@@ -328,7 +334,7 @@ Events:
     link: https://www.facebook.com/events/1248705565660443/
 
   - name: "The Human Race: DataSoc x QSIS x WIESoc Amazing Race"
-    img: /assets/images/events/amazing-race.jpg
+    img: /assets/images/events/2022/amazing-race.jpg
     start-date: 2022-07-09
     end-date: 2022-07-09
     time: 2:00pm-5:00pm
@@ -347,7 +353,7 @@ Events:
     link: https://www.facebook.com/events/592237178893862/
 
   - name: "WIT x DataSoc x Quantium Present: Diversity Drivers"
-    img: /assets/images/events/diversity-drivers.jpg
+    img: /assets/images/events/2022/diversity-drivers.jpg
     start-date: 2022-07-05
     end-date: 2022-07-05
     time: 3:00pm-5:00pm
@@ -368,7 +374,7 @@ Events:
     link: https://www.facebook.com/events/807769423538055/
 
   - name: "Quantium Trivia and Pizza Night"
-    img: /assets/images/events/trivia-pizza.jpg
+    img: /assets/images/events/2022/trivia-pizza.jpg
     start-date: 2022-07-07
     end-date: 2022-07-07
     time: 4:00pm
@@ -385,7 +391,7 @@ Events:
     link: https://drive.google.com/file/d/1osW8QnKH45VXmVD3JT-YT0-R0XgIEaW1/view
 
   - name: "BarbeCure"
-    img: /assets/images/events/barbecure.jpeg
+    img: /assets/images/events/2022/barbecure.jpeg
     start-date: 2022-07-13
     end-date: 2022-07-13
     time: 1:00pm-4:00pm
@@ -404,7 +410,7 @@ Events:
     link: https://www.facebook.com/events/452226796238839/
 
   - name: "Hoodies 2022"
-    img: /assets/images/events/hoodies-2022.jpeg
+    img: /assets/images/events/2022/hoodies-2022.jpeg
     start-date: 2022-07-18
     end-date: 2022-07-29
     description: "
@@ -427,7 +433,7 @@ Events:
     link: https://www.facebook.com/events/755828372234097/
 
   - name: "Predicting Bitcoin with Neural Networks"
-    img: /assets/images/events/predicting-bitcoin.jpg
+    img: /assets/images/events/2022/predicting-bitcoin.jpg
     start-date: 2022-07-26
     end-date: 2022-07-26
     time: 5:30pm
@@ -446,7 +452,7 @@ Events:
     link: https://www.facebook.com/events/2022346321285816/
 
   - name: "Wish Upon a Star"
-    img: /assets/images/events/wish-upon-a-star.jpg
+    img: /assets/images/events/2022/wish-upon-a-star.jpg
     start-date: 2022-07-28
     end-date: 2022-07-28
     time: 1:00pm-3:00pm
@@ -463,7 +469,7 @@ Events:
     link: https://www.facebook.com/events/573935251107275
 
   - name: "Data1001 Workshop"
-    img: /assets/images/events/data1001-workshop.jpeg
+    img: /assets/images/events/2022/data1001-workshop.jpeg
     start-date: 2022-08-10
     end-date: 2022-08-10
     time: 5:30pm-7:30pm
@@ -482,7 +488,7 @@ Events:
     link: https://www.facebook.com/events/736002614122643/
 
   - name: "Starterthon"
-    img: /assets/images/events/starterthon.jpg
+    img: /assets/images/events/2022/starterthon.jpg
     start-date: 2022-10-08
     end-date: 2022-10-09
     time: 9:00am-5:00pm
@@ -497,7 +503,7 @@ Events:
     link: https://www.facebook.com/events/1030583134265743/
 
   - name: "CommInt x DataSoc x RealSoc: Cloud Nine at OPM"
-    img: /assets/images/events/cloud-nine-at-opm.jpg
+    img: /assets/images/events/2022/cloud-nine-at-opm.jpg
     start-date: 2022-10-14
     end-date: 2022-10-14
     time: 10:00pm
@@ -515,7 +521,7 @@ Events:
     link: https://www.facebook.com/events/806108084177700/
 
   - name: "AGM 2022"
-    img: /assets/images/events/agm-2022.jpeg
+    img: /assets/images/events/2022/agm-2022.jpeg
     start-date: 2022-09-29
     end-date: 2022-09-29
     time: 7:00pm - 8:00pm
@@ -533,7 +539,7 @@ Events:
     link: https://www.facebook.com/events/614136390343006/
 
   - name: "Pushing Past Uni"
-    img: /assets/images/events/pushing-past-uni.jpg
+    img: /assets/images/events/2022/pushing-past-uni.jpg
     start-date: 2022-10-25
     end-date: 2022-10-25
     time: 5:00pm-6:00pm
@@ -550,7 +556,7 @@ Events:
     link: https://www.facebook.com/events/821083345867956/
 
   - name: "2023 Director Recruitment"
-    img: /assets/images/events/2023-director-recruitment.jpg
+    img: /assets/images/events/2022/2023-director-recruitment.jpg
     start-date: 2022-10-17
     end-date: 2022-10-30
     location: Online
@@ -568,7 +574,7 @@ Events:
     link: https://www.facebook.com/events/1337838027041161/
     
   - name: "Atlassian Datathon"
-    img: /assets/images/events/atlassian_datathon.jpeg
+    img: /assets/images/events/2022/atlassian_datathon.jpeg
     start-date: 2022-11-04
     end-date: 2022-11-04
     time: 9:00am - 4:00pm
@@ -593,43 +599,6 @@ Events:
       [REGISTER HERE!](https://forms.gle/nXmQkxyEkad1JxGK8)
     "
     link: https://www.facebook.com/events/3351963075087587
-
-
-  
-
-
-
-
-  
-
-# === Template ===
-#  - name: 
-#    img: /assets/images/events/
-#    start-date: 
-#    end-date: 
-#    location: 
-#    time: 
-#    description: (wrap in double quotes - if it fails, try single quotes)
-#    link: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
