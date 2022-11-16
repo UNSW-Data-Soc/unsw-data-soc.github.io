@@ -5,7 +5,7 @@ subtitle: Stay in the loop with our blog posts! From educational guides to opini
 ---
 
 <link rel="stylesheet" href="/assets/css/paginate.css">
-<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/blog_styles.css">
 
 <script type='text/javascript' src='/assets/js/paginate.js'>
 </script>

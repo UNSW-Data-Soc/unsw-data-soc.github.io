@@ -1,0 +1,147 @@
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 0 0 1rem;
+}
+
+.blog-image {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.tags-container {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.blog-module {
+  position: relative;
+  justify-content: center;
+  /* display: block; */
+  background-color: white;
+  height: 30rem;
+  width: 22.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  /* margin: 0 5rem 5rem 0; */
+  margin: auto auto 2.5rem auto;
+  overflow: hidden;
+}
+
+.blog-module * {
+  transition: 0.3s ease all;
+}
+/* .blog-module:hover {
+    
+} */
+
+/* idk how to css lol */
+/* .blog-module:hover .thumbnail img {
+    opacity: 0.6;
+} */
+
+.blog-module:hover .blog-thumbnail {
+  height: 12rem;
+  filter: blur(1.5px);
+}
+
+.blog-module:hover .blog-title {
+  height: auto;
+}
+
+.blog-module:hover .blog-contents {
+  padding-top: 1rem;
+  height: auto;
+}
+
+.blog-thumbnail {
+  height: 22.5rem;
+  width: 22.5rem;
+  overflow: hidden;
+}
+
+.blog-thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-title {
+  display: flex;
+  text-align: center;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  /* font-family: font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+}
+.blog-title a {
+  font-size: 1.4rem;
+  /* font-weight: 500; */
+  line-height: 1.2;
+  color: #25313c;
+  font-family: "Nexa Bold", sans-serif;
+}
+
+.blog-description {
+  padding: 0.3rem 1.5rem 1rem 1.5rem;
+  font-size: 14px;
+  font-weight: 300;
+  color: #25313c;
+}
+
+.desc-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: end;
+  overflow: hidden;
+}
+
+.desc-text p:after {
+  content: "";
+}
+
+.blog-contents {
+  padding: 0.5rem 1rem;
+  height: 9rem;
+}
+
+.blog-data {
+  text-align: center;
+  font-size: 12px;
+  color: #6d7d8b;
+  /* padding: 3rem 0; */
+}
+
+.blog-grid-container {
+  margin: 5rem auto;
+  max-width: 90rem;
+}
+
+@media (max-width: 525px) {
+  .blog-grid-container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 525px) {
+  .blog-grid-container {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .blog-module {
+    width: 16rem;
+  }
+
+  .blog-title a {
+    font-size: 1.2rem;
+    height: 4rem;
+  }
+
+  .blog-title {
+    padding-bottom: 0.2rem;
+  }
+}

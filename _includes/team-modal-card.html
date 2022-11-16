@@ -1,6 +1,6 @@
-<div id="modal-{{ person.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">  
-    <div class="modal-background"></div>  
-    <div class="modal-content">  
+<div id="modal-{{ person.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content">
         <header class="modal-card-head">
             <div class="modal-card-title">
                 <p class="title">{{ include.name }}</p>
@@ -12,7 +12,7 @@
                     <img src="{{ include.image | prepend: '/assets/images/team/' }}" alt="{{ include.name }}" title="">
                 </figure>
             </div>
-            <button class="modal-close is-large" aria-label="close"></button> 
+            <button class="modal-close is-large" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
             <p class="subtitle is-5"><i>{{ include.one_line }}</i></p>
@@ -21,7 +21,7 @@
             </div>
         </section>
         <footer class="modal-card-foot">
-            <button class="button modal-button-close" aria-label="close">Close</button> 
+            <button class="button modal-button-close" aria-label="close">Close</button>
         </footer>
     </div>
 </div>

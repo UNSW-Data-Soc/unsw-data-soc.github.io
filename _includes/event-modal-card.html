@@ -5,7 +5,7 @@
             <div class="modal-card-title">
                 {% assign eventName = event.name | downcase %}
                 {% if event.name.size > 40 %}
-                    {% assign eventName = eventName | truncate: 40 %}
+                {% assign eventName = eventName | truncate: 40 %}
                 {% endif %}
                 <p class="title">{{ eventName }}</p>
             </div>

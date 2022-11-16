@@ -1,51 +1,51 @@
 <!-- Footer -->
-<footer
-  class="footer footer-light-medium"
-  style="
+<footer class="footer footer-light-medium" style="
     background: linear-gradient(27deg, rgb(209, 209, 209) 0%, rgb(255, 255, 255) 100%);
     padding: 4rem 1.5rem 6rem !important;
-  "
->
-  <div class="container">
-    <div class="columns">
-      <!-- Left section -->
-      <div class="column is-6">
-        <div class="pt-10 pb-10">
-          <img class="small-footer-logo" src="/assets/images/logos/logo.png" alt="" />
-          <div class="footer-description pt-10 pb-10">
-            Made with <i class="fa fa-heart color-red"></i> by UNSW Data Science Society
-            <br><br>
-            Proudly supported by Arc UNSW
-            <br><br><br>
-            <em>UNSW DataSoc acknowledges the Aboriginal and Torres Strait Islander peoples as the first inhabitants of this nation and the Bedegal people as the Traditional Custodians of the Land where the UNSW Kensington campus is situated. We pay our respects to all Elders past, present and future.</em>
-          </div>
-        </div>
-      </div>
-      <!-- Right section -->
-      <div class="column is-4 is-offset-2">
+  ">
+    <div class="container">
         <div class="columns">
-          <!-- Other pages -->
-          <div class="column">
-            <ul class="footer-column">
-              <li class="column-header">DataSoc</li>
-              {% for item in site.data.navigation %}
-              <li class="column-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-          <!-- Online presence -->
-          <div class="column">
-            <ul class="footer-column">
-              <li class="column-header">Get in touch</li>
-              {% for item in site.data.contact.Media %}
-              <li class="column-item">
-                <a href="{{ item.link }}"><i class="{{ item.img_class }}"></i> {{ item.name }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
+            <!-- Left section -->
+            <div class="column is-6">
+                <div class="pt-10 pb-10">
+                    <img class="small-footer-logo" src="/assets/images/logos/logo.png" alt="" />
+                    <div class="footer-description pt-10 pb-10">
+                        Made with <i class="fa fa-heart color-red"></i> by UNSW Data Science Society
+                        <br><br>
+                        Proudly supported by Arc UNSW
+                        <br><br><br>
+                        <em>UNSW DataSoc acknowledges the Aboriginal and Torres Strait Islander peoples as the first
+                            inhabitants of this nation and the Bedegal people as the Traditional Custodians of the Land
+                            where the UNSW Kensington campus is situated. We pay our respects to all Elders past,
+                            present and future.</em>
+                    </div>
+                </div>
+            </div>
+            <!-- Right section -->
+            <div class="column is-4 is-offset-2">
+                <div class="columns">
+                    <!-- Other pages -->
+                    <div class="column">
+                        <ul class="footer-column">
+                            <li class="column-header">DataSoc</li>
+                            {% for item in site.data.navigation %}
+                            <li class="column-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!-- Online presence -->
+                    <div class="column">
+                        <ul class="footer-column">
+                            <li class="column-header">Get in touch</li>
+                            {% for item in site.data.contact.Media %}
+                            <li class="column-item">
+                                <a href="{{ item.link }}"><i class="{{ item.img_class }}"></i> {{ item.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </footer>

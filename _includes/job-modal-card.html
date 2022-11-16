@@ -1,20 +1,20 @@
-<div id="job-- {{ include.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">  
-    <div class="modal-background"></div>  
-    <div class="modal-content">  
+<div id="job-- {{ include.name | replace: ' ', '-' | downcase }}" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content">
         <header class="modal-card-head is-flex-wrap-nowrap">
-                <div class = "content pt-0 mb-0">
-                <p class="modal-card-title  is-flex-wrap-nowrap" >{{ include.name }}</p>
-                </div>
-            <button class="modal-close is-large" aria-label="close"></button> 
+            <div class="content pt-0 mb-0">
+                <p class="modal-card-title  is-flex-wrap-nowrap">{{ include.name }}</p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
             <div class="content">
                 <p>{{ include.description | markdownify }}</p>
-                <p><a href = "{{include.link}}">Apply Now!</a></p>
+                <p><a href="{{include.link}}">Apply Now!</a></p>
             </div>
         </section>
         <footer class="modal-card-foot">
-            <button class="button modal-button-close" aria-label="close">Close</button> 
+            <button class="button modal-button-close" aria-label="close">Close</button>
         </footer>
     </div>
 </div>
