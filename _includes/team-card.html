@@ -1,20 +1,21 @@
 <div class="card" style="padding-top: 1.5rem">
     <div class="card-image is-square">
-      <figure class="image is-256x256">
-        <img src="{{ include.image | prepend: '/assets/images/team/' }}" alt="{{ include.name }}">
-      </figure>
+        <figure class="image is-256x256">
+            <img src="{{ include.image | prepend: '/assets/images/team/' }}" alt="{{ include.name }}">
+        </figure>
     </div>
-    <div class="card-content">
-      <div class="media">
-        <div class="media-content">
-          <p class="title is-4">{{ include.name }}</p>
-          <p class="subtitle is-5">{{ include.position }}</p>
-          <p class="subtitle is-6"><em>{{ include.degree }}</em></p>
+    <div class="card-content has-text-centered">
+        <div class="media">
+            <div class="media-content">
+                <p class="title is-4">{{ include.name }}</p>
+                <p class="subtitle is-5">{{ include.position }}</p>
+                <p class="subtitle is-6"><em>{{ include.degree }}</em></p>
+            </div>
         </div>
-      </div>
-      <div class="content">
-          <p><i>{{ include.one_line }}</i></p>
-        <span class="button modal-button is-info is-outlined" data-target="modal-{{ include.name | replace: ' ', '-' | downcase }}">{{ include.button_text }}</span> 
-      </div>
+        <div class="content">
+            <p><i>{{ include.one_line }}</i></p>
+            <span class="button modal-button is-info is-outlined"
+                data-target="modal-{{ include.name | replace: ' ', '-' | downcase }}">{{ include.button_text }}</span>
+        </div>
     </div>
 </div>
