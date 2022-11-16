@@ -24,7 +24,7 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
     </div>
     <div class="tab-content" style="background:#f0f2f5">
     {% for i in (0..1) %}
-        {% assign portfolio = site.team | where:"portfolio",portfolios[i] | sort: "order" %}
+        {% assign portfolio = site.team | where:"portfolio", portfolios[i] | sort: "order" %}
         {% if forloop.first == true %}
             {% assign active_status = "is-active" %}
         {% else %}
@@ -34,7 +34,13 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
             <div class="content">
                 {% assign remaining_people = portfolio.size %}
                 {% for person in portfolio %}
-                    {% assign value = forloop.index0 | modulo: 4 %}
+                    <!-- 5 cards per row for 2022 Team (since there are 25 altogether) -->
+                    {% if portfolios[i] == "2022 Team" %}
+                        {% assign value = forloop.index0 | modulo: 5 %}
+                    {% else %}
+                        {% assign value = forloop.index0 | modulo: 4 %}
+                    {% endif %}
+                    <!-- Ways to layout the remaining people in the last row -->
                     {% if value == 0 %}
                         {% if forloop.index0 != 0 %}
                             </div>
@@ -51,7 +57,13 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
                             </div>
                         {% endif %}
                     {% endif %}
-                        <div class="column is-3">
+                        <!-- 5 cards per row for 2022 Team (since there are 25 altogether) -->
+                        {% if portfolios[i] == "2022 Team" %}
+                            <div class="column is-24">
+                        {% else %}
+                            <div class="column is-3">
+                        {% endif %}
+                        <!-- Add information for each card -->
                         {% if person.portfolio == "Subcommittee" %}
                             {% include team-card.html image=person.image name=person.name position=person.position degree=person.degree one_line=person.one_line button_text="Who are we?" %}
                         {% else %}
