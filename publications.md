@@ -29,7 +29,7 @@ subtitle: You can find all of our publications here, including our newsletters a
                         <article class="columns featured">
                             <div class="column is-6 featured-content va centered">
                                 <div>
-                                    <h1 class="title post-title">2022 First Year Guide</h1>
+                                    <h1 class="title post-title">2023 First Year Guide</h1>
                                     <p class="post-excerpt">
                                         UNSW has a whole host of different experiences and opportunities, so much so that it can feel super daunting and confusing.
                                         <br><br>
