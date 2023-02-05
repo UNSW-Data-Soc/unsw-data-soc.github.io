@@ -17,7 +17,7 @@ subtitle: Feel free to reach out to us here if you have any questions or queries
                 <br><br>
                 Ready to make things official? Become a member of DataSoc with the link below!
                 <br><br>
-                <a href="https://docs.google.com/forms/d/1MlSuVwCI6k0VoaKl1h89ywRsv1zMQAxN8XxZOofrzSk" target="_blank">
+                <a href="https://forms.gle/U5kJ1kAmodBBrU6L6" target="_blank">
                     <button class="button is-large is-info is-bold">Join Us!</button></a>
                 <br><br><br>
             </p>

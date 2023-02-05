@@ -133,7 +133,7 @@ title: Welcome to DataSoc
                     <h2 class="subtitle is-4 has-text-light">University of New South Wales</h2>
                     <br>
                     <p class="">
-                        <a href="https://docs.google.com/forms/d/1MlSuVwCI6k0VoaKl1h89ywRsv1zMQAxN8XxZOofrzSk" class="button button-cta is-large is-bold btn-align secondary-btn raised" target="_blank">Join Us!</a>
+                        <a href="https://forms.gle/U5kJ1kAmodBBrU6L6" class="button button-cta is-large is-bold btn-align secondary-btn raised" target="_blank">Join Us!</a>
                     </p>
                     <div class="social-links pt-5">
                         {% for item in site.data.contact.Media %}
