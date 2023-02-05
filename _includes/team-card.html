@@ -15,7 +15,7 @@
         <div class="content">
             <p><i>{{ include.one_line }}</i></p>
             <span class="button modal-button is-info is-outlined"
-                data-target="modal-{{ include.name | replace: ' ', '-' | downcase }}">{{ include.button_text }}</span>
+                data-target="modal-{{ person.image | replace: '/', '-' | replace: '.', '-' | downcase }}">{{ include.button_text }}</span>
         </div>
     </div>
 </div>
