@@ -4,60 +4,78 @@ Major Sponsors:
     link: https://www.quantium.com/
     description: |-
       Quantium delivers breakthrough solutions in data and technology.
+
   - name: Atlassian
     icon: /assets/images/logos/custom/atlassian.png
     link: https://www.atlassian.com/
     description: |-
       Atlassian develops world class products for software developers, project managers, and content management.
+
+  - name: National Australia Bank
+    icon: /assets/images/logos/custom/nab.png
+    link: https://www.nab.com.au/
+    description: |-
+      National Australia Bank delivers sustainable outcomes for customers, colleagues and community as Australia's largest business bank.
+
+  - name: Resolution Life
+    icon: /assets/images/logos/custom/resolution_life.png
+    link: https://www.resolutionlife.com/
+    description: |-
+      Resolution Life is resolutely committed to protecting financial futures.
+
+  - name: Allianz
+    icon: /assets/images/logos/custom/allianz.png
+    link: https://www.allianz.com/
+    description: |-
+      Allianz is an international financial services provider, offering worldwide products and solutions in insurance and asset management.
+
   # - name: Westpac
   #   icon: /assets/images/logos/custom/westpac.png
   #   link: https://www.westpac.com.au/
   #   description: |-
   #     Westpac provides a broad range of consumer, business and institutional banking and wealth management services.
-  - name: Macquarie Bank
-    icon: /assets/images/logos/custom/macquarie.png
-    link: https://www.macquarie.com.au/
-    description: |-
-      Macquarie is a global financial services group operating in 33 markets.
-  - name: Commonwealth Bank of Australia
-    icon: /assets/images/logos/custom/commbank.png
-    link: https://www.commbank.com.au/
-    description: |-
 
-      Commonwealth Bank is Australia's leading provider of integrated financial services.
-  - name: Alooba
-    icon: /assets/images/logos/custom/alooba.png
-    link: https://www.alooba.com/
-    description: |-
+  # - name: Macquarie Bank
+  #   icon: /assets/images/logos/custom/macquarie.png
+  #   link: https://www.macquarie.com.au/
+  #   description: |-
+  #     Macquarie is a global financial services group operating in 33 markets.
+  
+  # - name: Alooba
+  #   icon: /assets/images/logos/custom/alooba.png
+  #   link: https://www.alooba.com/
+  #   description: |-
+  #     Alooba is the world's only data & analytics skills assessment platform, embracing a new recruitment process.
 
-      Alooba is the world's only data & analytics skills assessment platform, embracing a new recruitment process.
-  - name: Mirvac
-    icon: /assets/images/logos/custom/mirvac.png
-    link: https://www.mirvac.com/
-    description: |-
+  # - name: Mirvac
+  #   icon: /assets/images/logos/custom/mirvac.png
+  #   link: https://www.mirvac.com/
+  #   description: |-
+  #     Mirvac is an Australian property group with a clearly defined purpose to reimagine urban life.
 
-      Mirvac is an Australian property group with a clearly defined purpose to reimagine urban life.
-  - name: Relevance AI
-    icon: /assets/images/logos/custom/relevance_ai.png
-    link: https://relevance.ai/
-    description: |-
-      Relevance AI is a machine learning SaaS startup building a platform to help companies and developers leverage machine learning vectors to extract business value from qualitative data.
-  - name: KPMG
-    icon: /assets/images/logos/custom/kpmg.png
-    link: https://home.kpmg/au/en/home.html
-    description: |-
+  # - name: Relevance AI
+  #   icon: /assets/images/logos/custom/relevance_ai.png
+  #   link: https://relevance.ai/
+  #   description: |-
+  #     Relevance AI is a machine learning SaaS startup building a platform to help companies and developers leverage machine learning vectors to extract business value from qualitative data.
 
-      KPMG is a global network of professional services firms providing Audit, Tax and Advisory services.
-  - name: Canva
-    icon: /assets/images/logos/custom/canva.png
-    link: https://www.canva.com/en_au/
-    description: |-
-      Canva is an online design and publishing tool with a mission to empower everyone in the world to design anything and publish anywhere.
-  - name: Optus
-    icon: /assets/images/logos/custom/optus.png
-    link: https://www.optus.com.au/
-    description: |-
-      Optus is an Australian leader in telecommunications, delivering cutting-edge communications and entertainment services.
+  # - name: KPMG
+  #   icon: /assets/images/logos/custom/kpmg.png
+  #   link: https://home.kpmg/au/en/home.html
+  #   description: |-
+
+  #     KPMG is a global network of professional services firms providing Audit, Tax and Advisory services.
+  # - name: Canva
+  #   icon: /assets/images/logos/custom/canva.png
+  #   link: https://www.canva.com/en_au/
+  #   description: |-
+  #     Canva is an online design and publishing tool with a mission to empower everyone in the world to design anything and publish anywhere.
+
+  # - name: Optus
+  #   icon: /assets/images/logos/custom/optus.png
+  #   link: https://www.optus.com.au/
+  #   description: |-
+  #     Optus is an Australian leader in telecommunications, delivering cutting-edge communications and entertainment services.
 
 Partners:
   - name: Akuna Capital
@@ -65,36 +83,54 @@ Partners:
     link: https://akunacapital.com/
     description: |-
       Akuna Capital is an innovative trading firm with a strong focus on collaboration, cutting-edge technology, data-driven solutions and automation.
-  - name: National Australia Bank
-    icon: /assets/images/logos/custom/nab.png
-    link: https://www.nab.com.au/
-    description: |-
-      National Australia Bank delivers sustainable outcomes for customers, colleagues and community as Australia's largest business bank.
-  - name: IMC
-    icon: /assets/images/logos/custom/imc.png
-    link: https://www.imc.com/ap/
-    description: |-
-      IMC provides liquidity to the financial markets globally
-  - name: Citadel
-    icon: /assets/images/logos/custom/citadel.png
-    link: https://www.citadel.com/
-    description: |-
-      Citadel brings together the art of investing with the science of finance to help capital partners achieve their financial goals.
-  - name: Autumn Compass
-    icon: /assets/images/logos/custom/autumn_compass.png
-    link: https://www.autumncompass.com/
-    description: |-
-      Autumn Compass is a proprietary trading firm developing clever algorithms to provide liquidity on financial markets across Asia-Pacific.
-  - name: Synogize
-    icon: /assets/images/logos/custom/synogize.webp
-    link: https://www.synogize.io/
-    description: |-
-      Synogize provides an exceptional experience, value and bridges the gap betwen people, process & technologies with data and analytics.
+
   - name: Alteryx
     icon: /assets/images/logos/custom/alteryx.png
     link: https://www.synogize.io/
     description: |-
       Alteryx enables everyone to deliver breakthrough outcomes with analytics automation.
+
+  - name: EY
+    icon: /assets/images/logos/custom/ey.png
+    link: https://www.ey.com/
+    description: |-
+      EY exists to build a better working world, helping to create long-term value for clients, people and society, and to build trust in the capital markets.
+
+  - name: Commonwealth Bank of Australia
+    icon: /assets/images/logos/custom/commbank.png
+    link: https://www.commbank.com.au/
+    description: |-
+      Commonwealth Bank is Australia's leading provider of integrated financial services.
+
+  - name: Citadel
+    icon: /assets/images/logos/custom/citadel.png
+    link: https://www.citadel.com/
+    description: |-
+      Citadel brings together the art of investing with the science of finance to help capital partners achieve their financial goals.
+
+  - name: Accenture
+    icon: /assets/images/logos/custom/accenture.png
+    link: https://www.accenture.com/
+    description: |-
+      Accenture provides services to build a digital core, optimise operations, and accelerate revenue growth at speed and scale.  
+
+  # - name: IMC
+  #   icon: /assets/images/logos/custom/imc.png
+  #   link: https://www.imc.com/ap/
+  #   description: |-
+  #     IMC provides liquidity to the financial markets globally
+  
+  # - name: Autumn Compass
+  #   icon: /assets/images/logos/custom/autumn_compass.png
+  #   link: https://www.autumncompass.com/
+  #   description: |-
+  #     Autumn Compass is a proprietary trading firm developing clever algorithms to provide liquidity on financial markets across Asia-Pacific.
+  
+  # - name: Synogize
+  #   icon: /assets/images/logos/custom/synogize.webp
+  #   link: https://www.synogize.io/
+  #   description: |-
+  #     Synogize provides an exceptional experience, value and bridges the gap betwen people, process & technologies with data and analytics.
 
   # - name: Data Science and AI Association of Australia
   #   icon: /assets/images/logos/custom/dsai.png
@@ -102,14 +138,14 @@ Partners:
   #   description: |-
   #     Data Science and AI Association of Australia is a non-for profit association determined to connect the data scientist and machine learning community.
 
-Social Sponsors:
-  - name: Mad Mex
-    icon: /assets/images/logos/custom/madmex.png
-    link: https://www.madmex.com.au/
-    description: |-
-      Mad Mex is an Australian fast-food chain specialising in fresh and healthy Mexican cuisine.
-  - name: Side Bar Sydney
-    icon: /assets/images/logos/custom/side_bar.jpeg
-    link: https://sidebarsydney.com.au/
-    description: |-
-      Side Bar is one of Sydney's busiest late-night venues.
+# Social Sponsors:
+  # - name: Mad Mex
+  #   icon: /assets/images/logos/custom/madmex.png
+  #   link: https://www.madmex.com.au/
+  #   description: |-
+  #     Mad Mex is an Australian fast-food chain specialising in fresh and healthy Mexican cuisine.
+  # - name: Side Bar Sydney
+  #   icon: /assets/images/logos/custom/side_bar.jpeg
+  #   link: https://sidebarsydney.com.au/
+  #   description: |-
+  #     Side Bar is one of Sydney's busiest late-night venues.
