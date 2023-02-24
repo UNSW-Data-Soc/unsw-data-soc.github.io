@@ -3,7 +3,7 @@
     <div class="modal-content">
         <header class="modal-card-head">
             <div class="modal-card-title">
-                {% assign eventName = event.name | downcase %}
+                {% assign eventName = event.name %}
                 {% if event.name.size > 40 %}
                 {% assign eventName = eventName | truncate: 40 %}
                 {% endif %}
