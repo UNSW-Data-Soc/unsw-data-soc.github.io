@@ -66,6 +66,10 @@ img {
     align-items: center;
 }
 
+.small {
+    width: 125px;
+}
+
 </style>
 
 <div class="hero-body">
@@ -80,7 +84,7 @@ img {
                     <div class="column sponsor-figure">
                         <div class="sponsor_icon">
                             <a href="{{ sponsor.link }}" target="_blank">
-                                <img src="{{ sponsor.icon }}">
+                                <img class="{% if {{tier[0]}} == 'Partners' %}small{% endif %}" src="{{ sponsor.icon }}">
                             </a>
                         </div>
                         <div class="sponsor_info">

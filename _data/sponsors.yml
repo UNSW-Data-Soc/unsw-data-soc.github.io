@@ -28,6 +28,12 @@ Major Sponsors:
     link: https://www.allianz.com/
     description: |-
       Allianz is an international financial services provider, offering worldwide products and solutions in insurance and asset management.
+  
+  - name: Synogize
+    icon: /assets/images/logos/custom/synogize.png
+    link: https://www.synogize.io/
+    description: |-
+      Synogize provides an exceptional experience, value and bridges the gap betwen people, process & technologies with data and analytics.
 
   # - name: Westpac
   #   icon: /assets/images/logos/custom/westpac.png
@@ -96,11 +102,11 @@ Partners:
     description: |-
       EY exists to build a better working world, helping to create long-term value for clients, people and society, and to build trust in the capital markets.
 
-  - name: Commonwealth Bank of Australia
-    icon: /assets/images/logos/custom/commbank.png
-    link: https://www.commbank.com.au/
-    description: |-
-      Commonwealth Bank is Australia's leading provider of integrated financial services.
+  # - name: Commonwealth Bank of Australia
+  #   icon: /assets/images/logos/custom/commbank.png
+  #   link: https://www.commbank.com.au/
+  #   description: |-
+  #     Commonwealth Bank is Australia's leading provider of integrated financial services.
 
   - name: Citadel
     icon: /assets/images/logos/custom/citadel.png
@@ -125,12 +131,6 @@ Partners:
   #   link: https://www.autumncompass.com/
   #   description: |-
   #     Autumn Compass is a proprietary trading firm developing clever algorithms to provide liquidity on financial markets across Asia-Pacific.
-  
-  # - name: Synogize
-  #   icon: /assets/images/logos/custom/synogize.webp
-  #   link: https://www.synogize.io/
-  #   description: |-
-  #     Synogize provides an exceptional experience, value and bridges the gap betwen people, process & technologies with data and analytics.
 
   # - name: Data Science and AI Association of Australia
   #   icon: /assets/images/logos/custom/dsai.png
