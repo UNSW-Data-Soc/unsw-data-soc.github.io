@@ -11,16 +11,55 @@ Events:
 #    link: 
 
 
+###############
+# 2023 Events #
+###############
 
-###############
-# 2022 Events #
-###############
+  - name: "DataSoc x Mathsoc Camp | 'A New Hope'"
+    img: /assets/images/events/2023/datasoc_x_mathsoc_camp_a_new_hope.jpg
+    start-date: 2023-06-02
+    end-date: 2023-06-04
+    description: "
+      A long time ago in a galaxy🌌 far, far away, students from UNSW gathered to mourn the failure of their 1131 lab test. But in the distance, they spotted a glimmer💫 of something to restore their spirits.
+      🥁Presenting…🥁
+      <br><br>
+      ☄ DataSoc x MathSoc 2023 Camp: A New Hope!! ☄
+      <br><br>
+      It’s your time to Strike Back ⚡️ at Mobius 🖥, and gear up for a Return🔙 of the HD WAM⚗️.
+      <br><br>
+      Unleash your inner Phantom Menace👾, put on the NPC helmet🪖 ready for the Attack🥊 of the STEM students👩‍🔬 to take your Revenge on Maple🍁.
+      <br><br>
+      Do you want your Calculus Ability➗ to Awaken🔮? Then, don’t be The Last (Jedi)🔭 to get tickets, and prepare yourself for the Rise📈 of your WAM💹 as you head down to Stanwell Tops with the two best societies on campus☄️!
+      <br><br>
+      Over 3 days, you will make some vivid memories 🧿 through activities and partying 🎉 that'll bring exciting stories 📚 and brilliant 🤼friendships❤️‍🔥 that'll last years to come. This is a camp NOT to be missed!!! 🌟✨
+    "
+    link: https://www.facebook.com/events/1044392379869361/
+
+  - name: "DataSoc x MathSoc | Career Fair 2023"
+    img: /assets/images/events/2023/datasoc_x_mathsoc_careers_fair.jpg
+    start-date: 2023-03-30
+    end-date: 2023-03-30
+    time: 2-5:00pm
+    description: "
+      🚀 Looking to jumpstart your career in the field of STEM? 🚀
+      <br><br>
+      📈 Want to network with the LARGEST companies to BOOST your future career? 📈
+      <br><br>
+      🤓 Missed out on free merch from O-week? 🤓
+      <br><br>
+     👩‍💼👨‍💼Come along to MathSoc X DataSoc’s Careers Fair!👨‍💼👩‍💼
+      <br><br>
+      This event brings together top employers from a wide range of industries, all eager to connect with talented and motivated students like YOU 👦. Whether you're interested in mathematics, trading, technology, or other STEM related fields, this event will provide opportunities to learn about companies through one-on-one chats with representatives and recruiters. 🧳
+      <br><br>
+      [REGISTER HERE!](https://forms.gle/dTgmLPu9UQ3DzqFx5)
+    "
+    link: https://www.facebook.com/events/588478379980110/
 
   - name: "Analytics in Action: Improving Performance in Sports"
     img: /assets/images/events/2023/analytics_in_action_improving_performance_in_sports.jpg
     start-date: 2023-03-02
     end-date: 2023-03-02
-    time: 4-5:30 PM
+    time: 4-5:30pm
     description: "
       Feeling uncertain about where your degree will take you? 😱🥶😵 Confused about which major will give you the best chance of success? 🧐 Struggling to understand how data science can be used in real-world applications? 🎉😵 Fear not, because DataSoc has got your back. 😇
       <br><br>
@@ -31,6 +70,10 @@ Events:
       [REGISTER HERE!](https://forms.gle/VFFk4GDqGRAbtNBj7)
     "
     link: https://www.facebook.com/events/860267285060193/
+
+###############
+# 2022 Events #
+###############
 
   - name: 2022 Peer Mentor Recruitment
     img: /assets/images/events/2022/peer-mentor-recruitment.jpeg
