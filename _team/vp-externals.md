@@ -1,21 +1,9 @@
 ---
 position: Vice President (Externals)
-portfolio: 2022 Team
-order: 1
-name: Celine Choo
-degree: 4th-Year Data Science and Decisions
-image: 2022/celine-choo.png
+portfolio: 2023 Team
+order: 2
+name: Krystal Duan
+# degree: 
+image: 2023/VPE_Krystal.JPG
 one_line:
 ---
-
-**Which Harry Potter house are you in?**
-<br>
-Gryffindor
-<br><br>
-**What are three things you would want to have with you on a deserted island?**
-<br>
-Tent, ramen and a friend who is good at surviving on a deserted island
-<br><br>
-**What is a piece of advice you have been given that has stuck with you?**
-<br>
-Claim tax deductions for home office expenses :)

@@ -7,10 +7,10 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
 
 <link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 <div class="hero-body background-shade">
-    {% assign portfolios = "2022 Team, 2021 Team" | split: ", " %}
+    {% assign portfolios = "2023 Team, 2022 Team, 2021 Team" | split: ", " %}
     <div class="tabs is-boxed is-centered main-menu is-large" id="nav">
         <ul>
-            {% for i in (0..1) %}
+            {% for i in (0..2) %}
             {% if forloop.first == true %}
                 {% assign active_status = "is-active" %}
             {% else %}
@@ -23,7 +23,7 @@ subtitle: Meet the DataSoc team working to create new opportunities for students
         </ul>
     </div>
     <div class="tab-content" style="background:#f0f2f5">
-    {% for i in (0..1) %}
+    {% for i in (0..2) %}
         {% assign portfolio = site.team | where:"portfolio", portfolios[i] | sort: "order" %}
         {% if forloop.first == true %}
             {% assign active_status = "is-active" %}

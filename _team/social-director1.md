@@ -1,21 +1,9 @@
 ---
 position: Social Director
-portfolio: 2022 Team
-order: 19
-name: Andrew Zhao
-degree: 3rd-Year Commerce/Computer Science
-image: 2022/andrew-zhao.png
+portfolio: 2023 Team
+order: 17
+name: Issac Liu
+# degree: 
+image: 2023/Socials_Issac.JPG
 one_line:
 ---
-
-**Who is your celebrity crush?**
-<br>
-Courtney Cox because she's better than Jennifer Anniston in friends
-<br><br>
-**What is your current phone lockscreen wallpaper?**
-<br>
-My sister and I at her graduation
-<br><br>
-**Any regrets?**
-<br>
-I should have engaged in more opportunities that university offers especially in first year.
