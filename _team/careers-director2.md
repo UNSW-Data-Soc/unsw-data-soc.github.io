@@ -1,21 +1,9 @@
 ---
 position: Careers Director
-portfolio: 2022 Team
-order: 9
-name: Krystal Duan
-degree: 2nd-Year Commerce/Computer Science
-image: 2022/krystal-duan.png
+portfolio: 2023 Team
+order: 10
+name: Srilekha CK
+# degree: 
+image: 2023/Careers_Srilekha.jpg
 one_line:
 ---
-
-**What is the best dish that you can cook?**
-<br>
-Eggs and Tomato with Rice
-<br><br>
-**Favourite music artist?**
-<br>
-Taylor Swift
-<br><br>
-**Where do you see yourself in ten years?**
-<br>
-Wherever future me decides to take me
