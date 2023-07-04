@@ -1,10 +1,10 @@
 ---
 position: Careers Director
 portfolio: 2023 Team
-order: 7
-name: Fiza
+order: 9
+name: Fiza Shafeeque
 # degree: 
-image: 2023/Careers_Fiza.JPG
+image: 2023/Careers_Fiza.jpg
 one_line:
 ---
 

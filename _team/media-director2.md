@@ -1,9 +1,9 @@
 ---
 position: Media Director
 portfolio: 2023 Team
-order: 13
+order: 18
 name: Phoebe Loh
 # degree: 
-image: 2023/Media_Phoebe.JPG
+image: 2023/Media_Phoebe.jpg
 one_line:
 ---
