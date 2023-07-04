@@ -1,9 +1,9 @@
 ---
 position: IT Director
 portfolio: 2023 Team
-order: 9
+order: 13
 name: Adrian Lim
 # degree: 
-image: 2023/IT_Adrian.JPG
+image: 2023/IT_Adrian.jpg
 one_line:
 ---

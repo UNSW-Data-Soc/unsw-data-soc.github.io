@@ -4,6 +4,6 @@ portfolio: 2023 Team
 order: 5
 name: Noah Rubin
 # degree: 
-image: 2023/VPD_Noah.JPG
+image: 2023/VPD_Noah.jpg
 one_line:
 ---

@@ -4,6 +4,6 @@ portfolio: 2023 Team
 order: 3
 name: Srikar Danthurty
 # degree: 
-image: 2023/VPO_Srikar.JPG
+image: 2023/VPO_Srikar.jpg
 one_line:
 ---

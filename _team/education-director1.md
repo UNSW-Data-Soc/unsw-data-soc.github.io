@@ -1,9 +1,9 @@
 ---
 position: Education Director
 portfolio: 2023 Team
-order: 18
+order: 23
 name: Matthew Xie
 # degree: 
-image: 2023/Edu_Matthew.JPG
+image: 2023/Edu_Matthew.jpg
 one_line:
 ---

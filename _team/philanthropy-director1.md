@@ -1,9 +1,9 @@
 ---
 position: Philanthropy & Projects Director
 portfolio: 2023 Team
-order: 20
+order: 25
 name: Lily Miranda
 # degree: 
-image: 2023/PP_Lily.JPG
+image: 2023/PP_Lily.jpg
 one_line:
 ---
